@@ -8,6 +8,13 @@ export const MOCK_ANALYSIS_RESULT = {
         gravity_score: 7.2 // 1-10 (10 is neutral/verified, 1 is pure spin)
     },
 
+    synthesis: {
+        executive_summary: "The debate over AI regulation has split sharply along economic vs. safety lines. While both sides agree regulation is coming, they fundamentally disagree on the mechanism (tax vs. ban).",
+        gravity_analysis: "The Right views the proposal as 'stifling innovation' and economic suicide. The Left views it as a necessary 'safety brake' against corporate recklessness.",
+        omission_analysis: "The Right omits the specific retraining programs funded by the tax. The Left omits the potential impact on small-scale medical research labs.",
+        truth_analysis: "The 5% tax is verified text, but the claim of 'economic suicide' is disputed projection."
+    },
+
     // The "Truth Table" Comparison
     claims: [
         {

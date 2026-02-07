@@ -1,4 +1,5 @@
-require('dotenv').config();
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '.env') });
 const express = require('express');
 const cors = require('cors');
 const axios = require('axios');
@@ -11,8 +12,12 @@ app.use(cors());
 app.use(express.json());
 
 // Initialize Gemini
+if (!process.env.GEMINI_API_KEY) console.error("FATAL: GEMINI_API_KEY is missing from process.env");
+else console.log(`[Init] Loaded GEMINI_API_KEY starting with: ${process.env.GEMINI_API_KEY.substring(0, 5)}...`);
+
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || 'MISSING_KEY');
-const model = genAI.getGenerativeModel({ model: "gemini-flash-latest" });
+// Using the available high-performance flash model
+const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 // The "Antigravity Narrative Auditor" System Prompt
 const SYSTEM_PROMPT = `
@@ -151,30 +156,35 @@ app.post('/api/audit', async (req, res) => {
       ${searchContext}
     `;
 
+    console.log(`[Audit] Sending prompt to Gemini...`);
     const result = await model.generateContent(prompt);
+
+    if (!result || !result.response) {
+      throw new Error("Empty response from Gemini");
+    }
+
     const responseText = result.response.text();
-
-    // Clean potential markdown fences
-    const jsonString = responseText.replace(/```json/g, '').replace(/```/g, '').trim();
-    const auditData = JSON.parse(jsonString);
-
+    console.log(`[Audit] Gemini Response Length: ${responseText.length}`);
+    // console.log(`[Audit] Raw Response Preview: ${responseText.substring(0, 200)}...`);
 
     try {
-      const auditData = JSON.parse(jsonString);
+      const jsonResponse = extractJSON(responseText);
+
       // Inject actual source count
-      auditData.metadata.total_sources = sources.length;
+      jsonResponse.metadata.total_sources = sources.length;
 
       console.log(`[Audit] Success! Returning data.`);
-      res.json(auditData);
+      res.json(jsonResponse);
 
     } catch (parseError) {
       console.error("JSON Parse Error:", parseError);
-      res.status(500).json({ error: "Failed to parse AI response" });
+      console.error("Failed JSON Text:", responseText); // Critical for debugging
+      res.status(500).json({ error: "Failed to parse AI response", raw: responseText });
     }
 
   } catch (error) {
     console.error("Audit Error:", error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: error.message, stack: error.stack });
   }
 });
 

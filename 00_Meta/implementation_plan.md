@@ -68,3 +68,27 @@ This book is not just *about* the subject; it is a *demonstration* of it. The cr
 - [x] Complete Part III (The Practice).
 - [x] Complete Phase IV (Impact).
 - [x] Complete Phase V (Distribution - Personal Edition).
+- [x] Complete Phase VI (The Compass Prototype).
+
+## Phase VII: The Field Guide (eBook) [PLANNED]
+- **Goal**: A user manual for "The Compass" (and the Self).
+- **Structure**:
+    - **Chapter 1: The Hot State**: Why we lose our values online.
+    - **Chapter 2: The 4 Vibrations**: Defining Shadow, Ego, Reason, Spirit.
+    - **Chapter 3**: The Pause**: How to use the 3 seconds before "Check Intent."
+
+## Phase VIII: The Complete Product (Integration) [PROPOSED]
+- **Goal**: Merge the Tool and the Manual into a single "Digital Kit."
+- **Steps**:
+    1.  **In-App Guide**: Add a "Field Guide" tab inside the Compass App to display the chapters.
+    2.  **Packaging**: Create a build script to run the app without the Terminal.
+    3.  **Expansion (Shadow Workbook)**: 
+        -   Digitize the 6 Core Exercises (Inertia, Narrative Audit, Spirit Check, Emotional Trace, Truth Rewrite, Gratitude Loop).
+        -   Serve them as "Daily Reflections" in the App.
+
+## Phase IX: The Knowledge Base (The Wiki) [PLANNED]
+- **Goal**: A searchable, deep-dive library for cognitive restructuring.
+- **Features**:
+    - **Searchable Definitions**: "What is the Amygdala Hijack?"
+    - **State-Based Recommendations**: "I feel ignored" -> specific reading.
+    - **The Science**: Explanations of the neuroscience behind the vibrations.

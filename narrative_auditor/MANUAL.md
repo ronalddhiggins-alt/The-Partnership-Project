@@ -85,7 +85,14 @@ This app runs locally on your machine for privacy.
 
 ---
 
-## 6. Deployment & Mobile Access (New)
+### 5. Troubleshooting
+
+*   **"Stuck on AI Regulation"**:
+    *   If you search for something but the result is *always* about "AI Regulation," it means the app is in **Simulation Mode**.
+    *   This happens when the **Backend Server is down** OR **Google's Rate Limit (Quota)** has been hit.
+    *   **Solution**: Wait 15-20 minutes for the quota to reset, or check that `node index.js` is running.
+
+### 6. Deployment & Mobile Access (New)
 To access the Narrative Auditor from your phone or other devices on your Wi-Fi:
 
 1.  **Start the Server & App**:

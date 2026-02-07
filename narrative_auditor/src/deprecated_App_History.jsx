@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Shell from './components/Shell';
 import SearchInput from './components/SearchInput';
 import TruthTable from './components/TruthTable';
 import OmissionIndex from './components/OmissionIndex';
@@ -11,8 +12,22 @@ function App() {
   const [result, setResult] = useState(null);
   const [error, setError] = useState(null);
 
+  const [history, setHistory] = useState([]);
+
+  React.useEffect(() => {
+    const saved = localStorage.getItem('audit_history');
+    if (saved) {
+      setHistory(JSON.parse(saved));
+    }
+  }, []);
+
   const handleSearch = async (query) => {
     if (!query) return;
+
+    // Save to History (Unique, Max 5)
+    const newHistory = [query, ...history.filter(h => h !== query)].slice(0, 5);
+    setHistory(newHistory);
+    localStorage.setItem('audit_history', JSON.stringify(newHistory));
 
     setIsAnalyzing(true);
     setError(null);
@@ -28,24 +43,39 @@ function App() {
     }
   };
 
+  const handleBattle = async (urlA, urlB) => {
+    setIsAnalyzing(true);
+    setError(null);
+    setResult(null);
+
+    try {
+      const data = await AuditService.battle(urlA, urlB);
+      setResult(data);
+    } catch (err) {
+      setError("Failed to run Battle Mode. Please check the URLs and try again.");
+    } finally {
+      setIsAnalyzing(false);
+    }
+  };
+
   return (
-    <div style={{ minHeight: '100vh', background: 'var(--color-bg-deep)', color: 'var(--text-primary)', padding: '2rem 1rem' }}>
-      <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
+    <Shell history={history} onHistorySelect={handleSearch}>
+      <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '0 var(--space-md)' }}>
 
         {/* Hero / Search Section */}
         <div style={{ textAlign: 'center', marginBottom: result ? 'var(--space-xl)' : '10vh', transition: 'all 0.5s ease' }}>
           {!result && (
             <>
-              <h1 style={{ fontSize: '3rem', fontWeight: '800', marginBottom: '1rem', letterSpacing: '-0.02em' }} className="animate-fade-in">
-                Narrative <span className="text-gradient">Auditor</span>
-              </h1>
-              <p style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', marginBottom: '3rem', maxWidth: '500px', margin: '0 auto 3rem' }} className="animate-fade-in">
-                See what the algorithms are hiding.
+              <h2 style={{ fontSize: '3.5rem', marginBottom: 'var(--space-md)' }} className="animate-fade-in">
+                Escape the <span className="text-gradient">Gravity</span>
+              </h2>
+              <p style={{ fontSize: '1.25rem', color: 'var(--text-secondary)', marginBottom: 'var(--space-xl)', maxWidth: '600px', margin: '0 auto 3rem' }} className="animate-fade-in">
+                Deconstruct the news. See the omissions. Find the truth.
               </p>
             </>
           )}
 
-          <SearchInput onSearch={handleSearch} isAnalyzing={isAnalyzing} />
+          <SearchInput onSearch={handleSearch} onBattle={handleBattle} isAnalyzing={isAnalyzing} />
 
           {error && (
             <div className="animate-fade-in" style={{
@@ -66,9 +96,9 @@ function App() {
         {/* Results Dashboard */}
         {result && (
           <div className="animate-fade-in">
-            <div style={{ marginBottom: 'var(--space-xl)', display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem', borderBottom: '1px solid var(--glass-border)', paddingBottom: '1rem' }}>
-              <h2 style={{ fontSize: '2rem', margin: 0 }}>Audit Results</h2>
-              <span style={{ color: 'var(--text-muted)' }}>found for: <strong>{result.metadata.query}</strong></span>
+            <div style={{ marginBottom: 'var(--space-xl)', display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem' }}>
+              <h2 style={{ fontSize: '2rem' }}>Audit Results</h2>
+              <span style={{ color: 'var(--text-muted)' }}>Analysis for: {result.metadata.query}</span>
             </div>
 
             {/* Narrative Synthesis (New) */}
@@ -91,7 +121,7 @@ function App() {
         )}
 
       </div>
-    </div>
+    </Shell>
   );
 }
 
