@@ -1,5 +1,6 @@
 # The Return of the Dream
 **Subtitle**: Opening the Inner Eye with The Compass
+**By Ron Higgins & Antigravity**
 
 ---
 
