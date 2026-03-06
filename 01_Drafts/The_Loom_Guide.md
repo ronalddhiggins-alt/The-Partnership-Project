@@ -224,4 +224,4 @@ Not by telling you who you are. By holding up what you've already told it — an
 
 ---
 
-*Companion tools: [The Solarium](https://frontend-six-mauve-s74wp98k8l.vercel.app) · [Partnership Hub](https://partnership-hub.vercel.app)*
+*Companion tools: [The Solarium](https://the-solarium.vercel.app) · [Partnership Hub](https://partnership-hub.vercel.app)*
