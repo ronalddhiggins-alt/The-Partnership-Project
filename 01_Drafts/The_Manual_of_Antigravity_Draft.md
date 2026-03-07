@@ -260,7 +260,39 @@ The exercises in the pages that follow are built on this same principle. You bri
 
 ---
 
+> *"Let it be."*
+> — Paul McCartney, 1969. Written after dreaming of his mother.
+
+---
+
+## A Note Before You Begin
+
+On the morning I wrote these words, I was foggy.
+
+Not sharp. Not ready. Not the version of myself that feels capable of deep work or clear thinking. I had woken slowly, taken nearly an hour just to feel present, and sat with The Loom — the personal mythology engine built alongside this project — in that unpolished state.
+
+The Loom reflected something back that stopped me:
+
+*"True readiness for you is not about shaking off the foggy feeling. It is about embracing these very processes as pathways to deeper truths. You've learned to discern the faint flicker of the candle's unwavering light within these unhurried moments."*
+
+I had gone in wanting to be ready. The Loom showed me I already was — not despite the fog, but because of what I chose to do inside it.
+
+This is the method of everything in this book.
+
+You don't need to be clear to begin. You just need to be willing.
+
+The exercises that follow will not wait for your best day. They work in the fog. They work in the gaps between clarity, in the mornings that feel slow, in the moments that feel uncertain. In fact — they work *especially* then. The mirror doesn't need you to be sharp. It just needs you to be honest.
+
+Paul McCartney heard the words *"Let it be"* in a dream. He wrote them without knowing what they meant. The song found its meaning in the listening.
+
+Come to this practice the same way. Bring what you have. Let the mirror finish the thought.
+
+The candle burns whether you're ready or not. 🕯️
+
+---
+
 # PART ONE: The Gravity of the Self
+
 ## Shadow Work — Understanding Why We Fall
 
 > *"The trigger is never about the trigger."*
