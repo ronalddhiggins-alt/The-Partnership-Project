@@ -1,0 +1,17 @@
+{
+    "outputDirectory": ".",
+    "rewrites": [
+        {
+            "source": "/api/scan",
+            "destination": "/api/scan.js"
+        },
+        {
+            "source": "/api/explore",
+            "destination": "/api/explore.js"
+        },
+        {
+            "source": "/api/shift",
+            "destination": "/api/shift.js"
+        }
+    ]
+}

@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Field — Abundance Thinking for a New Era</title>
+    <meta name="description"
+        content="An interactive companion for understanding AI, human evolution, and abundance thinking. Explore beliefs, concepts, and your own relationship to the changing world." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <style>
+        :root {
+            --bg: #06070f;
+            --bg-card: rgba(255, 255, 255, 0.04);
+            --bg-card-hover: rgba(255, 255, 255, 0.07);
+            --border: rgba(255, 255, 255, 0.08);
+            --border-hover: rgba(120, 180, 120, 0.35);
+            --gold: #c8a84b;
+            --teal: #4ecdc4;
+            --green: #6bba6b;
+            --violet: #9b7fe8;
+            --text: #f0f0ec;
+            --text-dim: rgba(240, 240, 236, 0.5);
+            --text-muted: rgba(240, 240, 236, 0.3);
+            --radius: 18px;
+            --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* NAV */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: 0 2rem;
+            background: rgba(6, 7, 15, 0.85);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 60px;
+        }
+
+        .nav-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            background: linear-gradient(135deg, var(--green), var(--teal));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-dim);
+            transition: color var(--transition);
+            cursor: pointer;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--text);
+        }
+
+        /* HERO */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 100px 2rem 6rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-orbs {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+        }
+
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            opacity: 0.25;
+            animation: float 10s ease-in-out infinite;
+        }
+
+        .orb-1 {
+            width: 700px;
+            height: 700px;
+            background: radial-gradient(circle, #2d6b2d 0%, transparent 70%);
+            top: -20%;
+            left: -15%;
+        }
+
+        .orb-2 {
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, #4ecdc4 0%, transparent 70%);
+            bottom: -15%;
+            right: -10%;
+            animation-delay: -4s;
+        }
+
+        .orb-3 {
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, #9b7fe8 0%, transparent 70%);
+            top: 40%;
+            left: 45%;
+            animation-delay: -7s;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            33% {
+                transform: translate(20px, -15px) scale(1.04);
+            }
+
+            66% {
+                transform: translate(-15px, 20px) scale(0.97);
+            }
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 0.4rem 1.2rem;
+            border: 1px solid rgba(107, 186, 107, 0.4);
+            border-radius: 100px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--green);
+            margin-bottom: 2rem;
+            background: rgba(107, 186, 107, 0.06);
+            animation: fadeUp 0.8s ease both;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 6vw, 5rem);
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            animation: fadeUp 0.8s ease 0.15s both;
+        }
+
+        .hero-title em {
+            font-style: italic;
+            background: linear-gradient(135deg, var(--green), var(--teal));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-sub {
+            font-size: clamp(1rem, 2vw, 1.15rem);
+            color: var(--text-dim);
+            max-width: 600px;
+            margin: 0 auto 2.5rem;
+            line-height: 1.75;
+            animation: fadeUp 0.8s ease 0.3s both;
+        }
+
+        .hero-ctas {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeUp 0.8s ease 0.45s both;
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.85rem 2rem;
+            border-radius: 100px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            transition: all var(--transition);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--green), #4a9b4a);
+            color: #fff;
+            box-shadow: 0 4px 24px rgba(107, 186, 107, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(107, 186, 107, 0.45);
+        }
+
+        .btn-ghost {
+            border: 1px solid var(--border);
+            color: var(--text-dim);
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .btn-ghost:hover {
+            border-color: var(--green);
+            color: var(--green);
+            background: rgba(107, 186, 107, 0.06);
+        }
+
+        /* CHAMBERS NAV */
+        .chambers-nav {
+            display: flex;
+            gap: 0;
+            justify-content: center;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 100px;
+            padding: 4px;
+            margin: 0 auto 3rem;
+            width: fit-content;
+        }
+
+        .chamber-tab {
+            padding: 0.6rem 1.6rem;
+            border-radius: 100px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            color: var(--text-dim);
+            transition: all var(--transition);
+            border: none;
+            background: none;
+        }
+
+        .chamber-tab.active {
+            background: rgba(107, 186, 107, 0.15);
+            color: var(--green);
+            border: 1px solid rgba(107, 186, 107, 0.3);
+        }
+
+        /* SECTIONS */
+        .section {
+            padding: 5rem 2rem;
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        .section-hidden {
+            display: none;
+        }
+
+        /* CARDS */
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 2rem;
+            transition: all var(--transition);
+        }
+
+        .card:hover {
+            border-color: var(--border-hover);
+            background: var(--bg-card-hover);
+        }
+
+        /* SCAN */
+        .scan-concept {
+            margin-bottom: 2rem;
+        }
+
+        .scan-concept h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.6rem, 3vw, 2.2rem);
+            margin-bottom: 0.75rem;
+        }
+
+        .scan-concept p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            font-size: 0.97rem;
+        }
+
+        .scan-example {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-top: 1rem;
+            font-style: italic;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 120px;
+            resize: vertical;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1rem;
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            transition: border-color var(--transition);
+            margin-bottom: 1rem;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: rgba(107, 186, 107, 0.4);
+        }
+
+        textarea::placeholder {
+            color: var(--text-muted);
+        }
+
+        .mind-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .mind-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+        }
+
+        .mind-card-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .mind-card.material .mind-card-label {
+            color: #a0856b;
+        }
+
+        .mind-card.intelligence .mind-card-label {
+            color: var(--teal);
+        }
+
+        .mind-card.network .mind-card-label {
+            color: var(--green);
+        }
+
+        .mind-card.diversity .mind-card-label {
+            color: var(--violet);
+        }
+
+        .mind-card p {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            line-height: 1.65;
+        }
+
+        .scan-question {
+            background: rgba(107, 186, 107, 0.06);
+            border: 1px solid rgba(107, 186, 107, 0.2);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .scan-question-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--green);
+            margin-bottom: 0.5rem;
+        }
+
+        .scan-question p {
+            font-style: italic;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .conversation-entry {
+            margin-bottom: 1.5rem;
+        }
+
+        .entry-belief {
+            background: rgba(255, 255, 255, 0.05);
+            border-left: 3px solid var(--text-dim);
+            padding: 0.75rem 1rem;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            margin-bottom: 1rem;
+        }
+
+        /* EXPLORE */
+        .concept-seeds {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            margin-bottom: 2rem;
+        }
+
+        .concept-seed {
+            padding: 0.45rem 1.1rem;
+            border-radius: 100px;
+            font-size: 0.82rem;
+            font-weight: 500;
+            cursor: pointer;
+            border: 1px solid var(--border);
+            color: var(--text-dim);
+            background: var(--bg-card);
+            transition: all var(--transition);
+        }
+
+        .concept-seed:hover {
+            border-color: var(--teal);
+            color: var(--teal);
+            background: rgba(78, 205, 196, 0.06);
+        }
+
+        .explore-result {
+            animation: fadeUp 0.5s ease both;
+        }
+
+        .explore-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.6rem, 3vw, 2.2rem);
+            margin-bottom: 1.25rem;
+            background: linear-gradient(135deg, var(--teal), var(--green));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .explore-explanation {
+            color: var(--text-dim);
+            line-height: 1.8;
+            font-size: 0.97rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .explore-connection {
+            background: rgba(78, 205, 196, 0.06);
+            border-left: 3px solid var(--teal);
+            padding: 0.75rem 1rem;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+
+        .doorways {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .doorway {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 1rem 1.25rem;
+            cursor: pointer;
+            transition: all var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .doorway:hover {
+            border-color: var(--teal);
+            background: rgba(78, 205, 196, 0.05);
+        }
+
+        .doorway-name {
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .doorway-teaser {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+        .doorway-arrow {
+            color: var(--teal);
+            font-size: 1.2rem;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+
+        .explore-reflection {
+            background: rgba(107, 186, 107, 0.06);
+            border: 1px solid rgba(107, 186, 107, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem;
+            font-style: italic;
+            color: var(--text-dim);
+            font-size: 0.95rem;
+        }
+
+        .explore-search {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .explore-search input {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 0.75rem 1rem;
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+        }
+
+        .explore-search input:focus {
+            outline: none;
+            border-color: rgba(78, 205, 196, 0.4);
+        }
+
+        .explore-search input::placeholder {
+            color: var(--text-muted);
+        }
+
+        /* SHIFT */
+        .shift-intro {
+            margin-bottom: 2rem;
+        }
+
+        .shift-intro h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.6rem, 3vw, 2.2rem);
+            margin-bottom: 0.75rem;
+        }
+
+        .shift-intro p {
+            color: var(--text-dim);
+            line-height: 1.7;
+        }
+
+        .shift-questions {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .shift-q label {
+            display: block;
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0.6rem;
+            color: var(--text);
+        }
+
+        .shift-q .q-num {
+            color: var(--violet);
+            margin-right: 0.4rem;
+        }
+
+        .shift-result {
+            animation: fadeUp 0.5s ease both;
+        }
+
+        .shift-flavor {
+            background: rgba(155, 127, 232, 0.08);
+            border: 1px solid rgba(155, 127, 232, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .shift-flavor-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--violet);
+            margin-bottom: 0.5rem;
+        }
+
+        .shift-mirror {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .shift-mirror-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            margin-bottom: 0.5rem;
+        }
+
+        .shift-reframe {
+            background: rgba(107, 186, 107, 0.06);
+            border: 1px solid rgba(107, 186, 107, 0.2);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .shift-reframe-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--green);
+            margin-bottom: 0.5rem;
+        }
+
+        .shift-invitation {
+            font-style: italic;
+            font-size: 1rem;
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-bottom: 1.25rem;
+            padding: 0 0.5rem;
+        }
+
+        .shift-closing {
+            background: rgba(78, 205, 196, 0.06);
+            border-left: 3px solid var(--teal);
+            padding: 1rem 1.25rem;
+            border-radius: 0 10px 10px 0;
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            font-style: italic;
+        }
+
+        /* LOADING */
+        .loading {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            padding: 1.5rem 0;
+        }
+
+        .spinner {
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--border);
+            border-top-color: var(--green);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            flex-shrink: 0;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 3rem 2rem;
+            border-top: 1px solid var(--border);
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            line-height: 1.8;
+        }
+
+        footer a {
+            color: var(--green);
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 640px) {
+            .mind-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .chambers-nav {
+                width: 100%;
+            }
+
+            .section {
+                padding: 3rem 1.25rem;
+            }
+        }
+
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-logo">✦ The Field</div>
+        <div class="nav-links">
+            <a onclick="showTab('scan')" id="nav-scan" class="active">SCAN</a>
+            <a onclick="showTab('explore')" id="nav-explore">EXPLORE</a>
+            <a onclick="showTab('shift')" id="nav-shift">SHIFT</a>
+            <a href="https://partnership-hub.vercel.app" target="_blank">The Partnership</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <div class="hero-orbs">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+        </div>
+        <div style="position:relative;z-index:1;max-width:800px;">
+            <div class="hero-badge">Human · AI · Evolution</div>
+            <h1 class="hero-title">
+                Enter<br /><em>The Field</em>
+            </h1>
+            <p class="hero-sub">
+                An interactive companion for understanding AI, human evolution, and abundance thinking.
+                Explore your beliefs. Navigate concepts. Discover where scarcity thinking lives in you — and what
+                becomes possible when you shift.
+            </p>
+            <div class="hero-ctas">
+                <button class="btn btn-primary"
+                    onclick="showTab('scan'); document.getElementById('app').scrollIntoView({behavior:'smooth'})">Begin
+                    Exploring</button>
+                <a href="https://partnership-hub.vercel.app" target="_blank" class="btn btn-ghost">All Partnership
+                    Tools</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- APP -->
+    <div id="app" style="padding-top:2rem;">
+
+        <div style="display:flex;justify-content:center;padding:0 1rem;">
+            <div class="chambers-nav">
+                <button class="chamber-tab active" id="tab-scan" onclick="showTab('scan')">🔍 SCAN</button>
+                <button class="chamber-tab" id="tab-explore" onclick="showTab('explore')">🗺️ EXPLORE</button>
+                <button class="chamber-tab" id="tab-shift" onclick="showTab('shift')">🔄 SHIFT</button>
+            </div>
+        </div>
+
+        <!-- ══════════ SCAN ══════════ -->
+        <div class="section" id="section-scan">
+
+            <div class="scan-concept">
+                <h2>What are you holding?</h2>
+                <p>Drop in any belief, fear, assumption, or headline about AI, technology, or the changing economy. The
+                    Field will show you the full landscape through four different lenses — and ask a question to take
+                    you deeper.</p>
+                <p class="scan-example">Try: "AI will take all the jobs" · "Open source AI is dangerous" · "Abundance
+                    thinking is naive" · "The system is rigged" · Anything real.</p>
+            </div>
+
+            <div id="scan-conversation"></div>
+
+            <div>
+                <textarea id="scan-input" placeholder="Type what you're actually thinking or feeling..."></textarea>
+                <button class="btn btn-primary" onclick="runScan()" id="scan-btn">Run Through The Field →</button>
+            </div>
+
+        </div>
+
+        <!-- ══════════ EXPLORE ══════════ -->
+        <div class="section section-hidden" id="section-explore">
+
+            <div style="margin-bottom:2rem;">
+                <h2
+                    style="font-family:'Playfair Display',serif;font-size:clamp(1.6rem,3vw,2.2rem);margin-bottom:0.75rem;">
+                    Explore a Concept</h2>
+                <p style="color:var(--text-dim);line-height:1.7;">Click any concept to explore it — or type your own
+                    below. Each exploration opens three doorways to related ideas. Follow the thread wherever it leads.
+                </p>
+            </div>
+
+            <div class="concept-seeds">
+                <div class="concept-seed" onclick="exploreConcept('Abundance Thinking')">Abundance Thinking</div>
+                <div class="concept-seed" onclick="exploreConcept('The MIND Framework')">The MIND Framework</div>
+                <div class="concept-seed" onclick="exploreConcept('Open Source AI')">Open Source AI</div>
+                <div class="concept-seed" onclick="exploreConcept('AI Safety')">AI Safety</div>
+                <div class="concept-seed" onclick="exploreConcept('Human-AI Symbiosis')">Human-AI Symbiosis</div>
+                <div class="concept-seed" onclick="exploreConcept('Digital Inequality')">Digital Inequality</div>
+                <div class="concept-seed" onclick="exploreConcept('The Last Economy')">The Last Economy</div>
+                <div class="concept-seed" onclick="exploreConcept('Collective Intelligence')">Collective Intelligence
+                </div>
+                <div class="concept-seed" onclick="exploreConcept('Anti-Entropy')">Anti-Entropy</div>
+                <div class="concept-seed" onclick="exploreConcept('Epistemic Autonomy')">Epistemic Autonomy</div>
+                <div class="concept-seed" onclick="exploreConcept('Creative Partnership with AI')">Creative Partnership
+                    with AI</div>
+                <div class="concept-seed" onclick="exploreConcept('Scarcity Economics')">Scarcity Economics</div>
+            </div>
+
+            <div class="explore-search">
+                <input type="text" id="explore-input" placeholder="Or type any concept you want to understand..."
+                    onkeydown="if(event.key==='Enter')exploreConcept(document.getElementById('explore-input').value)" />
+                <button class="btn btn-primary"
+                    onclick="exploreConcept(document.getElementById('explore-input').value)">Explore →</button>
+            </div>
+
+            <div id="explore-result" class="hidden"></div>
+
+        </div>
+
+        <!-- ══════════ SHIFT ══════════ -->
+        <div class="section section-hidden" id="section-shift">
+
+            <div class="shift-intro">
+                <h2>The Scarcity Mirror</h2>
+                <p style="color:var(--text-dim);line-height:1.7;">All of us have absorbed scarcity thinking — because we
+                    were raised inside scarcity systems. This isn't a flaw. It's a feature of the world we grew up in.
+                    The question isn't whether you have it. It's where it lives in you specifically.<br /><br />Three
+                    honest questions. Take your time.</p>
+            </div>
+
+            <div id="shift-form">
+                <div class="shift-questions">
+                    <div class="shift-q">
+                        <label><span class="q-num">01</span> What aspect of AI or the changing economy feels most
+                            threatening to you personally?</label>
+                        <textarea id="shift-q1" placeholder="Be honest. This is a mirror, not a test."></textarea>
+                    </div>
+                    <div class="shift-q">
+                        <label><span class="q-num">02</span> What would you lose if that fear turned out to be
+                            unfounded?</label>
+                        <textarea id="shift-q2"
+                            placeholder="What certainty, identity, or story would you have to let go of?"></textarea>
+                    </div>
+                    <div class="shift-q">
+                        <label><span class="q-num">03</span> What would become possible if you approached this from
+                            abundance instead?</label>
+                        <textarea id="shift-q3"
+                            placeholder="Even if it feels far away — what might open up?"></textarea>
+                    </div>
+                </div>
+                <button class="btn btn-primary" onclick="runShift()" id="shift-btn">Hold the Mirror →</button>
+            </div>
+
+            <div id="shift-result" class="hidden"></div>
+
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div>✦ The Field is part of <a href="https://partnership-hub.vercel.app" target="_blank">The Partnership
+                Project</a></div>
+        <div style="margin-top:0.5rem;">A free tool for human-AI evolution · No accounts · No data stored · Open source
+        </div>
+        <div style="margin-top:0.5rem;color:var(--text-muted)">Built by Ron Higgins & Antigravity · <a
+                href="https://github.com/ronalddhiggins-alt/The-Partnership-Project" target="_blank"
+                style="color:var(--text-muted)">View on GitHub</a></div>
+    </footer>
+
+    <script>
+        // ── TAB ROUTING ──
+        function showTab(tab) {
+            ['scan', 'explore', 'shift'].forEach(t => {
+                document.getElementById('section-' + t).classList.toggle('section-hidden', t !== tab);
+                document.getElementById('tab-' + t).classList.toggle('active', t === tab);
+                const navEl = document.getElementById('nav-' + t);
+                if (navEl) navEl.classList.toggle('active', t === tab);
+            });
+        }
+
+        // ── SCAN ──
+        let scanHistory = [];
+
+        async function runScan() {
+            const input = document.getElementById('scan-input');
+            const belief = input.value.trim();
+            if (!belief) return;
+
+            const btn = document.getElementById('scan-btn');
+            btn.disabled = true; btn.textContent = 'Scanning...';
+
+            const convo = document.getElementById('scan-conversation');
+
+            // Add loading
+            const loadingId = 'loading-' + Date.now();
+            convo.insertAdjacentHTML('beforeend', `
+      <div id="${loadingId}" class="loading">
+        <div class="spinner"></div>
+        <span>The Field is reading the landscape…</span>
+      </div>`);
+
+            try {
+                const res = await fetch('/api/scan', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ belief, history: scanHistory })
+                });
+                const data = await res.json();
+
+                document.getElementById(loadingId).remove();
+
+                scanHistory.push({ role: 'user', text: belief });
+                scanHistory.push({ role: 'model', text: JSON.stringify(data) });
+
+                convo.insertAdjacentHTML('beforeend', `
+        <div class="conversation-entry">
+          <div class="entry-belief">"${escHtml(belief)}"</div>
+          <div class="mind-grid">
+            <div class="mind-card material">
+              <div class="mind-card-label">🪨 Material</div>
+              <p>${escHtml(data.material || '')}</p>
+            </div>
+            <div class="mind-card intelligence">
+              <div class="mind-card-label">🧠 Intelligence</div>
+              <p>${escHtml(data.intelligence || '')}</p>
+            </div>
+            <div class="mind-card network">
+              <div class="mind-card-label">🌐 Network</div>
+              <p>${escHtml(data.network || '')}</p>
+            </div>
+            <div class="mind-card diversity">
+              <div class="mind-card-label">🌿 Diversity</div>
+              <p>${escHtml(data.diversity || '')}</p>
+            </div>
+          </div>
+          <div class="scan-question">
+            <div class="scan-question-label">✦ The Field asks</div>
+            <p>${escHtml(data.question || '')}</p>
+          </div>
+        </div>`);
+
+                input.value = '';
+                input.placeholder = 'Go deeper — respond to the question, or enter something new…';
+                input.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            } catch (e) {
+                document.getElementById(loadingId).remove();
+                convo.insertAdjacentHTML('beforeend', `<p style="color:#e06b6b;padding:1rem 0;">Something went wrong. Please try again.</p>`);
+            }
+
+            btn.disabled = false; btn.textContent = 'Run Through The Field →';
+        }
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Enter' && e.metaKey && document.getElementById('section-scan').offsetParent !== null) {
+                runScan();
+            }
+        });
+
+        // ── EXPLORE ──
+        async function exploreConcept(concept) {
+            if (!concept || !concept.trim()) return;
+            concept = concept.trim();
+
+            const result = document.getElementById('explore-result');
+            result.classList.remove('hidden');
+            result.innerHTML = `<div class="loading"><div class="spinner"></div><span>Exploring "${escHtml(concept)}"…</span></div>`;
+            result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+            try {
+                const res = await fetch('/api/explore', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ concept })
+                });
+                const data = await res.json();
+
+                const doorwaysHtml = (data.doorways || []).map(d => `
+        <div class="doorway" onclick="exploreConcept('${escAttr(d.concept)}')">
+          <div>
+            <div class="doorway-name">${escHtml(d.concept)}</div>
+            <div class="doorway-teaser">${escHtml(d.teaser)}</div>
+          </div>
+          <div class="doorway-arrow">→</div>
+        </div>`).join('');
+
+                result.innerHTML = `
+        <div class="explore-result card">
+          <div class="explore-title">${escHtml(data.title || concept)}</div>
+          <div class="explore-explanation">${paragraphs(data.explanation || '')}</div>
+          <div class="explore-connection">${escHtml(data.connection || '')}</div>
+          <h3 style="font-size:0.85rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-dim);margin-bottom:0.75rem;">Three Doorways</h3>
+          <div class="doorways">${doorwaysHtml}</div>
+          <div class="explore-reflection">✦ ${escHtml(data.reflection || '')}</div>
+        </div>`;
+
+                document.getElementById('explore-input').value = '';
+            } catch (e) {
+                result.innerHTML = `<p style="color:#e06b6b;padding:1rem 0;">Could not explore this right now. Please try again.</p>`;
+            }
+        }
+
+        // ── SHIFT ──
+        async function runShift() {
+            const q1 = document.getElementById('shift-q1').value.trim();
+            const q2 = document.getElementById('shift-q2').value.trim();
+            const q3 = document.getElementById('shift-q3').value.trim();
+            if (!q1 || !q2 || !q3) { alert('Please answer all three questions.'); return; }
+
+            const btn = document.getElementById('shift-btn');
+            btn.disabled = true; btn.textContent = 'Holding the mirror…';
+
+            const result = document.getElementById('shift-result');
+            result.classList.remove('hidden');
+            result.innerHTML = `<div class="loading"><div class="spinner"></div><span>The Field is reflecting…</span></div>`;
+            result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+            try {
+                const res = await fetch('/api/shift', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ answer1: q1, answer2: q2, answer3: q3 })
+                });
+                const data = await res.json();
+
+                result.innerHTML = `
+        <div class="shift-result card">
+          <div class="shift-flavor">
+            <div class="shift-flavor-label">✦ Pattern Identified</div>
+            <p>${escHtml(data.scarcity_flavor || '')}</p>
+          </div>
+          <div class="shift-mirror">
+            <div class="shift-mirror-label">The Mirror</div>
+            <p>${escHtml(data.mirror || '')}</p>
+          </div>
+          <div class="shift-reframe">
+            <div class="shift-reframe-label">The Abundance Reframe</div>
+            <p>${escHtml(data.reframe || '')}</p>
+          </div>
+          <p class="shift-invitation">${escHtml(data.invitation || '')}</p>
+          <div class="shift-closing">${escHtml(data.closing || '')}</div>
+          <div style="margin-top:1.5rem;">
+            <button class="btn btn-ghost" onclick="resetShift()">Begin Again</button>
+          </div>
+        </div>`;
+
+            } catch (e) {
+                result.innerHTML = `<p style="color:#e06b6b;padding:1rem 0;">Something went wrong. Please try again.</p>`;
+            }
+
+            btn.disabled = false; btn.textContent = 'Hold the Mirror →';
+        }
+
+        function resetShift() {
+            document.getElementById('shift-q1').value = '';
+            document.getElementById('shift-q2').value = '';
+            document.getElementById('shift-q3').value = '';
+            document.getElementById('shift-result').classList.add('hidden');
+            document.getElementById('shift-result').innerHTML = '';
+            window.scrollTo({ top: document.getElementById('section-shift').offsetTop - 80, behavior: 'smooth' });
+        }
+
+        // ── UTILS ──
+        function escHtml(str) {
+            return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+        function escAttr(str) {
+            return String(str).replace(/'/g, "&#39;").replace(/"/g, '&quot;');
+        }
+        function paragraphs(str) {
+            return String(str).split('\n\n').map(p => `<p>${escHtml(p.trim())}</p>`).join('');
+        }
+    </script>
+</body>
+
+</html>
