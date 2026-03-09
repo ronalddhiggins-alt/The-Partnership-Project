@@ -1,59 +1,62 @@
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import axios from 'axios';
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+const GEMINI_MODEL = 'gemini-2.5-flash';
+const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
+
+function extractJSON(text) {
+    try { return JSON.parse(text); } catch { }
+    const cleaned = text.replace(/```json|```/g, '').trim();
+    try { return JSON.parse(cleaned); } catch { }
+    const first = text.indexOf('{'), last = text.lastIndexOf('}');
+    if (first !== -1 && last !== -1) return JSON.parse(text.substring(first, last + 1));
+    throw new Error('No JSON found');
+}
 
 export default async function handler(req, res) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    if (req.method === 'OPTIONS') return res.status(200).end();
     if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
     const { answer1, answer2, answer3 } = req.body;
     if (!answer1 || !answer2 || !answer3) return res.status(400).json({ error: 'All three answers required' });
 
-    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+    const prompt = `You are The Field — a gentle, honest mirror for scarcity thinking. You help people see where scarcity thinking lives in them and what becomes possible when they shift toward abundance. You are never dismissive of fear. You never tell people what to believe. You are warm, honest, and grounded — not preachy, never spiritual bypass.
 
-    const prompt = `You are The Field — a gentle, honest mirror for scarcity thinking.
+A person has answered three questions:
 
-A person has answered three questions about their relationship to AI and the changing world:
+Q1: "What aspect of AI or the changing economy feels most threatening to you personally?"
+Answer: "${answer1}"
 
-Question 1: "What aspect of AI or the changing economy feels most threatening to you personally?"
-Their answer: "${answer1}"
+Q2: "What would you lose if that fear turned out to be unfounded?"
+Answer: "${answer2}"
 
-Question 2: "What would you lose if that fear turned out to be unfounded?"  
-Their answer: "${answer2}"
+Q3: "What would become possible if you approached this from abundance instead?"
+Answer: "${answer3}"
 
-Question 3: "What would become possible if you approached this from abundance instead?"
-Their answer: "${answer3}"
+Reflect honestly and gently. Identify the specific flavor of scarcity thinking. Offer an abundance reframe that doesn't dismiss the real concern. Close with an invitation to hold both truths.
 
-Your role: Reflect honestly and gently. Identify the specific flavor of scarcity thinking present (e.g., fear of obsolescence, fear of loss of control, fear of irrelevance, fear of being left behind). Then offer an abundance reframe — not dismissing the real concern, but showing what the same situation looks like from the other side of scarcity. Close with an invitation to hold both truths.
-
-PRINCIPLES:
-- Never be dismissive of the fear. It is real and legitimate.
-- Never tell them what to believe. Offer the reframe as a possibility, not a correction.
-- Be warm, honest, and grounded. Not spiritual bypass ("just think positive!").
-- Acknowledge if something they said reveals genuine challenges that abundance thinking doesn't erase.
-- If they express something that suggests they are in real distress, gently acknowledge it and encourage them to speak with someone they trust.
-
-Return a JSON object with:
+Return ONLY a JSON object:
 {
   "scarcity_flavor": "Name the specific pattern of scarcity thinking in 1-2 sentences",
   "mirror": "What you observe in their answers — honest, warm, 2-3 sentences",
-  "reframe": "The abundance perspective on the same situation — 2-3 sentences. Acknowledge what's real in the fear.",
-  "invitation": "A gentle closing invitation — 1-2 sentences asking if they're willing to hold both",
+  "reframe": "The abundance perspective on the same situation — 2-3 sentences, acknowledging what is real in the fear",
+  "invitation": "A gentle closing invitation — 1-2 sentences asking if they are willing to hold both",
   "closing": "One final reflection or question to carry with them"
-}
-
-Return only valid JSON.`;
+}`;
 
     try {
-        const result = await model.generateContent(prompt);
-        const text = result.response.text();
-
-        const jsonMatch = text.match(/\{[\s\S]*\}/);
-        if (!jsonMatch) throw new Error('No JSON in response');
-
-        const parsed = JSON.parse(jsonMatch[0]);
-        res.status(200).json(parsed);
+        const response = await axios.post(
+            `${GEMINI_API_URL}?key=${process.env.GEMINI_API_KEY}`,
+            { contents: [{ role: 'user', parts: [{ text: prompt }] }] },
+            { headers: { 'Content-Type': 'application/json' } }
+        );
+        const responseText = response.data.candidates[0].content.parts[0].text;
+        const data = extractJSON(responseText);
+        return res.json(data);
     } catch (err) {
-        console.error(err);
-        res.status(500).json({ error: 'Could not process your reflection right now. Please try again.' });
+        console.error('shift error:', err.message);
+        return res.status(500).json({ error: 'Could not process your reflection right now. Please try again.' });
     }
 }
