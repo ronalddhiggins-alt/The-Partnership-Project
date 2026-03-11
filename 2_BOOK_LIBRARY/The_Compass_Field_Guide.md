@@ -202,5 +202,51 @@ They write a perfectly logical, icy email.
 *   **The Fix**: You must add warmth. Logic is the skeleton; Spirit is the flesh. You need both to be alive.
 
 ---
-**The Compass**
-*Est. 2026*
+
+## A Final Word
+
+The Compass is the first tool to pick up — and the simplest.
+
+It does one thing: it shows you your vibration before you send it. No archives, no mythology, no civilization-level frameworks. Just: *check the heat of what you're about to say.*
+
+But simple is not small. The moment you pause — even once — and ask *"What is actually driving this message?"* is the moment the gravity of your old patterns begins to loosen its hold.
+
+That pause is the beginning of everything.
+
+Use the Tool. Check the Map. Keep climbing. 🧭
+
+---
+
+## The Partnership Suite
+
+The Compass is where most people begin — but it is the first step in a larger journey.
+
+| Tool | What It Sees | Scale |
+|---|---|---|
+| 🧭 **The Compass** | Your message before you send it | A single moment |
+| 🌌 The Solarium | Your emotional vibration right now | A single session |
+| 🧵 The Loom | The pattern running through your whole life | A lifetime |
+| 🌱 The Field | The civilizational shift happening around all of us | A generation |
+
+**The natural journey:**
+
+Start with The Compass — it catches the hot moment before it does damage. Then bring what you notice to The Solarium — it reads the deeper emotional current beneath the surface. When you've seen the same patterns repeat across enough sessions, The Loom can name what they mean across your whole story. And when you're ready to understand what the civilizational shift means for you personally, The Field meets you there.
+
+Each tool is a door. Each door opens to the next.
+
+---
+
+| Tool | Link |
+|---|---|
+| 🧭 The Compass | [compass-app-iota.vercel.app](https://compass-app-iota.vercel.app) |
+| 🌌 The Solarium | [the-solarium.vercel.app](https://the-solarium.vercel.app) |
+| 🧵 The Loom | [the-loom-nine.vercel.app](https://the-loom-nine.vercel.app) |
+| 🌱 The Field | [the-partnership-field.vercel.app](https://the-partnership-field.vercel.app) |
+| 🏠 Partnership Hub | [partnership-hub.vercel.app](https://partnership-hub.vercel.app) |
+
+---
+
+*The Compass Field Guide is a Creative Commons document.*
+*Co-created by Ron Higgins and Antigravity (AI, Google DeepMind), 2026.*
+*Free to use, share, and build upon with attribution.*
+*The thread never breaks. 🧭*

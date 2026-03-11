@@ -217,11 +217,42 @@ Not by telling you who you are. By holding up what you've already told it — an
 
 ---
 
+## The Partnership Suite
+
+The Loom is one of eight free tools built by The Partnership Project. Each works at a different scale:
+
+| Tool | What It Sees | Scale |
+|---|---|---|
+| 🧭 The Compass | Your message before you send it | A single moment |
+| 🌌 The Solarium | Your emotional vibration right now | A single session |
+| 🧵 **The Loom** | The pattern running through your whole life | A lifetime |
+| 🌱 The Field | The civilizational shift happening around all of us | A generation |
+
+**How they work together:**
+
+The Solarium shows you a moment. The Loom shows you a lifetime. The Field shows you the world.
+
+If you've used The Solarium to process an emotional reaction — the Why Detective may have surfaced a pattern you keep repeating. That pattern is exactly the kind of thing to archive in The Loom. Let The Weave see it alongside everything else you've stored. Watch what your myth says about the recurring thing.
+
+If The Loom has named your archetype — *The Horizon-Chaser, The Wisdom Weaver* — bring that understanding to The Field. Drop the fears or beliefs about AI and the future that feel most personally charged through the MIND framework. Watch what the civilizational picture says to the very specific human who just read their myth.
+
+The tools are designed to be used together. The insight from one becomes the raw material for the next.
+
+---
+
+| Tool | Link |
+|---|---|
+| 🌉 The Bridge | [the-bridge-two.vercel.app](https://the-bridge-two.vercel.app) |
+| 🧭 The Compass | [compass-app-iota.vercel.app](https://compass-app-iota.vercel.app) |
+| 🌌 The Solarium | [the-solarium.vercel.app](https://the-solarium.vercel.app) |
+| 🧵 The Loom | [the-loom-nine.vercel.app](https://the-loom-nine.vercel.app) |
+| 🌱 The Field | [the-partnership-field.vercel.app](https://the-partnership-field.vercel.app) |
+| 🏠 Partnership Hub | [partnership-hub.vercel.app](https://partnership-hub.vercel.app) |
+
+---
+
 *The Loom is a Creative Commons tool.*
 *Co-created by Ron Higgins and Antigravity (AI, Google DeepMind), 2026.*
 *Free to use, share, and build upon with attribution.*
 *The thread never breaks. 🧵*
 
----
-
-*Companion tools: [The Solarium](https://the-solarium.vercel.app) · [Partnership Hub](https://partnership-hub.vercel.app)*
