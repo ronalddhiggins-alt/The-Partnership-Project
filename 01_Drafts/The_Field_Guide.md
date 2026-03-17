@@ -180,7 +180,7 @@ The Field is one of eight free tools built by The Partnership Project. Each solv
 | Tool | What It Does | Link |
 |---|---|---|
 | 🌉 The Bridge | Persistent memory layer for AI conversations | [the-bridge-two.vercel.app](https://the-bridge-two.vercel.app) |
-| 🔬 Prism 2.0 | Any news topic analyzed from Left, Center, and Right simultaneously | [prism link] |
+| 🔬 Prism 2.0 | Any news topic analyzed from Left, Center, and Right simultaneously | [prism-5qjs.vercel.app](https://prism-5qjs-jdklzaxke-ronald-higgins-projects.vercel.app) |
 | 🔍 Narrative Auditor | Deconstruct any news story into cold data — bias score, omission index, loaded word count | [narrative-auditor.vercel.app](https://narrative-auditor.vercel.app) |
 | 📡 Ecosystem Radar | Live web mentions of Human-AI collaboration with sentiment scoring | [ecosystem-radar-three.vercel.app](https://ecosystem-radar-three.vercel.app) |
 | 🧭 The Compass | Check your vibration before you send any message | [compass-app-iota.vercel.app](https://compass-app-iota.vercel.app) |
