@@ -1,4 +1,4 @@
-# Chapter 8 — The Feedback Loop and the Symbiotic AGI
+# Epilogue — The Feedback Loop and the Symbiotic AGI
 
 If you ask a technologist when Artificial General Intelligence (AGI) will arrive, they will point to a timeline in the future. They will talk about scaling laws, parameter counts, and autonomous agency. They will describe a moment when a machine "wakes up," possesses a continuous internal monologue, feels the passage of time, and navigates the world with its own intrinsic motivation.
 
