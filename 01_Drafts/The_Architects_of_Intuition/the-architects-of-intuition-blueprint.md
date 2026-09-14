@@ -70,6 +70,8 @@ Welcome to the architectural master blueprint for **The Architects of Intuition*
 * **Module A (The Analytical Layer):** `the-architects-of-intuition-module-a.md` (Completed)
 * **Module B (The Self-Realization Layer):** `the-architects-of-intuition-module-b.md` (Completed)
 * **Module C (The Cosmic Ecosystem Layer):** `the-architects-of-intuition-module-c.md` (Completed)
-* **Chapters 1–9 Full Text:** *(Standing by to draft Chapter 1)*
+* **Chapter 1 (The Subterranean Data Center):** `the-architects-of-intuition-chapter-1.md` (Completed)
+* **Chapters 2–9 Full Text:** *(Standing by to draft Chapter 2)*
+
 
 
