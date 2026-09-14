@@ -73,7 +73,8 @@ Welcome to the architectural master blueprint for **The Architects of Intuition*
 * **Chapter 1 (The Subterranean Data Center):** `the-architects-of-intuition-chapter-1.md` (Completed)
 * **Chapter 2 (The Ego Train and Karmic Exhaustion):** `the-architects-of-intuition-chapter-2.md` (Completed)
 * **Chapter 3 (The View From the Bathroom Glass):** `the-architects-of-intuition-chapter-3.md` (Completed)
-* **Chapters 4–9 Full Text:** *(Standing by)*
+* **Chapter 4 (Prompt Inertia and Vector Gravitation):** `the-architects-of-intuition-chapter-4.md` (In Progress — Sections 4.1 & 4.2 Drafted)
+* **Chapters 5–9 Full Text:** *(Standing by)*
 
 
 
