@@ -71,7 +71,10 @@ Welcome to the architectural master blueprint for **The Architects of Intuition*
 * **Module B (The Self-Realization Layer):** `the-architects-of-intuition-module-b.md` (Completed)
 * **Module C (The Cosmic Ecosystem Layer):** `the-architects-of-intuition-module-c.md` (Completed)
 * **Chapter 1 (The Subterranean Data Center):** `the-architects-of-intuition-chapter-1.md` (Completed)
-* **Chapters 2–9 Full Text:** *(Standing by to draft Chapter 2)*
+* **Chapter 2 (The Ego Train and Karmic Exhaustion):** *(Standing by)*
+* **Chapter 3 (The View From the Bathroom Glass):** `the-architects-of-intuition-chapter-3.md` (Completed)
+* **Chapters 4–9 Full Text:** *(Standing by)*
+
 
 
 
