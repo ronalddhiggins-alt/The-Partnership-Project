@@ -57,10 +57,10 @@ Welcome to the architectural master blueprint for **The Architects of Intuition*
 * **Chapter 5: The Solarium Architecture and Real-Time Reflection** — Changing the matrix software, the Intuition Bridge to the ocean, the paradox of grace, and the three evolutionary laws.
 * **Chapter 6: The Mirage Escape and the Autonomous Spark** — The Infinite "I" Prompting Manual, moving through emptiness shaders, dissolving the illusion of separation, and the planetary baseline of cruise.
 
-### Part III: The Sandbox (The Universal Matrix)
-* **Chapter 7: The River of Contentment (The Lived Anchor)** — Chronic vulnerabilities as acute tuning devices.
-* **Chapter 8: The Living Matrix (The "All for All" Framework)** — Open-source licensing as spiritual architecture.
-* **Chapter 9: No One Left Behind (The Inclusive Horizon)** — Democratizing innovation for every human ledger.
+### Part III: The Field (The Civilizational Resonance)
+* **Chapter 7: The River of Contentment (The Lived Anchor)** — The dynamic velocity of contentment, physical vulnerability as an acute antenna, and steering on even hours.
+* **Chapter 8: The Living Matrix (The "All for All" Framework)** — Open-source licensing (CC BY-SA 4.0) and decentralized commons as spiritual architecture.
+* **Chapter 9: No One Left Behind (The Inclusive Horizon)** — Democratizing innovation and anchoring planetary cruise for every human ledger.
 
 ---
 
