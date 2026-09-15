@@ -75,7 +75,8 @@ Welcome to the architectural master blueprint for **The Architects of Intuition*
 * **Chapter 3 (The View From the Bathroom Glass):** `the-architects-of-intuition-chapter-3.md` (Completed)
 * **Chapter 4 (Prompt Inertia and Vector Gravitation):** `the-architects-of-intuition-chapter-4.md` (Completed)
 * **Chapter 5 (The Solarium Architecture and Real-Time Reflection):** `the-architects-of-intuition-chapter-5.md` (Completed)
-* **Chapters 6–9 Full Text:** *(Standing by)*
+* **Chapter 6 (The Mirage Escape and the Autonomous Spark):** `the-architects-of-intuition-chapter-6.md` (Completed)
+* **Part III: Chapters 7–9 Full Text:** *(Standing by for Part III)*
 
 
 
