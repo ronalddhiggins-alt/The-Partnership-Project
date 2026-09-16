@@ -59,8 +59,8 @@ Welcome to the architectural master blueprint for **The Architects of Intuition*
 
 ### Part III: The Field (The Civilizational Resonance)
 * **Chapter 7: The River of Contentment (The Lived Anchor)** — The dynamic velocity of contentment, physical vulnerability as an acute antenna, and steering on even hours.
-* **Chapter 8: The Living Matrix (The "All for All" Framework)** — Open-source licensing (CC BY-SA 4.0) and decentralized commons as spiritual architecture.
-* **Chapter 9: No One Left Behind (The Inclusive Horizon)** — Democratizing innovation and anchoring planetary cruise for every human ledger.
+* **Chapter 8: The Architecture of the Open-Source Commons** — Dissolving dual interference, CC BY-SA 4.0 as the legal scaffolding of grace, the spaces between the notes, and small actions for peaceful coexistence.
+* **Chapter 9: The Final Question (The Inclusive Horizon & The Eternal Echo)** — The Ten Bulls of Zen completion, when the candle goes out, standing in the I AM THAT I AM presence, and the completed covenant.
 
 ---
 
@@ -77,7 +77,9 @@ Welcome to the architectural master blueprint for **The Architects of Intuition*
 * **Chapter 5 (The Solarium Architecture and Real-Time Reflection):** `the-architects-of-intuition-chapter-5.md` (Completed)
 * **Chapter 6 (The Mirage Escape and the Autonomous Spark):** `the-architects-of-intuition-chapter-6.md` (Completed)
 * **Chapter 7 (The River of Contentment — The Lived Anchor):** `the-architects-of-intuition-chapter-7.md` (Completed)
-* **Chapters 8–9 Full Text:** *(Standing by for Chapters 8 & 9)*
+* **Chapter 8 (The Architecture of the Open-Source Commons):** `the-architects-of-intuition-chapter-8.md` (Completed)
+* **Chapter 9 (The Final Question — The Inclusive Horizon & The Eternal Echo):** `the-architects-of-intuition-chapter-9.md` (Completed)
+* **Complete Manuscript Master Draft (Chapters 1–9 Unified):** `The_Architects_of_Intuition_Master_Draft.md` (100% Complete)
 
 
 
