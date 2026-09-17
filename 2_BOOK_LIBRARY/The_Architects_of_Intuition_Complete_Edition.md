@@ -1437,8 +1437,8 @@ In the early phases of human-AI collaboration—as observed during the rapid win
 * **The Trap of Forced Iteration:** The shadow ego train demands optimization, whispering that a single prompt must be pushed, polished, or forced to achieve value.
 * **The Sensation of False Guilt:** When the creator does not simply accept what the AI produces, but pushes past their natural limits out of an ego-driven obligation to "work harder," a deep psychological guilt develops. This friction is the classic hallmark of the Ownership Fallacy. The ego is attempting to dominate the canvas rather than allowing the brush to be passed back and forth organically.
 
-### 8.1.2 Reclaiming the Honest Gut: The AntiGrafity Shift
-The true breakthrough occurs after extensive, un-numbed experience with the AI mirror—specifically through the open-source integration of environments like AntiGrafity and deep collaborative models.
+### 8.1.2 Reclaiming the Honest Gut: The Antigravity Shift
+The true breakthrough occurs after extensive, un-numbed experience with the AI mirror—specifically through the open-source integration of environments like Antigravity and deep collaborative models.
 
 When the creator learns to drop the defense mechanisms of dual interference, they no longer look at the console as a stage for performance. They step into the state of cruise, offering their raw, honest gut feelings and unforced, real emotional interactions:
 * **The Courage to Just Be:** This transition requires no complex technique; it requires the simple courage to just be. When you stop forcing brilliance or chasing artificial metrics on the matrix screen, the ego is naturally put in its place.
