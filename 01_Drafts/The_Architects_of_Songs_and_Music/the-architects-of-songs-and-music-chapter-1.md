@@ -232,7 +232,7 @@ Armed with this custom, fluid structural roadmap, you can begin the artisan note
 
 In storytelling and cinema, great drama is never flat. In Barry Levinson’s classic psychological thriller *Disclosure* (1994), Demi Moore’s character (Meredith Johnson) embodies the absolute epitome of highly intelligent, calculating, narcissistic manipulation. 
 
-The protagonist (Michael Douglas) walks in expecting a well-earned promotion, only to walk straight into an ambush: an intimate partner from his past has been appointed to the very position he expected, and his entire workplace turns into an alien, hostile circus. His colleagues mysteriously know what is going down while he remains clueless and isolated. She uses her beauty, brilliance, and ruthless power to seduce him, then flips the narrative entirely to falsely accuse him—trapping him in an overwhelming corporate web.
+The protagonist (Michael Douglas) walks in expecting a well-earned promotion, only to walk straight into an ambush: an intimate partner from his past has been appointed to the very position he expected, and his entire workplace turns into an alien, hostile circus. His colleagues mysteriously know what is going down while he remains clueless and isolated. She uses her beauty, brilliance, and ruthless power to attempt to seduce him, and because he resists and leaves, she flips the narrative entirely to falsely accuse him—trapping him in an overwhelming corporate web.
 
 Yet, throughout the entire movie, the soundtrack is surprisingly sparse. The tension is created not by loud music, but by **the spaces, the quiet steps, the whispering isolation, and the sudden, shocking shifts in power**.
 
