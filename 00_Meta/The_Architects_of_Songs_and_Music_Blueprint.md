@@ -26,18 +26,18 @@
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ PART I: THE TRANSMISSION (The Artisan Foundation)                                      │
 │ • Chapter 1: The Sovereign Antler (Human Expression vs. AI Slop)                       │
-│ • Chapter 2: The Supportive Harmony (The AI Sounding Board)                            │
+│ • Chapter 2: The Supportive Harmony (The AI Sounding Board & Conversational Syntax)    │
 │ • Chapter 3: The Artisan Translation (Note-by-Note Programming in Any Setup)           │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ PART II: THE MAZE (The Sovereign Administrator & Legal Sanctuary)                      │
-│ • Chapter 4: The Legal Sanctuary (USCO Human Nexus & Non-Attorney Counsel)             │
-│ • Chapter 5: The Royalty Architecture & The 100-Point Split (BMI, MLC, Dolly, Petty)   │
-│ • Chapter 6: The Aggregator Networks (BandLab/ReverbNation vs. DistroKid, CD Baby)    │
+│ PART II: THE MAZE & THE SURVIVAL SANCTUARY (Economic Reality & Legal Armor)           │
+│ • Chapter 4: The Economic Sanctuary & The Resistance (The Iceberg of Value & Survival) │
+│ • Chapter 5: The Royalty Fortress & Legal Shield (100-Point Split, USCO, Dolly & Petty)│
+│ • Chapter 6: The Sovereign Aggregation (Direct Distribution vs. Predatory Exploitation)│
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ PART III: THE HORIZON (The Abundance Paradox)                                          │
-│ • Chapter 7: The Decentralized Node (Agentic AI Coding for Sovereign Artist Vaults)    │
-│ • Chapter 8: The Dual Co-Existence (All for All meets Capitalist Infrastructure)       │
-│ • Chapter 9: Water Seeks Its Own Level (The Law of Reciprocal Resonance & Giving Back)│
+│ PART III: THE HORIZON (The Abundance Engine & Modern Co-Existence)                     │
+│ • Chapter 7: The Sovereign Web Node (Agentic Direct-to-Community Infrastructure)       │
+│ • Chapter 8: The Dual Co-Existence (Funding Physical Life with an Altruistic Heart)    │
+│ • Chapter 9: Water Seeks Its Own Level (The Completed Handshake & Reciprocal Resonance)│
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
