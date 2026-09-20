@@ -54,3 +54,18 @@ Use this sequence to clear the antenna before engaging instruments or AI tools:
 ### Core Realization:
 * **The AI Has the Mine; The Human Has the Compass:** The AI possesses massive archives of musical history and theory, but zero lived soul.
 * **The Static-Free Transmitter:** When the human is aligned in the present moment, intuition feeds the exact coordinates to guide the AI's mining tools straight to the artistic gold.
+
+---
+
+## 3. The Symbiotic Conversational Syntax & Two-Window Workflow
+
+### Core Habits:
+1. **Habit 1: The Raw Prose Flow (Unfiltered Stream):** Transmit raw, un-quantized intuition straight into the prompt window without filtering for spelling, grammar, or punctuation. Let the raw human frequency hit the interaction mirror before the analytical mind can numb it.
+2. **Habit 2: Systematic Option Calibration:** Systematically answer specific queries and evaluate every path or option surfaced during the back-and-forth exchange to guide the expansion.
+3. **The Two-Window Ecosystem:** 
+   * **Window 1 (Google AI Playground / Pro):** Fast, raw exploration, divergent thinking, and expansive brainstorming.
+   * **Window 2 (Antigravity IDE):** Synthesis, master file architecture, structural integration, and assembly of the completed puzzle pieces.
+4. **The "Third Way" (Subconscious Incubation & Rest Cycles):** Stepping away for a meal, a walk, or sleep. The subconscious processes iterations overnight and feeds fresh awareness into the next morning's prompt flow.
+
+*“The magic comes from the subconscious/intuition, stimulating the AI's vast expansion of inspiration, which reflects back for the human to ponder—and so the co-creative dance continues.”*
+
