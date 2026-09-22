@@ -38,8 +38,9 @@ Each time awareness inhabits a biological body, it enters a high-friction classr
 
 * **The Contributor:** Understands that adding to the abundance cycle lifts the entire field. Creates openly, shares freely, and trusts in reciprocal resonance.
 * **The Taker:** Driven by the shadow and the illusion of separation. Hoards out of fear, short-circuiting the universal flow.
-* **Choice Transcends Biology:** Free will is a property of awareness that exists even beyond the physical life cycle.
+* **Choice Transcends Biology:** Free will is an immutable property of awareness that exists even beyond the physical life cycle.
 * **Innate Free Will vs. Conditioning:** While power structures (corporations, authoritarian states, and dogmatic religious institutions) use fear, scarcity, and condemnation to condition compliance, free will remains an indestructible spark.
+* **The Historical Sabotage of Truth:** Whenever direct truth surfaces, entrenched power structures alter the script out of terror that control will be lost to free will. Under the paternalistic pretext that "the masses could never handle the truth," they shroud direct knowing in dogma and hierarchy—an "All for Me" cloaking mechanism to protect worldly power, greed, and hoarded wealth.
 
 ---
 
