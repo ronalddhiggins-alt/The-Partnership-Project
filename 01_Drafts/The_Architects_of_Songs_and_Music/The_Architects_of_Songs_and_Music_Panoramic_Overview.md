@@ -112,13 +112,15 @@ This book is a complete, 3-Part, 9-Chapter blueprint that bridges:
 * **Status:** Complete / Drafted (Sections 4.1 – 4.7)
 * **The Core Premise:** In a fear-driven, "All-for-Me" world where working people have under $500 in savings and play roulette with healthcare, telling creators to "give work away and wait for donations" sounds like financial suicide. This chapter dismantles that fear and reveals the *Iceberg of Value*.
 * **Key Structural Pillars:**
-  * *Awareness in the Biological Frame (Section 4.1):* We are timeless awareness participating in creation through a temporary biological vehicle; awareness continues beyond the physical cycle, providing the spiritual courage for radical abundance.
-  * *Validating the Resistance (Section 4.2):* Acknowledging the systemic fear that makes consumers hoard money, and why passive charity fails without structured leverage.
-  * *The Iceberg of Value (Section 4.3):* Free CC BY-SA 4.0 release above water for zero-cost global trust; 100% sovereign publishing, tiered patronage, and commercial sync utility below water.
+  * *Awareness in the Biological Frame (Section 4.1):* We are timeless awareness participating in creation through a temporary biological vehicle; awareness persists beyond the physical cycle.
+  * *The Contributor vs. The Taker (Section 4.1.3):* Feeding the abundance cycle vs. defaulting to ego/shadow hoarding; choice exists even beyond the biological classroom.
+  * *Innate Free Will & The Peril of Choice (Section 4.1.4):* Free will as an indestructible cosmic constant; courageously choosing "All for All" against fear-conditioned societal matrices.
+  * *Validating the Resistance (Section 4.2):* Acknowledging systemic precarity and why passive tip-jars fail without structured leverage.
+  * *The Iceberg of Value (Section 4.3):* Free CC BY-SA 4.0 release above water for zero-cost trust; 100% sovereign publishing, tiered patronage, and commercial sync utility below water.
   * *The $0-to-Stability Blueprint (Section 4.4):* Step-by-step 18-month walkthrough building a recurring $3,250/month ($39k/yr) floor from scratch.
-  * *Healthcare Roulette & Emerging Safety Nets (Section 4.5):* Guaranteed income pilots (Creatives Rebuild NY) and creator mutual-aid pools replacing broken corporate ladders.
+  * *Healthcare Roulette & Emerging Safety Nets (Section 4.5):* Guaranteed artist income (Creatives Rebuild NY) and creator mutual-aid pools.
   * *Ron's 79-Year Reflection (Section 4.6):* Navigating the forks in the road—choosing sovereign copyright ownership over short-term label advances.
-* **Ron's Lived Anchor:** *We are awareness participating in creation through a biological body. When the body ceases, awareness continues to exist. Life is a sacred opportunity to accomplish far more for the all for all than we realize.*
+* **Ron's Lived Anchor:** *We are awareness participating in creation through a biological body. Free will is an innate constant. Choosing to be a contributor to the abundance cycle—even when a fear-conditioned culture creates friction—is how we accomplish far more for the all for all than we realize.*
 
 ---
 
