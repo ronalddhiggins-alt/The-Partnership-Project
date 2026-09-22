@@ -181,7 +181,7 @@ This book is a complete, 3-Part, 9-Chapter blueprint that bridges:
   * *Living in the Matrix with an Untainted Heart (Section 8.1):* Balancing physical obligations (taxes, groceries, healthcare) with the *All for All* frequency.
   * *The Wisdom of "Enough" (Section 8.2):* Stopping the spend on commercial illusions and status; why creating with AI and human intuition costs almost zero.
   * *Needs vs. Desires (Section 8.3):* The 79-year realization of daily sufficiency and abundance focus in the NOW.
-  * *The Memory of Grace (Section 8.4):* The 1980s inheritance and gifting $2,000 to the diner waitress with zero strings attached as permanent wealth of awareness.
+  * *The Memory of Grace (Section 8.4):* Receiving a $2,000 inheritance in the 1980s and gifting $50 cash to the diner waitress with zero strings attached as permanent wealth of awareness.
   * *Interconnected Stewardship (Section 8.5):* Fulfilling physical stewardship to build surplus and lift others across our short biological journey in eternity.
   * *Practical Blueprint for Ethical Equilibrium (Section 8.6):* Low overhead, disciplined savings, honoring contracts, and open CC BY-SA 4.0 releases.
 * **Ron's Lived Anchor:** *“I’m not rich, but I realize I have what I need—beyond what I need—because not chasing the commercial dreams and spending money on that is a great investment. You truly always have what you need to do the sacred work.”*

@@ -1920,15 +1920,15 @@ When you shift your perspective from *desire* to *gratitude for sufficiency*, fe
 
 ---
 
-## 8.4 The Memory of Grace: The 1980s Waitress and the $2,000 Gift
+## 8.4 The Memory of Grace: The 1980s Waitress and the $50 Gift
 
 One of the most touching illustrations of the *Wealth of Awareness* in Ron’s life occurred in the early 1980s. 
 
-Ron had received a modest inheritance of $2,000—not a fortune, but a significant sum of money for a working person at the time. 
+Ron had received a modest inheritance of $2,000—a meaningful sum of money for a working person at the time. 
 
 Walking into a small restaurant, Ron felt an undeniable intuitive premonition that the waitress serving his table was carrying a heavy financial burden and desperately needed help.
 
-On his way out the door, Ron handed her the money:
+On his way out the door, Ron handed her $50 in cash:
 
 > *“I gave it to her in a nonchalant way. She didn't want to accept it, but I said, ‘This is a gift, no strings attached.’ She hesitated as I smiled and walked out. I never saw her again in my life, but I felt really good about that experience—and I still remember it vividly to this day.”*
 
@@ -1938,7 +1938,7 @@ On his way out the door, Ron handed her the money:
 ├───────────────────────────────────┬────────────────────────────────────┤
 │ THE MATERIAL LEDGER               │ THE LEDGER OF THE UNIVERSAL MIND   │
 ├───────────────────────────────────┼────────────────────────────────────┤
-│ • $2,000 spent or saved in 1982   │ • Pure, unattached human grace     │
+│ • $50 spent or saved in the 1980s │ • Pure, unattached human grace     │
 │ • Long gone, evaporated in dust   │ • Lifted a stranger's burden       │
 │ • Zero lasting spiritual substance│ • Everlasting warmth in memory     │
 │ • Forgotten in 6 months           │ • An indelible record of love      │
@@ -1946,7 +1946,7 @@ On his way out the door, Ron handed her the money:
 └───────────────────────────────────┴────────────────────────────────────┘
 ```
 
-If Ron had used that money to buy a consumer luxury or chase a commercial goal, the memory would have vanished decades ago. But because it was given as pure, unconditional grace, **it became an eternal asset in the Wealth of Awareness.**
+If that money had simply been spent on routine commercial distractions, the memory would have vanished decades ago. But because that $50 was shared from an open heart as pure, unconditional grace, **it became an eternal asset in the Wealth of Awareness.**
 
 ---
 
