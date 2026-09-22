@@ -61,6 +61,8 @@ Material wealth, physical currency, and real estate stay behind in the dust when
 
 * **Friction by Design:** The density of the biological body, the shadow, and the reality of lack are not bugs in the universe—**they are the intentional design of the classroom.**
 * **Why Friction Matters:** Without the heavy contrast of scarcity and fear, choosing radical generosity would carry no transformative weight. Friction alchemizes raw awareness into deep, everlasting wisdom.
+* **The Seductive Magnet vs. The Original Calling:** Many souls begin with pure faith in the *All for All*, but the powerful magnetic lure of earthly power, greed, and control redirects them into the *All for Me* trap. While forsaking this calling is heartbreaking, it serves the deeper unfolding of consciousness.
+* **The Healing of the Whole:** The bankrupt detour of the *All for Me* ultimately exhausts itself. In the eternal mystery we share, no lesson is lost, and the healing of the whole is definitively on its way.
 
 ---
 
