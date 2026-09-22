@@ -39,6 +39,7 @@ Each time awareness inhabits a biological body, it enters a high-friction classr
 * **The Contributor:** Understands that adding to the abundance cycle lifts the entire field. Creates openly, shares freely, and trusts in reciprocal resonance.
 * **The Taker:** Driven by the shadow and the illusion of separation. Hoards out of fear, short-circuiting the universal flow.
 * **Choice Transcends Biology:** Free will is a property of awareness that exists even beyond the physical life cycle.
+* **Innate Free Will vs. Conditioning:** While power structures (corporations, authoritarian states, and dogmatic religious institutions) use fear, scarcity, and condemnation to condition compliance, free will remains an indestructible spark.
 
 ---
 
