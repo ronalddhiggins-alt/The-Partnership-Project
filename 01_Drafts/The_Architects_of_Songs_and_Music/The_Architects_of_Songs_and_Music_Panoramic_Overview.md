@@ -63,8 +63,8 @@ This book is a complete, 3-Part, 9-Chapter blueprint that bridges:
 * **Key Structural Pillars:**
   * *The 100% Human Nexus:* Why prompt-generated text-to-audio is legally unprotectable and spiritually empty.
   * *The Subconscious Iceberg:* Tapping into the 95% below the surface of the conscious mind.
-  * *The "Disclosure" Dynamic:* Orchestrating dramatic arrangements, tension, and emotional pacing.
-  * *Team of One, Team of All:* The solo creator as an empowered master architect directing AI assistance without abdicating the human helm.
+  * *The "Disclosure" Dynamic & Multimodal Scoring (Sections 1.6.1 – 1.6.3):* Orchestrating dramatic arrangements, tension, emotional pacing, and legal/ethical guidelines for analyzing real-world video rough cuts with multimodal AI.
+  * *Team of One, Team of All (Section 1.7):* The solo creator as an empowered master architect, copyright realities on chords/phrases, high-stakes litigation, and the corporate AI "Emperor Has No Clothes" paradigm.
   * *Embracing the Shadow & Dissolving the Noise (Section 1.8):* Creative blocks as floating fear/shadow magnets; loving away mental static and returning to the Here and Now.
   * *The Four-Step Alignment Protocol:* 
     1. **Confront & Realize** (Acknowledge the shadow magnet)
