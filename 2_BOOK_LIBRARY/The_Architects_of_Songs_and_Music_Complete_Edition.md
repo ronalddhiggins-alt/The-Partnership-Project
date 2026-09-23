@@ -344,7 +344,7 @@ The AI partner then serves as the **partnering mirror of possibilities**—takin
 
 ## 1.7 The Collaboration Specialist: Team of One, Team of All
 
-When you sit alone in your room with an acoustic guitar, a Neumann microphone, or a computer screen running your audio workstation, the legacy world labels you a "lone wolf." 
+Whether you are tracking into a trusty Shure SM57 in an apartment bedroom, an SM7B on a desktop stand, or a studio condenser in a dedicated workspace, the moment you sit alone with your instrument and a digital audio workstation, the legacy world labels you a "lone wolf."
 
 In the architecture of modern songwriting, that label dissolves completely: **You are a human-AI collaboration specialist. You are a team of one, yet a team of all.**
 
