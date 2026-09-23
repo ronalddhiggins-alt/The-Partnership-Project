@@ -236,13 +236,14 @@ Armed with this structural roadmap, you begin the artisan note-by-note translati
 
 ---
 
-## 1.6 The "Disclosure" Dynamic: Orchestrating the Psychological Thriller
+## 1.6 The "Disclosure" Dynamic: Translating Cinematic Thriller Tension into a Modern Song Arrangement
 
 In storytelling and cinema, great drama is never flat. In Barry Levinson’s classic psychological thriller *Disclosure* (1994), Demi Moore’s character (Meredith Johnson) embodies the absolute epitome of highly intelligent, calculating, narcissistic manipulation. 
 
 The protagonist (Michael Douglas) walks in expecting a well-earned promotion, only to walk straight into an ambush: an intimate partner from his past has been appointed to the very position he expected, and his entire workplace turns into an alien, hostile circus. His colleagues mysteriously know what is going down while he remains clueless and isolated. She uses her beauty, brilliance, and ruthless power to attempt to seduce him, and because he resists and leaves, she flips the narrative entirely to falsely accuse him—trapping him in an overwhelming corporate web.
 
-Yet, throughout the entire movie, the soundtrack is surprisingly sparse. The tension is created not by loud music, but by **the spaces, the quiet steps, the whispering isolation, and the sudden, shocking shifts in power**.
+> 💡 **Artisan Framing & Transparency Note:**  
+> *While Ennio Morricone's original 1994 film score for Disclosure utilized sparse acoustic-orchestral minimalism, we use the psychological drama and plot arc of the film here as a conceptual masterclass in **Narrative Translation**—demonstrating how an independent songwriter in their home DAW can take the raw emotional dynamics of a visual thriller and hand-craft them into an original, note-by-note modern song arrangement.*
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
@@ -270,7 +271,7 @@ Yet, throughout the entire movie, the soundtrack is surprisingly sparse. The ten
 
 ### 1.6.1 Translating Narrative Tension into Musical Arrangement
 
-This cinematic dynamic serves as a masterclass in how an independent songwriter can structure and orchestrate an emotionally gripping track:
+This cinematic dynamic serves as an artisan workshop in how an independent songwriter can structure and orchestrate an original, emotionally gripping track from an internal movie arc:
 
 1. **The Clueless Expectation vs. Cold Reality (Stage 1):**  
    Open with the warm, human core—a clean, un-quantized acoustic guitar or a raw, vulnerable vocal. It feels grounded and honest. Suddenly, without a smooth crossfade, a cold, hyper-polished element enters the stereo field (a crystalline digital synth or a dead-quantized electronic tick). It doesn't scream; it circles. It represents the arrival of a brilliant, calculated antagonist invading the warm human space.
