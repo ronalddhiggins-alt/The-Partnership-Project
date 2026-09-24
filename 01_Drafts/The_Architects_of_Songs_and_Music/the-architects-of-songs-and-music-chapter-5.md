@@ -362,12 +362,18 @@ Two iconic figures in music history illustrate the twin pillars of sovereign leg
 • Generational wealth & artistic freedom      • Zero free commercial exploitation
 ```
 
-### 5.5.1 The Dolly Parton Shield: The Power of Walking Away
-In the early 1970s, Elvis Presley wanted to record Dolly Parton's masterpiece, *"I Will Always Love You."* Elvis's infamous manager, Colonel Tom Parker, demanded the standard predatory clause: Elvis would not record the song unless Dolly signed over **50% of the publishing rights** to Parker and Elvis.
+### 5.5.1 The Dolly Parton Shield: The Tearful Power of Walking Away
+In the mid-1970s, Elvis Presley fell in love with Dolly Parton's 1974 masterpiece, *"I Will Always Love You."* Elvis was scheduled to enter the recording studio the very next day, and Dolly was beside herself with excitement, telling all her friends that the King of Rock and Roll was recording her song.
 
-Dolly was heartbroken. She wanted Elvis to sing her song more than anything. But she knew that her publishing company was the foundation of her life's work. With tears in her eyes, she looked Colonel Parker in the face and said: **"NO."**
+The night before the session, Elvis's formidable manager, **Colonel Tom Parker**, called Dolly on the phone and delivered the standard major-label ultimatum: *"You know it's a strict policy that Elvis gets at least half the publishing rights of any song he records."*
 
-Decades later, Whitney Houston recorded that very same song for *The Bodyguard*, generating tens of millions of dollars in mechanical and performance royalties—**every single penny of which flowed directly to Dolly Parton because she had refused to surrender her publishing.**
+Dolly was completely heartbroken. She admired Elvis immensely and wanted to hear his voice on her song more than anything. Yet, listening to her deepest intuitive voice, she stood her ground on the phone with tears in her eyes and told Colonel Parker:
+
+> *“I'm really sorry, but I can't give you the publishing. That's the most important copyright in my publishing company, and I have to keep this for my family.”*
+
+Colonel Parker replied that without half the publishing, Elvis could not record the song. Dolly reportedly **cried all night long**, enduring ridicule from industry peers who told her she was crazy for turning down Elvis Presley.
+
+Decades later, in 1992, Whitney Houston recorded that very same song for *The Bodyguard*, turning it into one of the best-selling singles in music history. Because Dolly had refused to surrender her publishing rights on that tearful night, **tens of millions of dollars in mechanical, sync, and performance royalties flowed directly into Dolly Parton’s sovereign publishing company**—funds she later used to invest in and revitalize historic African-American neighborhoods in Nashville (calling the complex *"the house that Whitney built"*).
 
 ### 5.5.2 The Tom Petty Sword: Statutory Protection for Open Works
 Tom Petty spent his career fighting record companies over pricing, ownership, and political misappropriation of his music. He proved that when an artist owns their rights, the legal system becomes an offensive sword against commercial exploitation.
