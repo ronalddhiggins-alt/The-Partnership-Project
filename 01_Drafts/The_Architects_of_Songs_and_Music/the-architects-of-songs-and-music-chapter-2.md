@@ -416,9 +416,16 @@ To ground the conversational syntax of Chapter 2 in your daily studio practice, 
 
 1. **🌉 Calibrating the Conversational Handshake (The Bridge):**
    * Before typing your first prompt in a new AI session, pass your **Creator Soul File** (generated via The Bridge or your custom markdown profile) into the chat. Explicitly instruct the AI: *"You are my conversational sounding board and structural auditor. Do not generate finished audio or lyrics. Treat my raw prose as sacred."*
+   * **Real Studio Prompt Input Example:**
+     > **Prompt to AI Sounding Board:** *"I am working on the bridge of an acoustic ballad in key of G major. The verse goes (G - Em - C - D). I want the bridge to feel like an emotional departure—like stepping into cold night air—before returning to a powerful final chorus. What modal shifts or secondary dominants could I test on my guitar neck without losing melodic warmth?"*  
+     > **AI Sounding Board Output:** *"Option A (The Submediant Surprise): Shift to `Eb major` (the bVI chord)—creates a sudden cinematic lift. Option B (The Minor Plunge): Shift to `B7` leading into `Em`, then `A7` into `D7`—creates bluesy tension. Option C (The Ambient Suspense): Hold a `Csus2` with an open high E string for 4 measures to create breathing space. Which feels best under your fingers?"*
 2. **🔍 Auditing the Narrative Depth (Narrative Auditor):**
-   * If you suspect your prompt or AI response is slipping into generic corporate clichés, feed your exchange into the **Narrative Auditor**.
-   * It scans the dialogue for authentic human vulnerability, flagging shallow filler and ensuring that the interaction remains focused on high-resolution emotional coordinates.
+   * If you suspect your prompt or lyric draft is slipping into generic pop clichés, feed your draft into the **Narrative Auditor**.
+   * It scans the text for authentic human vulnerability, flagging shallow filler and ensuring the interaction remains focused on high-resolution emotional coordinates.
+   * **Real Lyric Audit Example:**
+     > **Creator Input to Narrative Auditor:** Draft verse: *"My heart is on fire, burning with desire, taking me higher."*  
+     > **Narrative Auditor Score:** `Depth: 14 / 100` (*High Cliché Alert*).  
+     > **Auditor Recommendation:** *"Replace generic fire/desire tropes with sensory, somatic details from lived experience—e.g., the smell of rain on asphalt, the cold brass knob of an old apartment door, or the tactile vibration of steel strings under calloused fingers. Ground the feeling in physical reality."*
 3. **💬 The Rapid Question-Summary Command:**
    * When a long brainstorming thread becomes cluttered, simply type: *"Summarize and number all pending open questions and architectural forks in our discussion."* Review the list, answer only what resonates, and steer the ship with effortless freedom.
 
