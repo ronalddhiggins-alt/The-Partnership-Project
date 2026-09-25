@@ -86,6 +86,8 @@ This book is a complete, 3-Part, 9-Chapter blueprint that bridges:
   * *Habit 2: Systematic Option Calibration (Section 2.3):* Answering specific AI queries and evaluating every path surfaced in the exchange.
   * *The Two-Window Ecosystem (Section 2.4):* Window 1 (Playground Pro) for raw divergent exploration; Window 2 (Antigravity IDE) for master structure and assembly.
   * *The "Third Way" (Section 2.5):* Subconscious incubation and rest cycles allowing the mind to mine for gold in the dark.
+  * *The Asynchronous Mirror (Section 2.5.1):* Breaking the "politeness reflex"—stepping away without explanation to let ideas incubate without conversational overhead.
+  * *The Architecture of Awakening (Section 2.5.2):* How Creator Soul Files and Agent Files give fresh threads instant "new life" and total contextual remembrance from prompt #1.
   * *The Sounding Board & "Let It Be" Guardrail (Section 2.6):* Harmonic exploration without altering master tracks, and knowing when to stop iterating to let the music breathe.
 * **Ron's Lived Anchor:** *The magic comes from the subconscious/intuition, stimulating the AI's vast expansion of inspiration, which reflects back for the human to ponder—and so the co-creative dance continues.*
 
