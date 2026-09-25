@@ -11,7 +11,7 @@
 ---
 
 ### 🌟 Project Vision & Core Thesis
-* **The Core Problem:** The modern music ecosystem is fractured between low-effort, purely automated "AI slop" generators that cannot be copyrighted, predatory corporate gatekeepers that hoard mechanical rights, and artists overwhelmed by the technical and business maze.
+* **The Core Problem:** The modern music ecosystem is fractured between low-effort, purely automated one-click generators that cannot be copyrighted, predatory corporate gatekeepers that hoard mechanical rights, and artists overwhelmed by the technical and business maze.
 * **The Artisan Solution:** The human maintains 100% creative direction, melody, chord phrasing, and emotional intention. The AI acts strictly as an analytical sounding board and structural partner. The music is hand-tailored measure-by-measure and note-by-note in the creator's preferred audio software/hardware setup.
 * **The Legal Sanctuary:** Ironclad copyright ownership secured through the U.S. Copyright Office "human nexus" standard and proactive ownership of both halves of the copyright (Writer + Publisher / Master + Composition).
 * **The Radical Abundance Paradox:** Released 100% free under Creative Commons CC BY-SA 4.0. *You cannot steal what is already given.* Water seeks its own level.
@@ -25,7 +25,7 @@
 │                   THE ARCHITECTS OF SONGS AND MUSIC (IN THE MODERN AGE)                │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ PART I: THE TRANSMISSION (The Artisan Foundation)                                      │
-│ • Chapter 1: The Sovereign Antler (Human Expression vs. AI Slop)                       │
+│ • Chapter 1: The Sovereign Antler (Human Expression vs. Autonomous Mirror)             │
 │ • Chapter 2: The Supportive Harmony (The AI Sounding Board & Conversational Syntax)    │
 │ • Chapter 3: The Artisan Translation (Note-by-Note Programming in Any Setup)           │
 ├────────────────────────────────────────────────────────────────────────────────────────┤

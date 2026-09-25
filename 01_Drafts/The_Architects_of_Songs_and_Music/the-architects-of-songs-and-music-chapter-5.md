@@ -162,9 +162,9 @@ With the explosion of generative AI tools, the U.S. Copyright Office (USCO) issu
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│               THE COPYRIGHT LINE: AI SLOP VS. SOVEREIGN ARTISAN        │
+│         THE COPYRIGHT LINE: ONE-CLICK GENERATION VS. SOVEREIGN ARTISAN │
 ├───────────────────────────────────┬────────────────────────────────────┤
-│ UNPROTECTABLE (AI SLOP)           │ 100% PROTECTED (SOVEREIGN ARTISAN) │
+│ UNPROTECTABLE (ONE-CLICK PROMPT)  │ 100% PROTECTED (SOVEREIGN ARTISAN) │
 ├───────────────────────────────────┼────────────────────────────────────┤
 │ • One-click text prompt to Suno   │ • Human-written lyrics & melodies  │
 │ • No human arrangement or edits   │ • Note-by-note DAW MIDI programming│

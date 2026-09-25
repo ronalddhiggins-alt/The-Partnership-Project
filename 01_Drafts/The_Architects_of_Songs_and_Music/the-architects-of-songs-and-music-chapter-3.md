@@ -197,7 +197,7 @@ Under the **U.S. Copyright Office "Human Nexus" standard**, works created purely
 ┌────────────────────────────────────────────────────────────────────────┐
 │                   THE SOVEREIGN COPYRIGHT PROOF                        │
 ├───────────────────────────────────┬────────────────────────────────────┤
-│ PURE AI GENERATION (SLOP)         │ THE ARTISAN HYBRID SANCTUARY       │
+│ AUTONOMOUS AI GENERATION          │ THE ARTISAN HYBRID SANCTUARY       │
 ├───────────────────────────────────┼────────────────────────────────────┤
 │ • One-click text-to-audio         │ • 100% Human Melody & Lyric Intent │
 │ • No individual note editing      │ • Hand-curated MIDI velocity curves│

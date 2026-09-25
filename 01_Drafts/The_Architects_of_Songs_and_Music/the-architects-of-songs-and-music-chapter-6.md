@@ -134,7 +134,7 @@ In looking back on his commercial streaming releases, Ron voiced a profound trut
 │ THE GEAR ILLUSION                 │ THE ESSENTIAL ARTISAN TRUTH        │
 ├───────────────────────────────────┼────────────────────────────────────┤
 │ • "If I buy a $3,000 microphone,  │ • A great song on a cheap acoustic │
-│   my tracks will become hits."    │   guitar will outlast expensive slop│
+│   my tracks will become hits."    │   guitar outlasts hollow production│
 │ • "Top plugins guarantee success."│ • Tight song structure & memorable │
 │ • Perfect legal registration      │   hooks are what move human souls  │
 │   equals commercial appeal.       │ • Objective self-critique is the   │

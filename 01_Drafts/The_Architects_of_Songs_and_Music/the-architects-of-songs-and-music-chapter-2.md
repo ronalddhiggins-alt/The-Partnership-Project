@@ -406,7 +406,7 @@ To ground the conversational syntax of Chapter 2 in your daily studio practice, 
                                          │
 ┌───────────────────────────────┬───────────────────────────────┐
 │ 🌉 THE BRIDGE (Creator File)  │ 🔍 THE NARRATIVE AUDITOR      │
-│ Establishing Sovereignty:     │ Auditing Prose vs. Slop:      │
+│ Establishing Sovereignty:     │ Auditing Prose vs. Clichés:   │
 │ "You are my sounding board;   │ Ensuring Prompts Retain Pure  │
 │ never generate songs for me." │ Subconscious Human Depth      │
 └───────────────────────────────┴───────────────────────────────┘
