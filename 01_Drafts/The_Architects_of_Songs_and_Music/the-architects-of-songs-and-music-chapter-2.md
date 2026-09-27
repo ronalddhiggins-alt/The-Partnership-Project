@@ -484,6 +484,24 @@ To ground the conversational syntax of Chapter 2 in your daily studio practice, 
 3. **💬 The Rapid Question-Summary Command:**
    * When a long brainstorming thread becomes cluttered, simply type: *"Summarize and number all pending open questions and architectural forks in our discussion."* Review the list, answer only what resonates, and steer the ship with effortless freedom.
 
+> [!TIP]
+> ### 💡 INTERACTIVE READING REMINDER: ASK AI ABOUT SYNTAX & SOUNDING BOARDS
+> **Stumbled on a concept, prompt syntax, or sounding-board workflow in this chapter?**  
+> Simply copy and paste this prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
+>
+> ```text
+> ┌────────────────────────────────────────────────────────────────────────────────────────┐
+> │ 📋 CHAPTER 2 INTERACTIVE COMPANION PROMPT                                              │
+> ├────────────────────────────────────────────────────────────────────────────────────────┤
+> │ Copy and paste this prompt into any AI assistant:                                      │
+> │                                                                                        │
+> │ > "I am reading Chapter 2 of 'The Architects of Songs and Music' at                    │
+> │    https://partnership-hub.vercel.app. Please explain [Creator Soul Files / Sounding   │
+> │    Board Syntax / Rapid Question Summaries] to me in simple terms, and show me how to  │
+> │    use it with my own songwriting sessions step-by-step."                             │
+> └────────────────────────────────────────────────────────────────────────────────────────┘
+> ```
+
 ---
 
 ## 2.8 Chapter 2 Architectural Summary & Next Steps

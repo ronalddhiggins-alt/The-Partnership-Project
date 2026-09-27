@@ -756,6 +756,24 @@ To ensure that your co-creative work holds up against any corporate audit or cop
      > **License:** Creative Commons CC BY-SA 4.0 (Attribution-ShareAlike) for global public commons; commercial synchronization reserved exclusively under CletusMaxx Music Publishing.
 * **The Result:** You possess an unbreakable, documented legal fortress. No digital distributor, corporate sampler, or algorithmic scrubber can challenge your ownership.
 
+> [!TIP]
+> ### 💡 INTERACTIVE READING REMINDER: ASK AI ABOUT ROYALTIES & COPYRIGHT
+> **Stumbled on split sheets, USCO registration, Circular 92, or the 100-Point fortress?**  
+> Simply copy and paste this prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
+>
+> ```text
+> ┌────────────────────────────────────────────────────────────────────────────────────────┐
+> │ 📋 CHAPTER 5 INTERACTIVE COMPANION PROMPT                                              │
+> ├────────────────────────────────────────────────────────────────────────────────────────┤
+> │ Copy and paste this prompt into any AI assistant:                                      │
+> │                                                                                        │
+> │ > "I am reading Chapter 5 of 'The Architects of Songs and Music' at                    │
+> │    https://partnership-hub.vercel.app. Please explain [100-Point Split / USCO Human    │
+> │    Nexus / CC BY-SA 4.0 Protection] in plain English, and walk me through registering  │
+> │    or protecting my music step-by-step."                                               │
+> └────────────────────────────────────────────────────────────────────────────────────────┘
+> ```
+
 ---
 
 ## 5.10 Chapter 5 Architectural Summary & Next Steps
@@ -770,3 +788,6 @@ To ensure that your co-creative work holds up against any corporate audit or cop
 * **The Sovereign Studio Companion:** Using **The Bridge** on the Partnership Hub to audit human authorship timestamps and build an airtight USCO legal record.
 
 ---
+
+### 🧭 Next Movement: Chapter 6 — *The Sovereign Aggregation (Direct Distribution vs. Algorithmic Exploitation)*
+With our 100% sovereign publishing fortress and copyright shield secured, we turn to distribution. In Chapter 6, we examine why relying exclusively on corporate streaming algorithms leads to creative burnout and platform purge—and how to aggregate your music directly to the human community using free, open-access archives and sovereign nodes.

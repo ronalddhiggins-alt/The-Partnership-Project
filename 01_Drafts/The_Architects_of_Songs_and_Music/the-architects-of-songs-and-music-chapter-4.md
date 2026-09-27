@@ -321,6 +321,24 @@ To navigate the economic friction of daily life without surrendering your creati
      * **The Sovereign Alternative:** Decline the publishing grab. Deploy a Tier-2 patron tier ($15/mo for DAW stems and acoustic workshops). Just **14 subscribers** generates the same $20.83/month—and you keep 100% of your publishing, master rights, and creative autonomy forever.
 * **The Result:** The panic dissolves. The artist makes the fork-in-the-road decision from grounded sovereignty, protecting their lifelong catalog while solving their financial floor through direct human community.
 
+> [!TIP]
+> ### 💡 INTERACTIVE READING REMINDER: ASK AI ABOUT SOVEREIGN ECONOMICS
+> **Stumbled on the Iceberg of Value, tiered patronage, or Creative Commons strategies?**  
+> Simply copy and paste this prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
+>
+> ```text
+> ┌────────────────────────────────────────────────────────────────────────────────────────┐
+> │ 📋 CHAPTER 4 INTERACTIVE COMPANION PROMPT                                              │
+> ├────────────────────────────────────────────────────────────────────────────────────────┤
+> │ Copy and paste this prompt into any AI assistant:                                      │
+> │                                                                                        │
+> │ > "I am reading Chapter 4 of 'The Architects of Songs and Music' at                    │
+> │    https://partnership-hub.vercel.app. Please explain [The Iceberg of Value / 100%     │
+> │    Publishing Floor / Tiered Patronage] in simple terms, and show me how to build      │
+> │    sustainable income without selling my catalog."                                     │
+> └────────────────────────────────────────────────────────────────────────────────────────┘
+> ```
+
 ---
 
 ## 4.8 Chapter 4 Architectural Summary & Next Steps

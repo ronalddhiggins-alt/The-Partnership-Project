@@ -411,6 +411,24 @@ While **The Prism** refracts musical color and **The Solarium** uncovers subcons
      * **The Chorus Bloom:** Unmute the full drum kit and double-track the acoustic guitar panned hard left and right (80/80) to create immense stereo width without raising the master volume.
 * **The Result:** The track breathes with natural, dynamic life—transforming a flat, repetitive loop into a dramatic emotional journey that grips the listener from the first note to the final decay.
 
+> [!TIP]
+> ### 💡 INTERACTIVE READING REMINDER: ASK AI ABOUT NOTE-BY-NOTE ARRANGING
+> **Stumbled on a music theory term, velocity curve, or multi-track arrangement concept?**  
+> Simply copy and paste this prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
+>
+> ```text
+> ┌────────────────────────────────────────────────────────────────────────────────────────┐
+> │ 📋 CHAPTER 3 INTERACTIVE COMPANION PROMPT                                              │
+> ├────────────────────────────────────────────────────────────────────────────────────────┤
+> │ Copy and paste this prompt into any AI assistant:                                      │
+> │                                                                                        │
+> │ > "I am reading Chapter 3 of 'The Architects of Songs and Music' at                    │
+> │    https://partnership-hub.vercel.app. Please explain [Velocity Curves / The Arranger's│
+> │    Loom / Pocket Micro-Timings] in simple terms, and give me practical settings for my │
+> │    DAW project step-by-step."                                                          │
+> └────────────────────────────────────────────────────────────────────────────────────────┘
+> ```
+
 ---
 
 ## 3.8 Chapter 3 Architectural Summary & Part I Climax
