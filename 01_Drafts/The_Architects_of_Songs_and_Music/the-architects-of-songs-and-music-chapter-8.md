@@ -199,19 +199,10 @@ To maintain this delicate balance between physical order and altruistic generosi
 > [!TIP]
 > ### 💡 INTERACTIVE READING REMINDER: ASK AI ABOUT ETHICAL CO-EXISTENCE
 > **Stumbled on balancing physical bills with open-source altruism or the wisdom of enough?**  
-> Simply copy and paste this prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
+> Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> ┌────────────────────────────────────────────────────────────────────────────────────────┐
-> │ 📋 CHAPTER 8 INTERACTIVE COMPANION PROMPT                                              │
-> ├────────────────────────────────────────────────────────────────────────────────────────┤
-> │ Copy and paste this prompt into any AI assistant:                                      │
-> │                                                                                        │
-> │ > "I am reading Chapter 8 of 'The Architects of Songs and Music' at                    │
-> │    https://partnership-hub.vercel.app. Please explain [The Wisdom of Enough / Physical │
-> │    Equilibrium / Altruistic Co-Existence] in simple terms, and help me find balance in │
-> │    my daily creative life."                                                            │
-> └────────────────────────────────────────────────────────────────────────────────────────┘
+> I am reading Chapter 8 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain The Wisdom of Enough, Physical Equilibrium, and Altruistic Co-Existence in simple terms, and help me find balance in my daily creative life.
 > ```
 
 ---

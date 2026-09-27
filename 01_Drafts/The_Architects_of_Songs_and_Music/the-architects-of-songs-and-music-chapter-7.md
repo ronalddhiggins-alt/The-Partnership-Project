@@ -248,23 +248,10 @@ The AI partner exists to do all the heavy technical lifting for you. You do not 
 > [!TIP]
 > ### 💡 INTERACTIVE READING REMINDER: LET AI BUILD YOUR WEB NODE
 > **You do NOT need to be a coder, web designer, or server administrator.**  
-> Simply copy and paste this prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
+> Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> ┌────────────────────────────────────────────────────────────────────────────────────────┐
-> │ 📋 CHAPTER 7 INTERACTIVE SOVEREIGN WEB BUILDER PROMPT                                  │
-> ├────────────────────────────────────────────────────────────────────────────────────────┤
-> │ Copy and paste this prompt into any AI assistant:                                      │
-> │                                                                                        │
-> │ > "I am reading Chapter 7.6 of 'The Architects of Songs and Music' from                │
-> │    https://partnership-hub.vercel.app. I am a songwriter, not a programmer.           │
-> │    Please explain Chapter 7.6 to me in simple terms, and help me build my own          │
-> │    sovereign music webpage with an audio player, lyric sheet, and direct donation      │
-> │    buttons step-by-step. Write all the HTML, CSS, and JavaScript code for me."         │
-> │                                                                                        │
-> │ The machine will gladly write all the code, set up the file structure, and explain    │
-> │ every step with infinite patience while you stay focused on writing your songs.        │
-> └────────────────────────────────────────────────────────────────────────────────────────┘
+> I am reading Chapter 7.6 of The Architects of Songs and Music from https://partnership-hub.vercel.app. I am a songwriter, not a programmer. Please explain Chapter 7.6 to me in simple terms, and help me build my own sovereign music webpage with an audio player, lyric sheet, and direct donation buttons step-by-step. Write all the HTML, CSS, and JavaScript code for me.
 > ```
 
 ---

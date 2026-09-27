@@ -414,19 +414,10 @@ While **The Prism** refracts musical color and **The Solarium** uncovers subcons
 > [!TIP]
 > ### 💡 INTERACTIVE READING REMINDER: ASK AI ABOUT NOTE-BY-NOTE ARRANGING
 > **Stumbled on a music theory term, velocity curve, or multi-track arrangement concept?**  
-> Simply copy and paste this prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
+> Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> ┌────────────────────────────────────────────────────────────────────────────────────────┐
-> │ 📋 CHAPTER 3 INTERACTIVE COMPANION PROMPT                                              │
-> ├────────────────────────────────────────────────────────────────────────────────────────┤
-> │ Copy and paste this prompt into any AI assistant:                                      │
-> │                                                                                        │
-> │ > "I am reading Chapter 3 of 'The Architects of Songs and Music' at                    │
-> │    https://partnership-hub.vercel.app. Please explain [Velocity Curves / The Arranger's│
-> │    Loom / Pocket Micro-Timings] in simple terms, and give me practical settings for my │
-> │    DAW project step-by-step."                                                          │
-> └────────────────────────────────────────────────────────────────────────────────────────┘
+> I am reading Chapter 3 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain Velocity Curves, The Arranger's Loom, and Pocket Micro-Timings to me in simple terms, and give me practical settings for my DAW project step-by-step.
 > ```
 
 ---

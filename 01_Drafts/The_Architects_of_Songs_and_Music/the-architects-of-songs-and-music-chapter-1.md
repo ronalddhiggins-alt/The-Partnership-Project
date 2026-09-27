@@ -45,20 +45,11 @@ To every creator who has ever sat up at 3:00 AM chasing a melody that won’t le
 > 1. **You do NOT need to be a programmer, lawyer, or music theorist.**
 > 2. **AI is your patient, egoless companion, ready to explain concepts in plain English and write code for you.**
 
-```text
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│ 📋 THE READER'S UNIVERSAL COPY-PASTE PROMPT                                           │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│ Copy and paste this prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity│
-│                                                                                        │
-│ > "I am reading 'The Architects of Songs and Music' from https://partnership-hub.vercel│
-│    .app. I have a question about [Chapter X / Concept Y]. Please explain it to me      │
-│    in simple everyday terms, and guide me or build it for me step-by-step."            │
-│                                                                                        │
-│ The machine never tires of questions, never judges, and will gladly write code, design │
-│ web pages, or break down chord progressions for you. Use this dialogue to fuel you!   │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-```
+> Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
+>
+> ```text
+> I am reading The Architects of Songs and Music from https://partnership-hub.vercel.app. I have a question about [Chapter X / Concept Y]. Please explain it to me in simple everyday terms, and guide me or build it for me step-by-step.
+> ```
 
 ---
 
@@ -735,19 +726,10 @@ Before beginning your songwriting session today, put these three instruments to 
 > [!TIP]
 > ### 💡 INTERACTIVE READING REMINDER: ASK AI ABOUT THE HUMAN NEXUS & INTUITION
 > **Stumbled on a concept, acoustic scratch workflow, or frequency calibration in this chapter?**  
-> Simply copy and paste this prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
+> Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> ┌────────────────────────────────────────────────────────────────────────────────────────┐
-> │ 📋 CHAPTER 1 INTERACTIVE COMPANION PROMPT                                              │
-> ├────────────────────────────────────────────────────────────────────────────────────────┤
-> │ Copy and paste this prompt into any AI assistant:                                      │
-> │                                                                                        │
-> │ > "I am reading Chapter 1 of 'The Architects of Songs and Music' at                    │
-> │    https://partnership-hub.vercel.app. Please explain [The Sovereign Antler / Human   │
-> │    Nexus / Clearing the Channel / Team of One] in simple terms, and show me how to    │
-> │    apply it to my creative process step-by-step."                                      │
-> └────────────────────────────────────────────────────────────────────────────────────────┘
+> I am reading Chapter 1 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain The Sovereign Antler, the Human Nexus, and Clearing the Channel to me in simple terms, and show me how to apply them to my creative process step-by-step.
 > ```
 
 ---

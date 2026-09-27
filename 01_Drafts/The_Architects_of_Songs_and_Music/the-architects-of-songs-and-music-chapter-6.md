@@ -244,19 +244,10 @@ To step out of the algorithmic noise and evaluate how your music interfaces with
 > [!TIP]
 > ### 💡 INTERACTIVE READING REMINDER: ASK AI ABOUT DIRECT DISTRIBUTION
 > **Stumbled on escaping algorithmic hamster wheels, open archives, or audience resonance?**  
-> Simply copy and paste this prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
+> Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> ┌────────────────────────────────────────────────────────────────────────────────────────┐
-> │ 📋 CHAPTER 6 INTERACTIVE COMPANION PROMPT                                              │
-> ├────────────────────────────────────────────────────────────────────────────────────────┤
-> │ Copy and paste this prompt into any AI assistant:                                      │
-> │                                                                                        │
-> │ > "I am reading Chapter 6 of 'The Architects of Songs and Music' at                    │
-> │    https://partnership-hub.vercel.app. Please explain [Direct Distribution / The Field │
-> │    Scanner / Resonance vs. Marketing Hype] in simple terms, and show me how to share   │
-> │    my songs directly with listeners."                                                  │
-> └────────────────────────────────────────────────────────────────────────────────────────┘
+> I am reading Chapter 6 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain Direct Distribution, The Field Scanner, and Resonance vs. Marketing Hype in simple terms, and show me how to share my songs directly with listeners.
 > ```
 
 ---
