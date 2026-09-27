@@ -222,6 +222,8 @@ Never turn off the DAW monitors, pack your instrument cables, or leave the recor
 
 Whether you choose **Path A (Solo Sovereign)** or **Path B (Split Sheet Collective)**, absolute transparency upfront is what preserves both your creative catalog and your human relationships.
 
+> *“In my own life and creative journey, Path A (The Solo Sovereign model) was the best and cleanest way for me. It gave me the freedom to move at my own pace, stay in complete creative control, and protect my personal friendships from business friction. But each creator has to make this decision for themselves. The split sheet approach is a wonderful and vital method for those who want to share the fruits of co-creation with other human beings. Granted, it is complex and introduces another layer of administrative coordination—but where you have a mixture of extraordinary, prodigiously talented musicians creating genuine magic together, that shared synergy can be a profound benefit.”* — **Ron Higgins**
+
 ---
 
 ## 5.3 The Royalty Infrastructure Ecosystem Demystified
