@@ -387,17 +387,17 @@ While **The Prism** provides multi-dimensional external value calibration, **The
 While **The Prism** refracts musical color and **The Solarium** uncovers subconscious truth, **The Loom** is your arrangement engineer—helping you map out the vertical density and horizontal narrative arc of your track.
 
 ```
-┌────────────────────────────────────────────────────────────────────────┐
-│                     THE LOOM: MULTI-TRACK ARRANGEMENT MAP              │
-├────────────────────────────────────────────────────────────────────────┤
-│ [ INTRO ]      ──> Acoustic Scratch Guitar + Ambient Room Noise        │
-│ [ VERSE 1 ]    ──> Lead Vocal Enters (Dry, Centered) + Subtle Bass Pad │
-│ [ VERSE 2 ]    ──> Brushed Snare Enters (Behind the Beat) + Counter-Mel│
-│ [ PRE-CHORUS ] ──> Cello Swell + Dynamic High-Pass Filter Lift         │
-│ [ CHORUS 1 ]   ──> Full Band Drop: Hammond B3 + 12-String Jangle       │
-│ [ THE BREATH ] ──> 2-Measure Drop-Out (Voice & Guitar Only)            │
-│ [ FINAL CLIMAX]──> Dual Guitars Panned 80/80 + Full Dynamic Bloom      │
-└────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                    THE LOOM: MULTI-TRACK ARRANGEMENT MAP                     │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ [ INTRO ]        ──> Acoustic Scratch Guitar + Ambient Room Noise            │
+│ [ VERSE 1 ]      ──> Lead Vocal Enters (Dry, Centered) + Subtle Bass Pad     │
+│ [ VERSE 2 ]      ──> Brushed Snare Enters (Behind the Beat) + Counter-Melody │
+│ [ PRE-CHORUS ]   ──> Cello Swell + Dynamic High-Pass Filter Lift             │
+│ [ CHORUS 1 ]     ──> Full Band Drop: Hammond B3 + 12-String Jangle           │
+│ [ THE BREATH ]   ──> 2-Measure Drop-Out (Voice & Guitar Only)                │
+│ [ FINAL CLIMAX ] ──> Dual Guitars Panned 80/80 + Full Dynamic Bloom          │
+└──────────────────────────────────────────────────────────────────────────────┘
 ```
 
 #### Real Studio Arrangement Example:
