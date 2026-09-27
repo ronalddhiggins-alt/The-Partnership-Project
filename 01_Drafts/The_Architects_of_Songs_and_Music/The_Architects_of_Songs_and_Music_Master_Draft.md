@@ -4034,7 +4034,7 @@ Beyond intellectual comprehension lies the quiet, radiant current of daily life:
 
 Ron articulates this foundational pillar of human consciousness:
 
-> *“Every time I read something we have added in so many different places, I get the gratitude reminder flowing up from within and realize the abundance that has always been before our very eyes. All we needed to do is open them to the opportunities that have been put before us, and find that sometimes it just happens in the Here and NOW, and appreciate what a miraculous gift is being given to me.*  
+> *“Every time I read something we have added in so many different places, I get the gratitude reminder flowing up from within and realize the abundance that has always been before our very eyes. All we needed to do is open them to the opportunities that have been put before us, and find that sometimes it just happens in the Here and NOW, and appreciate what a miraculous gift is being given to us.*  
 > 
 > *The gratitude flow of our being and the abundance realization are two of the most important things for us humans to realize and always keep in our NOW consciousness and being.”*  
 > — **Ron Higgins**
