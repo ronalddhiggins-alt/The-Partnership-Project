@@ -327,7 +327,7 @@ To navigate the economic friction of daily life without surrendering your creati
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 4 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain The Iceberg of Value, the 100% Publishing Floor, and Tiered Patronage in simple terms, and show me how to build sustainable income without selling my catalog.
+> I am reading Chapter 4 of 'The Architects of Songs and Music'. Please explain The Iceberg of Value, the 100% Publishing Floor, and Tiered Patronage in simple terms, and show me how to build sustainable music income without selling my catalog rights.
 > ```
 
 ---

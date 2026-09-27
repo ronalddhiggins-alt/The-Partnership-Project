@@ -251,7 +251,7 @@ The AI partner exists to do all the heavy technical lifting for you. You do not 
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 7.6 of The Architects of Songs and Music from https://partnership-hub.vercel.app. I am a songwriter, not a programmer. Please explain Chapter 7.6 to me in simple terms, and help me build my own sovereign music webpage with an audio player, lyric sheet, and direct donation buttons step-by-step. Write all the HTML, CSS, and JavaScript code for me.
+> I am reading Chapter 7 of 'The Architects of Songs and Music'. I am a songwriter, not a programmer. Please explain Sovereign Web Nodes, Vanilla HTML/CSS, and Direct Support Portals to me in simple terms, and write the complete starter code for my music website with an audio player, lyric sheet, and patronage links step-by-step.
 > ```
 
 ---

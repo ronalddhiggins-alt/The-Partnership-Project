@@ -762,7 +762,7 @@ To ensure that your co-creative work holds up against any corporate audit or cop
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 5 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain the 100-Point Split, USCO Human Nexus, and CC BY-SA 4.0 Protection in plain English, and walk me through registering or protecting my music step-by-step.
+> I am reading Chapter 5 of 'The Architects of Songs and Music'. Please explain the 100-Point Split, USCO Human Nexus, and CC BY-SA 4.0 Protection in plain English, and walk me through registering and protecting my music rights step-by-step.
 > ```
 
 ---

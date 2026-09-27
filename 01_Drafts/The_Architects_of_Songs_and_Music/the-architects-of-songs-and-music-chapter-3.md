@@ -417,7 +417,7 @@ While **The Prism** refracts musical color and **The Solarium** uncovers subcons
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 3 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain Velocity Curves, The Arranger's Loom, and Pocket Micro-Timings to me in simple terms, and give me practical settings for my DAW project step-by-step.
+> I am reading Chapter 3 of 'The Architects of Songs and Music'. Please explain Velocity Curves, The Arranger's Loom, and Pocket Micro-Timings to me in simple terms, and give me practical settings for my DAW songwriting project step-by-step.
 > ```
 
 ---

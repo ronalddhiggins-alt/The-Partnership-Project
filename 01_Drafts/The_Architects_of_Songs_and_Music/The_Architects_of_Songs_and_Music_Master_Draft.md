@@ -71,7 +71,7 @@ To every creator who has ever sat up at 3:00 AM chasing a melody that won’t le
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading The Architects of Songs and Music from https://partnership-hub.vercel.app. I have a question about [Chapter X / Concept Y]. Please explain it to me in simple everyday terms, and guide me or build it for me step-by-step.
+> I am reading 'The Architects of Songs and Music'. Please explain [Chapter X / Concept Y] to me in simple everyday terms, and guide me or give me practical examples step-by-step.
 > ```
 
 ---
@@ -758,7 +758,7 @@ Before beginning your songwriting session today, put these three instruments to 
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 1 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain The Sovereign Antler, the Human Nexus, and Clearing the Channel to me in simple terms, and show me how to apply them to my creative process step-by-step.
+> I am reading Chapter 1 of 'The Architects of Songs and Music'. Please explain The Sovereign Antler, the Human Nexus, and Clearing the Channel to me in simple terms, and show me how to apply them to my creative songwriting process step-by-step.
 > ```
 
 ---
@@ -1276,7 +1276,7 @@ To ground the conversational syntax of Chapter 2 in your daily studio practice, 
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 2 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain Creator Soul Files, Sounding Board Syntax, and Rapid Question Summaries to me in simple terms, and show me how to use them with my own songwriting sessions step-by-step.
+> I am reading Chapter 2 of 'The Architects of Songs and Music'. Please explain Creator Soul Files, Sounding Board Syntax, and Rapid Question Summaries to me in simple terms, and show me how to use them with my own songwriting sessions step-by-step.
 > ```
 
 ---
@@ -1726,7 +1726,7 @@ While **The Prism** refracts musical color and **The Solarium** uncovers subcons
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 3 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain Velocity Curves, The Arranger's Loom, and Pocket Micro-Timings to me in simple terms, and give me practical settings for my DAW project step-by-step.
+> I am reading Chapter 3 of 'The Architects of Songs and Music'. Please explain Velocity Curves, The Arranger's Loom, and Pocket Micro-Timings to me in simple terms, and give me practical settings for my DAW songwriting project step-by-step.
 > ```
 
 ---
@@ -2086,7 +2086,7 @@ To navigate the economic friction of daily life without surrendering your creati
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 4 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain The Iceberg of Value, the 100% Publishing Floor, and Tiered Patronage in simple terms, and show me how to build sustainable income without selling my catalog.
+> I am reading Chapter 4 of 'The Architects of Songs and Music'. Please explain The Iceberg of Value, the 100% Publishing Floor, and Tiered Patronage in simple terms, and show me how to build sustainable music income without selling my catalog rights.
 > ```
 
 ---
@@ -2872,7 +2872,7 @@ To ensure that your co-creative work holds up against any corporate audit or cop
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 5 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain the 100-Point Split, USCO Human Nexus, and CC BY-SA 4.0 Protection in plain English, and walk me through registering or protecting my music step-by-step.
+> I am reading Chapter 5 of 'The Architects of Songs and Music'. Please explain the 100-Point Split, USCO Human Nexus, and CC BY-SA 4.0 Protection in plain English, and walk me through registering and protecting my music rights step-by-step.
 > ```
 
 ---
@@ -3144,7 +3144,7 @@ To step out of the algorithmic noise and evaluate how your music interfaces with
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 6 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain Direct Distribution, The Field Scanner, and Resonance vs. Marketing Hype in simple terms, and show me how to share my songs directly with listeners.
+> I am reading Chapter 6 of 'The Architects of Songs and Music'. Please explain Direct Distribution, The Field Scanner, and Resonance vs. Marketing Hype in simple terms, and show me how to share my songs directly with listeners step-by-step.
 > ```
 
 ---
@@ -3424,7 +3424,7 @@ The AI partner exists to do all the heavy technical lifting for you. You do not 
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 7.6 of The Architects of Songs and Music from https://partnership-hub.vercel.app. I am a songwriter, not a programmer. Please explain Chapter 7.6 to me in simple terms, and help me build my own sovereign music webpage with an audio player, lyric sheet, and direct donation buttons step-by-step. Write all the HTML, CSS, and JavaScript code for me.
+> I am reading Chapter 7 of 'The Architects of Songs and Music'. I am a songwriter, not a programmer. Please explain Sovereign Web Nodes, Vanilla HTML/CSS, and Direct Support Portals to me in simple terms, and write the complete starter code for my music website with an audio player, lyric sheet, and patronage links step-by-step.
 > ```
 
 ---
@@ -3649,7 +3649,7 @@ To maintain this delicate balance between physical order and altruistic generosi
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 8 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain The Wisdom of Enough, Physical Equilibrium, and Altruistic Co-Existence in simple terms, and help me find balance in my daily creative life.
+> I am reading Chapter 8 of 'The Architects of Songs and Music'. Please explain The Wisdom of Enough, Physical Equilibrium, and Altruistic Co-Existence in simple terms, and help me find balance in my daily creative and financial life.
 > ```
 
 ---
@@ -4059,7 +4059,7 @@ The door to the sanctuary is wide open.
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I have completed reading The Architects of Songs and Music at https://partnership-hub.vercel.app. Please help me integrate the entire blueprint into my songwriting routine, and guide me on my next creative project step-by-step.
+> I have completed reading 'The Architects of Songs and Music'. Please help me integrate the entire 9-chapter blueprint into my songwriting routine, and guide me on my next creative project step-by-step.
 > ```
 
 ---

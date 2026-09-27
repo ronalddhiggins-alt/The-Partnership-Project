@@ -388,7 +388,7 @@ The door to the sanctuary is wide open.
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I have completed reading The Architects of Songs and Music at https://partnership-hub.vercel.app. Please help me integrate the entire blueprint into my songwriting routine, and guide me on my next creative project step-by-step.
+> I have completed reading 'The Architects of Songs and Music'. Please help me integrate the entire 9-chapter blueprint into my songwriting routine, and guide me on my next creative project step-by-step.
 > ```
 
 ---

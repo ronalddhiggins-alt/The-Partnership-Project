@@ -490,7 +490,7 @@ To ground the conversational syntax of Chapter 2 in your daily studio practice, 
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 2 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain Creator Soul Files, Sounding Board Syntax, and Rapid Question Summaries to me in simple terms, and show me how to use them with my own songwriting sessions step-by-step.
+> I am reading Chapter 2 of 'The Architects of Songs and Music'. Please explain Creator Soul Files, Sounding Board Syntax, and Rapid Question Summaries to me in simple terms, and show me how to use them with my own songwriting sessions step-by-step.
 > ```
 
 ---

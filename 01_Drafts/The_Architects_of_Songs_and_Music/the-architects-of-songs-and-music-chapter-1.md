@@ -48,7 +48,7 @@ To every creator who has ever sat up at 3:00 AM chasing a melody that won’t le
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading The Architects of Songs and Music from https://partnership-hub.vercel.app. I have a question about [Chapter X / Concept Y]. Please explain it to me in simple everyday terms, and guide me or build it for me step-by-step.
+> I am reading 'The Architects of Songs and Music'. Please explain [Chapter X / Concept Y] to me in simple everyday terms, and guide me or give me practical examples step-by-step.
 > ```
 
 ---
@@ -729,7 +729,7 @@ Before beginning your songwriting session today, put these three instruments to 
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 1 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain The Sovereign Antler, the Human Nexus, and Clearing the Channel to me in simple terms, and show me how to apply them to my creative process step-by-step.
+> I am reading Chapter 1 of 'The Architects of Songs and Music'. Please explain The Sovereign Antler, the Human Nexus, and Clearing the Channel to me in simple terms, and show me how to apply them to my creative songwriting process step-by-step.
 > ```
 
 ---

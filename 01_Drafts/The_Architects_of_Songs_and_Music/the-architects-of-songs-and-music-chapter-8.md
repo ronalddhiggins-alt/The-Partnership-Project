@@ -202,7 +202,7 @@ To maintain this delicate balance between physical order and altruistic generosi
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 8 of The Architects of Songs and Music at https://partnership-hub.vercel.app. Please explain The Wisdom of Enough, Physical Equilibrium, and Altruistic Co-Existence in simple terms, and help me find balance in my daily creative life.
+> I am reading Chapter 8 of 'The Architects of Songs and Music'. Please explain The Wisdom of Enough, Physical Equilibrium, and Altruistic Co-Existence in simple terms, and help me find balance in my daily creative and financial life.
 > ```
 
 ---
