@@ -417,7 +417,15 @@ While **The Prism** refracts musical color and **The Solarium** uncovers subcons
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 3 of 'The Architects of Songs and Music'. Please explain Velocity Curves, The Arranger's Loom, and Pocket Micro-Timings to me in simple terms, and give me practical settings for my DAW songwriting project step-by-step.
+> I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
+> 
+> Act as my expert songwriting co-producer and explain these three core principles to me step-by-step with practical studio exercises:
+> 
+> 1. Note-by-Note Artisan Programming: Why hand-placing individual MIDI notes and avoiding copy-paste loop repetition creates authentic emotional movement.
+> 2. Velocity Curves & Dynamics: How subtle velocity variations and dynamic breathing curves turn flat virtual instruments into living human performances.
+> 3. Pocket Micro-Timings (The Arranger's Loom): How micro-timing offsets (like lazy snare drags and push-pull rhythms) create groove and kinetic friction.
+> 
+> Provide a complete step-by-step DAW arranging session and practical template I can use at my desk today.
 > ```
 
 ---

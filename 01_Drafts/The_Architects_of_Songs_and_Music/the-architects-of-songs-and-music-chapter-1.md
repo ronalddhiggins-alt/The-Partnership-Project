@@ -48,7 +48,7 @@ To every creator who has ever sat up at 3:00 AM chasing a melody that won’t le
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading 'The Architects of Songs and Music'. Please explain [Chapter X / Concept Y] to me in simple everyday terms, and guide me or give me practical examples step-by-step.
+> I am a songwriter studying 'The Architects of Songs and Music'. Act as my expert songwriting co-producer. Please explain [Chapter X / Concept Y] to me in simple everyday terms, and guide me through a practical step-by-step studio exercise with real examples.
 > ```
 
 ---
@@ -729,7 +729,15 @@ Before beginning your songwriting session today, put these three instruments to 
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 1 of 'The Architects of Songs and Music'. Please explain The Sovereign Antler, the Human Nexus, and Clearing the Channel to me in simple terms, and show me how to apply them to my creative songwriting process step-by-step.
+> I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
+> 
+> Act as my expert songwriting co-producer and explain these three core principles to me step-by-step with practical studio exercises:
+> 
+> 1. The Sovereign Antler: How the human acts as the sole antenna for lived emotion and authentic meaning, while AI acts as the mirror.
+> 2. Clearing the Channel: How to quiet subconscious overthinking and let raw, un-quantized ideas flow freely.
+> 3. The Human Nexus: Why recording an un-quantized acoustic scratch track (voice/guitar) is the essential foundation for human soul and legal copyright protection.
+> 
+> Provide a complete step-by-step songwriting session and practical template I can use at my desk today.
 > ```
 
 ---

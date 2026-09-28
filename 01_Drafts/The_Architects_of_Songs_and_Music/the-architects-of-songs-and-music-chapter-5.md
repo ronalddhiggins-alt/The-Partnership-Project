@@ -762,7 +762,15 @@ To ensure that your co-creative work holds up against any corporate audit or cop
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 5 of 'The Architects of Songs and Music'. Please explain the 100-Point Split, USCO Human Nexus, and CC BY-SA 4.0 Protection in plain English, and walk me through registering and protecting my music rights step-by-step.
+> I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
+> 
+> Act as my expert music copyright and rights co-producer and explain these three core principles to me step-by-step with practical legal checklists:
+> 
+> 1. The 100-Point Pie: The exact breakdown of Musical Composition (50% Writer / 50% Publisher) vs. Sound Recording (Master), and why independent artists must hold all 100 points.
+> 2. USCO Human Authorship Nexus: How the US Copyright Office evaluates AI co-creations, and why human-authored lyrics, melody, and acoustic performances establish copyright ownership.
+> 3. CC BY-SA 4.0 Protection: How Creative Commons licenses protect public sharing while safeguarding commercial synchronization and master ownership.
+> 
+> Provide a complete step-by-step copyright registration checklist and sovereign split-sheet template I can use today.
 > ```
 
 ---

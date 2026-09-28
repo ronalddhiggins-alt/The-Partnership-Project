@@ -327,7 +327,15 @@ To navigate the economic friction of daily life without surrendering your creati
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 4 of 'The Architects of Songs and Music'. Please explain The Iceberg of Value, the 100% Publishing Floor, and Tiered Patronage in simple terms, and show me how to build sustainable music income without selling my catalog rights.
+> I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
+> 
+> Act as my expert music business co-producer and explain these three core principles to me step-by-step with practical career exercises:
+> 
+> 1. The Iceberg of Value: How offering free music above water (Creative Commons CC BY-SA 4.0) builds frictionless reach, while commercial rights below water generate sustainable income.
+> 2. The 100% Publishing Floor: Why independent creators must never surrender publishing or master ownership for quick advances or vanity distribution deals.
+> 3. Tiered Direct Patronage: How a small group of committed direct supporters (100–1,000 true fans) funds a recurring monthly income floor for your life and art.
+> 
+> Provide a complete step-by-step sovereign artist financial plan and practical patron tier template I can use today.
 > ```
 
 ---

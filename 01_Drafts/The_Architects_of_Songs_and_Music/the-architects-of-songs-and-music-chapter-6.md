@@ -247,7 +247,15 @@ To step out of the algorithmic noise and evaluate how your music interfaces with
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 6 of 'The Architects of Songs and Music'. Please explain Direct Distribution, The Field Scanner, and Resonance vs. Marketing Hype in simple terms, and show me how to share my songs directly with listeners step-by-step.
+> I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
+> 
+> Act as my expert independent release co-producer and explain these three core principles to me step-by-step with practical launch exercises:
+> 
+> 1. Direct Distribution: How to release music directly to your listeners without relying on algorithmic streaming middle-men or social media hamster wheels.
+> 2. Emotional Resonance vs. Marketing Hype: Why vulnerable, authentic human storytelling connects deeper than corporate promotional formulas.
+> 3. The Sovereign Music Archive: How hosting open-source stems, lossless audio, and lyric backstories creates lasting generational culture.
+> 
+> Provide a complete step-by-step direct song release roadmap and audience connection template I can use today.
 > ```
 
 ---

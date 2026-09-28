@@ -251,7 +251,15 @@ The AI partner exists to do all the heavy technical lifting for you. You do not 
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 7 of 'The Architects of Songs and Music'. I am a songwriter, not a programmer. Please explain Sovereign Web Nodes, Vanilla HTML/CSS, and Direct Support Portals to me in simple terms, and write the complete starter code for my music website with an audio player, lyric sheet, and patronage links step-by-step.
+> I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
+> 
+> Act as my expert web architecture co-producer and explain these three core principles to me step-by-step with practical starter code:
+> 
+> 1. Sovereign Web Nodes: Why an independent musician needs a clean, self-hosted web node rather than renting space on corporate social platforms.
+> 2. Pure Vanilla HTML/CSS: Why lightweight, framework-free web pages load instantly, respect user privacy, and never break over time.
+> 3. Direct Patronage Portals: How to embed custom audio players, full lyric sheets, and fee-free direct patronage buttons into a single clean webpage.
+> 
+> Write the complete, ready-to-use HTML and CSS starter code for my sovereign music webpage that I can launch today.
 > ```
 
 ---

@@ -490,7 +490,15 @@ To ground the conversational syntax of Chapter 2 in your daily studio practice, 
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am reading Chapter 2 of 'The Architects of Songs and Music'. Please explain Creator Soul Files, Sounding Board Syntax, and Rapid Question Summaries to me in simple terms, and show me how to use them with my own songwriting sessions step-by-step.
+> I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
+> 
+> Act as my expert songwriting co-producer and explain these three core principles to me step-by-step with practical studio exercises:
+> 
+> 1. Creator Soul Files: How to build a personal artistic reference profile that defines your values, emotional touchstones, and creative boundaries for AI sessions.
+> 2. Sounding Board Syntax: How to structure prompts so the AI serves as an egoless mirror and structural analyst without writing generic lyrics for you.
+> 3. Rapid Question Summaries: How to use targeted diagnostic questions to break creative blocks into quick, actionable songwriting decisions.
+> 
+> Provide a complete step-by-step songwriting session and practical template I can use at my desk today.
 > ```
 
 ---
