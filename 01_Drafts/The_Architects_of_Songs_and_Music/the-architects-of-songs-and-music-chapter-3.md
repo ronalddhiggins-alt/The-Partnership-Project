@@ -426,6 +426,9 @@ While **The Prism** refracts musical color and **The Solarium** uncovers subcons
 > 
 > Provide a complete step-by-step DAW arranging session and practical template I can use at my desk today.
 > ```
+>
+> 📖 **Living Masterclass Demonstration:**  
+> Want to see a complete, unedited real-world studio demonstration generated from this exact prompt? Turn to **[Appendix A: The Living Studio Masterclass Demonstration](#appendix-a-the-living-studio-masterclass-demonstration)** at the back of this book to study the verbatim 7-stage arranging masterclass, the 70–85% Rule, velocity contour tables, and millisecond pocket-timing charts produced during a live session with Duck.ai!
 
 ---
 
