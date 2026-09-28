@@ -491,7 +491,7 @@ To ground the conversational syntax of Chapter 2 in your daily studio practice, 
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my expert songwriting co-producer and explain these three core principles to me step-by-step with practical studio exercises:
+> From the perspective of an expert songwriting co-producer, explain these three core principles to me step-by-step with practical studio exercises:
 > 
 > 1. Creator Soul Files: How to build a personal artistic reference profile that defines your values, emotional touchstones, and creative boundaries for AI sessions.
 > 2. Sounding Board Syntax: How to structure prompts so the AI serves as an egoless mirror and structural analyst without writing generic lyrics for you.

@@ -203,7 +203,7 @@ To maintain this delicate balance between physical order and altruistic generosi
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my expert lifestyle and ethical co-producer and explain these three core principles to me step-by-step with practical daily exercises:
+> From the perspective of an expert lifestyle and ethical co-producer, explain these three core principles to me step-by-step with practical daily exercises:
 > 
 > 1. The Wisdom of Enough: How defining a clear financial ceiling protects your creative soul from consumerist hoarding and corporate burnout.
 > 2. Physical Equilibrium: How meeting your practical living expenses (rent, groceries, health) creates the grounded peace needed for authentic art.

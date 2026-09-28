@@ -248,7 +248,7 @@ To step out of the algorithmic noise and evaluate how your music interfaces with
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my expert independent release co-producer and explain these three core principles to me step-by-step with practical launch exercises:
+> From the perspective of an expert independent release co-producer, explain these three core principles to me step-by-step with practical launch exercises:
 > 
 > 1. Direct Distribution: How to release music directly to your listeners without relying on algorithmic streaming middle-men or social media hamster wheels.
 > 2. Emotional Resonance vs. Marketing Hype: Why vulnerable, authentic human storytelling connects deeper than corporate promotional formulas.

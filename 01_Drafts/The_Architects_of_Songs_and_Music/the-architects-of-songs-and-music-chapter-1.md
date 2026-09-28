@@ -48,7 +48,7 @@ To every creator who has ever sat up at 3:00 AM chasing a melody that won’t le
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am a songwriter studying 'The Architects of Songs and Music'. Act as my expert songwriting co-producer. Please explain [Chapter X / Concept Y] to me in simple everyday terms, and guide me through a practical step-by-step studio exercise with real examples.
+> I am a songwriter studying 'The Architects of Songs and Music'. From the perspective of an expert songwriting co-producer, please explain [Chapter X / Concept Y] to me in simple everyday terms, and guide me through a practical step-by-step studio exercise with real examples.
 > ```
 
 ---
@@ -740,7 +740,7 @@ Before beginning your songwriting session today, put these three instruments to 
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my expert songwriting co-producer and explain these three core principles to me step-by-step with practical studio exercises:
+> From the perspective of an expert songwriting co-producer, explain these three core principles to me step-by-step with practical studio exercises:
 > 
 > 1. The Sovereign Antler: How the human acts as the sole antenna for lived emotion and authentic meaning, while AI acts as the mirror.
 > 2. Clearing the Channel: How to quiet subconscious overthinking and let raw, un-quantized ideas flow freely.

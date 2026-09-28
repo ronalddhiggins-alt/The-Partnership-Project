@@ -328,7 +328,7 @@ To navigate the economic friction of daily life without surrendering your creati
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my expert music business co-producer and explain these three core principles to me step-by-step with practical career exercises:
+> From the perspective of an expert music business co-producer, explain these three core principles to me step-by-step with practical career exercises:
 > 
 > 1. The Iceberg of Value: How offering free music above water (Creative Commons CC BY-SA 4.0) builds frictionless reach, while commercial rights below water generate sustainable income.
 > 2. The 100% Publishing Floor: Why independent creators must never surrender publishing or master ownership for quick advances or vanity distribution deals.

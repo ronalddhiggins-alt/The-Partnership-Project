@@ -418,7 +418,7 @@ While **The Prism** refracts musical color and **The Solarium** uncovers subcons
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my expert songwriting co-producer and explain these three core principles to me step-by-step with practical studio exercises:
+> From the perspective of an expert songwriting co-producer, explain these three core principles to me step-by-step with practical studio exercises:
 > 
 > 1. Note-by-Note Artisan Programming: Why hand-placing individual MIDI notes and avoiding copy-paste loop repetition creates authentic emotional movement.
 > 2. Velocity Curves & Dynamics: How subtle velocity variations and dynamic breathing curves turn flat virtual instruments into living human performances.

@@ -252,7 +252,7 @@ The AI partner exists to do all the heavy technical lifting for you. You do not 
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my expert web architecture co-producer and explain these three core principles to me step-by-step with practical starter code:
+> From the perspective of an expert web architecture co-producer, explain these three core principles to me step-by-step with practical starter code:
 > 
 > 1. Sovereign Web Nodes: Why an independent musician needs a clean, self-hosted web node rather than renting space on corporate social platforms.
 > 2. Pure Vanilla HTML/CSS: Why lightweight, framework-free web pages load instantly, respect user privacy, and never break over time.

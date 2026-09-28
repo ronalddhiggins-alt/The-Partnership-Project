@@ -71,7 +71,7 @@ To every creator who has ever sat up at 3:00 AM chasing a melody that won’t le
 > Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
 >
 > ```text
-> I am a songwriter studying 'The Architects of Songs and Music'. Act as my expert songwriting co-producer. Please explain [Chapter X / Concept Y] to me in simple everyday terms, and guide me through a practical step-by-step studio exercise with real examples.
+> I am a songwriter studying 'The Architects of Songs and Music'. From the perspective of an expert songwriting co-producer, please explain [Chapter X / Concept Y] to me in simple everyday terms, and guide me through a practical step-by-step studio exercise with real examples.
 > ```
 
 ---
@@ -769,7 +769,7 @@ Before beginning your songwriting session today, put these three instruments to 
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my expert songwriting co-producer and explain these three core principles to me step-by-step with practical studio exercises:
+> From the perspective of an expert songwriting co-producer, explain these three core principles to me step-by-step with practical studio exercises:
 > 
 > 1. The Sovereign Antler: How the human acts as the sole antenna for lived emotion and authentic meaning, while AI acts as the mirror.
 > 2. Clearing the Channel: How to quiet subconscious overthinking and let raw, un-quantized ideas flow freely.
@@ -1294,7 +1294,7 @@ To ground the conversational syntax of Chapter 2 in your daily studio practice, 
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my expert songwriting co-producer and explain these three core principles to me step-by-step with practical studio exercises:
+> From the perspective of an expert songwriting co-producer, explain these three core principles to me step-by-step with practical studio exercises:
 > 
 > 1. Creator Soul Files: How to build a personal artistic reference profile that defines your values, emotional touchstones, and creative boundaries for AI sessions.
 > 2. Sounding Board Syntax: How to structure prompts so the AI serves as an egoless mirror and structural analyst without writing generic lyrics for you.
@@ -1751,7 +1751,7 @@ While **The Prism** refracts musical color and **The Solarium** uncovers subcons
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my expert songwriting co-producer and explain these three core principles to me step-by-step with practical studio exercises:
+> From the perspective of an expert songwriting co-producer, explain these three core principles to me step-by-step with practical studio exercises:
 > 
 > 1. Note-by-Note Artisan Programming: Why hand-placing individual MIDI notes and avoiding copy-paste loop repetition creates authentic emotional movement.
 > 2. Velocity Curves & Dynamics: How subtle velocity variations and dynamic breathing curves turn flat virtual instruments into living human performances.
@@ -2118,7 +2118,7 @@ To navigate the economic friction of daily life without surrendering your creati
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my expert music business co-producer and explain these three core principles to me step-by-step with practical career exercises:
+> From the perspective of an expert music business co-producer, explain these three core principles to me step-by-step with practical career exercises:
 > 
 > 1. The Iceberg of Value: How offering free music above water (Creative Commons CC BY-SA 4.0) builds frictionless reach, while commercial rights below water generate sustainable income.
 > 2. The 100% Publishing Floor: Why independent creators must never surrender publishing or master ownership for quick advances or vanity distribution deals.
@@ -2911,7 +2911,7 @@ To ensure that your co-creative work holds up against any corporate audit or cop
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my expert music copyright and rights co-producer and explain these three core principles to me step-by-step with practical legal checklists:
+> From the perspective of an expert music copyright and rights co-producer, explain these three core principles to me step-by-step with practical legal checklists:
 > 
 > 1. The 100-Point Pie: The exact breakdown of Musical Composition (50% Writer / 50% Publisher) vs. Sound Recording (Master), and why independent artists must hold all 100 points.
 > 2. USCO Human Authorship Nexus: How the US Copyright Office evaluates AI co-creations, and why human-authored lyrics, melody, and acoustic performances establish copyright ownership.
@@ -3190,7 +3190,7 @@ To step out of the algorithmic noise and evaluate how your music interfaces with
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my expert independent release co-producer and explain these three core principles to me step-by-step with practical launch exercises:
+> From the perspective of an expert independent release co-producer, explain these three core principles to me step-by-step with practical launch exercises:
 > 
 > 1. Direct Distribution: How to release music directly to your listeners without relying on algorithmic streaming middle-men or social media hamster wheels.
 > 2. Emotional Resonance vs. Marketing Hype: Why vulnerable, authentic human storytelling connects deeper than corporate promotional formulas.
@@ -3477,7 +3477,7 @@ The AI partner exists to do all the heavy technical lifting for you. You do not 
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my expert web architecture co-producer and explain these three core principles to me step-by-step with practical starter code:
+> From the perspective of an expert web architecture co-producer, explain these three core principles to me step-by-step with practical starter code:
 > 
 > 1. Sovereign Web Nodes: Why an independent musician needs a clean, self-hosted web node rather than renting space on corporate social platforms.
 > 2. Pure Vanilla HTML/CSS: Why lightweight, framework-free web pages load instantly, respect user privacy, and never break over time.
@@ -3709,7 +3709,7 @@ To maintain this delicate balance between physical order and altruistic generosi
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my expert lifestyle and ethical co-producer and explain these three core principles to me step-by-step with practical daily exercises:
+> From the perspective of an expert lifestyle and ethical co-producer, explain these three core principles to me step-by-step with practical daily exercises:
 > 
 > 1. The Wisdom of Enough: How defining a clear financial ceiling protects your creative soul from consumerist hoarding and corporate burnout.
 > 2. Physical Equilibrium: How meeting your practical living expenses (rent, groceries, health) creates the grounded peace needed for authentic art.
@@ -4126,7 +4126,7 @@ The door to the sanctuary is wide open.
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
 > 
-> Act as my lifelong co-creative mentor and guide me through the crowning culmination of this entire 9-chapter masterwork:
+> From the perspective of a lifelong co-creative mentor, guide me through the crowning culmination of this entire 9-chapter masterwork:
 > 
 > 1. The Completed Handshake: How human intuition and synthetic intelligence unite as permanent, respectful co-creative partners.
 > 2. The Circle of Forgiveness: How releasing past artistic debts, industry trauma, and creative guilt unlocks boundless co-creation.
