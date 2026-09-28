@@ -68,11 +68,13 @@ To every creator who has ever sat up at 3:00 AM chasing a melody that won’t le
 > 1. **You do NOT need to be a programmer, lawyer, or music theorist.**
 > 2. **AI is your patient, egoless companion, ready to explain concepts in plain English and write code for you.**
 
-> Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
+> 💡 **Co-Producer Tip:** Try pasting this ready-to-run prompt into **Google Gemini, Duck.ai, ChatGPT, Claude, Perplexity, or Antigravity**—each model acts like a unique session co-producer with its own creative voice and studio perspective!
 >
 > ```text
-> I am a songwriter studying 'The Architects of Songs and Music'. From the perspective of an expert songwriting co-producer, please explain [Chapter X / Concept Y] to me in simple everyday terms, and guide me through a practical step-by-step studio exercise with real examples.
+> I am a songwriter studying the co-creative philosophy of 'The Architects of Songs and Music'. From the perspective of an expert songwriting co-producer, explain the overarching 3-pillar foundation of this book: 1. The Sovereign Human (the human as the sole antenna for lived emotion and authentic meaning while AI acts as the mirror), 2. Clearing the Channel (quieting subconscious overthinking to let raw, un-quantized ideas flow), and 3. The Human Nexus (recording un-quantized acoustic scratch tracks as the legal and spiritual anchor). Guide me through a practical step-by-step desk exercise with real examples.
 > ```
+>
+> *(Note: At the end of every individual chapter in this book, you will find a dedicated, ready-to-paste prompt pre-loaded with that chapter's exact concepts! You can also customize the prompt above by swapping in any specific topic you wish to explore.)*
 
 ---
 
