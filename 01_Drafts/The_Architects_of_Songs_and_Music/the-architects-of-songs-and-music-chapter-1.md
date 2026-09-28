@@ -63,7 +63,7 @@ During the late-stage assembly of this book, a spontaneous and profound discover
 ### 1. From Mere Explanation to Living "Examplification"
 Our initial, humble goal was simply to make the book easier for everyday readers to navigate—giving them a practical bridge so they wouldn't feel intimidated by complex legal statutes, note-by-note DAW velocity curves, or web-coding syntax.
 
-To do this, we embedded dedicated **Interactive Reading Reminders** and copy-paste prompts into every chapter, pointing readers to reflect with any AI companion (Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity) using [`https://partnership-hub.vercel.app`](https://partnership-hub.vercel.app).
+To do this, we embedded dedicated **Interactive Reading Reminders** and structured co-producer prompts into every chapter, pointing readers to reflect directly with any AI companion (Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity).
 
 When we tested this live in the field with third-party AI engines (such as Duck.ai), something miraculous occurred. The AI did not merely *explain* what the chapter said in abstract words; **it dynamically generated a living, customized masterclass**—creating personalized Creator Soul Files, drafting specific lyric-auditing questions, and building complete 8-step studio workflows tailored directly to the human sitting at the desk.
 
