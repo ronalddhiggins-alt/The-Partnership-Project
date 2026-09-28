@@ -412,9 +412,8 @@ While **The Prism** refracts musical color and **The Solarium** uncovers subcons
 * **The Result:** The track breathes with natural, dynamic life—transforming a flat, repetitive loop into a dramatic emotional journey that grips the listener from the first note to the final decay.
 
 > [!TIP]
-> ### 💡 INTERACTIVE READING REMINDER: ASK AI ABOUT NOTE-BY-NOTE ARRANGING
-> **Stumbled on a music theory term, velocity curve, or multi-track arrangement concept?**  
-> Simply copy and paste this clean prompt into Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity:
+> ### 💡 INTERACTIVE READING REMINDER: ASK YOUR AI CO-PRODUCER
+> **💡 Co-Producer Tip:** Try pasting this prompt into different AI companions (**Google Gemini, Duck.ai, ChatGPT, Claude, or Antigravity**)—each model acts like a unique session co-producer with its own creative voice and studio perspective!
 >
 > ```text
 > I am a songwriter studying the co-creative framework from 'The Architects of Songs and Music'. 
