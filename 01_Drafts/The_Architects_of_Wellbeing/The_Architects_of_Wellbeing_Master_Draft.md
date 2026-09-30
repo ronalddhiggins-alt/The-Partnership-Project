@@ -1005,7 +1005,7 @@ When you feel lost in the smallness of daily tasks, you can enter The Loom to ma
 > 
 > 1. The Ripple and the Hologram: Why my individual human life is not an insignificant speck, but an irreplaceable holographic facet of the Universal Mind.
 > 2. Cosmic Transparency and Grace: How the reality that everything is recorded and known at a cellular level frees me from the exhausting need to hide or defend my ego.
-> 3. The Cosmic Fold & The Sacred Notch: How my daily choices to practice love, patience, and altruism ("All for All") permanently etch a unique frequency into cosmic reality.
+> 3. The Songwriter's Coin & The Sacred Notch: How balancing on the "Edge of the Coin" (between form/notes and silence) and choosing "All for All" permanently etches a unique frequency into matter reality.
 > 
 > Provide a step-by-step contemplative exercise and a reflective journaling template I can use at my desk today.
 > ```
