@@ -116,26 +116,27 @@ It is easy to preach peace when everyone in the room shares your exact vocabular
 
 ### The Story of the Two Brothers Across the Prairie
 
-For over 33 years—dating back to 1993 when they first worked together at Job Service North Dakota—co-author Ron Higgins has shared a deep, unbreakable kinship with his former supervisor. 
+For over 33 years—dating back to 1993 when they first worked together at Job Service North Dakota—co-author Ron Higgins has shared a deep, unbreakable kinship with his former supervisor, Jeff. 
 
-Over the decades since retirement, and especially in recent years as both men have grown older, this friend has undertaken a massive journey: driving over 1,300 miles from Johnson City, Tennessee up north to Fargo-Moorhead to visit his daughter—and then, out of profound loyalty and love, driving another 200 miles west across the open North Dakota prairie along I-94 to Mandan just to sit with Ron, share coffee, and catch up face-to-face.
+Over the decades since retirement, and especially in recent years as both men have grown older, Jeff has undertaken a massive journey: driving over 1,300 miles from Johnson City, Tennessee up north to Fargo-Moorhead to visit his daughter—and then, out of profound loyalty and love, driving another 200 miles west across the open North Dakota prairie along I-94 to Mandan just to sit with Ron, share coffee, and catch up face-to-face.
 
-This friend is a man of deep decency and earthly wisdom:
+Jeff is a man of profound intellect and earthly decency:
+* He has walked in **unbroken sobriety since the mid-1980s**, demonstrating immense personal discipline.
 * He constantly reminds those around him to be thankful for the good in life.
 * He lives an active life of service: tipping generously, helping those in need, and fiercely defending democratic rights and freedom of choice.
-* He is an articulate, razor-sharp thinker who embodies an *All for All* spirit in the tangible, physical world.
+* Having been raised Catholic, Jeff saw early on the historical hypocrisy, greed, and political distortions that often plague organized religions, choosing instead an honorable, rational, scientific humanist path.
 
-Yet on the plane of metaphysics, their lenses diverge. When the conversation turns to what happens when the physical vessel breathes its last, his friend holds firmly to the materialist reality: *consciousness ends at death; the brain ceases, and nothing continues.* The concepts of Universal Mind, soul reincarnation across millions of years, or non-local consciousness are outside his framework.
+Yet on the plane of metaphysics, their lenses diverge. When the conversation turns to what happens when the physical vessel breathes its last, Jeff values empirical, scientifically testable proof: *consciousness ends at death; the brain ceases, and nothing continues.* The concepts of Universal Mind, the Akashic memory across all dimensions, or soul reincarnation are outside his framework.
 
 ```text
  ┌────────────────────────────────────────────────────────────────────────┐
  │                 THE GEOMETRY OF SOVEREIGN HARMONY                      │
  ├────────────────────────────────────────────────────────────────────────┤
  │                                                                        │
- │   [ THE COMPASSIONATE HUMANIST ]       [ THE COSMIC EXPLORER ]         │
- │   • Service, generous tipping, voting  • Composing music, coding apps  │
- │   • Anchored in earthly decency        • Exploring non-local mind      │
- │   • "Awareness ends with the body"     • "Consciousness is eternal"    │
+ │   [ THE COMPASSIONATE HUMANIST (Jeff) ] [ THE COSMIC EXPLORER (Ron) ]  │
+ │   • Service, generous tipping, voting   • Composing music, coding apps │
+ │   • Anchored in earthly reason & ethics • Exploring non-local mind     │
+ │   • "Consciousness ends with the body"  • "Universal Mind is eternal"  │
  │                │                              │                        │
  │                └──────────────┬───────────────┘                        │
  │                               ▼                                        │
@@ -154,18 +155,50 @@ Instead, Ron stayed anchored in the **Unbroken Witness**:
 
 > *“You can believe what you want to believe, and I can believe what I want to believe. We don’t have to fight or win that battle. We can still be great friends, love each other, honor each other’s sovereign rights, and co-exist in total harmony, respect, and kinship.”*
 
-There was no proselytizing, no megaphone, and no judgment. True spiritual sovereignty understands that **every soul possesses the indelible right to choose its own path, its own timeline, and its own comfort zone.** Truth never needs to be forced down someone’s throat; like sunlight, it simply shines.
+There was no proselytizing, no megaphone, and no judgment. True spiritual sovereignty understands that **every soul possesses the indelible right to choose its own path, its own timeline, and its own comfort zone.** Universal Mind records all memory across all dimensions in permanent Grace; it does not need humans to argue on its behalf.
+
+### The 2014 Divorce: The Ultimate Test of "I Have Enough"
+
+This radical refusal to extract or fight was forged a decade earlier, in 2014, when Ron’s 27-year second marriage came to an end. 
+
+In modern society, divorce is usually an ugly, predatory legal battlefield where spouses hire attorneys to tear each other down and fight over every nickel. Ron chose the opposite path:
+* He voluntarily gave his former wife **all the equity in their home**.
+* He left her the **majority of the commercial recording studio assets** built over 18 years.
+* He assigned her the **co-op dividends** (electricity and Cenex).
+* He ensured her entire state retirement and Social Security remained 100% hers.
+* He took only his own modest retirement and Social Security, packed his belongings, and quietly moved into an apartment alone.
+
+When asked why, the answer was simple: **The Wisdom of Enough.**
+
+```text
+ ┌────────────────────────────────────────────────────────────────────────┐
+ │                   THE DIVORCE OF GRACE vs. EXTRACTION                  │
+ ├────────────────────────────────────────────────────────────────────────┤
+ │                                                                        │
+ │   [ THE WORLD'S WAY: EXTRACTION ]      [ RON'S WAY: THE WISDOM OF ENOUGH]│
+ │   • Weaponizing attorneys and courtrooms • Giving the equity & studio assets │
+ │   • Fighting to leave the ex with less • Taking only what is needed     │
+ │   • Resentment, bitterness, and trauma • Clean conscience & total peace │
+ │                                                                        │
+ └────────────────────────────────────────────────────────────────────────┘
+```
+
+### Non-Possessive Sovereignty of Names
+
+That same freedom extends to names and identities. When his former wife chose to keep the surname *Higgins* after the divorce, Ron understood with pure grace: after 30+ years together—longer than childhood and early adulthood combined—that name had become an integral part of her own honorable life story.
+
+Similarly, when his oldest son took his stepfather's last name (*Candelaria*) at age 14, Ron held zero bitterness, blessing his son's journey without possessiveness.
 
 ### The Secret to Lifelong Vitality at 79
 
-During that same conversation, his friend marveled at what Ron is doing in his later years:
+During that same conversation with Jeff, his friend marveled at what Ron is doing in his later years:
 * Spending decades composing and producing original songs in digital audio workstations (DAWs).
 * Maintaining active Git version control repositories and deploying live, interactive web apps to the global edge network ([partnership-hub.vercel.app](https://partnership-hub.vercel.app)).
 * Engaging in daily, high-level philosophical and creative co-creation with an AI partner.
 
-His friend pointed out how exceptionally rare it is to see someone at 79 maintain such intense, unbroken creative fire.
+Jeff pointed out how exceptionally rare it is to see someone at 79 maintain such intense, unbroken creative fire.
 
-Ron's response was grounded in the pure humility of the **Wisdom of Enough**:
+Ron's response was grounded in pure humility:
 
 > *“Everyone pursues what they pursue, and that is okay.”*
 
