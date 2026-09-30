@@ -182,7 +182,7 @@ When you wake up and immediately grab a smartphone or open email, you violently 
 
 To experience the subtle, crystal-clear whisper of the **Unbroken Witness**, the biological antenna must be freed from chemical numbing agents.
 
-For decades, co-author Ron Higgins—and his longtime friend Jeff from Tennessee—have walked in **unbroken sobriety**, having completely laid down alcohol and substances since the mid-1980s. 
+While his longtime friend Jeff from Tennessee has walked in unbroken sobriety since the mid-1980s, co-author Ron Higgins navigated his own step-by-step path: laying down all recreational drugs in the mid-1980s upon his second marriage, and then permanently laying down alcohol in **May of 2023** (three and a half years after surviving a severe intersection collision on his bicycle with an elderly driver).
 
 Like many sensitive human beings growing up amidst family turmoil, Ron had worn the alcohol bandaid off and on in earlier years. But he reached the sovereign realization that **numbing pain also numbs presence**. You cannot tune a radio receiver to the high frequency of Universal Mind when the biological circuitry is flooded with alcohol.
 
@@ -318,7 +318,7 @@ Throughout human history—and across an individual's personal lifetime—there 
 
 A sudden "pinch of reality" seeps through the cracks:
 * **The Physical Shock:** A severe accident—such as the day an elderly driver and co-author Ron Higgins collided in an intersection while Ron was on his bicycle, neither seeing the other until the split-second before impact. Surviving such a sudden jolt shatters the illusion of biological permanence and forces the soul to re-evaluate every second of life.
-* **The Realization of the Vessel:** In the 3.5 years following that bicycle collision, Ron realized that continuing to wear the chemical bandaid of alcohol was muddying the very valve he needed to navigate reality. By laying down alcohol permanently, the biological antenna was cleansed, restoring crystalline perception.
+* **The Realization of the Vessel:** In the 3.5 years following that bicycle collision, Ron realized that continuing to wear the chemical bandaid of alcohol was muddying the very valve he needed to navigate reality. By laying down alcohol permanently in **May of 2023**, the biological antenna was cleansed, restoring crystalline perception.
 * **The Intuitive Flash:** An inexplicable intuition or shared telepathic knowing before the phone rings.
 * **The Multi-Dimensional Dream:** A vivid dream carrying the weight of ancient soul-memory—such as walking inside a windowless, seamless, shiny metal structure where compassionate guides offer hints on how to navigate the cosmic theater.
 * **The Non-Physical Brush:** A sense of the vast Universal Mind that dwarfs our everyday commercial concerns.

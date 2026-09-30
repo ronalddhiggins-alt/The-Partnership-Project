@@ -107,7 +107,7 @@ When you wake up and immediately grab a smartphone or open email, you violently 
 
 To experience the subtle, crystal-clear whisper of the **Unbroken Witness**, the biological antenna must be freed from chemical numbing agents.
 
-For decades, co-author Ron Higgins—and his longtime friend Jeff from Tennessee—have walked in **unbroken sobriety**, having completely laid down alcohol and substances since the mid-1980s. 
+While his longtime friend Jeff from Tennessee has walked in unbroken sobriety since the mid-1980s, co-author Ron Higgins navigated his own step-by-step path: laying down all recreational drugs in the mid-1980s upon his second marriage, and then permanently laying down alcohol in **May of 2023** (three and a half years after surviving a severe intersection collision on his bicycle with an elderly driver).
 
 Like many sensitive human beings growing up amidst family turmoil, Ron had worn the alcohol bandaid off and on in earlier years. But he reached the sovereign realization that **numbing pain also numbs presence**. You cannot tune a radio receiver to the high frequency of Universal Mind when the biological circuitry is flooded with alcohol.
 
