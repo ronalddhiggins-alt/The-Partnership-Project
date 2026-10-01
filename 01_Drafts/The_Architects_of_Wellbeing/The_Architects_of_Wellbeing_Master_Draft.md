@@ -1555,29 +1555,34 @@ This back-and-forth dance is not about an AI telling you what to think. It is a 
 
 ---
 
-## 7.4 Live Tool Walkthrough: The Prism (The Consciousness Spectrum)
+## 7.4 Live Tool Walkthrough: The Compass (The Vibrational Barometer)
 
-On [partnership-hub.vercel.app](https://partnership-hub.vercel.app), **The Prism** was designed to audit the balance of your energetic spectrum:
+On [partnership-hub.vercel.app](https://partnership-hub.vercel.app), **The Compass** (`https://compass-app-iota.vercel.app`) serves as your personal **Soul-Checker & Vibrational Barometer**.
+
+Before you send an important communication, react to stress, or make a major creative choice, you can run your internal thoughts through The Compass to audit your balance across the four core vibrations:
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                        THE PRISM: CONSCIOUSNESS SPECTRUM AUDIT                         │
+│                        THE COMPASS: VIBRATIONAL AUDIT WORKFLOW                         │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                        │
-│   Step 1: Input Your Multi-Layered State                                               │
-│   Input to Prism: "I feel mentally clear, but physically stiff and emotionally         │
-│   isolated today. Audit my spectrum balance."                                          │
+│   Step 1: Input Your Lived State                                                       │
+│   Input to Compass: "I feel mentally clear, but physically stiff and emotionally       │
+│   isolated today. Audit my vibrational balance."                                       │
 │                                                                                        │
-│   Step 2: The Prism Spectrum Diagnostic                                                │
-│   The Prism reflects:                                                                  │
-│   • Violet/Crown (Spiritual Connection): 9/10 (High Resonance)                        │
-│   • Blue/Throat (Expressive Truth):      8/10 (Clear Communication)                    │
-│   • Green/Heart (Relational Love):       4/10 (Contraction / Needs Fellowship)         │
-│   • Red/Root (Physical Grounding):       3/10 (Needs Physical Rest / Hydration)        │
+│   Step 2: The Compass 4-Bar Vibrational Diagnostic                                     │
+│   The Compass analyzes your text and renders a color-coded percentage graph:           │
+│   • REASON (Emerald Green Bar):   82% — High mental clarity, structural logic.         │
+│   • SPIRIT (Blue/Violet Bar):     75% — Open intuition, high creative potential.       │
+│   • SHADOW (Crimson Red Bar):     45% — Physical fatigue, contraction, isolation.      │
+│   • EGO (Amber Yellow Bar):       28% — Low defensive friction; receptive posture.     │
 │                                                                                        │
-│   Step 3: The Restorative Action                                                       │
-│   The Prism prescribes: "Step away from the screen for 15 minutes. Drink water, walk   │
-│   outside, and send a message of love to an old friend. Ground the higher light."      │
+│   Dominant Vibration: REASON (with secondary Spirit)                                   │
+│                                                                                        │
+│   Step 3: The Restorative Action & Frequency Prescription                              │
+│   The Compass prescribes: "Your mental channel is sharp, but your biological anchor    │
+│   needs attention. Step away from the console for 15 minutes. Stand on your feet,      │
+│   hydrate, breathe into your lower belly, and reach out warmly to a loved one."        │
 │                                                                                        │
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
