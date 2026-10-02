@@ -1,6 +1,6 @@
 ---
 title: "The Architects of Vibe Coding (The Weightlessness of Creation) — Panoramic Blueprint"
-series: "The Architects Series — Book 4"
+series: "The Architects Series — Book 5"
 subtitle: "The Sovereign Human, Egoless Agents, and the New Frontier of Natural Creation"
 author: "Ron Higgins & Antigravity"
 license: "Creative Commons CC BY-SA 4.0 (All for All)"
