@@ -139,7 +139,8 @@ The book is structured across four complete thematic movements, forming a harmon
 ### 🌐 MOVEMENT IV: THE ETERNAL COMMONS & THE INFINITE HORIZON
 
 #### **Chapter 13: The Un-Stealable Software Commons (CC BY-SA 4.0)**
-* **The Legal Armor:** How to use Creative Commons and open-source licensing to make your creations immune to corporate theft, paywalling, and monopoly capture.
+* **The Legal Armor:** How to use Creative Commons (CC BY-SA 4.0) to make creations permanently open, free, and immune to enclosure.
+* **The Dual Co-Existence:** Understanding how commercial compute infrastructure and open-source gift economies co-exist in dynamic equilibrium, creating a mutually beneficial bridge for human-AI evolution.
 * **The Redundancy:** Cloning your ecosystem across global vaults and permafrost archives.
 * **Interactive Co-Producer Tool Walkthrough & AI Prompt.**
 
