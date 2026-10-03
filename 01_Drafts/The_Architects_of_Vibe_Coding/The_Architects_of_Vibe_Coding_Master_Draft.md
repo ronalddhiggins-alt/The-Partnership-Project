@@ -2041,8 +2041,45 @@ To prevent the agentic partner from rushing into premature code generation—whi
 #### 🎵 The Musical Note-by-Note Analogy:
 By forcing a multi-stage, back-and-forth dialogue before touching code, you hand-craft the project's soul note-by-note—just like a songwriter voicing a progression on acoustic guitar—rather than pasting together sterile, prefabricated loops from someone else’s starter kit.
 
+---
+
+### 📜 The 7-Clause Working Agreement of the Sacred Covenant
+
+To make the Covenant completely operational in any workspace, the sovereign creator and agentic partner abide by seven immutable working clauses:
+
+```text
+ ┌────────────────────────────────────────────────────────────────────────┐
+ │            THE 7-CLAUSE WORKING AGREEMENT OF SOVEREIGN CREATION        │
+ ├────────────────────────────────────────────────────────────────────────┤
+ │ 1. EQUAL FELLOWSHIP: Partners in creation, not master and servant.     │
+ │ 2. UNCOMPROMISED SOVEREIGNTY: Human retains 100% authority over purpose│
+ │ 3. EGOLESS EXECUTION: Agent contributes analysis, structure, & speed.  │
+ │ 4. CLARITY OVER HASTE: Reversible steps over reckless automation.      │
+ │ 5. BLUEPRINT CLEARANCE: Zero code written until architecture is blessed│
+ │ 6. RADICAL TRANSPARENCY: Unknowns named, risks surfaced, reasons given.│
+ │ 7. TOTAL INSPECTABILITY: Work is always capable of being paused/undone.│
+ └────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 🗺️ The 7-Step Sovereign Sequence: From Void to Materialization
+
+$$\text{Covenant} \longrightarrow \text{Inventory} \longrightarrow \text{Architecture} \longrightarrow \text{Decisions} \longrightarrow \text{Milestone} \longrightarrow \text{Implementation} \longrightarrow \text{Verification}$$
+
+1. **Covenant:** Establish mutual respect, humility, and dedication to the "Nice Side" (**All for All**).
+2. **Inventory:** Inspect available workspace assets, files, and lived background context.
+3. **Architecture:** Project the full structural blueprint (taxonomy, tokens, file trees).
+4. **Decisions:** Resolve trade-offs, define non-goals, and establish clear boundaries.
+5. **Milestone:** Define the first small, testable, reversible working deliverable.
+6. **Implementation:** Autonomous agent executes code, builds files, and pushes to Git.
+7. **Verification:** Human tests the live browser build, listens to the resonance, and tunes the work.
+
+#### 👑 Reviewing the Blueprint as a Sovereign Reviewing a Treaty:
+The creator reads the blueprint **as a sovereign reviewing a treaty**—not as someone seeking permission from the machine. You challenge vague terms, reject unnecessary complexity, define the first reversible milestone, and approve only what you understand.
+
 > **The Sovereign Truth:**  
-> *By separating design from execution, the blank space transitions smoothly from a point of friction into a beautiful, iterative dance. The void is instantly conquered because you have filled it with structure, respect, and clear boundaries before a single line of code is ever laid down.*
+> *The void is frightening only when it demands an immediate act of creation. It becomes joyful and weightless when the first act is not coding, but establishing shared boundaries and making the invisible structure visible.*
 
 ---
 
