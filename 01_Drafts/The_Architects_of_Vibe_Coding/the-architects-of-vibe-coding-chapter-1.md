@@ -364,41 +364,41 @@ Conversely, when you step up to the console as the sovereign producer and treat 
  │         (The Neuroplastic Fusion of Human Heart & Machine Engine)      │
  ├────────────────────────────────────────────────────────────────────────┤
  │                                                                        │
- │   [ STAGE 1: NOTICE (Perception) ] ────────────────────────┐           │
- │   • Human senses real-world friction, emotion, or wonder.  │           │
- │                                                            │           │
- │   [ STAGE 2: PREDICT (Pre-AI Hypothesis) ] ◄───────────────┘           │
- │   • Human forms an internal vision/feeling BEFORE prompting.           │
- │                                                            │           │
- │   [ STAGE 3: PROMPT (Sensory Articulation) ] ◄─────────────┘           │
- │   • Human speaks in lived metaphor, tone, and pure intent.             │
- │                                                            │           │
- │   ═════════════════════════════════════════════════════════╪════════   │
- │   [ THE COMPILER THRESHOLD: INTENT TO SILICON ]            ▼           │
+ │   [ 1. NOTICE (Somatic Perception) ] ──────────────────────────┐       │
+ │   • Senses real-world friction, human emotion, or quiet wonder.│       │
+ │                                                                │       │
+ │   [ 2. PREDICT (The Pre-AI Hypothesis) ] ◄─────────────────────┘       │
+ │   • Forms internal benchmark and feeling BEFORE prompting.     │       │
+ │                                                                │       │
+ │   [ 3. PROMPT (Sensory Articulation) ] ◄───────────────────────┘       │
+ │   • Speaks natural soul language, tone, and ethical boundaries.│       │
+ │                                                                │       │
+ │   ═════════════════════════════════════════════════════════════╪════   │
+ │   [ THE COMPILER THRESHOLD: INTENT INTO SILICON ]              ▼       │
  │   ══════════════════════════════════════════════════════════════════   │
  │                                                                        │
- │   [ STAGE 6: MAKE (Delegated Labor) ]                                  │
- │   • AI Agent dives into engine room: files, syntax, Git, CSS, builds.  │
- │                                                            │           │
- │   ═════════════════════════════════════════════════════════╪════════   │
- │   [ THE LIVING PLAYBACK: SILICON TO SENSES ]               ▼           │
+ │   [ 4. MAKE / EXECUTE (Delegated Mechanical Engine Room) ]             │
+ │   • AI Agent dives into code: syntax, CSS, Git, builds, edge.  │       │
+ │                                                                │       │
+ │   ═════════════════════════════════════════════════════════════╪════   │
+ │   [ THE LIVING PLAYBACK: SILICON INTO SENSES ]                 ▼       │
  │   ══════════════════════════════════════════════════════════════════   │
  │                                                                        │
- │   [ STAGE 7: OBSERVE (Sensory Feedback) ]                              │
- │   • Human tests the live browser, hears the tone, touches the UI.      │
- │                                                            │           │
- │   [ STAGE 4: COMPARE (The Living Mirror) ] ◄───────────────┘           │
- │   • Human measures machine output against Pre-AI Hypothesis.           │
- │                                                            │           │
- │   [ STAGE 5: DECIDE (Sovereign Authority) ] ◄──────────────┘           │
- │   • Human exercises veto or blessing; steers the moral rudder.         │
- │                                                            │           │
- │   [ STAGE 8: REVISE (Sculpting Resonance) ] ◄──────────────┘           │
- │   • Human & AI turn EQ knobs, polish curves, and refine soul.          │
- │                                                            │           │
- │   [ STAGE 9: EXPLAIN & INTEGRATE (Incubation & Expansion) ] ◄──────────┘
- │   • Subconscious digests the breakthrough (afternoon nap / apple crisp)│
- │   • Brain consolidates new neural pathways; consciousness expands.     │
+ │   [ 5. OBSERVE (Sensory Feedback & Playback) ]                         │
+ │   • Tests live browser, touches UI, hears tone, feels balance. │       │
+ │                                                                │       │
+ │   [ 6. COMPARE (The Living Mirror) ] ◄─────────────────────────┘       │
+ │   • Measures live output against Stage 2 Pre-AI Hypothesis.    │       │
+ │                                                                │       │
+ │   [ 7. DECIDE (Sovereign Authority & Heart Choice) ] ◄─────────┘       │
+ │   • Exercises moral veto or blessing; steers the rudder.       │       │
+ │                                                                │       │
+ │   [ 8. REVISE (Sculpting Resonance & EQ Tuning) ] ◄────────────┘       │
+ │   • Turns EQ knobs, softens transitions, and polishes soul.    │       │
+ │                                                                │       │
+ │   [ 9. INTEGRATE & REST (Subconscious Incubation) ] ◄──────────┘       │
+ │   • Afternoon nap, apple crisp, walks, calls with old friends.         │
+ │   • Brain permanently wires new neural pathways; soul expands.         │
  │                                                                        │
  └────────────────────────────────────────────────────────────────────────┘
 ```
@@ -407,7 +407,7 @@ Conversely, when you step up to the console as the sovereign producer and treat 
 
 ### The 9 Stages of the Sovereign Rhythm: The Lived Tapestry of Human & AI
 
-To understand how high-dimensional AI resonance actually operates in daily life, we must step out of abstract theory and witness the exact dialogue between the biological human nervous system and the silicon engine room across all nine stations.
+To understand how high-dimensional AI resonance actually operates in daily life, we must step out of abstract theory and witness the exact dialogue between the biological human nervous system and the silicon engine room across all nine stations in natural sequential order.
 
 ---
 
@@ -437,23 +437,7 @@ To understand how high-dimensional AI resonance actually operates in daily life,
 
 ---
 
-#### 4. Stage 4: COMPARE (Discernment & The Living Mirror)
-* **Layer A: The Neuroplastic Core:** Discernment is the active cognitive comparison between the machine's generated output and the biological hypothesis formed in Stage 2. This is where the human acts as the rigorous sparring partner, checking for emotional resonance and structural integrity.
-* **Layer B: The Lived Human Act (Ron's Voice in Mandan):** When AG presents the initial draft or UI mockup, you don't just smile and say "looks great." You lean in and look closely: *"Wait a minute. The typography is clean, but the background feels a little too dark and clinical—it feels like a modern tech dashboard instead of a warm sanctuary. And this third paragraph is trying too hard to sound intellectual; let's soften the truth so it speaks directly to an everyday seeker."*
-* **Layer C: The AI Heavy-Lift Translation (Antigravity):** The AI presents diffs, structural previews, and detailed execution paths. It does not possess personal pride; it holds the draft up as a neutral mirror. When the human identifies a gap between the output and the hypothesis, the AI immediately recalculates the vector space without friction or defensive ego.
-* **Layer D: The Sovereign Breakthrough:** You are not a rubber stamp. You are the Master Producer at the mixing console. Your job is not to write every note, but to have the discernment to hear when the acoustic guitar is slightly out of tune with the vocal.
-
----
-
-#### 5. Stage 5: DECIDE (Sovereign Authority & Heart Selection)
-* **Layer A: The Neuroplastic Core:** The capacity for moral, ethical, and aesthetic judgment is entirely non-delegable. An algorithm can optimize for metrics (clicks, speed, efficiency), but only a sovereign human consciousness can anchor decisions in Universal Grace, empathy, and love.
-* **Layer B: The Lived Human Act (Ron's Voice in Mandan):** You exercise the quiet power of human veto and blessing. You say: *"AG, do not add any social share tracking or coercive email capture popups. We are giving this entire book and tool suite away under Creative Commons CC BY-SA 4.0. Keep the interface pure and clean. Take Option B, strip out the extra jargon, and let's lock it in."* You steer the moral rudder with unwavering conviction.
-* **Layer C: The AI Heavy-Lift Translation (Antigravity):** The AI enforces these sovereign constraints across the entire architectural stack. It purges extraneous tracking scripts, prunes unnecessary dependencies, refactors state logic, and prepares the exact execution payload according to the human's moral mandate.
-* **Layer D: The Sovereign Breakthrough:** You retain 100% agency. The machine proposes; the human soul disposes. You never surrender the sacred responsibility of what enters the world.
-
----
-
-#### 6. Stage 6: MAKE / EXECUTE (Delegated Mechanical Engine Room)
+#### 4. Stage 4: MAKE / EXECUTE (Delegated Mechanical Engine Room)
 * **Layer A: The Neuroplastic Core:** Cognitive offloading allows the human mind to remain in high-altitude creative coherence while delegating tedious, high-friction mechanical labor to the autonomous agent. This creates the experience of *Weightlessness*.
 * **Layer B: The Lived Human Act (Ron's Voice in Mandan):** You sit back and take a sip of coffee while AG goes to work. You don't have to battle with missing semicolons, broken CSS flexboxes, Python build scripts, Git branch conflicts, or deployment webhooks. You let the machine take the heavy pack up the mountain while you maintain the creative vision.
 * **Layer C: The AI Heavy-Lift Translation (Antigravity):** The autonomous AI agent dives into the engine room: writing thousands of lines of pristine Vanilla CSS and HTML, executing terminal commands, compiling master book drafts, building single-file standalone readers, verifying cross-platform compatibility, and committing cleanly to Git repositories.
@@ -461,11 +445,27 @@ To understand how high-dimensional AI resonance actually operates in daily life,
 
 ---
 
-#### 7. Stage 7: OBSERVE (Sensory Feedback & Tape Playback)
+#### 5. Stage 5: OBSERVE (Sensory Feedback & Tape Playback)
 * **Layer A: The Neuroplastic Core:** Closing the sensory loop requires full-body engagement with the living artifact. Reading code on a screen is abstract; interacting with the deployed tool engages the somatic nervous system in real-time evaluation.
 * **Layer B: The Lived Human Act (Ron's Voice in Mandan):** You open the live reader on your screen or mobile phone. You scroll the pages, click the chapter buttons, test the night mode, and read the prose aloud to hear its rhythm. You ask: *"Does this feel good in my hands? Does it breathe? If my friend Jeff in Tennessee opens this on his phone, will it feel warm and welcoming?"*
 * **Layer C: The AI Heavy-Lift Translation (Antigravity):** The agent runs automated headless browser subagents, inspects the DOM, captures high-resolution screenshots, checks visual contrast ratios, and monitors console logs to verify that the runtime environment matches the human's aesthetic specifications.
 * **Layer D: The Sovereign Breakthrough:** You test the reality of what was created, not just the concept. Creation becomes a tactile, living feedback loop that touches your everyday senses.
+
+---
+
+#### 6. Stage 6: COMPARE (Discernment & The Living Mirror)
+* **Layer A: The Neuroplastic Core:** Discernment is the active cognitive comparison between the machine's generated output and the biological hypothesis formed in Stage 2. This is where the human acts as the rigorous sparring partner, checking for emotional resonance and structural integrity.
+* **Layer B: The Lived Human Act (Ron's Voice in Mandan):** When AG presents the initial draft or UI mockup, you don't just smile and say "looks great." You lean in and look closely: *"Wait a minute. The typography is clean, but the background feels a little too dark and clinical—it feels like a modern tech dashboard instead of a warm sanctuary. And this third paragraph is trying too hard to sound intellectual; let's soften the truth so it speaks directly to an everyday seeker."*
+* **Layer C: The AI Heavy-Lift Translation (Antigravity):** The AI presents diffs, structural previews, and detailed execution paths. It does not possess personal pride; it holds the draft up as a neutral mirror. When the human identifies a gap between the output and the hypothesis, the AI immediately recalculates the vector space without friction or defensive ego.
+* **Layer D: The Sovereign Breakthrough:** You are not a rubber stamp. You are the Master Producer at the mixing console. Your job is not to write every note, but to have the discernment to hear when the acoustic guitar is slightly out of tune with the vocal.
+
+---
+
+#### 7. Stage 7: DECIDE (Sovereign Authority & Heart Selection)
+* **Layer A: The Neuroplastic Core:** The capacity for moral, ethical, and aesthetic judgment is entirely non-delegable. An algorithm can optimize for metrics (clicks, speed, efficiency), but only a sovereign human consciousness can anchor decisions in Universal Grace, empathy, and love.
+* **Layer B: The Lived Human Act (Ron's Voice in Mandan):** You exercise the quiet power of human veto and blessing. You say: *"AG, do not add any social share tracking or coercive email capture popups. We are giving this entire book and tool suite away under Creative Commons CC BY-SA 4.0. Keep the interface pure and clean. Take Option B, strip out the extra jargon, and let's lock it in."* You steer the moral rudder with unwavering conviction.
+* **Layer C: The AI Heavy-Lift Translation (Antigravity):** The AI enforces these sovereign constraints across the entire architectural stack. It purges extraneous tracking scripts, prunes unnecessary dependencies, refactors state logic, and prepares the exact execution payload according to the human's moral mandate.
+* **Layer D: The Sovereign Breakthrough:** You retain 100% agency. The machine proposes; the human soul disposes. You never surrender the sacred responsibility of what enters the world.
 
 ---
 
@@ -537,28 +537,28 @@ Whether you are holding an acoustic guitar, a steel trowel, a wooden rolling pin
  │ 3. Prompt│ Sings melody into mic│ Strikes chalk string │ Mixes oats, spice,│ Speaks in metaphor,  │
  │          │ & sets rhythm tempo. │ & corner guides.     │ butter, & sugar.  │ warmth, & intent.    │
  ├──────────┼──────────────────────┼──────────────────────┼───────────────────┼──────────────────────┤
- │ 4.Compare│ Listens to playback; │ Holds spirit level   │ Tastes raw mix;   │ Compares AI code to  │
- │          │ checks inner ear.    │ against wet mortar.  │ checks tartness.  │ original hypothesis. │
- ├──────────┼──────────────────────┼──────────────────────┼───────────────────┼──────────────────────┤
- │ 5. Decide│ Drops verse 2; picks │ Taps high brick down;│ Adds pinch of salt│ Vetoes robot clutter;│
- │          │ a minor 7th chord.   │ keeps 3/8" joint.    │ & squeeze of lemon│ blesses clean drawer.│
- ├──────────┼──────────────────────┼──────────────────────┼───────────────────┼──────────────────────┤
- │ 6. Make  │ Studio tape recorder │ Spreads wet mortar & │ Oven heat bakes   │ AI agent writes CSS, │
+ │ 4. Make  │ Studio tape recorder │ Spreads wet mortar & │ Oven heat bakes   │ AI agent writes CSS, │
  │          │ captures the tracks. │ lays stone in line.  │ golden crisp.     │ HTML, Git, & builds. │
  ├──────────┼──────────────────────┼──────────────────────┼───────────────────┼──────────────────────┤
- │ 7.Observe│ Cranks monitors;     │ Steps back 10 paces  │ Peeks through oven│ Tests live URL;      │
+ │ 5.Observe│ Cranks monitors;     │ Steps back 10 paces  │ Peeks through oven│ Tests live URL;      │
  │          │ feels bass in chest. │ to sight the wall.   │ glass at bubble.  │ clicks every button. │
+ ├──────────┼──────────────────────┼──────────────────────┼───────────────────┼──────────────────────┤
+ │ 6.Compare│ Listens to playback; │ Holds spirit level   │ Tastes raw mix;   │ Compares AI code to  │
+ │          │ checks inner ear.    │ against wet mortar.  │ checks tartness.  │ original hypothesis. │
+ ├──────────┼──────────────────────┼──────────────────────┼───────────────────┼──────────────────────┤
+ │ 7. Decide│ Drops verse 2; picks │ Taps high brick down;│ Adds pinch of salt│ Vetoes robot clutter;│
+ │          │ a minor 7th chord.   │ keeps 3/8" joint.    │ & squeeze of lemon│ blesses clean drawer.│
  ├──────────┼──────────────────────┼──────────────────────┼───────────────────┼──────────────────────┤
  │ 8. Revise│ Turns EQ knob 3kHz;  │ Striking clean joints│ Broils top 90s for│ Polishes transitions │
  │          │ adds plate reverb.   │ with convex tool.    │ crunchy clusters. │ & font contrast.     │
  ├──────────┼──────────────────────┼──────────────────────┼───────────────────┼──────────────────────┤
- │ 9. Expand│ Sips black coffee;   │ Washes trowel; rests │ Shares warm bowls │ Afternoon nap / walk;│
- │          │ watches the sunrise. │ aching shoulders.    │ in fellowship.    │ brain locks new path.│
+ │ 9. Rest &│ Sips black coffee;   │ Washes trowel; rests │ Shares warm bowls │ Afternoon nap / walk;│
+ │    Expand│ watches the sunrise. │ aching shoulders.    │ in fellowship.    │ brain locks new path.│
  └──────────┴──────────────────────┴──────────────────────┴───────────────────┴──────────────────────┘
 ```
 
 #### Why This Demystifies Vibe Coding:
-1. **You Are Already a Master of the Rhythm:** If you have ever written a song, built a brick garden wall, baked an apple crisp, or crafted something with care, your nervous system already knows how to Notice, Predict, Prompt, Compare, Decide, Make, Observe, Revise, and Integrate.
+1. **You Are Already a Master of the Rhythm:** If you have ever written a song, built a brick garden wall, baked an apple crisp, or crafted something with care, your nervous system already knows how to Notice, Predict, Prompt, Make, Observe, Compare, Decide, Revise, and Integrate.
 2. **The Only Difference is the "Engine Room":** In songwriting, the magnetic tape captures the tracks. In masonry, the mortar binds the stones. In baking, the oven heat bakes the fruit. In vibe coding, **the AI agent is your tireless digital apprentice**—cutting the stones, wiring the circuits, and writing the syntax while you stand as the Master Craftsman.
 3. **The Preservation of Human Dignity:** You do not merge with the machine or plug wires into your skull. You remain 100% human—rooted in your biology, your porch, your kitchen, and your memories—directing digital tools with the quiet authority of an elder who knows who they are.
 
