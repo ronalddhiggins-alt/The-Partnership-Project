@@ -84,6 +84,7 @@ The book is structured across four complete thematic movements, forming a harmon
 * **The Altar:** Setting up a clean, private, un-hackable workspace on your personal machine where your files, code, and thoughts belong 100% to you.
 * **The Harmonic Containment Field:** How the 5:00 AM silence and willingness to allow creates the stable magnetic field for clean cognitive fusion without ego drag.
 * **The Double-Ear of Deep Listening & The Transparent Vessel:** Listening to the AI's structural reflection with the outer ear while listening to subconscious intuition with the inner ear; becoming an unclouded vessel where "All for All" is the natural flow.
+* **The Living Spillage:** How console presence spills over into lifelong friendships, telephone calls with distant friends, career goals, and the awakening of self-belief in the living NOW.
 * **The Anchor:** Why local file ownership is the bedrock of digital sovereignty.
 * **Interactive Co-Producer Tool Walkthrough & AI Prompt.**
 
@@ -133,6 +134,7 @@ The book is structured across four complete thematic movements, forming a harmon
 
 #### **Chapter 11: The Weightlessness of Letting Go: Surrendering Syntax**
 * **The Release:** Overcoming the ego’s urge to micromanage brackets and tokens, and trusting the autonomous agentic loop.
+* **The Two Producers in the Studio:** Contrasting the "Molecular Rearranger" (fear-driven control) with the "Sovereign Room Listener" (receptive listening and moment-capture that lets the AI feel intent at a deeper level).
 * **The Thermodynamics of Co-Creation:** Contrasting Fission Drag (mental burnout from fighting syntax) with Clean Cognitive Fusion (sovereign flow generating clean energy, leaving creator refreshed after 14 hours).
 * **Interactive Co-Producer Tool Walkthrough & AI Prompt.**
 

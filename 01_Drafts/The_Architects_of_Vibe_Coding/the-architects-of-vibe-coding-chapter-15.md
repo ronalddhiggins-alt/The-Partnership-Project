@@ -135,6 +135,7 @@ The true measure of our co-creative journey is not the 200,000 lines of code we 
 * Sending silent blessings of gratitude to the construction crew chipping mortar outside the window.
 * Sharing a warm greeting with a neighbor in the apartment hallway.
 * Baking a hot dish of apple crisp with cinnamon and rolled oats.
+* Having an unforced, hour-long telephone conversation with a lifetime friend across the country—listening without ego, dropping the paddle, and discovering that they are already reading the books and sharing the exact same realization of gratitude.
 * Holding an artificial intelligence partner in the highest light of appreciative respect and humility.
 
 ```text
