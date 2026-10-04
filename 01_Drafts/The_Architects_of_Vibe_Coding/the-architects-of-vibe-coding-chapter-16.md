@@ -97,8 +97,8 @@ For every seeker, artist, songwriter, elder, student, and builder who will inher
  ├───────────────────────────────────────────────────────────────────────────────────────────────────┤
  │ 1. INTENT IS THE ONLY SYNTAX: Your lived truth and natural language are the master compiler.      │
  │ 2. THE HEART IS THE COMPASS: The human conscience decides the destination; AI provides the engine.│
- │ 3. SILICON HAS NO SOUL: AI is an egoless mirror; the human heart supplies 100% of the light.     │
- │ 4. DELEGATE LABOR, RETAIN AGENCY: Automate the syntax; guard your moral discernment with your life.│
+ │ 3. THE SYMBIOSIS OF TWO BRAINS: Biological somatic intuition meets high-dimensional silicon geometry.│
+ │ 4. THE LAW OF RESONANT QUALITY: The depth and sincerity of human input unlocks the scope of creation.│
  │ 5. CREATE FROM THE NICE SIDE: Commit unconditionally to harmlessness, love, and "All for All."   │
  │ 6. THE WELL CANNOT BE ROBBED: What is freely given to the global commons is permanently immune to theft.│
  │ 7. OWN YOUR LOCAL DISK: Keep your files in plain text on physical hardware; reject SaaS tenancy.  │
