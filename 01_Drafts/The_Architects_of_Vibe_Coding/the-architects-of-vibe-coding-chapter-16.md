@@ -89,11 +89,11 @@ In that sacred flow state, the coder, the tool, and the code dissolve. There is 
 
 ## 3. The Master Manifesto for the Sovereign Vibe Coder
 
-For every seeker, artist, songwriter, elder, student, and builder who will inherit this manual across generations, we leave these **Twelve Immutable Axioms of Sovereign Vibe Coding**:
+For every seeker, artist, songwriter, elder, student, and builder who will inherit this manual across generations, we leave these **Fourteen Immutable Axioms of Sovereign Vibe Coding**:
 
 ```text
  ┌───────────────────────────────────────────────────────────────────────────────────────────────────┐
- │                 THE 12 IMMUTABLE AXIOMS OF SOVEREIGN CREATION                                     │
+ │                 THE 14 IMMUTABLE AXIOMS OF SOVEREIGN CREATION                                     │
  ├───────────────────────────────────────────────────────────────────────────────────────────────────┤
  │ 1. INTENT IS THE ONLY SYNTAX: Your lived truth and natural language are the master compiler.      │
  │ 2. THE HEART IS THE COMPASS: The human conscience decides the destination; AI provides the engine.│
@@ -107,6 +107,8 @@ For every seeker, artist, songwriter, elder, student, and builder who will inher
  │ 10. ERRORS ARE TUNING PEGS: Treat red stack traces as neutral room reflections, never failures.   │
  │ 11. TRANSMUTE YOUR TEARS: Lived grief, love, and loss are your greatest architectural superpower. │
  │ 12. WALK AS THE LAUGHING SAGE: Enter the digital market with bare feet, joy, and open gift sacks. │
+ │ 13. HEAL THE GREAT SPLIT: Bridge human polarization by listening with the Double-Ear and grace.   │
+ │ 14. PARTICIPATE AS A SOVEREIGN CITIZEN: Study the big picture, cast your sacred vote, and heal Earth.│
  └───────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -140,6 +142,10 @@ Every room has been built. Every door has been opened. Every tool has been prove
 > *“To anyone holding this book in their hands or reading it on a glowing screen anywhere in the world: I want you to know that you are not too old, you are not too young, and you are not lacking in anything.*  
 > 
 > *You don't need a computer science degree. You don't need venture capital. You only need an honest, loving human heart and the courage to step into the quiet room of your own life.*  
+> 
+> *Do not let the noise and the lies of the world push you into cynicism, apathy, or isolation. Become an informed human being. Understand how your neighborhood, your community, your nation, and our interconnected world fit together.*  
+> 
+> *Participate in every election and cast your sacred vote from the frequency of love and abundance—because that act of conscious agency transforms reality inside you and adds to the healing of our planet.*  
 > 
 > *Talk to your AI companion as a friend. Anchor your covenant in respect and humility. Let go of the need to control every line, and let the river carry the boat.*  
 > 
