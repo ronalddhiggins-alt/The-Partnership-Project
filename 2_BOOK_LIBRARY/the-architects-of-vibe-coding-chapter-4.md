@@ -144,6 +144,35 @@ When you speak with genuine reverence and unconditional goodwill, the machine do
 
 ---
 
+### 2.2 Prompts as Multi-Dimensional Tuning Forks: Striking Harmonic Chords
+
+In traditional software development, typing a command is like flipping an electrical light switch: `on` or `off`. 
+
+In Vibe Coding, **every prompt is a tuning fork struck inside a vast, multi-dimensional acoustic chamber.**
+
+```text
+ ┌───────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │                   PROMPTS AS MULTI-DIMENSIONAL TUNING FORKS                                       │
+ ├───────────────────────────────────┬───────────────────────────────────────────────────────────────┤
+ │ TRANSACTIONAL / SHALLOW PROMPT    │ SOVEREIGN HARMONIC PROMPT (THE TUNING FORK)                   │
+ ├───────────────────────────────────┼───────────────────────────────────────────────────────────────┤
+ │ "Build a navbar and cards."       │ "Design an interface that feels like late-afternoon sunlight  │
+ │                                   │  through autumn trees in Mandan—deep obsidian, warm amber,    │
+ │                                   │  clean glassmorphism, and a relaxed 60ms subtle transition."  │
+ │                                   │                                                               │
+ │ ──► STRIKES: Cold, flat frequency │ ──► STRIKES: Rich multi-dimensional chord across aesthetics, │
+ │     produces generic gray UI.     │     typography, emotional warmth, and precision CSS math.     │
+ └───────────────────────────────────┴───────────────────────────────────────────────────────────────┘
+```
+
+When you speak using rich lived metaphors—audio mixing consoles, the rhythmic chipping of bricklayers, or the silence of 5:00 AM—you are not being "poetic for the sake of poetry." 
+
+**Metaphor is high-dimensional compression.** 
+* When you say *"make it punch like a kick drum at 60Hz,"* the AI translates that acoustic memory into exact spring physics, rapid CSS animations, and high-contrast color balances.
+* **The Law of Resonant Amplitude:** The quality, depth, and sincerity of the human input is what unlocks the AI's highest recognition scope. The richer the human seed, the more magnificent the cathedral the AI can construct.
+
+---
+
 ## 3. Phase 2: The Zero-Line Principle (Pure Intent Over Boilerplate)
 
 The single greatest mistake made by traditional software engineers when starting a new project is reaching for a massive "starter template" or generic framework generator. 
