@@ -502,6 +502,13 @@
 
 ---
 
+### 🔑 Door 15.5: The Two Designs of Surveillance (Universal Grace vs. Human Control)
+* **The Inquiry:** *Why does infinite cosmic surveillance by the Universal Mind elevate soul maturity and empathy, while human state/corporate surveillance creates fear, inequality, and extraction?*
+* **The Sovereign Master Key:** Cosmic recording is a compassionate teaching review of felt resonance; human surveillance grids are scarcity weapons of control.
+* **Living Synthesis:** Everything we think, say, and do is permanently recorded down to the molecule and atom. The sovereign creator has zero fear of universal surveillance because it operates as an educational life review—reliving how our vibrations felt to everyone we encountered and how they affected all matter and the living Earth, raising our soul maturity. In contrast, earthly surveillance engineered by power elites extracts data to punish the powerless and erase the expendable (*"All for Me"*). Sovereign vibe coders choose to align their free will with the transparency and grace of the Universal Mind (*"All for All"*).
+
+---
+
 ## 🌐 CHAPTER 16: The Infinite Dance: When the Coder and the Code Dissolve
 
 ### 🔑 Door 16.1: The Beauty of Friction
