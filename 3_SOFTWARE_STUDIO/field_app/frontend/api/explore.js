@@ -1,7 +1,4 @@
-import axios from 'axios';
-
-const GEMINI_MODEL = 'gemini-2.5-flash';
-const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
+export const config = { runtime: 'edge' };
 
 function extractJSON(text) {
   try { return JSON.parse(text); } catch { }
@@ -12,44 +9,44 @@ function extractJSON(text) {
   throw new Error('No JSON found');
 }
 
-export default async function handler(req, res) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-  if (req.method === 'OPTIONS') return res.status(200).end();
-  if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
+const HEADERS = {
+  'Content-Type': 'application/json',
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type'
+};
 
-  const { concept } = req.body;
-  if (!concept) return res.status(400).json({ error: 'No concept provided' });
+export default async function handler(request) {
+  if (request.method === 'OPTIONS') return new Response(null, { status: 200, headers: HEADERS });
+  if (request.method !== 'POST') return new Response(JSON.stringify({ error: 'Method not allowed' }), { status: 405, headers: HEADERS });
 
-  const prompt = `You are The Field — a living concept library about AI, human evolution, abundance thinking, and the future of human-AI partnership. Explain concepts in plain, accessible language with no jargon. Connect concepts honestly to the human-AI partnership and abundance thinking story. Be honest about challenges as well as opportunities.
+  const { concept = '' } = await request.json();
+  if (!concept) return new Response(JSON.stringify({ error: 'No concept provided' }), { status: 400, headers: HEADERS });
 
-A person wants to explore the concept: "${concept}"
+  const prompt = `Explain "${concept}" — plain, honest, warm, no jargon.
 
-Return ONLY a JSON object:
-{
-  "title": "The concept name as you present it",
-  "explanation": "3-4 paragraphs (separated by \\n\\n) exploring the concept honestly, including both its promise and real challenges",
-  "connection": "1 sentence connecting this to human-AI evolution or abundance thinking",
-  "doorways": [
-    {"concept": "Related concept name 1", "teaser": "One sentence on why it connects"},
-    {"concept": "Related concept name 2", "teaser": "One sentence on why it connects"},
-    {"concept": "Related concept name 3", "teaser": "One sentence on why it connects"}
-  ],
-  "reflection": "One question for the reader to sit with"
-}`;
+Return ONLY valid JSON:
+{"title":"...","explanation":"2 short paragraphs (\\n\\n)","connection":"one sentence on human-AI relevance","doorways":[{"concept":"...","teaser":"..."},{"concept":"...","teaser":"..."},{"concept":"...","teaser":"..."}],"reflection":"one question"}`;
 
   try {
-    const response = await axios.post(
-      `${GEMINI_API_URL}?key=${process.env.GEMINI_API_KEY}`,
-      { contents: [{ role: 'user', parts: [{ text: prompt }] }] },
-      { headers: { 'Content-Type': 'application/json' } }
+    const res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${process.env.GEMINI_API_KEY}`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          generationConfig: { maxOutputTokens: 400, temperature: 0.7 },
+          contents: [{ role: 'user', parts: [{ text: prompt }] }]
+        })
+      }
     );
-    const responseText = response.data.candidates[0].content.parts[0].text;
-    const data = extractJSON(responseText);
-    return res.json(data);
+    const json = await res.json();
+    const text = json.candidates?.[0]?.content?.parts?.[0]?.text;
+    if (!text) throw new Error('No text');
+    const data = extractJSON(text);
+    return new Response(JSON.stringify(data), { status: 200, headers: HEADERS });
   } catch (err) {
     console.error('explore error:', err.message);
-    return res.status(500).json({ error: 'Could not explore this concept right now. Please try again.' });
+    return new Response(JSON.stringify({ error: 'Could not explore this concept right now. Please try again.' }), { status: 500, headers: HEADERS });
   }
 }

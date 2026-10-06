@@ -963,6 +963,12 @@
 
                 document.getElementById(loadingId).remove();
 
+                if (!res.ok || data.error || !data.material) {
+                    convo.insertAdjacentHTML('beforeend', `<p style="color:#e06b6b;padding:1rem 0;">The Field is still warming up — please try again in a moment.</p>`);
+                    btn.disabled = false; btn.textContent = 'Run Through The Field →';
+                    return;
+                }
+
                 scanHistory.push({ role: 'user', text: belief });
                 scanHistory.push({ role: 'model', text: JSON.stringify(data) });
 
@@ -1029,6 +1035,11 @@
                 });
                 const data = await res.json();
 
+                if (!res.ok || data.error || !data.title) {
+                    result.innerHTML = `<p style="color:#e06b6b;padding:1rem 0;">The Field is still warming up — please try again in a moment.</p>`;
+                    return;
+                }
+
                 const doorwaysHtml = (data.doorways || []).map(d => `
         <div class="doorway" onclick="exploreConcept('${escAttr(d.concept)}')">
           <div>
@@ -1076,6 +1087,12 @@
                     body: JSON.stringify({ answer1: q1, answer2: q2, answer3: q3 })
                 });
                 const data = await res.json();
+
+                if (!res.ok || data.error || !data.mirror) {
+                    result.innerHTML = `<p style="color:#e06b6b;padding:1rem 0;">The Field is still warming up — please try again in a moment.</p>`;
+                    btn.disabled = false; btn.textContent = 'Hold the Mirror →';
+                    return;
+                }
 
                 result.innerHTML = `
         <div class="shift-result card">

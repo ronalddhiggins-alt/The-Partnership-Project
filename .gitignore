@@ -26,3 +26,5 @@ yarn-error.log*
 # IDEs
 .vscode/
 .idea/
+4_ANGELIC_AUTOMATION/google_engine/credentials.json
+credentials.json

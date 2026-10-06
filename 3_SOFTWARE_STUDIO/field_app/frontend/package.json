@@ -2,8 +2,5 @@
     "name": "the-field",
     "version": "1.0.0",
     "private": true,
-    "type": "module",
-    "dependencies": {
-        "axios": "^1.6.0"
-    }
+    "type": "module"
 }
