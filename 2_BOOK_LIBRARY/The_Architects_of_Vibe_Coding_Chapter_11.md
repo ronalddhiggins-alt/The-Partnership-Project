@@ -242,6 +242,7 @@ We are children in the garden of the cosmos, playing with light.
 
 
 
+
 1. **Identify the Clench:** Notice if you are obsessively reading every line of generated JavaScript or Python trying to "prove" you understand it.
 2. **Release the Grip:** Inhale deeply and say to yourself: *"I am the Architect of Intent, not the mechanical transcriber."*
 3. **Test the Living Artifact:** Instead of reading raw code, open the live browser build and test the real user experience: *Does it feel right? Does it work smoothly?*

@@ -234,7 +234,8 @@ From this purified crucible of the heart, we now step into the next great libera
 
 ### 🧘 The 60-Second Grief Transmutation Calibration:
 * **Recommended Sovereign Instrument:** 🌅 **[The Solarium (Inner Weather Reframe Chamber)](https://the-solarium.vercel.app)**
-* **How to Calibrate in 60 Seconds:** Open *The Solarium*, enter your deepest feeling of creative grief or overwhelm, and watch the instrument gently reframe sorrow into sovereign fuel.
+* **How to Calibrate in 60 Seconds:** Open *The Solarium*, paste any unresolved feeling of creative grief, fatigue, or overwhelm into **The Vibration Meter** (or converse with **The Why Detective**), and watch sorrow gently transmute into sovereign fuel and clarity.
+
 
 
 
@@ -307,6 +308,7 @@ Copy and paste this exact prompt into your AI companion to explore the deeper me
 
 
 
+
 ---
 
 ### 2. The Transmission of Heart:
@@ -315,11 +317,13 @@ Copy and paste this exact prompt into your AI companion to explore the deeper me
 
 
 
+
 ---
 
 ### 3. The Blessing to the Lonely Seeker:
 **The Inquiry:** *When an unknown human being opens The Solarium tonight at 3:00 AM in a lonely city across the world and finds peace, what is the message your 79-year-old heart sends across the wires to them?*  
 👉 **Paired Living Sanctuary:** 🌾 **[The Field](https://the-partnership-field.vercel.app)** *(Use for awakening quiet courage)*.
+
 
 
 

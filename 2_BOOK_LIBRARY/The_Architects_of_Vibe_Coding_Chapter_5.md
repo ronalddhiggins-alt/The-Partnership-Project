@@ -515,7 +515,8 @@ For the sovereign creator seeking to calibrate their technical understanding of 
 
 ### 🧘 The 60-Second Workshop Calibration:
 * **Recommended Sovereign Instrument:** 🌉 **[The Bridge (Human-to-Machine Intent Translator)](https://the-bridge-two.vercel.app)**
-* **How to Calibrate in 60 Seconds:** Open *The Bridge*, paste a plain-language vision of a tool or book chapter you want to build, and let the system generate a complete sensory blueprint in seconds.
+* **How to Calibrate in 60 Seconds:** Open *The Bridge*, paste your plain-language vision or session goals, and let the tool compile a structured, persistent memory layer for your AI partner.
+
 
 
 

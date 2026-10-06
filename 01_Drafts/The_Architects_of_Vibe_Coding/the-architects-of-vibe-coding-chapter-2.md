@@ -634,7 +634,8 @@ For the creator stepping into the console, this lab allows you to inspect the ba
 
 ### 🧘 The 60-Second Inverted Compiler Calibration:
 * **Recommended Sovereign Instrument:** 💎 **[Prism 2.0 (Multi-Perspective Synthesizer)](https://prism-5qjs-jdklzaxke-ronald-higgins-projects.vercel.app)**
-* **How to Calibrate in 60 Seconds:** Open *Prism 2.0*, input a creative dilemma, and watch the quantum wave function collapse into three distinct angles of crystal-clear truth.
+* **How to Calibrate in 60 Seconds:** Open *Prism 2.0*, input any polarizing idea, and watch the multi-perspective synthesizer collapse cognitive bias into three balanced angles of objective truth.
+
 
 
 

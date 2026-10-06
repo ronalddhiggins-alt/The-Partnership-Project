@@ -431,7 +431,8 @@ For the creator standing before their first empty workspace, this lab provides y
 
 ### 🧘 The 60-Second Void Calibration Protocol:
 * **Recommended Sovereign Instrument:** 🧭 **[The Compass (Ethical & Spiritual Navigation)](https://compass-app-iota.vercel.app)**
-* **How to Calibrate in 60 Seconds:** Open *The Compass*, input a current relationship or creative challenge, and calibrate your heart intent against the Sacred Covenant Oath.
+* **How to Calibrate in 60 Seconds:** Open *The Compass*, paste a draft message or thought into the vibration scanner, and verify that your intention resonates with love, clarity, and the Sacred Covenant.
+
 
 
 

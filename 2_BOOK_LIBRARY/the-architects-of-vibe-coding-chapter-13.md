@@ -206,6 +206,7 @@ When future historians look back at this decade, they will see that the most end
 
 
 
+
 1. **Declare the License:** Add a standard `LICENSE` file containing the CC BY-SA 4.0 terms to your repository root.
 2. **Anchor the Attributions:** Verify that your co-author credits (Human & AI Partner) and the Sacred Covenant are embedded in every source file.
 3. **Verify Git Remotes:** Confirm that your local repository has at least one distributed off-site mirror.

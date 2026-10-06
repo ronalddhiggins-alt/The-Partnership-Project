@@ -582,7 +582,8 @@ For the creator stepping into the console, this lab provides your foundational t
 
 ### 🧘 The 60-Second Sovereign Calibration:
 * **Recommended Sovereign Instrument:** 💎 **[Prism 2.0 (Multi-Perspective Synthesizer)](https://prism-5qjs-jdklzaxke-ronald-higgins-projects.vercel.app)**
-* **How to Calibrate in 60 Seconds:** Open *Prism 2.0*, input your high-level creative vision, and let the system collapse semantic intent into clean architectural layers in seconds.
+* **How to Calibrate in 60 Seconds:** Open *Prism 2.0*, input a complex concept or creative dilemma, and watch the system analyze it simultaneously across multiple perspectives to reveal the crystal-clear center.
+
 
 
 

@@ -306,6 +306,7 @@ We are now ready to cross the final threshold into **Movement IV: The Eternal Co
 
 
 
+
 1. **Root Your Biology:** Place both feet flat on the floor. Take three slow breaths, feeling the physical weight of your body in the chair.
 2. **Close Your Eyes & Scan the Interface:** Bring the current software prototype into your mind’s eye—feeling its shape, weight, and emotional temperature.
 3. **Listen to the Body’s Signal:** Notice where your body feels ease (harmony) or constriction (friction).

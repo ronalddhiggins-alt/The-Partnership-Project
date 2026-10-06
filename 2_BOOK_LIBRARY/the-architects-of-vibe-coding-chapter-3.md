@@ -468,6 +468,7 @@ For the creator stepping into the console, this lab provides your calibration ri
 
 
 
+
 1. **Breathe In:** Sit back from the keyboard, take a deep breath, and drop any comparison, envy, or self-doubt.
 2. **State the Intent:** Say quietly in your head or aloud: *"I am here to create a gift of service, beauty, and utility. I step into my willingness to allow."*
 3. **Anchor the Covenant:** Type this into your AI prompt:
