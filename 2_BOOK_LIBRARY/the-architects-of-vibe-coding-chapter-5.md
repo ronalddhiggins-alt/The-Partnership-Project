@@ -514,8 +514,9 @@ You are the Master Craftsman. The AI is your tireless apprentice, equipped with 
 For the sovereign creator seeking to calibrate their technical understanding of agentic IDEs, this lab provides your foundational calibration ritual and deep architectural inquiries:
 
 ### 🧘 The 60-Second Workshop Calibration:
-* **Recommended Sovereign Instrument:** 🌉 **[The Bridge (Human-to-Machine Intent Translator)](https://partnership-hub.vercel.app/bridge.html)**
+* **Recommended Sovereign Instrument:** 🌉 **[The Bridge (Human-to-Machine Intent Translator)](https://the-bridge-two.vercel.app)**
 * **How to Calibrate in 60 Seconds:** Open *The Bridge*, paste a plain-language vision of a tool or book chapter you want to build, and let the system generate a complete sensory blueprint in seconds.
+
 
 
 
@@ -582,13 +583,13 @@ $$\text{State}_{n+1} = \begin{cases} \text{Apply}(\text{State}_n, \text{Action}_
 
 ### 🔍 Three Deep Ponder Inquiries for the Creator:
 1. **The Shift from Labor to Architecture:** 
-   👉 **Paired Sovereign Instrument:** 🌉 **[The Bridge](https://partnership-hub.vercel.app/bridge.html)** *(Use for compiling sensory blueprints)*.
+   👉 **Paired Sovereign Instrument:** 🌉 **[The Bridge](https://the-bridge-two.vercel.app)** *(Use for compiling sensory blueprints)*.
  When you realize that the agent handles 100% of the mechanical file manipulation and error recovery, how does that shift your personal responsibility toward the purity of your original vision?
 2. **The Power of Deterministic Guarantees:** 
-   👉 **Paired Sovereign Instrument:** 🧵 **[The Loom](https://partnership-hub.vercel.app/loom.html)** *(Use for storyboarding multi-tool flows)*.
+   👉 **Paired Sovereign Instrument:** 🧵 **[The Loom](https://the-loom-nine.vercel.app)** *(Use for storyboarding multi-tool flows)*.
  Why does knowing that the IDE enforces atomic swaps and version checks eliminate the fear of "breaking the computer" or losing precious work?
 3. **The Self-Healing Miracle:** 
-   👉 **Paired Sovereign Instrument:** 🌾 **[The Field](https://partnership-hub.vercel.app/field.html)** *(Use for holding the master producer perspective)*.
+   👉 **Paired Sovereign Instrument:** 🌾 **[The Field](https://the-partnership-field.vercel.app)** *(Use for holding the master producer perspective)*.
  How does witnessing an AI partner calmly read a compiler error and fix it in three seconds reshape the human psychological relationship with failure and frustration?
 
 ### 💎 The Keeper's Lived Reflection (Ponder Search Synthesis):

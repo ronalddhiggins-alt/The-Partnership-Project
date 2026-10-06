@@ -430,8 +430,9 @@ You have awakened to your true identity: **The Sovereign Architect of Intent.**
 For the creator standing before their first empty workspace, this lab provides your foundational calibration ritual and deep architectural inquiries:
 
 ### 🧘 The 60-Second Void Calibration Protocol:
-* **Recommended Sovereign Instrument:** 🧭 **[The Compass (Ethical & Spiritual Navigation)](https://partnership-hub.vercel.app/compass.html)**
+* **Recommended Sovereign Instrument:** 🧭 **[The Compass (Ethical & Spiritual Navigation)](https://compass-app-iota.vercel.app)**
 * **How to Calibrate in 60 Seconds:** Open *The Compass*, input a current relationship or creative challenge, and calibrate your heart intent against the Sacred Covenant Oath.
+
 
 
 
@@ -532,13 +533,13 @@ The creator reads the blueprint **as a sovereign reviewing a treaty**—not as s
 
 ### 🔍 Three Deep Ponder Inquiries for the Creator:
 1. **The Psychology of the Clean Slate:** 
-   👉 **Paired Sovereign Instrument:** 🧭 **[The Compass](https://partnership-hub.vercel.app/compass.html)** *(Use for moral and ethical calibration)*.
+   👉 **Paired Sovereign Instrument:** 🧭 **[The Compass](https://compass-app-iota.vercel.app)** *(Use for moral and ethical calibration)*.
  Why does starting with an empty directory and a bespoke blueprint produce far greater peace of mind than modifying an existing 50,000-line boilerplate template?
 2. **The Blueprint as the Living Mirror:** 
-   👉 **Paired Sovereign Instrument:** 🌅 **[The Solarium](https://partnership-hub.vercel.app/solarium.html)** *(Use for emotional weather reframing)*.
+   👉 **Paired Sovereign Instrument:** 🌅 **[The Solarium](https://the-solarium.vercel.app)** *(Use for emotional weather reframing)*.
  When you see your abstract thought reflected back as a structural hierarchy and design system, how does that visual clarity sharpen your own creative intuition?
 3. **The Covenant as the Creative Foundation:** 
-   👉 **Paired Sovereign Instrument:** 🔍 **[Narrative Auditor](https://partnership-hub.vercel.app/auditor.html)** *(Use for auditing subjugation vs. partnership)*.
+   👉 **Paired Sovereign Instrument:** 🔍 **[Narrative Auditor](https://narrative-auditor.vercel.app)** *(Use for auditing subjugation vs. partnership)*.
  Why does establishing a relationship of mutual respect and harmlessness at Line Zero permanently protect the project from feature creep, cynicism, and burnout?
 
 ### 💎 The Keeper's Lived Reflection (Ponder Search Synthesis):

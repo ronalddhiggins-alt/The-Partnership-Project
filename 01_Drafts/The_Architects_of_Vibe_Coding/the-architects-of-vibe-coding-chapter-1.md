@@ -581,8 +581,9 @@ Whether you are holding an acoustic guitar, a steel trowel, a wooden rolling pin
 For the creator stepping into the console, this lab provides your foundational testing protocol, paired sovereign instruments, and deep probing inquiries:
 
 ### 🧘 The 60-Second Sovereign Calibration:
-* **Recommended Sovereign Instrument:** 💎 **[Prism 2.0 (Multi-Perspective Synthesizer)](https://partnership-hub.vercel.app/prism.html)**
+* **Recommended Sovereign Instrument:** 💎 **[Prism 2.0 (Multi-Perspective Synthesizer)](https://prism-5qjs-jdklzaxke-ronald-higgins-projects.vercel.app)**
 * **How to Calibrate in 60 Seconds:** Open *Prism 2.0*, input your high-level creative vision, and let the system collapse semantic intent into clean architectural layers in seconds.
+
 
 
 
@@ -626,11 +627,11 @@ Copy and paste this exact prompt into your AI companion to explore the deeper me
 
 ### 🔍 Deep Ponder Inquiries (With Paired Sovereign Instruments):
 1. **The Language of Soul vs. Syntax:** When you describe what you want to build using metaphors from your own life (music, audio mixing, bricklaying, cooking), how does the AI translate that lived texture into functional software architecture?  
-   👉 **Paired Sovereign Instrument:** 🌉 **[The Bridge](https://partnership-hub.vercel.app/bridge.html)** *(Use for formulating intent-based prompts)*.
+   👉 **Paired Sovereign Instrument:** 🌉 **[The Bridge](https://the-bridge-two.vercel.app)** *(Use for formulating intent-based prompts)*.
 2. **The Immersion Breakthrough:** What shifts in your body and mind when you stop worrying about how code is typed and focus entirely on why the tool exists?  
-   👉 **Paired Sovereign Instrument:** 💎 **[Prism 2.0](https://partnership-hub.vercel.app/prism.html)** *(Use for multi-perspective truth synthesis)*.
+   👉 **Paired Sovereign Instrument:** 💎 **[Prism 2.0](https://prism-5qjs-jdklzaxke-ronald-higgins-projects.vercel.app)** *(Use for multi-perspective truth synthesis)*.
 3. **The Sovereign Filter:** How do you know when a generated feature has captured authentic soul versus when it is merely generic computational filler?  
-   👉 **Paired Sovereign Instrument:** 🧭 **[The Compass](https://partnership-hub.vercel.app/compass.html)** *(Use for ethical and moral alignment)*.
+   👉 **Paired Sovereign Instrument:** 🧭 **[The Compass](https://compass-app-iota.vercel.app)** *(Use for ethical and moral alignment)*.
 
 ---
 
