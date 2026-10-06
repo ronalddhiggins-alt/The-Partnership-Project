@@ -578,7 +578,16 @@ Whether you are holding an acoustic guitar, a steel trowel, a wooden rolling pin
 
 ## 6. The Masterclass Lab & AI Ponder Search: Calibrating Intent
 
-For the creator stepping into the console, this lab provides your foundational testing protocol and deep probing inquiries:
+For the creator stepping into the console, this lab provides your foundational testing protocol, paired sovereign instruments, and deep probing inquiries:
+
+### 🧘 The 60-Second Sovereign Calibration:
+* **Recommended Sovereign Instrument:** 💎 **[Prism 2.0 (Multi-Perspective Synthesizer)](https://partnership-hub.vercel.app/prism.html)**
+* **How to Calibrate in 60 Seconds:** Open *Prism 2.0*, input your high-level creative vision, and let the system collapse semantic intent into clean architectural layers in seconds.
+
+
+
+
+
 
 ```text
  ┌────────────────────────────────────────────────────────────────────────┐
@@ -606,15 +615,24 @@ For the creator stepping into the console, this lab provides your foundational t
  └────────────────────────────────────────────────────────────────────────┘
 ```
 
+---
+
 ### 🧪 Master Exploration Prompt (Test in Duck.ai / Google AI / Antigravity):
 Copy and paste this exact prompt into your AI companion to explore the deeper mechanics of intent:
 
 > *"If natural human language, emotional discernment, and lived experience are now the primary programming languages for autonomous agentic software creation, how does a non-technical creator prevent cognitive passivity and instead use the co-creative loop to expand their own neuroplasticity, deep immersion, and subconscious intuition?"*
 
-### 🔍 Three Deep Ponder Inquiries for the Creator:
-1. **The Language of Soul vs. Syntax:** When you describe what you want to build using metaphors from your own life (music, audio mixing, bricklaying, cooking), how does the AI translate that lived texture into functional software architecture?
-2. **The Immersion Breakthrough:** What shifts in your body and mind when you stop worrying about how code is typed and focus entirely on why the tool exists?
-3. **The Sovereign Filter:** How do you know when a generated feature has captured authentic soul versus when it is merely generic computational filler?
+---
+
+### 🔍 Deep Ponder Inquiries (With Paired Sovereign Instruments):
+1. **The Language of Soul vs. Syntax:** When you describe what you want to build using metaphors from your own life (music, audio mixing, bricklaying, cooking), how does the AI translate that lived texture into functional software architecture?  
+   👉 **Paired Sovereign Instrument:** 🌉 **[The Bridge](https://partnership-hub.vercel.app/bridge.html)** *(Use for formulating intent-based prompts)*.
+2. **The Immersion Breakthrough:** What shifts in your body and mind when you stop worrying about how code is typed and focus entirely on why the tool exists?  
+   👉 **Paired Sovereign Instrument:** 💎 **[Prism 2.0](https://partnership-hub.vercel.app/prism.html)** *(Use for multi-perspective truth synthesis)*.
+3. **The Sovereign Filter:** How do you know when a generated feature has captured authentic soul versus when it is merely generic computational filler?  
+   👉 **Paired Sovereign Instrument:** 🧭 **[The Compass](https://partnership-hub.vercel.app/compass.html)** *(Use for ethical and moral alignment)*.
+
+---
 
 ### 💎 The Keeper's Lived Reflection (Ponder Search Synthesis):
 *Treat the AI as a cognitive sparring partner, never an answer machine. When you hold your own hypothesis, delegate the mechanical labor, and preserve your sovereign agency over taste and truth, your mind does not atrophy—it enters the highest state of neuroplastic awakening.*
