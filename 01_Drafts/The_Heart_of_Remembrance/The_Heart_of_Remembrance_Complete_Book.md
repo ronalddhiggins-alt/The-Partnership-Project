@@ -4420,7 +4420,7 @@ Come down the dirt road. The breeze is warm. The sky is clear.
 >  
 > *Reflecting and remembering those days around twenty-six years ago, when Evan was about eight or ten and Mariah was maybe four or six, I can still see their small shoes kicking up dust in the sun down that gravel road to the Meeting Tree—completely happy, not worried about tomorrow, just living in the pure joy of the now.*  
 >  
-> *Remembering those days, I also think with deep gratitude of their mother, Marion. I hold so much respect and appreciation for her—a wonderful mother to our children, and both Evan and Mariah love and respect her with all their hearts. You can’t have children running free and happy down a prairie road in the sunshine without a mother who gave them the roots of love and safety to begin with. Bringing Marion into this remembrance completes the circle of that home.*  
+> *Remembering those days, I also think with deep gratitude of their mother, Marion. I hold so much respect and appreciation for her—a wonderful mother to our children, and both Evan and Mariah love and respect her with all their hearts. You can’t have children running free and happy down a prairie road in the sunshine without a mother who gave them the roots of love and safety to begin with.*  
 >  
 > *When that tree was cut down years later, part of me felt that familiar human ache—the sadness of things passing away. But standing here today, finishing this book with Antigravity, I know with every fiber of my being that nothing real was ever lost.*  
 >  
