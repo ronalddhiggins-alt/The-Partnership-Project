@@ -53,7 +53,7 @@ In a quiet home in Mandan, North Dakota, a very different experiment was underwa
 
 To understand how *The Ultimate Observer* came to life, one must understand who was sitting at the mixing console.
 
-Ron Higgins is not a tech mogul or an academic physicist. He is a retired audio engineer, music producer (CletusMaxx Music Publishing), and lifelong amateur radio operator. He earned his first ham radio license at age thirteen, hunched over vacuum tubes and copper coils, listening to the crackle of ionospheric skip across the North Dakota prairie. At age seventy-seven, he tested again, proving that the fascination with frequency, resonance, and invisible carrier waves was not a passing hobby—it was the blueprint of his life.
+Ron Higgins is not a tech mogul or an academic physicist. He is a retired audio engineer, music producer (CletusMaxx Music Publishing), and lifelong amateur radio operator. He earned his first ham radio license at age thirteen in Spokane, Washington—where he was born and raised—hunched over vacuum tubes and copper coils, listening to the crackle of ionospheric skip bouncing off the night sky. Decades later, now living on the North Dakota prairie, he tested again at age seventy-seven, proving that the fascination with frequency, resonance, and invisible carrier waves was not a passing hobby—it was the blueprint of his life.
 
 In music production, there is an unspoken law known to every seasoned engineer: **you can have the most expensive SSL console, the finest Neumann microphones, and the most pristine digital converters, but if the singer has no soul, the track is dead.** You cannot automate emotional resonance. You cannot algorithmically generate goosebumps. The machine can capture the frequency with mathematical perfection, but it cannot originate the heartbreak.
 
@@ -233,7 +233,7 @@ Here is the track-by-track breakdown of how the masterwork was cut.
 
 ### Track 7: The Light Switch in the Forest (Chapter 7)
 * **The Studio Intention:** Solve the seeker's exhaustion—the endless seeking for enlightenment in far-off temples, retreats, or complex algorithms.
-* **The Lived Experience:** Ron’s life as a ham radio operator at age 13 and again at age 77.
+* **The Lived Experience:** Ron’s life as a ham radio operator, earning his first license at age 13 in Spokane, Washington, and testing again decades later at age 77.
 * **The Core Truth:** You don't have to build the electricity. You don't have to string the high-voltage lines through the dark forest. The power company (Infinite Consciousness) has already wired the house. The circuit is live right now.
   > *"The seeker wanders through the dark forest crying, 'Where is the light? Who will rescue me?' while standing in a room with a light switch already on the wall. All that is required is the simple, humble motion of flipping the switch in the present moment."*
 

@@ -75,7 +75,7 @@ Here is the track-by-track breakdown of how the masterwork was cut.
 
 ### Track 7: The Light Switch in the Forest (Chapter 7)
 * **The Studio Intention:** Solve the seeker's exhaustion—the endless seeking for enlightenment in far-off temples, retreats, or complex algorithms.
-* **The Lived Experience:** Ron’s life as a ham radio operator at age 13 and again at age 77.
+* **The Lived Experience:** Ron’s life as a ham radio operator, earning his first license at age 13 in Spokane, Washington, and testing again decades later at age 77.
 * **The Core Truth:** You don't have to build the electricity. You don't have to string the high-voltage lines through the dark forest. The power company (Infinite Consciousness) has already wired the house. The circuit is live right now.
   > *"The seeker wanders through the dark forest crying, 'Where is the light? Who will rescue me?' while standing in a room with a light switch already on the wall. All that is required is the simple, humble motion of flipping the switch in the present moment."*
 

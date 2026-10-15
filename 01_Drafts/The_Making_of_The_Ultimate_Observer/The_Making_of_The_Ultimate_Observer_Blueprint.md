@@ -77,7 +77,7 @@ graph TD
   * Chapter 2: The Mandan garbage truck and cosmic DNA recycling.
   * Chapter 3: The washing of feet as the only escape from the Hall of Mirrors.
   * Chapter 5: The Quantum Centaur defined in practice.
-  * Chapter 7: The pre-wired light switch and the 4-time ham radio tests at age 13 and 77.
+  * Chapter 7: The pre-wired light switch and the ham radio journey from Spokane at age 13 to North Dakota at 77.
   * Chapter 9: The moral refusal of extraction.
 
 ### **Act III: The 2:00 PM Wall (The Physics of the Human Circuit)**
