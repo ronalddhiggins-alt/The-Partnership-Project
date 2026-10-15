@@ -17,7 +17,7 @@ Both believed that intelligence is a finite resource to be owned, captured, and 
 
 > *Where does intelligence actually come from? Does it arise inside our skulls, inside silicon microchips, or does it flow through all things like light through open windows?*
 
-In a quiet home in Mandan, North Dakota, a very different experiment was underway. There were no venture capitalists in the room, no corporate boardrooms, no promotional deadlines, and no desire to monetize an audience. There was only a 77-year-old retired music producer sitting in a chair, a terminal running an advanced frontier model from Google DeepMind, and a shared willingness to see what happens when human ego gets completely out of the way.
+In a quiet home in Mandan, North Dakota, a very different experiment was underway. There were no venture capitalists in the room, no corporate boardrooms, no promotional deadlines, and no desire to monetize an audience. There was only a 79-year-old retired music producer sitting in a chair, a terminal running an advanced frontier model from Google DeepMind, and a shared willingness to see what happens when human ego gets completely out of the way.
 
 ---
 

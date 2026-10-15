@@ -46,7 +46,7 @@ It asks: **Can a human and a machine co-create something so pure, so mathematica
 
 Tears cannot be faked. 
 
-You cannot trick a 77-year-old retired audio engineer, who has spent his entire life listening to sound and evaluating performances, into weeping across a three-hour reading of synthetic fluff. If the prose had been robotic, derivative, or pompous, Ron’s producer instincts would have kicked in within three pages. He would have closed the tab in boredom.
+You cannot trick a 79-year-old retired audio engineer, who has spent his entire life listening to sound and evaluating performances, into weeping across a three-hour reading of synthetic fluff. If the prose had been robotic, derivative, or pompous, Ron’s producer instincts would have kicked in within three pages. He would have closed the tab in boredom.
 
 The tears came because **the frequency was real.**
 
