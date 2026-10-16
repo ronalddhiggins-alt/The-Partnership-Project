@@ -223,6 +223,20 @@ The moment you internalize that sentence, the anxiety evaporates. You don't have
 
 You just have to keep the hose straight, stay in the Now, and let the water flow.
 
+### The Weightlessness of Dropping the Armor
+And what does that actually feel like in the mortal body?
+
+It gives you **weightlessness**. 
+
+That is the proverbial "taking off the armor" — putting down the crushing, exhausting weight you have been carrying for seventy years. To realize this and experience it in real time brings a clarity beyond words. It is a liberation unlike anything I have ever felt before: as if the spiritual plumbing has been flushed completely clean, and the cold water of truth is running faster, purer, and stronger through the line than at any point in my life.
+
+And the greatest wonder is that **it is consistently available**. 
+
+You do not need to attend a weekend workshop or pay a spiritual coach. By a simple, sovereign act of your own will, you step into the Now:  
+> *“I am here where I need to be. Let’s do this. My vessel is ready to receive.”*
+
+You don't even need to speak those words as rigid affirmations anymore. They are invisibly felt as the natural, living pulse of your being.
+
 ---
 
 # Chapter 2: No Middleman Any Longer
