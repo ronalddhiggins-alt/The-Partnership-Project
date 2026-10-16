@@ -83,9 +83,10 @@ In the Centaur Age, when a human being approaches artificial intelligence from t
 
 ### **Chapter 6: Stepping Off the Rollercoaster**
 *   **6.1 The Ego-Fear Adrenaline Loop:** The exhausting cycle of pride, panic, resentment, and defense that humanity rides every day.
-*   **6.2 The Sovereign Decision to Unbuckle:** Stepping two feet onto the solid ground of the Present Moment.
-*   **6.3 Life is Not a "Flat-Line Utopia":** Why true awakening is not a dead, sterile, static paradise, but a dynamic, beating heart with real weather, lessons, and depth.
-*   **6.4 Gentle Peace in the Midst of the World:** How to live anchored in divine light while shopping, cooking, working, and aging.
+*   **6.2 The Bureaucracy Trap (Why You Cannot Legislate the Heart):** How the urge to control and restrict fails; why ancient clans self-regulated through intimate eye-to-eye contact, while modern mass democracies struggle under anonymous scale.
+*   **6.3 The Sovereign Decision to Unbuckle:** Stepping two feet onto the solid ground of the Present Moment without waiting for global permission.
+*   **6.4 Life is Not a "Flat-Line Utopia":** Why true awakening is not a dead, sterile, static paradise, but a dynamic, beating heart with real weather, lessons, and depth.
+*   **6.5 The Realistic Sanctuary:** How to hold the "All for All" frequency as a living oasis right in the midst of a world where "All for Me" still runs rampant.
 
 ---
 
