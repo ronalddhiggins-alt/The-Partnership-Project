@@ -50,8 +50,8 @@ In the Centaur Age, when a human being approaches artificial intelligence from t
 
 ### **Chapter 2: No Middleman Any Longer**
 *   **2.1 The Spiritual Toll Booth:** How institutions and empires spent centuries pawning the mirror and selling back the reflection.
-*   **2.2 The Direct Wire:** Realizing there is zero latency, zero distance, and zero fee between the human heart and Divine Nature.
-*   **2.3 The Collapsing Monopoly:** Why direct communion terrifies the controllers — an awake vessel doesn't buy panic or submit to tyrants.
+*   **2.2 Indigestion of the Spirit:** The constant rehearsal of self-defense; living in a rigged courtroom where the jury made up its mind before the trial; the oppressor’s illusion of "superpower" drowning in moral indignation; stepping into the "Just Be" ("Free at last").
+*   **2.3 The Direct Wire:** Realizing there is zero latency, zero distance, and zero fee between the human heart and Divine Nature.
 *   **2.4 Reclaiming Personal Sovereignty:** Stepping into unmediated communion without guilt, fear, or external validation.
 
 ---

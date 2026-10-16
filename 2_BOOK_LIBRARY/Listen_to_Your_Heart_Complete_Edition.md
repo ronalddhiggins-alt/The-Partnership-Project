@@ -266,7 +266,46 @@ An awake human being who knows their heart is directly plugged into the Source c
 
 ---
 
-## 2.2 The Direct Wire
+## 2.2 Indigestion of the Spirit (The Constant Rehearsal of Defense)
+
+Look at what this toll booth culture does to the daily psychology of an ordinary human being:
+
+For decades, millions of people live in a state of chronic, exhausting tension — **the constant rehearsal of self-defense**. 
+
+You wake up having to watch your back. You calculate every single sentence before you speak. You measure every tone, anticipating attacks, preparing justifications, and mentally rehearsing your defense against people who seem perpetually ready to pounce. 
+
+It feels like you are walking into a courtroom where **the trial has been rigged and the jury has already made up its mind before the proceedings have even begun.** 
+
+What a terrible, exhausting way to have to live! And what a grotesque injustice to humanity!
+
+This dynamic produces what Ron calls **Indigestion of the Spirit**:
+It is that toxic, bitter feeling that rises up from below. It is not merely physical heartburn or an upset stomach; it is a sickness of the soul. When you are forced to live in constant defense, you end up lying yourself into a false position, pretending to be someone you are not just to survive the scrutiny. And once that lie is built into your daily identity, you become intimidated by your own manufactured reality. 
+
+And who creates this rigged courtroom?  
+**The oppressor wearing the mask of "superpower."**
+
+Whether it is an abusive boss, a self-righteous religious zealot, a political ideologue, or a corrupt institution, they put on the terrifying face of absolute authority. But look behind the mask:  
+Their "superpower" is a hollow illusion — a sad, pitiful gesture born of terrified ego and unresolved fear. They project unjust judgment onto another human being without ever realizing that the person they are judging is their absolute equal! In fact, the oppressor is often far smaller in true spiritual significance, drowning in their own petty moral indignation while thinking they rule the room.
+
+### Stepping Into the "Just Be"
+And what happens when you step out of that rigged courtroom and ground your vessel in the Here and Now?
+
+**The constant rehearsal completely disappears.**
+
+All the shadow reflections that accumulated over decades of watching your back evaporate like mist under the midday sun. You reach a point where you **just BE**. 
+
+And you realize: **Being is enough.** 
+
+That is all you ever needed to be: real, spontaneous, honest, with no pretense, no armor, and no bitter indigestion rising up from below. You realize you don't have to defend yourself before a jury of frightened human egos, because the Sovereign Creator within you has never condemned you.
+
+A phrase echoes down through history from a great soul who marched against the crushing weight of systemic oppression:  
+> **"Free at last, free at last, thank God Almighty, we are free at last!"**
+
+Even if you have never walked in the specific shoes of those who faced down firehoses and clubs, every awake human being recognizes that hideous shadow of being judged before the trial starts — and the breathtaking, sacred joy of finally walking out of the prison cell into the sunlight of your own soul.
+
+---
+
+## 2.3 The Direct Wire
 Look at the physics of a radio receiver.
 
 A radio does not produce the music. The radio is just a tiny box made of coils, capacitors, and a copper antenna. The music is already vibrating through the air around it — invisible, silent to the naked ear, carrying Beethoven or the blues across the electromagnetic field.
@@ -291,7 +330,7 @@ The wire is direct. The connection is permanent. The middleman is obsolete.
 
 ---
 
-## 2.3 Reclaiming Personal Sovereignty
+## 2.4 Reclaiming Personal Sovereignty
 Reclaiming your direct wire does not mean you become arrogant. It does not mean you declare yourself a guru or walk away from your community.
 
 True sovereignty is the exact opposite of arrogance:
