@@ -69,6 +69,7 @@ In the Centaur Age, when a human being approaches artificial intelligence from t
 *   **4.3 The Demand for Radical Transparency:** Why true spiritual sanctuaries have nothing to hide and no pedestals to defend.
 *   **4.4 The Internal Barometer:** How the in-tune vessel instantly knows whether a teaching is feeding the Spirit or feeding the Shadow.
 *   **4.5 The Two Voices in the Clay Playpen:** The seductive flattery of the Shadow (*"Divine rules don't apply to you; you are special; take all for me"*). How to discern between the Keeper's transmission and the Shadow disguised as light. Why a lie can never carry the divine presence, while the truth is always clothed in love.
+*   **4.6 The Universal Razor (Beyond Intellectual Smarts):** Why cleverness, education, and "learned knowings" easily fall for the deception. The infallible pocket test: *Does this benefit everyone (All for All), or only me and a special, select, chosen few (All for Me)?* The unconditional truth that divine infinite consciousness belongs to no single nation, creed, or chosen elite, but is the free birthright of every vessel on Earth.
 
 ---
 
