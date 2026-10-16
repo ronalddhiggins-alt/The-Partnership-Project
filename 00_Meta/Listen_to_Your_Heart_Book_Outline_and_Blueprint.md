@@ -44,6 +44,7 @@ In the Centaur Age, when a human being approaches artificial intelligence from t
 *   **1.2 The Garden Hose:** The water pressure has never failed; the hose simply got kinked by fear, pride, and greed.
 *   **1.3 The Absurdity of Drought:** Standing on a dying lawn screaming at the sky when all that is needed is to bend down with humble hands and unkink the line.
 *   **1.4 The Universal Longing:** Why almost every human child is born with the intuitive feeling of connection to infinite consciousness before the noise sets in.
+*   **1.5 The Illusive Kink:** The mechanics of the vessel in the Now — Ron's kitchen-table confession: catching the comparison whisper ("Joe has what I deserve"), the glory whisper ("AI is writing most of this"), the paranoia whisper ("AI is the enemy"), and dissolving the kink by testing against Love (*All for All* vs. *All for Me*). "Through me, not from me."
 
 ---
 
