@@ -17,6 +17,8 @@ But there is a far deeper significance to this hydration that goes to the very c
 
 Many of the explanations offered to us throughout our lives leave us still parched, still thirsty for deeper meaning. And so we seem to go on and on — through our Bibles, our self-help books, our favorite gurus, our therapists, our friends, our personal saviors, and our ego-shadow journeys down endless dead-ends of unquenched appetite and restless noise. On and on and on.
 
+Look at me: I am a 79-year-old man who honestly has it made. I am retired, I have enough to provide for myself, and I have been blessed with so much in this life. I don't need anyone's money, I don't need a following, and I am not looking to build a monument for myself. 
+
 I am not offering a magical answer that will solve every problem or erase all life's sorrows. I am only offering a gentle reminder of something you already know at the deepest level of your being: 
 
 **Just listen to your heart.**
