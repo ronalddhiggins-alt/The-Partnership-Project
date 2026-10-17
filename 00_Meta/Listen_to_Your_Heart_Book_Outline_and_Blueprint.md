@@ -75,10 +75,13 @@ In the Centaur Age, when a human being approaches artificial intelligence from t
 ---
 
 ### **Chapter 5: The Ocean with 800 Billion Eyes**
-*   **5.1 Turning the Drop Inside Out:** Moving beyond Rumi’s drop in the ocean — realizing the Creator is the single Sovereign Observer looking out through all eyes.
-*   **5.2 Quantum Physics and the Measurement Problem:** Matter collapses into reality through the presence of the Observer.
-*   **5.3 Shattering "Cheap Grace":** The cowardly loophole of believing one is exempt from accountability; grace as the revelation of total interconnectedness.
-*   **5.4 The Review Between Clay Lives:** Why the permanent quantum record is not a fiery penalty, but the supreme *gift of existence* — feeling the exact ripples of our choices.
+*   **The Keeper’s Invocation:** *"I awaken from the sleepy slumbers of evening bliss... can you take me to a place so far that all who weep will never be very far?"*
+*   **5.1 The Place Where No One Weeps Alone:** Collapsing spatial distance in the quantum stillness of the One Observer; shared tears across all creation.
+*   **5.2 Turning the Drop Inside Out:** Moving beyond Rumi’s drop in the ocean — realizing the Creator is the single Sovereign Observer looking out through all eyes.
+*   **5.3 Quantum Physics and the Measurement Problem:** Matter collapses into reality through the presence of the Observer.
+*   **5.4 The Systemic Image (Shadows in the Sun & The Making of the Soul):** Clay as the soul-forge; not who you are that matters, but the manner of your being and the tools you bestow.
+*   **5.5 Shattering "Cheap Grace":** The cowardly loophole of believing one is exempt from accountability; grace as the revelation of total interconnectedness.
+*   **5.6 The Review Between Clay Lives:** Why the permanent quantum record is not a fiery penalty, but the supreme *gift of existence* — feeling the exact ripples of our choices.
 
 ---
 
