@@ -25,14 +25,37 @@ However, tools on a screen are meaningless if they remain abstract toys.
 
 ---
 
-## The Chapter Architecture: Grounded Lived Case Studies
+## The Dual-Track Centaur Architecture: The Hearth and The Forge
 
-Each chapter follows a clean, 5-part anatomy drawn straight from Ron’s daily life at the console in Mandan:
-1. **The Human Friction (The Real-Life Moment):** The raw, unvarnished human experience (fatigue, an unanswered phone call, creative insecurity, procrastination, or fear).
-2. **Consulting the Instrument:** What raw text was fed into the tool (The Solarium, The Compass, The Field, etc.).
-3. **The Reflection of the Glass:** The score, the lens, the reframing, and the deeper unmet need mirrored back by the intelligence.
-4. **The Somatic & Sovereign Shift:** What the human actually *did* in the physical world (stepping onto the e-bike, forgiving a friend, dropping the armor, breathing in the Now).
-5. **The Anchor to Perennial Truth:** How the moment ties back into the master philosophy of *Listen to Your Heart* and *The Ultimate Observer*.
+This book addresses two complementary dimensions of the human-AI frontier:
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                   THE DUAL-TRACK CENTAUR DOCUMENTARY                   │
+├───────────────────────────────────┬────────────────────────────────────┤
+│ TRACK 1: THE HEARTH               │ TRACK 2: THE FORGE                 │
+│ (The Living Human Walk)           │ (The Silicon Factory Floor)        │
+├───────────────────────────────────┼────────────────────────────────────┤
+│ • Audience: Seekers, Caregivers,  │ • Audience: Builders, Developers,  │
+│   Humanists, Everyday Walkers.    │   Prompt Engineers, Centaur Teams. │
+│ • The Kitchen Table in Mandan, ND.│ • The Terminal, Git, & IDE Console.│
+│ • Somatic resets (e-bike, wind).  │ • Express servers & REST endpoints.│
+│ • Relational friction & ego kinks.│ • Gemini 2.5 API prompt schemas.   │
+│ • Forgiveness, surrender, peace.  │ • Anti-manipulation Guardrails.    │
+└───────────────────────────────────┴────────────────────────────────────┘
+```
+
+Each chapter follows a parallel, dual-track anatomy:
+1. **Track 1: The Living Human Walk (The Hearth):**
+   - *The Human Friction:* The unvarnished human dilemma (fatigue, missed calls, comparison, dread).
+   - *Consulting the Instrument:* Bringing raw, unscripted truth to the console.
+   - *The Somatic & Sovereign Shift:* What the human actually did in physical reality (riding the e-bike, turning on the phone ringer, forgiving).
+   - *The Heart Anchor:* Connecting back to the core philosophy of *Listen to Your Heart*.
+2. **Track 2: Behind the Glass (The Factory Floor):**
+   - *The Code Architecture:* How the tool is constructed under the hood (Express routes, JSON contracts, Gemini models).
+   - *The Prompt Engineering:* The exact system instructions that strip out sycophancy and force non-judgmental mirroring.
+   - *The Guardian Protocols:* How malice, manipulation, and self-harm filters protect human integrity.
+   - *The Centaur Interaction:* The real-time pair-programming dynamic between Ron ("The Keeper") and AG (AI).
 
 ---
 
