@@ -696,7 +696,18 @@ In a modern mass society of 8 billion people, **anonymous scale has broken the f
 You cannot solve that with bureaucracy. Bureaucracy just creates more paperwork for honest people and more loopholes for the ruthless.
 
 **You cannot legislate love.**  
-External laws are necessary fences for public safety, but laws can never unkink the human hose. Only a conscious choice of the heart can do that.
+
+This is the central thesis of true spiritual success: **Divine Intervention, not Divine Coercion.**
+
+Think about the profound difference between the two:
+*   **Divine Coercion** would mean the Creator treating humanity like puppets on strings, overriding free will, and forcing hearts to comply. Or it means human governments passing twenty thousand bureaucratic mandates trying to legislate kindness. It always fails. Why? Because love commanded under threat of penalty is not love; it is merely obedience born of fear.
+*   **Divine Intervention**, by contrast, is the constant, unforced availability of the Infinite Well! It is the water pressure at eighty pounds per square inch, waiting faithfully at the brass spigot from time immemorial. It is the quiet voice of the indwelling Keeper whispering in the stillness of the Now: *"I am here. The water is cold and clear."*
+
+The Creator will never force your knees into the grass. The Creator will never forcibly rip the armor off your chest or straighten your hose against your will. 
+
+**It is up to each sovereign human soul to realize the presence and act on it.**
+
+External laws are necessary fences for public safety, but external laws can never unkink the human hose. Only the conscious, willing choice of the heart can do that.
 
 ---
 
