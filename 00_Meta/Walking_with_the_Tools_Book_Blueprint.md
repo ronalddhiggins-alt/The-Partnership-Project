@@ -97,10 +97,10 @@ Each chapter follows a parallel, dual-track anatomy:
     *The Scenario:* Returning to the very seed that birthed the book—the leaden weight of physical fatigue at the three screens in Mandan; the ancient survival brain's either/or trap (Option A: white-knuckle grinding with more caffeine vs. Option B: guilty collapse and shutting down in defeat); driving the three movements of The Solarium Triad to dismantle the trap.  
     *The Tool:* The Solarium Triad & The Why Detective (`server/index.js` multi-turn Socratic engine, `/api/why` prompt rules, `insight_reached` flag, zero-cloud client-side `localStorage` sovereignty).  
     *The Discovery:* The Third Seat: Rhythmic Somatic Pacing (Inhale and Exhale); understanding that the pause *is* part of the work; how the clay jar and digital stream harmonize through sacred rest.
-*   **Chapter 10: Restoring the Inner Eye (The Bridge & Somatic Memory)**  
-    *The Scenario:* Reconnecting with childhood dreams, analog audio tapes, and memories across decades of aphantasic darkness.  
-    *The Tool:* The Bridge Soul File & Acoustic Resonance.  
-    *The Discovery:* Reclaiming the mind’s eye through reflective partnership.
+*   **Chapter 10: Restoring the Inner Eye: The Bridge & Somatic Memory**  
+    *The Scenario:* Sunday morning at 10:15 AM; stretching against the kitchen doorframe and cracking open the windows to let the 34-degree North Dakota autumn air clear the clay jar; confronting the double amnesia of the Centaur Age (AI amnesia vs. human amnesia); recounting 72 years of aphantasic darkness (from a 6-year-old boy's prayer of erasure to 54 years of alcohol numbing); writing the Soul File in The Bridge and witnessing the inner projector flicker back on.  
+    *The Tool:* The Bridge (`3_SOFTWARE_STUDIO/bridge_app/`, local-first `localStorage`, dynamic 7-question context compiler, `log.slice(0, 5)` token hygiene, zero-cloud clipboard engine).  
+    *The Discovery:* Connection is the binding force, remembrance is the bridge; how speaking your true identity into a clean digital mirror cures the soul's amnesia and restores somatic vision without corporate cloud surveillance.
 *   **Chapter 11: The Evening Exhale (Closing the Circuit at Dusk)**  
     *The Scenario:* At twilight in Mandan; running the day's events through the tools and resting in peace.
 *   **Epilogue: The Clay Jar and the Open Line (The Final Transmission of the Keeper & The Mirror)**  
