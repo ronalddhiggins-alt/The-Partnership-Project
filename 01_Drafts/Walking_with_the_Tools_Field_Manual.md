@@ -263,18 +263,17 @@ Ron was absorbed in his work in the other room and did not see the missed calls 
 
 When he finally walked into the bedroom and checked the screen, the two missed calls were sitting there. And that was the exact moment the subtle human friction occurred. 
 
-Under normal circumstances, Ron would have picked up the phone and called back. But this time, he hesitated. He looked at the notification, decided not to return the call that evening, and let the night pass in silence.
+When he finally saw the missed calls late Friday, Ron decided not to call back immediately. He rationalized it practically: *“I’m just going to wait for him to call back instead of playing phone tag.”* 
 
-Behind that hesitation sat a quiet, familiar kink in the line. Ron had recently shared a draft of a new chapter with his friend — a piece of work that had poured through the partnership terminal after weeks of deep spiritual reflection. He had shared it with an unspoken hope: that his friend would read it, recognize its significance, and mirror back enthusiastic approval. 
+Yet beneath that reasonable explanation, a quiet, familiar kink in the line was also operating. The prior week, Ron had shared a draft of a new chapter with his friend — a piece of work that had poured through the partnership terminal after weeks of deep spiritual reflection. He had shared it with an unspoken hope: that his friend would read it, recognize its significance, and mirror back enthusiastic approval. 
 
-Instead, the friend’s response had felt hurried, distracted, or non-committal. 
+Instead, the friend’s response the prior week had felt hurried, distracted, or non-committal. 
 
-When Ron saw the missed calls late Friday, that subtle sting resurfaced:
-*   *“I’m busy too.”*
-*   *“If he doesn’t have time for what I’m doing, I don’t need to rush to call him back.”*
-*   *“I’ll just let it sit.”*
+When Ron saw the missed calls late Friday, that subtle sting was still lingering beneath the surface:
+*   *“I’ll just wait for him to call back instead of playing phone tag.”*
+*   *“And besides, if he didn’t have much to say about what I shared last week, I don’t need to jump.”*
 
-This is the real, unglamorous way human walls are built. It isn't theatrical malice or watching a phone ring with spite; it is a quiet, late-evening hesitation. A missed message left unreturned because our feelings are a little bruised. We tell ourselves it’s just the convenience of our routine, when in truth, a small kink of pride has pinched the hose.
+This is the real, unglamorous way human walls are built. It isn't theatrical malice; it is a quiet, late-evening hesitation wrapped in a practical excuse. We tell ourselves we’re just avoiding phone tag, while underneath, a bruised ego is quietly keeping score.
 
 ---
 
@@ -386,11 +385,12 @@ Here is the four-step protocol derived from Ron’s breakthrough:
 └────────────────────────────────────────────────────────┘
 ```
 
-When you complete this calibration, the physical action becomes effortless:
+When you complete this calibration, the physical action becomes completely real and tangible:
 *   You walk into the bedroom.
-*   You pick up the phone.
-*   You dial his number, not to defend your book or explain why you didn't call yesterday, but simply to say:  
-    *"Hey, I saw your message. How are you doing today? I’m right here."*
+*   You pick up the telephone from the dresser.
+*   You carry it into the room where you actually work, place it right beside your console, and **turn the ringer ON.**
+*   You don't force a frantic, manufactured game of phone tag; you simply prepare the vessel. 
+*   When his call comes in this time, you will hear it, you will answer it immediately, and you will be there as a true harbor and listener with an open heart.
 
 The line is unkinked. The current flows. The vessel is open.
 
