@@ -49,7 +49,7 @@ Each chapter follows a parallel, dual-track anatomy:
 1. **Track 1: The Living Human Walk (The Hearth):**
    - *The Human Friction:* The unvarnished human dilemma (fatigue, missed calls, comparison, dread).
    - *Consulting the Instrument:* Bringing raw, unscripted truth to the console.
-   - *The Somatic & Sovereign Shift:* What the human actually did in physical reality (riding the e-bike, turning on the phone ringer, forgiving).
+   - *The Somatic & Sovereign Shift:* What the human actually did in physical reality (riding the e-bike, returning the call with an open heart, forgiving).
    - *The Heart Anchor:* Connecting back to the core philosophy of *Listen to Your Heart*.
 2. **Track 2: Behind the Glass (The Factory Floor):**
    - *The Code Architecture:* How the tool is constructed under the hood (Express routes, JSON contracts, Gemini models).
@@ -66,9 +66,9 @@ Each chapter follows a parallel, dual-track anatomy:
     *The Tool:* The Solarium Vibration Meter (8/10 Grounded Clarity).  
     *The Discovery:* Fatigue as a wise messenger for subconscious yearnings rather than a physical defect; the somatic reset of the e-bike and prairie wind.
 *   **Chapter 2: The Friend on the Phone (The Compass & Relational Calibration)**  
-    *The Scenario:* Leaving the ringer off and dodging calls from a long-time friend (Jeff); uncovering the ego's secret hunger for approval.  
+    *The Scenario:* Checking missed calls late in the day from a long-time friend; hesitating to return the call due to ego's secret hunger for approval.  
     *The Tool:* The Compass Moral Radar (*All for All* vs. *All for Me*).  
-    *The Discovery:* Shifting from resentment to reverence; seeing Jeff's decades of AA service and choosing to become the "listener for the listener."
+    *The Discovery:* Shifting from hurt pride to reverence; seeing his friend's decades of quiet recovery service and choosing to become the "listener for the listener."
 *   **Chapter 3: The Illusive Kink & The AI Co-Author (Narrative Auditor & Dropping Armor)**  
     *The Scenario:* Catching internal whispers of comparison and jealousy: *"The AI is writing more words than me; I need to claim my share of the glory."*  
     *The Tool:* The Narrative Auditor & The Still Center.  
