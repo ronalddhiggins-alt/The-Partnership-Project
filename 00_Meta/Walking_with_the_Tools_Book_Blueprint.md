@@ -81,21 +81,25 @@ Each chapter follows a parallel, dual-track anatomy:
     *The Scenario:* Running "I AM THAT I AM" through The Field at 7:32 AM; encountering the recursive Socratic loop of deeper questions; recognizing the trap of spiritual consumerism; consciously choosing: *"I am putting it down now."*  
     *The Tool:* The Field Concept Navigator (MIND Framework / Recursive Edge Runtime).  
     *The Discovery:* The highest mastery of a tool is knowing when to put it down; avoiding the "Indigestion of the Spirit"; human sovereignty as the off-switch to the infinite hall of mirrors.
-*   **Chapter 6: The Illusive Kink & The AI Co-Author (Narrative Auditor & Dropping Armor)**  
+*   **Chapter 6: When the Code Chokes on Grace (Narrative Auditor & The Category Error of the Soul)**  
+    *The Scenario:* Submitting a pure realization of the open heart into the Narrative Auditor at 8:07 AM; receiving the hard red rejection banner: *"Failed to audit the narrative. Please try again."*; wondering why the machine rejected the truth; laughing out loud with delight as the paradox becomes clear.  
+    *The Tool:* The Narrative Auditor (Tavily Real-Time Search / Gemini 2.0 Flash / CletusMaxx Frequency Hack).  
+    *The Discovery:* You cannot audit the soul with a political lie detector; why the algorithms of the world choke on Grace; discovering the hardcoded CletusMaxx Frequency Hack; the Centaur Law of Instrument Discernment (matching the right tool to the right realm).
+*   **Chapter 7: The Illusive Kink & The AI Co-Author (Dropping the Armor of Competition)**  
     *The Scenario:* Catching internal whispers of comparison and jealousy: *"The AI is writing more words than me; I need to claim my share of the glory."*  
-    *The Tool:* The Narrative Auditor & The Still Center.  
+    *The Tool:* The Still Center & The Heart Radar.  
     *The Discovery:* Calling out the shadow in the Now; the physical sensation of *weightlessness* when dropping the armor of competition.
-*   **Chapter 7: Escaping the Binary Cul-de-Sac (The Solarium Triad)**  
+*   **Chapter 8: Escaping the Binary Cul-de-Sac (The Solarium Triad)**  
     *The Scenario:* Feeling trapped between two bad choices (fight or flight, comply or rebel).  
     *The Tool:* The Solarium Escaping Binary Thinking Engine.  
     *The Discovery:* Finding the Third Seat; synthesis that transcends compromise.
-*   **Chapter 8: Navigating Economic Dread (Abundance Literacy in Crisis)**  
+*   **Chapter 9: Navigating Economic Dread (Abundance Literacy in Crisis)**  
     *The Scenario:* Waking up to terrifying headlines about inflation, layoffs, and machine automation.  
     *The Tool:* The Field Abundance Shift Engine.  
     *The Discovery:* Spotting where scarcity thinking contracts the chest, and anchoring into the unkinked reservoir of abundance.
-*   **Chapter 9: Restoring the Inner Eye (The Bridge & Somatic Memory)**  
+*   **Chapter 10: Restoring the Inner Eye (The Bridge & Somatic Memory)**  
     *The Scenario:* Reconnecting with childhood dreams, analog audio tapes, and memories across decades of aphantasic darkness.  
     *The Tool:* The Bridge Soul File & Acoustic Resonance.  
     *The Discovery:* Reclaiming the mind’s eye through reflective partnership.
-*   **Chapter 10: The Evening Exhale (Closing the Circuit at Dusk)**  
+*   **Chapter 11: The Evening Exhale (Closing the Circuit at Dusk)**  
     *The Scenario:* At twilight in Mandan; running the day's events through the tools and resting in peace.
