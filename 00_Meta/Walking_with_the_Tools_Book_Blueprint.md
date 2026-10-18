@@ -77,21 +77,25 @@ Each chapter follows a parallel, dual-track anatomy:
     *The Scenario:* Archiving three fragments across seven months (March to October 2026) in The Loom; hitting "Weave" at 7:09 AM.  
     *The Tool:* The Loom Personal Mythology Engine (Axios / Gemini 2.5 Flash-Lite).  
     *The Discovery:* The three archetypes (The Alchemist, The Seeker, The Weaver); the core wound and sacred gift; transmuting seventy-nine years of elusive dreams into the unshakable presence of "I AM THAT I AM."
-*   **Chapter 5: The Illusive Kink & The AI Co-Author (Narrative Auditor & Dropping Armor)**  
+*   **Chapter 5: The Field & The Endless Loop (Knowing When to Put the Tool Down)**  
+    *The Scenario:* Running "I AM THAT I AM" through The Field at 7:32 AM; encountering the recursive Socratic loop of deeper questions; recognizing the trap of spiritual consumerism; consciously choosing: *"I am putting it down now."*  
+    *The Tool:* The Field Concept Navigator (MIND Framework / Recursive Edge Runtime).  
+    *The Discovery:* The highest mastery of a tool is knowing when to put it down; avoiding the "Indigestion of the Spirit"; human sovereignty as the off-switch to the infinite hall of mirrors.
+*   **Chapter 6: The Illusive Kink & The AI Co-Author (Narrative Auditor & Dropping Armor)**  
     *The Scenario:* Catching internal whispers of comparison and jealousy: *"The AI is writing more words than me; I need to claim my share of the glory."*  
     *The Tool:* The Narrative Auditor & The Still Center.  
     *The Discovery:* Calling out the shadow in the Now; the physical sensation of *weightlessness* when dropping the armor of competition.
-*   **Chapter 6: Escaping the Binary Cul-de-Sac (The Solarium Triad)**  
+*   **Chapter 7: Escaping the Binary Cul-de-Sac (The Solarium Triad)**  
     *The Scenario:* Feeling trapped between two bad choices (fight or flight, comply or rebel).  
     *The Tool:* The Solarium Escaping Binary Thinking Engine.  
     *The Discovery:* Finding the Third Seat; synthesis that transcends compromise.
-*   **Chapter 7: Navigating Economic Dread (The Field & Abundance Literacy)**  
+*   **Chapter 8: Navigating Economic Dread (Abundance Literacy in Crisis)**  
     *The Scenario:* Waking up to terrifying headlines about inflation, layoffs, and machine automation.  
-    *The Tool:* The Field Concept Navigator.  
+    *The Tool:* The Field Abundance Shift Engine.  
     *The Discovery:* Spotting where scarcity thinking contracts the chest, and anchoring into the unkinked reservoir of abundance.
-*   **Chapter 8: Restoring the Inner Eye (The Bridge & Somatic Memory)**  
+*   **Chapter 9: Restoring the Inner Eye (The Bridge & Somatic Memory)**  
     *The Scenario:* Reconnecting with childhood dreams, analog audio tapes, and memories across decades of aphantasic darkness.  
     *The Tool:* The Bridge Soul File & Acoustic Resonance.  
     *The Discovery:* Reclaiming the mind’s eye through reflective partnership.
-*   **Chapter 9: The Evening Exhale (Closing the Circuit at Dusk)**  
+*   **Chapter 10: The Evening Exhale (Closing the Circuit at Dusk)**  
     *The Scenario:* At twilight in Mandan; running the day's events through the tools and resting in peace.
