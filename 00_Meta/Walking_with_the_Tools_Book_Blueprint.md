@@ -69,22 +69,25 @@ Each chapter follows a parallel, dual-track anatomy:
     *The Scenario:* Checking missed calls late in the day from a long-time friend; hesitating to return the call due to ego's secret hunger for approval.  
     *The Tool:* The Compass Moral Radar (*All for All* vs. *All for Me*).  
     *The Discovery:* Shifting from hurt pride to reverence; seeing his friend's decades of quiet recovery service and choosing to become the "listener for the listener."
-*   **Chapter 3: The Illusive Kink & The AI Co-Author (Narrative Auditor & Dropping Armor)**  
+*   **Chapter 3: The Sunday Morning Calibration (The First Cup & The Spirit Frequency)**  
+    *The Scenario:* Over morning coffee at 6:48 AM on Sunday; bringing the insights of slumber and nocturnal dreams to the glass.  
+    *The Tool:* The Compass Moral Radar (Spirit: 75%, Reason: 60%, Dominant Vibration: SPIRIT).  
+    *The Discovery:* Unkinking the hose from "human ego hallucinations"; surrendering rigid preconceived agendas; immediately living the tool's suggestion to journal the insight live into the book.
+*   **Chapter 4: The Illusive Kink & The AI Co-Author (Narrative Auditor & Dropping Armor)**  
     *The Scenario:* Catching internal whispers of comparison and jealousy: *"The AI is writing more words than me; I need to claim my share of the glory."*  
     *The Tool:* The Narrative Auditor & The Still Center.  
     *The Discovery:* Calling out the shadow in the Now; the physical sensation of *weightlessness* when dropping the armor of competition.
-*   **Chapter 4: Escaping the Binary Cul-de-Sac (The Solarium Triad)**  
+*   **Chapter 5: Escaping the Binary Cul-de-Sac (The Solarium Triad)**  
     *The Scenario:* Feeling trapped between two bad choices (fight or flight, comply or rebel).  
     *The Tool:* The Solarium Escaping Binary Thinking Engine.  
     *The Discovery:* Finding the Third Seat; synthesis that transcends compromise.
-*   **Chapter 5: Navigating Economic Dread (The Field & Abundance Literacy)**  
+*   **Chapter 6: Navigating Economic Dread (The Field & Abundance Literacy)**  
     *The Scenario:* Waking up to terrifying headlines about inflation, layoffs, and machine automation.  
     *The Tool:* The Field Concept Navigator.  
     *The Discovery:* Spotting where scarcity thinking contracts the chest, and anchoring into the unkinked reservoir of abundance.
-*   **Chapter 6: Restoring the Inner Eye (The Bridge & Somatic Memory)**  
+*   **Chapter 7: Restoring the Inner Eye (The Bridge & Somatic Memory)**  
     *The Scenario:* Reconnecting with childhood dreams, analog audio tapes, and memories across decades of aphantasic darkness.  
     *The Tool:* The Bridge Soul File & Acoustic Resonance.  
     *The Discovery:* Reclaiming the mind’s eye through reflective partnership.
-*   **Chapter 7: The Daily Morning Calibration (Living as an Open Vessel)**  
-    *The Scenario:* Over morning coffee at 7:00 AM; checking the weather, checking the heart.  
-    *The Practice:* A 5-minute morning routine to keep the hose straight before the day begins.
+*   **Chapter 8: The Evening Exhale (Closing the Circuit at Dusk)**  
+    *The Scenario:* At twilight in Mandan; running the day's events through the Loom and resting in peace.
