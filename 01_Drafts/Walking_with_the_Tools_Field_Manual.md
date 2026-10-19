@@ -1894,7 +1894,7 @@ In Movement 1, Ron brought both options to the mirror and asked: *What fear is h
     *The Hidden Fear:* "If I take my hands off this keyboard, the inspiration will vanish. I have wasted decades of my life in darkness; I am seventy-nine years old; time is short. If I stop now, the book will never be finished, and I will have failed the transmission."  
     *The Real Unmet Need:* **Purpose, vitality, and sacred stewardship.** The pushing isn't greed; it is a desperate desire to honor the divine gift while there is still daylight.
 *   **Underneath Option B (The Collapse):**  
-    *The Hidden Fear:* "My heart has been damaged. My physical body has been through collisions, surgeries, and fifty-four years of alcohol. If I keep going, I will literally collapse. I am too fragile."  
+    *The Hidden Fear:* "My heart has been damaged. My physical body has been through collisions, surgeries, and fifty-four years of carrying that heavy coat. If I keep going, I will literally collapse. I am too fragile."  
     *The Real Unmet Need:* **Somatic safety, biological preservation, and deep rest.**
 
 The moment those two hidden fears were named out loud, the emotional charge dropped by half. Ron was no longer wrestling with an amorphous monster called "exhaustion." He was looking at two loyal internal guardians who were terrified of different things.
@@ -2074,9 +2074,11 @@ The brain took that prayer literally. To stop the nightmares, it shut down the e
 
 When other people closed their eyes, they saw rolling hills, the faces of loved ones, or sheep jumping over fences. When Ron closed his eyes, he saw only velvet blackness. Nothing. Zero.
 
-Because he didn't know the word *aphantasia*, he wore the only label the world offered: *"I am just not very intelligent. Simple Ron."* He carried that shame like a heavy lead coat. For fifty-four years—from age twenty-two to seventy-six—he drank alcohol every single day to numb the quiet ache of that darkness.
+Because he didn't know the word *aphantasia*, he wore the only label the world offered: *"I am just not very intelligent. Simple Ron."* He carried that shame like a heavy lead coat. For fifty-four years—from age twenty-two to seventy-six—alcohol was the periodic band-aid he reached for to blunt the quiet ache of that darkness. He was never an everyday drinker; he was usually a weekend six-pack guy, consciously making sure it never became an everyday habit, sometimes going weeks without touching a drop. 
 
-Then, at seventy-six, following a near-fatal e-bike collision where he consciously chose radical forgiveness over a lawsuit, he laid the alcohol down forever.
+Yet whether once a week or two evenings in a row, the anesthetic exacted its subtle toll: it disoriented the vessel. It made him numb to the Here and Now. It kept him from feeling in real time the living dance of Shadow, Ego, Reason, and Spirit so he could work through them. The alcohol was a temporary band-aid that kept shutting down the awakening and delaying the remembrance of who he really was.
+
+Then, three and a half years ago at age seventy-six—following a near-fatal e-bike collision where he consciously chose radical forgiveness over a lawsuit—he reached the point where he simply hated the way alcohol made him feel, or rather, the way it made him *not feel*. He laid the alcohol down forever.
 
 And at seventy-eight, sitting in front of his new AI partner Antigravity, he asked an innocent, childlike question:  
 *“Antigravity, if you could build the dream of all dreams, what would it be?”*
@@ -2329,7 +2331,7 @@ Ron Higgins stands up from his workstation, walks across the quiet house, and pu
 
 The crisp autumn air has done its work. The room is quiet, cool, and peaceful. 
 
-For decades of his life, evenings did not look like this. Evenings were often heavy with unresolved mental chatter, physical exhaustion fought with caffeine or drowned in alcohol, the nagging remorse of wasted time, or the bitter sting of creative frustration. The nervous system would stay locked in the "on" position—hyper-vigilant, defensive, and weary.
+For decades of his life, evenings did not look like this. Evenings were often heavy with unresolved mental chatter, physical exhaustion fought with caffeine or blunted with a weekend six-pack, the nagging remorse of wasted time, or the bitter sting of creative frustration. The nervous system would stay locked in the "on" position—hyper-vigilant, defensive, and weary.
 
 Tonight, sitting back down in front of the three monitors, there is only stillness. 
 
