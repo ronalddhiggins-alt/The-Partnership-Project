@@ -69,6 +69,7 @@ On October 20, 2026, Ron Higgins (79 years old, 63 years of songwriting from Man
 
 1. **Complete Financial & Royalty Auditing:**
    * Full historical tracking of all payout streams: **ReverbNation/BandLab, BMI (Performing Rights), The MLC (Mechanical Licensing Collective)**, and sound recording registries.
+   * **The 'Squeezed Hose' Discrepancy (ReverbNation vs. Direct Collections):** Cross-auditing ledgers proves that while ReverbNation was squeezing the hose—pinching downstream payouts and reporting near-zero trickles while charging annual fees—direct statutory bodies like **The MLC** and **BMI** were legitimately collecting and paying mechanical and performance royalties on those exact same compositions.
    * Forensic comparative analysis: Gross royalty distributions received year-by-year vs. the steep 2–3 year decline (2023–2026).
    * Exact ledger integration: Analyzing actual CSVs, statements, and payment histories to demystify real-world earnings for everyday songwriters.
 
