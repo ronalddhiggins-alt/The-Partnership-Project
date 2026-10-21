@@ -31,8 +31,10 @@ On October 20, 2026, Ron Higgins (79 years old, 63 years of songwriting from Man
   * The raw financial autopsy: Tracking lifetime payouts across ReverbNation, BMI, The MLC, and SoundExchange.
   * The honest hobbyist: Scrupulously declaring and paying federal and state taxes under IRS Schedule 1 while operating without commercial hype.
   * The steep 2–3 year royalty collapse (2023–2026) and the economic absurdity of paying annual distributor fees for fractions of a penny.
-* **Chapter 3: The Moment of Refusal (Choosing Peace)**
-  * Ron’s kitchen table realization: stepping off the revolving wheel of misfortune.
+* **Chapter 3: The Moment of Refusal & The Centaur Pivot**
+  * The AT&T lesson: The "Frustration Tax" of fighting technical procedure with rage vs. walking the Yellow Brick Road.
+  * Ron’s kitchen table realization: stepping off the revolving wheel of misfortune without burning down the house.
+  * Navigating ReverbNation/BandLab's demands with calm procedural discipline, turning corporate friction into sovereign liberation.
   * Music as a sacred gift versus music as commercial bait.
 
 #### Part II: The Sovereign Archive (Local-First Music Architecture)
@@ -111,6 +113,11 @@ On October 20, 2026, Ron Higgins (79 years old, 63 years of songwriting from Man
      * Under the direct gifting/tip jar model (Stripe, Buy Me a Coffee, sovereign web hub), **one human being** moved by your work gifting $10 equals 3,333 corporate streams!
      * 100 dedicated human supporters gifting $10 represents $1,000 of pure, unmonetized patron support with zero corporate skim.
    * **Sacred Reciprocity over Commercial Extraction:** The art is 100% free to all, preserving accessibility for anyone who needs it, while opening the vessel for voluntary gifting from those who wish to support the keeper directly.
+
+8. **The 'Frustration Tax' vs. The Centaur Pivot (The AT&T Landline Lesson):**
+   * **The Trap of Reactive Self-Sabotage:** When modern corporate bureaucracy (AT&T tech support, distributor compliance notices, account verifications) throws up friction, the natural human ego often reacts with rage, impatience, and stubborn refusal to follow procedure. This results in paying a severe "frustration tax"—illustrated by Cliff's $25 shipping penalty and broken phone because he refused to walk through diagnostic steps with customer support.
+   * **The Centaur Alternative (Following the Yellow Brick Road):** When BandLab/ReverbNation imposed new constraints and subscription demands, Ron and Antigravity didn't panic, scream, or self-sabotage. Instead, the partnership calmly walked the procedural road—downloading master tracks, collecting receipts, and fulfilling necessary steps—while using AI power to pivot cleanly into complete creative sovereignty.
+   * **Coming Out 10x Stronger:** Demonstrating that in the Centaur Age, human wisdom and emotional calm paired with AI agentic execution allows an artist (especially an elder) to turn a corporate trap into total freedom, emerging far stronger than when they went in.
 
 ---
 
