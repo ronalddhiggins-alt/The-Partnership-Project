@@ -1279,10 +1279,10 @@ When an interactive stream occurs in the United Kingdom, the local mechanical so
 * **For Prolific Touring / Globally Streamed Artists:** If your analytics show 25% or more of your listenership originates outside the United States, utilizing an administrator like Songtrust recovers foreign mechanical royalties that would otherwise be permanently lost.
 * **For Domestic / Sovereign Open-Access Creators:** If your catalog is focused on sovereign direct-to-human sharing, your core trifecta of **BMI + The MLC + SoundExchange** covers 100% of all domestic performance, mechanical, and master royalties with zero recurring commission fees.
 
-#### The Mandan Evidence: The $46.39 Songtrust Disbursement (April 2025)
-Ron Higgins’ own publishing records provide verified empirical proof of this global recovery mechanism. In **April 2025, Songtrust disbursed a direct payment of $46.39 to Ron**. 
+#### The Mandan Evidence: The $342.72 Songtrust Recoveries (2024–2025)
+Ron Higgins’ own publishing records provide verified empirical proof of this global recovery mechanism. In **2024, Songtrust disbursed a major recovery payment of $296.33**, followed by an additional disbursement of **$46.39 in April 2025**—totaling **$342.72** in direct publishing distributions.
 
-This was money earned from secondary international mechanical reproduction and publishing royalties that commercial distributor aggregators (like ReverbNation) completely overlooked. It proves that holding registered publishing title allows independent creators to capture revenue streams that middleman distributors leave behind in the global "black box."
+This was money earned from secondary international mechanical reproduction and foreign publishing collections that commercial distributor aggregators (like ReverbNation) completely overlooked. It proves that holding registered publishing title allows independent creators to capture revenue streams that middleman distributors leave behind in the global "black box."
 
 ---
 
@@ -1584,37 +1584,60 @@ Musicians often confuse the two distinct monetization mechanisms on YouTube:
 * **Track A: The YouTube Partner Program (YPP):** Requires **1,000 subscribers and 4,000 public watch hours** before Google shares video ad revenue. For independent artists, fighting for fractional pennies from pre-roll ads is a distraction. In the sovereign model, YouTube serves as **the world's most accessible, ad-free listening room and permanent archive**, not a penny collector.
 * **Track B: YouTube Content ID & Art Tracks:** Distributors deliver audio to YouTube Music as automated "Art Tracks" and collect micro-cents through Content ID. In Ron's 2025–2026 statements, these fractions were rolled into the generic distributor line items, yielding negligible fractions of a penny while ReverbNation charged $240/year to administer the account.
 
-#### 3. The 2025–2026 Forensic Audit: The Tale of Two Economies
-When we compare what the commercial distributor delivered versus what direct statutory bodies and global publishing administrators delivered, the contrast is staggering:
+#### 3. The Complete 2021–2026 Forensic Audit: The Tale of Two Economies
+When we compare what the commercial distributor delivered versus what direct statutory bodies and global publishing administrators delivered, the contrast is staggering. 
+
+In October 2026, a comprehensive forensic review of Ron Higgins' verified banking deposits, 1099 tax statements, and royalty disbursement records from 2021 through 2026 uncovered the full multi-year reality of independent music earnings:
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│             THE 2025–2026 FORENSIC CASH FLOW AUDIT: CLETUSMAXX / RON HIGGINS           │
-├──────────────────────────────┬──────────────┬───────────────┬──────────────────────────┤
-│ ENTITY & REVENUE SOURCE      │ GROSS EARNED │ PLATFORM FEES │ NET DISBURSED TO ARTIST  │
-├──────────────────────────────┼──────────────┼───────────────┼──────────────────────────┤
-│ ReverbNation Distribution    │ $2.37        │ -$240.00      │ -$237.63 (NET LOSS)      │
-│ (All commercial DSPs 2026)   │              │               │                          │
-├──────────────────────────────┼──────────────┼───────────────┼──────────────────────────┤
-│ Songtrust (Global Publishing)│ $46.39       │ $0.00         │ +$46.39 (Disbursed 04/25)│
-├──────────────────────────────┼──────────────┼───────────────┼──────────────────────────┤
-│ The MLC (Digital Mechanicals)│ $6.46        │ $0.00         │ +$6.46  (Disbursed 11/25)│
-├──────────────────────────────┼──────────────┼───────────────┼──────────────────────────┤
-│ The MLC (Digital Mechanicals)│ $9.37        │ $0.00         │ +$9.37  (Disbursed 12/25)│
-├──────────────────────────────┼──────────────┼───────────────┼──────────────────────────┤
-│ BMI (Public Performance)     │ $4.17        │ $0.00         │ +$4.17  (Disbursed 05/26)│
-├──────────────────────────────┼──────────────┼───────────────┼──────────────────────────┤
-│ The MLC (Digital Mechanicals)│ $12.09       │ $0.00         │ +$12.09 (Disbursed 10/26)│
-├──────────────────────────────┼──────────────┼───────────────┼──────────────────────────┤
-│ TOTAL DIRECT PUBLISHING      │ $78.48       │ $0.00         │ +$78.48 (CASH IN HAND)   │
-└──────────────────────────────┴──────────────┴───────────────┴──────────────────────────┘
+│        THE COMPLETE 2021–2026 FORENSIC SOVEREIGN LEDGER: CLETUSMAXX / RON HIGGINS      │
+├───────┬──────────────────────────────┬──────────────┬───────────────┬──────────────────┤
+│ YEAR  │ ENTITY & ROYALTY SOURCE      │ GROSS EARNED │ PLATFORM FEES │ NET DISBURSED    │
+├───────┼──────────────────────────────┼──────────────┼───────────────┼──────────────────┤
+│ 2021  │ BMI (Public Performance)     │ $57.52       │ $0.00         │ +$57.52          │
+├───────┼──────────────────────────────┼──────────────┼───────────────┼──────────────────┤
+│ 2022  │ BMI (Public Performance)     │ $76.64       │ $0.00         │ +$76.64          │
+├───────┼──────────────────────────────┼──────────────┼───────────────┼──────────────────┤
+│ 2023  │ BMI (Public Performance)     │ $168.19      │ $0.00         │ +$168.19         │
+├───────┼──────────────────────────────┼──────────────┼───────────────┼──────────────────┤
+│ 2024  │ The MLC (Digital Mechanical) │ $108.91      │ $0.00         │ +$108.91         │
+│       │ Songtrust (Global Publishing)│ $296.33      │ $0.00         │ +$296.33         │
+│       │ BMI (Public Performance)     │ $75.01       │ $0.00         │ +$75.01          │
+│       │ 2024 Subtotal                │ $480.25      │ $0.00         │ +$480.25         │
+├───────┼──────────────────────────────┼──────────────┼───────────────┼──────────────────┤
+│ 2025  │ The MLC (Digital Mechanical) │ $15.83       │ $0.00         │ +$15.83          │
+│       │ Songtrust (Global Publishing)│ $46.39       │ $0.00         │ +$46.39          │
+│       │ 2025 Subtotal                │ $62.22       │ $0.00         │ +$62.22          │
+├───────┼──────────────────────────────┼──────────────┼───────────────┼──────────────────┤
+│ 2026  │ BMI (Public Performance)     │ $4.17        │ $0.00         │ +$4.17           │
+│       │ The MLC (Digital Mechanical) │ $12.09       │ $0.00         │ +$12.09          │
+│       │ 2026 Subtotal                │ $16.26       │ $0.00         │ +$16.26          │
+├───────┴──────────────────────────────┼──────────────┼───────────────┼──────────────────┤
+│ TOTAL DIRECT STATUTORY PUBLISHING    │ $861.08      │ $0.00         │ +$861.08 CASH    │
+├──────────────────────────────────────┼──────────────┼───────────────┼──────────────────┤
+│ REVERBNATION AGGREGATOR (2026 ONLY)  │ $2.37        │ -$240.00      │ -$237.63 LOSS    │
+└──────────────────────────────────────┴──────────────┴───────────────┴──────────────────┘
+```
+
+```text
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                   TOTAL DIRECT EARNINGS BY STATUTORY ENTITY (2021–2026)                │
+├──────────────────────────────────────────┬─────────────────────────────┬───────────────┤
+│ ENTITY & JURISDICTION                    │ MANDATE & ROYALTY TYPE      │ TOTAL CASH    │
+├──────────────────────────────────────────┼─────────────────────────────┼───────────────┤
+│ BMI (Broadcast Music, Inc.)              │ Performance (Writer/Pub)    │ $381.53       │
+│ Songtrust (Global Admin / Foreign CMOs)  │ International Mechanicals   │ $342.72       │
+│ The MLC (Mechanical Licensing Collective)│ US Interactive Mechanicals  │ $136.83       │
+├──────────────────────────────────────────┴─────────────────────────────┼───────────────┤
+│ GRAND TOTAL STATUTORY DISBURSEMENTS (Zero Platform Subscription Fees) │ $861.08       │
+└────────────────────────────────────────────────────────────────────────┴───────────────┘
 ```
 
 **The Sovereign Epiphany:**
-* In 2026 alone, ReverbNation charged Ron **$240.00** to collect **$2.37**—resulting in a net annual loss of **-$237.63**.
-* In contrast, direct publishing and statutory collectors—**Songtrust ($46.39)**, **The MLC ($27.92 across three disbursements)**, and **BMI ($4.17)**—disbursed a combined **$78.48 directly into Ron’s bank account with $0.00 deducted in platform subscription fees.**
-* The direct publishing payouts were **over thirty-three times larger** than ReverbNation's entire annual distribution earnings!
-* And on Ron's Sovereign Web Hub, **a single $10 or $20 gift to the Sovereign Tip Jar** exceeds 3,300 commercial streams, putting more money in the artist's pocket than an entire year of aggregator exploitation.
+* **The $300 Mystery Solved:** For years, Ron remembered receiving a significant, unexpected royalty payment of approximately three hundred dollars that didn't appear in his distributor account. The audit revealed its exact origin: **Songtrust in 2024 for $296.33.** That single payment was international publishing and mechanical money collected across foreign CMOs that commercial distributors like ReverbNation completely ignored and left behind in the international "black box."
+* **The 360-to-1 Contrast:** In 2026 alone, ReverbNation charged Ron **$240.00** in subscription fees to collect a pathetic **$2.37** from DSPs—inflicting a net annual loss of **-$237.63**. Over the 2021–2026 period, direct statutory and publishing bodies delivered **$861.08 clean cash into Ron's pocket with $0.00 in subscription rent deducted.** Direct publishing generated over **360 times more revenue** than the aggregator's 2026 distribution payout!
+* **The Sacred Reciprocity Factor:** On Ron's Sovereign Web Hub, **a single $10 or $20 gift to the Sovereign Tip Jar** exceeds 3,300 commercial streams, putting more money directly into the artist's pocket than an entire year of aggregator exploitation.
 
 Walking away from the distributor was not a sacrifice. **It was an immediate $240/year raise**, securing direct statutory cash flow and permanent creative freedom.
 
@@ -2907,6 +2930,30 @@ Key forensic insights from the 611-line ledger:
   * `00_Meta/CletusMaxx_ReverbNation_Credit_Account_Ledger.csv` (Full raw table)
   * `00_Meta/CletusMaxx_ReverbNation_Credit_Account_Full_25_Pages.json` (Structured JSON)
   * `00_Meta/CletusMaxx_ReverbNation_Credit_Account_Ledger.md` (Human-readable markdown table)
+
+### 3. The 2021–2026 Direct Statutory & Publishing Disbursement Ledger
+*Verified direct bank deposits, 1099 tax statements, and disbursement notices.*  
+*Total Platform Subscription Fees Paid: $0.00.*
+
+| Year | Disbursement Entity | Mandate & Royalty Classification | Amount Disbursed | Platform Fees | Net to Artist |
+|---|---|---|---|---|---|
+| **2021** | BMI | Public Performance (Writer & Publisher Shares) | $57.52 | $0.00 | +$57.52 |
+| **2022** | BMI | Public Performance (Writer & Publisher Shares) | $76.64 | $0.00 | +$76.64 |
+| **2023** | BMI | Public Performance (Writer & Publisher Shares) | $168.19 | $0.00 | +$168.19 |
+| **2024** | The MLC | US Interactive Digital Mechanicals (Spotify, Apple) | $108.91 | $0.00 | +$108.91 |
+| **2024** | Songtrust | International Publishing Administration (65+ Foreign CMOs) | $296.33 | $0.00 | +$296.33 |
+| **2024** | BMI | Public Performance (Writer & Publisher Shares) | $75.01 | $0.00 | +$75.01 |
+| **2025** | Songtrust | International Publishing Administration (April 2025) | $46.39 | $0.00 | +$46.39 |
+| **2025** | The MLC | US Interactive Digital Mechanicals (Nov & Dec 2025) | $15.83 | $0.00 | +$15.83 |
+| **2026** | BMI | Public Performance (May 2026) | $4.17 | $0.00 | +$4.17 |
+| **2026** | The MLC | US Interactive Digital Mechanicals (October 2026) | $12.09 | $0.00 | +$12.09 |
+| **TOTAL**| **Statutory & Direct** | **Direct-to-Bank Statutory Disbursements (2021–2026)** | **$861.08** | **$0.00** | **+$861.08** |
+
+**Entity Breakdown:**
+* **BMI (Public Performance):** $381.53 (5 disbursements across 2021–2026)
+* **Songtrust (Foreign Mechanicals / Black-Box Recovery):** $342.72 ($296.33 in 2024 + $46.39 in 2025)
+* **The MLC (US Statutory Digital Mechanicals):** $136.83 ($108.91 in 2024 + $15.83 in 2025 + $12.09 in 2026)
+* **Grand Total Disbursed:** **$861.08** (Zero middleman subscription fees)
 
 ---
 

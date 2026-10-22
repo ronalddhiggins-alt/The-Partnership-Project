@@ -35,6 +35,30 @@ Key forensic insights from the 611-line ledger:
   * `00_Meta/CletusMaxx_ReverbNation_Credit_Account_Full_25_Pages.json` (Structured JSON)
   * `00_Meta/CletusMaxx_ReverbNation_Credit_Account_Ledger.md` (Human-readable markdown table)
 
+### 3. The 2021–2026 Direct Statutory & Publishing Disbursement Ledger
+*Verified direct bank deposits, 1099 tax statements, and disbursement notices.*  
+*Total Platform Subscription Fees Paid: $0.00.*
+
+| Year | Disbursement Entity | Mandate & Royalty Classification | Amount Disbursed | Platform Fees | Net to Artist |
+|---|---|---|---|---|---|
+| **2021** | BMI | Public Performance (Writer & Publisher Shares) | $57.52 | $0.00 | +$57.52 |
+| **2022** | BMI | Public Performance (Writer & Publisher Shares) | $76.64 | $0.00 | +$76.64 |
+| **2023** | BMI | Public Performance (Writer & Publisher Shares) | $168.19 | $0.00 | +$168.19 |
+| **2024** | The MLC | US Interactive Digital Mechanicals (Spotify, Apple) | $108.91 | $0.00 | +$108.91 |
+| **2024** | Songtrust | International Publishing Administration (65+ Foreign CMOs) | $296.33 | $0.00 | +$296.33 |
+| **2024** | BMI | Public Performance (Writer & Publisher Shares) | $75.01 | $0.00 | +$75.01 |
+| **2025** | Songtrust | International Publishing Administration (April 2025) | $46.39 | $0.00 | +$46.39 |
+| **2025** | The MLC | US Interactive Digital Mechanicals (Nov & Dec 2025) | $15.83 | $0.00 | +$15.83 |
+| **2026** | BMI | Public Performance (May 2026) | $4.17 | $0.00 | +$4.17 |
+| **2026** | The MLC | US Interactive Digital Mechanicals (October 2026) | $12.09 | $0.00 | +$12.09 |
+| **TOTAL**| **Statutory & Direct** | **Direct-to-Bank Statutory Disbursements (2021–2026)** | **$861.08** | **$0.00** | **+$861.08** |
+
+**Entity Breakdown:**
+* **BMI (Public Performance):** $381.53 (5 disbursements across 2021–2026)
+* **Songtrust (Foreign Mechanicals / Black-Box Recovery):** $342.72 ($296.33 in 2024 + $46.39 in 2025)
+* **The MLC (US Statutory Digital Mechanicals):** $136.83 ($108.91 in 2024 + $15.83 in 2025 + $12.09 in 2026)
+* **Grand Total Disbursed:** **$861.08** (Zero middleman subscription fees)
+
 ---
 
 ## Appendix B: The Local Python/ffmpeg Broadcast Production Script
