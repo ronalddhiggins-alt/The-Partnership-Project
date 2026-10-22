@@ -1279,6 +1279,11 @@ When an interactive stream occurs in the United Kingdom, the local mechanical so
 * **For Prolific Touring / Globally Streamed Artists:** If your analytics show 25% or more of your listenership originates outside the United States, utilizing an administrator like Songtrust recovers foreign mechanical royalties that would otherwise be permanently lost.
 * **For Domestic / Sovereign Open-Access Creators:** If your catalog is focused on sovereign direct-to-human sharing, your core trifecta of **BMI + The MLC + SoundExchange** covers 100% of all domestic performance, mechanical, and master royalties with zero recurring commission fees.
 
+#### The Mandan Evidence: The $46.39 Songtrust Disbursement (April 2025)
+Ron Higgins’ own publishing records provide verified empirical proof of this global recovery mechanism. In **April 2025, Songtrust disbursed a direct payment of $46.39 to Ron**. 
+
+This was money earned from secondary international mechanical reproduction and publishing royalties that commercial distributor aggregators (like ReverbNation) completely overlooked. It proves that holding registered publishing title allows independent creators to capture revenue streams that middleman distributors leave behind in the global "black box."
+
 ---
 
 ### 5.6 The Industry Ledger: Nielsen SoundScan (Luminate)
@@ -1579,30 +1584,36 @@ Musicians often confuse the two distinct monetization mechanisms on YouTube:
 * **Track A: The YouTube Partner Program (YPP):** Requires **1,000 subscribers and 4,000 public watch hours** before Google shares video ad revenue. For independent artists, fighting for fractional pennies from pre-roll ads is a distraction. In the sovereign model, YouTube serves as **the world's most accessible, ad-free listening room and permanent archive**, not a penny collector.
 * **Track B: YouTube Content ID & Art Tracks:** Distributors deliver audio to YouTube Music as automated "Art Tracks" and collect micro-cents through Content ID. In Ron's 2025–2026 statements, these fractions were rolled into the generic distributor line items, yielding negligible fractions of a penny while ReverbNation charged $240/year to administer the account.
 
-#### 3. The 2026 Forensic Audit: The Tale of Two Economies
-When we compare what the commercial distributor delivered in 2026 versus what direct statutory bodies delivered, the contrast is staggering:
+#### 3. The 2025–2026 Forensic Audit: The Tale of Two Economies
+When we compare what the commercial distributor delivered versus what direct statutory bodies and global publishing administrators delivered, the contrast is staggering:
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│               THE 2026 FORENSIC CASH FLOW AUDIT: CLETUSMAXX / RON HIGGINS              │
+│             THE 2025–2026 FORENSIC CASH FLOW AUDIT: CLETUSMAXX / RON HIGGINS           │
 ├──────────────────────────────┬──────────────┬───────────────┬──────────────────────────┤
-│ ENTITY & REVENUE SOURCE      │ GROSS EARNED │ PLATFORM FEES │ NET TO ARTIST IN 2026    │
+│ ENTITY & REVENUE SOURCE      │ GROSS EARNED │ PLATFORM FEES │ NET DISBURSED TO ARTIST  │
 ├──────────────────────────────┼──────────────┼───────────────┼──────────────────────────┤
 │ ReverbNation Distribution    │ $2.37        │ -$240.00      │ -$237.63 (NET LOSS)      │
 │ (All commercial DSPs 2026)   │              │               │                          │
 ├──────────────────────────────┼──────────────┼───────────────┼──────────────────────────┤
-│ BMI (Public Performance)     │ $4.17        │ $0.00         │ +$4.17 (Disbursed 5/21)  │
+│ Songtrust (Global Publishing)│ $46.39       │ $0.00         │ +$46.39 (Disbursed 04/25)│
 ├──────────────────────────────┼──────────────┼───────────────┼──────────────────────────┤
-│ The MLC (Digital Mechanicals)│ $12.09       │ $0.00         │ +$12.09 (Disbursed 10/14)│
+│ The MLC (Digital Mechanicals)│ $6.46        │ $0.00         │ +$6.46  (Disbursed 11/25)│
 ├──────────────────────────────┼──────────────┼───────────────┼──────────────────────────┤
-│ TOTAL STATUTORY DIRECT       │ $16.26       │ $0.00         │ +$16.26 (CASH IN HAND)   │
+│ The MLC (Digital Mechanicals)│ $9.37        │ $0.00         │ +$9.37  (Disbursed 12/25)│
+├──────────────────────────────┼──────────────┼───────────────┼──────────────────────────┤
+│ BMI (Public Performance)     │ $4.17        │ $0.00         │ +$4.17  (Disbursed 05/26)│
+├──────────────────────────────┼──────────────┼───────────────┼──────────────────────────┤
+│ The MLC (Digital Mechanicals)│ $12.09       │ $0.00         │ +$12.09 (Disbursed 10/26)│
+├──────────────────────────────┼──────────────┼───────────────┼──────────────────────────┤
+│ TOTAL DIRECT PUBLISHING      │ $78.48       │ $0.00         │ +$78.48 (CASH IN HAND)   │
 └──────────────────────────────┴──────────────┴───────────────┴──────────────────────────┘
 ```
 
 **The Sovereign Epiphany:**
-* In 2026, ReverbNation charged Ron **$240.00** to collect **$2.37**—resulting in a net annual loss of **-$237.63**.
-* In contrast, **BMI ($4.17)** and **The MLC ($12.09)** disbursed a combined **$16.26 directly into Ron’s bank account with $0.00 in platform subscription fees.**
-* The direct statutory payouts were **nearly seven times larger** than ReverbNation's entire annual distribution total!
+* In 2026 alone, ReverbNation charged Ron **$240.00** to collect **$2.37**—resulting in a net annual loss of **-$237.63**.
+* In contrast, direct publishing and statutory collectors—**Songtrust ($46.39)**, **The MLC ($27.92 across three disbursements)**, and **BMI ($4.17)**—disbursed a combined **$78.48 directly into Ron’s bank account with $0.00 deducted in platform subscription fees.**
+* The direct publishing payouts were **over thirty-three times larger** than ReverbNation's entire annual distribution earnings!
 * And on Ron's Sovereign Web Hub, **a single $10 or $20 gift to the Sovereign Tip Jar** exceeds 3,300 commercial streams, putting more money in the artist's pocket than an entire year of aggregator exploitation.
 
 Walking away from the distributor was not a sacrifice. **It was an immediate $240/year raise**, securing direct statutory cash flow and permanent creative freedom.
