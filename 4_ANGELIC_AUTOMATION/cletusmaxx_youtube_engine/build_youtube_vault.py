@@ -47,9 +47,15 @@ Produced & Recorded in Mandan, North Dakota"""
         "upc": "099451679828",
         "credits": "Ron Higgins (Composer, Lyricist, Vocals, Guitars, Production, Engineering)",
         "publisher": "Ron Higgins Music / CletusMaxx Music Publishing (BMI)",
-        "lyrics": """[To Much Truth in Honesty]
-Written and composed by Ron Higgins
-Produced & Recorded in Mandan, North Dakota"""
+        "lyrics": """Too much truth in my honesty
+Yes, you don't have a prayer
+You gotta keep me awakened, breathin' while you can
+Too much truth in my honesty
+
+You know you don't have a prayer
+But keep me breathin' while you can 'til I get there
+Don't know where I'm goin' but I'll know when I get there
+Don't know, don't know"""
     },
     {
         "num": "04",
