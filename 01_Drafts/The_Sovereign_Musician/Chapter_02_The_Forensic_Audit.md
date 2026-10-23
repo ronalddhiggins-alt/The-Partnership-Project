@@ -40,32 +40,35 @@ The mathematical takeaway from this ledger is striking:
 
 ---
 
-### 2.2 The "Squeezed Hose" Discrepancy: Aggregator vs. Statutory Collections
+### 2.2 The "Squeezed Hose" Discrepancy: Aggregator vs. Statutory & Direct Publishing Collections
 
-The most important forensic discovery of our audit occurred when we cross-referenced ReverbNation’s distribution reports against Ron’s **direct statutory collection registrations**.
+The most important forensic discovery of our audit occurred when we cross-referenced ReverbNation’s distribution reports against Ron’s **direct statutory and global publishing registrations**.
 
-Every commercial song generates three completely distinct revenue streams:
+Every commercial song generates four completely distinct revenue streams:
 1. **Master Recording Sound Recording Royalties:** Paid by the digital streaming platform (DSP) to the distributor/aggregator (ReverbNation/BandLab), who passes it down to the artist after taking their cut.
 2. **Public Performance Royalties (Composition):** Generated when a song is broadcast, streamed, or performed publicly. Collected directly by Performing Rights Organizations (**BMI** or **ASCAP**) and paid 50% to the Songwriter and 50% to the Music Publisher.
 3. **Mechanical Royalties (Composition Reproduction):** Generated every time a composition is digitally reproduced or streamed. Established under statutory law by the U.S. Congress (the Music Modernization Act) and collected directly by **The MLC (Mechanical Licensing Collective)**.
+4. **International Publishing & Global Mechanicals:** Generated when compositions are streamed or broadcast overseas across 215 global territories. Collected through reciprocal foreign CMO networks (PRS, GEMA, SACEM) and global publishing administrators like **Songtrust**.
 
-Between 2023 and 2026, a bizarre discrepancy emerged:
+Between 2021 and 2026, a bizarre discrepancy emerged:
 
-While ReverbNation was reporting that Ron’s catalog was yielding near-zero trickles—sending statements for $0.18, $1.12, or $0.00 while simultaneously prompting Ron to renew his paid subscriptions—Ron's direct statutory portals told an entirely different story.
+While ReverbNation was reporting that Ron’s catalog was yielding near-zero trickles—sending statements for $0.02, $0.18, or $0.00 while simultaneously billing Ron $240.00 per year ($20/month) in mandatory subscriptions—Ron's direct statutory and publishing accounts told an entirely different story.
 
-```
+```text
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                   THE "SQUEEZED HOSE" FORENSIC COMPARISON (2023–2026)                  │
+│               THE "SQUEEZED HOSE" FORENSIC COMPARISON (2021–2026 AUDIT)                │
 ├───────────────────────────────────────┬────────────────────────────────────────────────┤
-│ REVERBNATION / BANDLAB AGGREGATOR     │ DIRECT STATUTORY COLLECTORS (BMI & THE MLC)    │
+│ REVERBNATION / BANDLAB AGGREGATOR     │ DIRECT STATUTORY & PUBLISHING BODIES           │
+│                                       │ (BMI, THE MLC & SONGTRUST)                     │
 ├───────────────────────────────────────┼────────────────────────────────────────────────┤
-│ • Reported earnings trickled to near  │ • BMI consistently paid quarterly performance  │
-│   zero ($0.00 – $2.00 / month)        │   royalties for domestic & foreign streaming.  │
-│ • Continuously prompted for paid      │ • The MLC legitimately matched ISRC & ISWC     │
-│   annual subscription renewals        │   codes, disbursing monthly mechanical royalties│
-│ • Demanded payment to keep back       │ • Statutory rates increased under MMA ruling   │
-│   catalog live in digital storefronts │   from 15.1% to 15.35% of service revenue      │
-│ • Opaque reporting; no human support  │ • Transparent, government-mandated ledgers     │
+│ • Reported earnings trickled to near  │ • BMI consistently disbursed performance       │
+│   zero ($2.37 gross across all 2026). │   royalties ($381.53 total across 2021–2026).  │
+│ • Billed $240.00/year ($20/month) in  │ • The MLC legitimately matched ISRC & ISWC     │
+│   recurring platform subscriptions.   │   codes, paying $136.83 in digital mechanicals.│
+│ • Net annual 2026 loss of -$237.63    │ • Songtrust recovered $342.72 in international │
+│   inflicted directly on the artist.   │   publishing & mechanicals from 65+ foreign CMOs│
+│ • Opaque reporting; store breakdowns  │ • Total Direct Cash Disbursed: $861.08         │
+│   concealed behind generic line items.│ • Total Platform Subscription Fees Paid: $0.00 │
 └───────────────────────────────────────┴────────────────────────────────────────────────┘
 ```
 
@@ -73,9 +76,9 @@ While ReverbNation was reporting that Ron’s catalog was yielding near-zero tri
 
 When an indie creator relies on a commercial distributor as their sole interface with the world, the distributor controls the spigot. If the distributor alters their payment thresholds, implements processing fees, changes their accounting intervals, or reorganizes their corporate priorities, the artist's payout is choked off at the source.
 
-Meanwhile, the statutory bodies—which operate under federal mandates and do not take a commercial commission from the songwriter—were faithfully logging the exact same streams, matching the metadata, and paying out real money directly to Ron’s bank account!
+Meanwhile, the statutory and direct publishing bodies—which operate under legal mandates and do not take recurring subscription tribute from the songwriter—faithfully logged the exact same streams, matched the metadata across global borders, and disbursed **$861.08 in clean cash directly into Ron’s bank account with $0.00 in platform subscription fees.**
 
-This single realization shattered the illusion: **You do not need an aggregator to validate your worth as a songwriter. If your metadata is clean, statutory law protects your royalties without requiring you to pay an annual subscription tribute to a corporate middleman.**
+This single realization shattered the illusion: **You do not need an aggregator to validate your worth as a songwriter. If your metadata is clean, statutory law and international publishing registrations protect your royalties without requiring you to pay an annual subscription tribute to a corporate middleman.**
 
 ---
 

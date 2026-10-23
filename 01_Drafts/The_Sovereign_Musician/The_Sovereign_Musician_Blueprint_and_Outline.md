@@ -61,7 +61,7 @@
 * **Publishing:** CletusMaxx Music Publishing (BMI) / Ron Higgins Music.
 * **Aggregator / Distributor:** ReverbNation / BandLab.
 * **Catalog Lifetime Scope:** 8 Releases (2018–2025) | 1,550,515 Lifetime Streams | **$7,698.61 Lifetime Distribution Earnings**.
-* **The "Squeezed Hose" Discrepancy:** ReverbNation reported near-zero trickles on back catalog while billing annual distribution fees, while direct statutory bodies (**The MLC** and **BMI**) were legitimately collecting and disbursing performance and mechanical royalties on those exact compositions.
+* **The "Squeezed Hose" Discrepancy:** ReverbNation reported near-zero trickles on back catalog while billing annual distribution fees, while direct statutory and global publishing bodies (**BMI, The MLC, and Songtrust**) legitimately collected and disbursed **$861.08 in direct royalties** on those exact compositions with $0.00 in platform subscription fees.
 
 ### 2. Legal & Tax Transparency (The Honest Hobbyist)
 * **Full Tax Compliance:** Scrupulously declared and paid federal and North Dakota state income taxes on every dollar earned from music royalties across the entire commercial lifespan.
