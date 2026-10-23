@@ -91,7 +91,7 @@ Ron Higgins took the opposite approach: **The Honest Hobbyist.**
 Under United States tax law (IRS Code Section 183), an activity is classified as a *business* if it is operated with an ongoing expectation of commercial profit, typically demonstrated by earning a profit in at least three out of five consecutive years. If an activity does not meet that threshold, it is legally classified as a **Hobby**.
 
 Because Ron was not touring, was not selling corporate merchandise, and was not operating an active commercial enterprise, he never attempted to hide behind fictitious corporate write-offs. Instead:
-* Every single dollar received from ReverbNation ($7,698.61), BMI, and The MLC was scrupulously documented.
+* Every single dollar received from ReverbNation ($7,698.61), BMI, The MLC, and Songtrust was scrupulously documented.
 * All royalty earnings were reported annually on **IRS Form 1040, Schedule 1, Line 8z ("Other Income — Music Royalties / Hobby Income")**.
 * North Dakota state income tax was paid in full on every penny earned.
 
@@ -114,7 +114,7 @@ Because it demonstrates that **stepping off the streaming treadmill is not an ac
 
 Ron played the commercial game by every single rule:
 * He wrote original, copyrighted music.
-* He registered his publishing entities with BMI.
+* He registered his publishing entities with BMI, The MLC, and Songtrust.
 * He paid his aggregator distribution fees.
 * He declared every cent on his tax returns and paid his country and his state.
 
