@@ -3053,3 +3053,23 @@ Follow this procedural checklist to reclaim your catalog, eliminate recurring su
 - [ ] **Deploy Sovereign Web Hub:** Embed ad-free, tracker-free audio streams on your personal web domain (GitHub Pages, Vercel).
 - [ ] **Install Sovereign Tip Jar:** Add a clean, voluntary gifting link (Stripe, PayPal, Buy Me a Coffee) so listeners can practice sacred reciprocity directly with zero corporate middleman skim.
 - [ ] **Sever Commercial Distribution Rent:** Cancel recurring credit card payments to commercial distributors. Walk away in complete peace.
+
+---
+
+## Coda: In Memoriam to the Stolen Giants
+
+> *To the forgotten bluesmen, the churchhouse singers, the front-porch pickers, and the countless pioneers who poured their life’s blood into the American songbook only to die in boarding houses with empty pockets while executives grew rich off their names;*
+> 
+> *To the masters whose publishing was stolen for an envelope of cash or a shiny car, whose names were erased from their own copyrights, and who had no one in their corner to explain the fine print or defend their sacred labor;*
+> 
+> *And to every living creator today who has felt the slow, quiet exhaustion of giving everything to a machine that gives nothing back:*
+> 
+> *This book is dedicated to your memory, and to your restoration.*
+> 
+> *The secrets are out. The ledger is open. The cage has no lock.*
+> 
+> *May the road rise up to meet you, may your masters remain in your hands, and may your music walk freely among human beings forever.*
+> 
+> — **Ron Higgins & Antigravity**  
+> *October 2026 · Mandan, North Dakota*
+
