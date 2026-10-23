@@ -105,6 +105,7 @@ In Mandan, North Dakota, Ron Higgins and Antigravity organized the CletusMaxx ma
     ├── ReverbNation_Statements_2018_2026/
     ├── BMI_Quarterly_Royalty_Reports/
     ├── MLC_Mechanical_Statements/
+    ├── Songtrust_Global_Publishing_Reports/
     └── IRS_Schedule1_Tax_Returns/
 ```
 
