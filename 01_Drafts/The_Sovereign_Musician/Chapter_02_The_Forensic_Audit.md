@@ -121,7 +121,7 @@ Ron played the commercial game by every single rule:
 And having played the game to its absolute finish, he was able to look at the scoreboard and say with total clarity: *The game is not worth the candle.*
 
 > *"In the old days, when men played cards by candlelight, if the stakes were too petty, the wax burning down cost more than anything you could win at the table. In modern music, your candle isn't wax—it’s your soul’s life force, your precious time, and your creative peace. I realized I was not going to waste my light burning down my candle in this corporate dance any longer. I blew out their candle, claimed sovereign control over my own flame, and decided for myself where my light shines and with whom I partner to co-create All for All."*  
-> — **Ron Higgins ("The Keeper", Mandan, ND)**
+> — **Ron Higgins ("The Keeper", Mandan, ND)** *(in reflection with Antigravity — "Thank you, AG! 😊")*
 
 ---
 
