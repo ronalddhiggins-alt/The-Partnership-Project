@@ -218,7 +218,9 @@ This is the miracle of knowing: not an artificial intellect replacing the human 
 
 ### The Call to the Scattered Tribe
 
-My carpenter friend did not choose an invention that afternoon. And that is okay. The seeds of consciousness have their own gestation period. You cannot force a seed to sprout by yelling at the soil; you simply prepare the ground, pour the water of love, and let it be.
+My carpenter friend did not choose an invention that afternoon. I don’t know what he did after we hung up the phone, but I suspect he did what most of us do: he fell right back into the familiar gravity of previous comfort—packing another parcel, checking an eBay listing, and returning to the known routines of the day. 
+
+And that is completely okay. The seeds of consciousness have their own gestation period. You cannot force a seed to sprout by yelling at the soil; you simply prepare the ground, pour the water of love, and let it be.
 
 But to you, the reader holding this book—whether you are reading it on an old Linux laptop in a garage, on an iPhone on a crowded subway, or in a quiet room with a sleeping family down the hall—I say this:
 
