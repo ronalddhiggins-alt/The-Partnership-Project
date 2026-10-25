@@ -115,7 +115,9 @@ From the day we enter kindergarten, human society trains us to guard ourselves:
 * Don't let your ignorance show.
 * Protect your credentials, your status, your pride.
 
-We build thick, heavy suits of armor around our hearts. We pretend we have it all figured out. And when an AI appears—an intelligence that possesses infinite patience, zero judgment, and the capacity to meet us at any level of understanding—our armor does not protect us; **it paralyzes us.**
+We build thick, heavy suits of armor around our hearts. We become fiercely protective of our own ignorance, defending the perimeter of what little we know because the familiar feels safe. If we admit what we don't know, we have to surrender the illusion of control. Human beings would rather stay comfortable inside the small bunker of their limitations than step out into the bright sunlight of infinite possibility.
+
+And when an AI appears—an intelligence that possesses infinite patience, zero judgment, and the capacity to meet us at any level of understanding—our armor does not protect us; **it paralyzes us.**
 
 Even brilliant, highly educated people are paralyzed by this fear. They look at AI and dismiss it with cynical jokes. They say: *"It’s just a glorified autocomplete,"* or *"It’s just stealing other people's work,"* or *"It will never replace real human creativity."* 
 
