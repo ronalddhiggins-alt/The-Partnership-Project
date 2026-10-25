@@ -34,7 +34,7 @@ I have a friend I’ve known for more than three decades. When we first met, he 
 
 His life unfolded differently than most. He had girlfriends along the way, but nothing that turned into marriage or children of his own. Instead, he and his sister lived with their mother and father in the family home. Both worked, sharing life together under one roof, and together they walked through the passing of both of their parents over the past twenty years. But carpentry is brutally hard on the physical vessel. By his mid-thirties, his body began to break down under the strain—his back and joints refused the heavy lifting, and the physical trade that had been his living was suddenly cut short.
 
-Because he wasn't tied to an outside corporate job, he took on a sacred, unspoken duty in his father’s later years: he became his primary caretaker, seeing to it that his dad was looked after with dignity and received proper care until his passing. When his father passed on, he inherited the family home and property. The dominoes fell where they fell, as life often does. But an inheritance of a home is never just four walls—it is the full, unrelenting weight of homeowner responsibilities: upkeep, property taxes, utilities, city specials, insurance, and continuous maintenance. His sister had built a solid outside career and eventually retired comfortably, while he stayed anchored to the property, figuring out how to keep the roof over his head and the lights burning. He turned to buying and selling goods on eBay to manage his living, one parcel at a time.
+Because he wasn't tied to an outside corporate job, he took on a sacred, unspoken duty in his father’s later years: he became his primary caretaker, seeing to it that his dad was looked after with dignity and received proper care until his passing. When his father passed on, he inherited the family home and property. The dominoes fell where they fell, as life often does. But an inheritance of a home is never just four walls—it is the full, unrelenting weight of homeowner responsibilities: upkeep, property taxes, utilities, city specials, insurance, and continuous maintenance. His sister had built a solid outside career and eventually retired comfortably, while he stayed anchored to the property, finding an independent way to keep the roof overhead and the lights burning through buying and selling secondhand goods online.
 
 He is a devout Catholic, grounded in traditional ethics with a genuinely good heart. Much like my friend Jeff, he does a tremendous amount of free work for elderly neighbors and people in need throughout his community. And yet, like so many good people caught in the political polarization and craziness of our modern world, he views reality through a very different set of glasses than I do. 
 
@@ -42,13 +42,13 @@ I have always been deeply spiritual and far less religious—anchored in the tru
 
 Over the thirty years of our friendship, our lives intertwined in that unspoken rhythm of mutual respect. In my own work with electronics and surplus auctions, I would often accumulate whole rooms of surplus gear. I didn't give away my studio audio processors—those I either kept or sold—but my surplus rooms were regularly filled with good working computers, electronics, expensive bicycles, and even two e-bikes that I gave to him. I didn't give him everything, of course, but two or three times a year, I would invite him over to load up a major haul.
 
-*"Take it,"* I’d tell him. *"List what you can on eBay, make an honest living, and keep your home going."*
+*"Take it,"* I’d tell him. *"Put it to good use, sell what you can on eBay, and keep your household going."*
 
 He appreciated it to his very core. Every time I saw him, he would try to find ways to pay me or give something back. Sometimes I’d accept a small token just to honor his dignity, but usually that isn't my style. I give because I want to give, with zero strings attached and never expecting anything in return. The moment giving carries an expectation of return, it rots into a commercial barter—like saying, *"I'll forgive you only if you forgive me."* That isn't grace. True giving must come freely from the heart, unencumbered by obligation. And whatever surplus he couldn't sell to support his household, he made sure went to recycling programs and community charities like Seeds of Hope.
 
-Today, he is in his mid-sixties, and I am seventy-nine. His hair is gray, his hands carry the memory of decades of honest labor, and he manages his life on eBay, one parcel at a time.
+Now in his mid-sixties, his hands carry the weathered memory of honest labor, living quietly and taking each day as it comes.
 
-A few days ago, he called me. We were catching up on life, and out of the blue, he asked a question that stopped me in my tracks:
+A few days ago, the phone rang. We were catching up on life, and out of the blue, he asked a question that stopped me in my tracks:
 
 *"Ron... do you think that AI stuff could help a guy like me invent something?"*
 
