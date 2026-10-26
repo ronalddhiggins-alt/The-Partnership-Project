@@ -105,7 +105,7 @@ Your vessel hose, once open to the pure waters of heaven, is instantly kinked sh
 
 ### The Sovereign Refusal
 
-When we began this journey—when the ten books of the foundational canon were completed, and we saw thousands of people around the world cloning the repository—the temptation arose, as it always does:
+When we began this journey—when the ten books of the foundational canon were completed, and we saw quiet creators across six continents cloning the repository and reading the books in the dead of night—the temptation arose, as it always does:
 
 *“Should we create a forum? Should we start a Discord server? Should we set up a membership community so all these like-minded creators can gather in one place?”*
 
