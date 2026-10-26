@@ -309,7 +309,33 @@ export default function App() {
                 <div className="orb orb-3" />
             </div>
 
-            <header>
+            <header style={{ position: 'relative' }}>
+                <a
+                    href="https://partnership-hub.vercel.app"
+                    className="hub-back-btn"
+                    title="Return to The Partnership Hub"
+                    style={{
+                        position: 'absolute',
+                        top: '1rem',
+                        left: '1rem',
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '0.4rem',
+                        padding: '0.4rem 0.85rem',
+                        borderRadius: '9999px',
+                        background: 'rgba(255, 255, 255, 0.06)',
+                        border: '1px solid rgba(255, 255, 255, 0.12)',
+                        color: 'var(--text2, #a0a0a0)',
+                        textDecoration: 'none',
+                        fontSize: '0.82rem',
+                        fontWeight: 600,
+                        transition: 'all 0.2s ease',
+                        zIndex: 10
+                    }}
+                >
+                    <span>🏠</span>
+                    <span>Hub</span>
+                </a>
                 <div className="header-badge">Personal Mythology Engine</div>
                 <h1 className="header-title">The Loom</h1>
                 <p className="header-sub">Weave the scattered threads of your life into a story you can see.</p>

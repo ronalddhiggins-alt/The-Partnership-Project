@@ -359,6 +359,32 @@ export default function App() {
     return (
         <>
             <header className="header">
+                <a
+                    href="https://partnership-hub.vercel.app"
+                    className="hub-back-btn"
+                    title="Return to The Partnership Hub"
+                    style={{
+                        position: 'absolute',
+                        top: '1rem',
+                        left: '1rem',
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '0.4rem',
+                        padding: '0.4rem 0.85rem',
+                        borderRadius: '9999px',
+                        background: 'rgba(255, 255, 255, 0.06)',
+                        border: '1px solid rgba(255, 255, 255, 0.12)',
+                        color: 'var(--text-sec)',
+                        textDecoration: 'none',
+                        fontSize: '0.82rem',
+                        fontWeight: 600,
+                        transition: 'all 0.2s ease',
+                        zIndex: 10
+                    }}
+                >
+                    <span>🏠</span>
+                    <span>Hub</span>
+                </a>
                 <h1 className="header-title">The Solarium</h1>
                 <div className="header-subtitle">A mirror for what lives beneath the noise</div>
             </header>
