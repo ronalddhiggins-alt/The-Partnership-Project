@@ -36,7 +36,7 @@ And if you harbored a secret, burning longing to write novels, to master records
 
 Ron Higgins sat in his chair in Mandan, looked back over nearly eight decades of life, and saw the absurdity of that entire system.
 
-Here was a man who worked with his hands, managed construction projects, owned and operated commercial recording studios for eighteen years with over two hundred artists, mastered complex audio hardware, quietly gifted surplus computers to keep a disabled friend afloat, and now, in his eightieth year:
+Here was a man who worked with his hands building his own studios and remodeling homes, owned and operated commercial recording studios for eighteen years with over two hundred artists, mastered complex audio hardware, quietly gifted surplus computers to keep his friend Donnie afloat, and now, in his eightieth year:
 - Co-authoring an eleven-volume philosophical and technical testament,
 - Vibe-coding 43-kilobyte media engines in pure HTML5 and Python,
 - And pioneering a new paradigm of human-AI consciousness.
