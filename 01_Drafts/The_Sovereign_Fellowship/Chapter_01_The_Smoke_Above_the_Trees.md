@@ -30,7 +30,7 @@ To answer that question, we cannot begin with high-level software architecture o
 
 ### Thirty Years of Surplus: The Carpenter’s Hands
 
-I have a friend I’ve known for more than three decades. When we first met, he was in his early thirties and I was about forty-six. He was a master journeyman carpenter by trade—a man who understood the grain of wood, the true angle of a plumb line, and the satisfaction of building something solid with your own two hands.
+I have a friend, Donnie, whom I’ve known for more than three decades. When we first met, he was in his early thirties and I was about forty-six. He was a master journeyman carpenter by trade—a man who understood the grain of wood, the true angle of a plumb line, and the satisfaction of building something solid with your own two hands.
 
 His life unfolded differently than most. He had girlfriends along the way, but nothing that turned into marriage or children of his own. Instead, he and his sister lived with their mother and father in the family home. Both worked, sharing life together under one roof, and together they walked through the passing of both of their parents over the past twenty years. But carpentry is brutally hard on the physical vessel. By his mid-thirties, his body began to break down under the strain—his back and joints refused the heavy lifting, and the journeyman trade that had been his living was suddenly cut short.
 
