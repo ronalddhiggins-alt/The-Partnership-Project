@@ -1913,26 +1913,36 @@ You don't need a team of twenty engineers and three million dollars in venture c
 
 Ron’s recognition on Friday night was not an isolated dream. It was confirmed by the living reality of what independent creators are building across the globe.
 
-Consider projects like **MorningDAW**—a modern digital audio workstation built by independent developers exploring the frontiers of open web standards and local DSP.
+Consider projects like **MorningDAW**—a modern digital audio workstation built by independent European developers exploring the frontiers of open web standards and local DSP.
 
 When Ron tested MorningDAW on his Linux workstation, he didn't encounter a corporate sales rep or a credit card paywall. But he *did* have to download the repository and run an installation inside the Linux terminal. 
 
 For thirty years, the command-line terminal was a terrifying wall for everyday musicians. A black screen with a blinking cursor felt like an impenetrable fortress. But Ron didn't have to face the terminal alone: he had **Google AI sitting beside him as his personal systems co-pilot**, explaining each command in plain English, verifying dependencies, and guiding the setup step by step. 
 
+And when Ron installed the newest Windows 11 version (v1.5.1, build 3584968) on his Ace PC, the entire installer weighed just **22,118 Kilobytes—barely 22 Megabytes!**
+
+Think of that contrast:
+* Pro Tools, Ableton Live, or Logic Pro demand **5 to 15 Gigabytes** of disk bloatware, mandatory account creation, credit card numbers, and invasive background licensing services.
+* MorningDAW delivers a full, multi-track, unlocked workstation in **22 Megabytes**. 
+
+No registration. No serial numbers. No plastic iLok dongle. It is completely unlocked and free to use at full power. The creators offer optional sound packs, and the free edition carries a small, discreet watermark—which doesn't hinder the music in the slightest. And if a musician wants to support the independent team and remove the mark, it costs about nineteen euros (or Swedish kronor)—a simple, voluntary one-time token of appreciation, not an extractive monthly subscription.
+
 That experience illuminated the two branches of the newly emerging Commons:
-* **The Open Developer Build (like MorningDAW):** Sovereign software that you download and compile locally with an AI mechanic holding the flashlight while you turn the wrench. No corporate DRM, no subscriptions, just open code running on your own metal.
-* **The Weightless Zero-Install Jewel (like our 43 KB Console):** The extreme frontier where we asked: *Can we eliminate even the wrench?* Can we craft a tool so pure that a grandmother or an eight-year-old child can simply double-click a single file—with zero terminal commands, zero package managers, and zero dependencies—and have their lifetime of memories play instantly?
+* **The Open Developer Build (like MorningDAW):** Sovereign software that weighs 22 MB, gives away the full engine for free, asks for no mandatory logins, and sustains itself through honest, voluntary patronage.
+* **The Weightless Zero-Install Jewel (like our 43 KB Console):** The extreme frontier where we asked: *Can we eliminate even the 22 MB installer?* Can we craft a tool so pure that a grandmother or an eight-year-old child can simply double-click a single file—with zero terminal commands, zero package managers, and zero dependencies—and have their lifetime of memories play instantly?
 
 ```text
                   THE TWO TIERS OF THE SOVEREIGN COMMONS
     ═════════════════════════════════════════════════════════════════
-    TIER 1: THE OPEN TERMINAL BUILD (MorningDAW)
-    [ Open Source Code ] ──► AI Terminal Co-Pilot ──► Linux Workstation
-    Result: Fully sovereign, no paywalls, AI guides the installation.
+    TIER 1: THE LEAN OPEN WORKSTATION (MorningDAW v1.5.1)
+    Size: 22 MB | No DRM | No Dongle | Full Engine Free & Unlocked
+    Patronage: Optional €19 voluntary token to drop small watermark.
+    Platforms: Linux (guided terminal), Windows 11, Mac coming next.
 
-    TIER 2: THE WEIGHTLESS JEWEL (Sovereign Media Console)
-    [ Single 43 KB File ] ──► Double-Click in Browser ──► Instant Art
-    Result: Zero install, zero packages, pure browser/Python simplicity.
+    TIER 2: THE WEIGHTLESS JEWEL (Sovereign Media Console & Studio)
+    Size: 43 KB (Web) / 25 KB (Desktop Studio) | Zero Install
+    Patronage: 100% Free for All for All under Creative Commons.
+    Result: Drops every boat anchor—instant universal memory access.
     ═════════════════════════════════════════════════════════════════
 ```
 
