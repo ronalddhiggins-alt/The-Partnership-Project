@@ -72,7 +72,7 @@ The machine boots in eight seconds. The fan barely whispers. The operating syste
 
 Suddenly, a "discarded" $100 PC has more raw computing muscle, lower latency, and greater acoustic stability than a brand-new $1,500 retail laptop bogged down with bloatware, cloud sync agents, and advertising banners in the start menu.
 
-Beside these tanks sits Ron’s daily driver: an **Ace Mini PC**—a palm-sized, silent powerhouse running Windows 11 and Linux, where MorningDAW and Antigravity live side by side.
+Beside these tanks sits Ron’s daily driver: an **Ace Mini PC**—a palm-sized, silent powerhouse running Windows 11 and Linux, where MorningDAW and Antigravity live side by side. And anchoring the flagship mastering desk sits an **Apple M1 Mac Mini** (16 GB unified RAM, 256 GB SSD)—a cool, silent, dedicated engine driving the Avid HDX card and Lynx Aurora 16.
 
 When you drop the boat anchors of planned obsolescence, you realize that humanity already built all the computing power it needs a decade ago. We don't need faster chips to make soulful art; we just need to stop running corporate surveillance engines on the chips we already have.
 
@@ -161,8 +161,16 @@ But when the song is tracked, arranged, and co-produced with Antigravity, a seco
 
 Ron doesn't guess how a track will translate across the world. At the close of a venture—and at critical milestone checkpoints along the entire journey—he pulls the multitrack stems out of MorningDAW and routes them into his flagship evaluation environment:
 
-1. **The Core Engine: Avid Pro Tools Ultimate & HDX Card:** 
-   The industry’s gold-standard zero-latency DSP mixing architecture.
+1. **The Core Engine: Avid Pro Tools Ultimate & HDX Card (On the M1 Mac Mini):** 
+   The industry’s gold-standard zero-latency DSP mixing architecture, driven by a dedicated Apple M1 Mac Mini (16 GB unified RAM, 256 GB SSD)—silent, cool, and unflinching. 
+
+   And here lies another crucial declaration of sovereign independence: **getting off the corporate upgrade treadmill.** 
+
+   For years, Avid kept the professional audio world trapped on an aggressive yearly "support plan" roller coaster, extracting hundreds of dollars per year under the threat that if you let your plan lapse, you would lose access to updates or fall behind. Ron had accumulated an army of perpetual software: **two Pro Tools Ultimate perpetual licenses, two Pro Tools Studio licenses, and one Artist license.** 
+
+   Exactly one year ago, Ron made the conscious choice to step off the treadmill. He canceled the annual support renewals. He froze his Pro Tools Ultimate systems at their peak stability. 
+
+   The result? Zero subscription anxiety. Zero surprise updates breaking third-party plugins. Zero corporate dependency. The perpetual licenses are owned free and clear, running indefinitely on the M1 Mac Mini without paying another dollar of tribute to Avid's recurring tax.
 2. **The Converters: Lynx Aurora 16 Silver I/O:** 
    Pristine, mastering-grade digital-to-analog conversion that renders every transient and harmonic overtone with photographic three-dimensional depth.
 3. **The Multi-Monitor Acoustic Array:**
