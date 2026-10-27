@@ -1,0 +1,2154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sovereign Media Console — Universal Drive & Vault Explorer</title>
+    <meta name="description" content="Local, private, and instant browser-based explorer for any connected hard drive, thumb drive, SD card, or folder. Zero cloud, 100% sovereign.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-void: #07090e;
+            --bg-panel: rgba(15, 20, 31, 0.92);
+            --bg-card: rgba(20, 28, 44, 0.75);
+            --bg-card-hover: rgba(28, 38, 60, 0.95);
+            --gold: #f59e0b;
+            --gold-light: #fef08a;
+            --gold-glow: rgba(245, 158, 11, 0.25);
+            --brass: #d97706;
+            --cyan: #06b6d4;
+            --cyan-glow: rgba(6, 182, 212, 0.2);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --border-glass: rgba(255, 255, 255, 0.08);
+            --border-gold: rgba(245, 158, 11, 0.4);
+            --border-cyan: rgba(6, 182, 212, 0.4);
+            --font-main: "Outfit", -apple-system, sans-serif;
+            --font-display: "Playfair Display", Georgia, serif;
+            --font-mono: "JetBrains Mono", monospace;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background-color: var(--bg-void);
+            color: var(--text-primary);
+            font-family: var(--font-main);
+            min-height: 100vh;
+            line-height: 1.6;
+            background-image: 
+                radial-gradient(circle at 10% 0%, rgba(245, 158, 11, 0.08) 0%, transparent 45%),
+                radial-gradient(circle at 90% 100%, rgba(6, 182, 212, 0.06) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(15, 23, 42, 0.6) 0%, transparent 100%);
+            background-attachment: fixed;
+        }
+
+        /* Top Bar */
+        .top-nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(20px);
+            background: rgba(7, 9, 14, 0.9);
+            border-bottom: 1px solid var(--border-glass);
+            padding: 0.85rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .brand-cluster {
+            display: flex;
+            align-items: center;
+            gap: 0.85rem;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .brand-badge {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(217, 119, 6, 0.35));
+            border: 1px solid var(--border-gold);
+            color: var(--gold-light);
+            font-family: var(--font-mono);
+            font-size: 0.72rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            padding: 0.25rem 0.65rem;
+            border-radius: 9999px;
+            font-weight: 600;
+        }
+
+        .brand-title {
+            font-family: var(--font-display);
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+        }
+
+        .top-nav-links {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+        }
+
+        .top-nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.88rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .top-nav-links a:hover { color: var(--gold); }
+
+        /* Hero Command Deck */
+        .command-deck {
+            max-width: 1440px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .deck-header {
+            background: linear-gradient(135deg, rgba(15, 20, 31, 0.95), rgba(11, 15, 24, 0.98));
+            border: 1px solid var(--border-gold);
+            border-radius: 18px;
+            padding: 2.2rem 2.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.8), 0 0 30px rgba(245, 158, 11, 0.12);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .deck-header::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+        }
+
+        .deck-title-area h2 {
+            font-family: var(--font-display);
+            font-size: 2.2rem;
+            color: #fff;
+            margin-bottom: 0.4rem;
+        }
+
+        .deck-title-area p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            max-width: 650px;
+        }
+
+        .deck-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            align-items: flex-end;
+        }
+
+        .btn-open-drive, .btn-open-files {
+            font-family: var(--font-main);
+            font-size: 1.05rem;
+            font-weight: 700;
+            padding: 0.9rem 1.6rem;
+            border-radius: 12px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.65rem;
+            user-select: none;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+
+        .btn-open-drive {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: #07090e;
+            border: none;
+            box-shadow: 0 0 25px rgba(245, 158, 11, 0.45);
+        }
+
+        .btn-open-drive:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 0 35px rgba(245, 158, 11, 0.7);
+        }
+
+        .btn-open-files {
+            background: rgba(15, 20, 31, 0.95);
+            color: var(--gold-light);
+            border: 1px solid var(--border-gold);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .btn-open-files:hover {
+            transform: translateY(-2px) scale(1.02);
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.25), rgba(217, 119, 6, 0.35));
+            border-color: var(--gold);
+            box-shadow: 0 0 30px rgba(245, 158, 11, 0.5);
+        }
+
+        .drop-hint {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-align: right;
+            max-width: 520px;
+            line-height: 1.4;
+        }
+
+        /* Preset Vault Shortcuts Bar */
+        .presets-bar {
+            max-width: 1440px;
+            margin: 1.25rem auto 0;
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.65rem;
+            flex-wrap: wrap;
+        }
+
+        .presets-label {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-right: 0.25rem;
+        }
+
+        .btn-preset {
+            background: rgba(15, 20, 31, 0.85);
+            border: 1px solid var(--border-glass);
+            color: var(--text-secondary);
+            font-family: var(--font-main);
+            font-size: 0.84rem;
+            font-weight: 500;
+            padding: 0.4rem 0.85rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn-preset:hover, .btn-preset.active {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(217, 119, 6, 0.3));
+            border-color: var(--gold);
+            color: var(--gold-light);
+            font-weight: 600;
+        }
+
+        /* Stats & Status Strip */
+        .status-strip {
+            max-width: 1440px;
+            margin: 1.25rem auto 0;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .stat-badges-row {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .stat-pill {
+            background: var(--bg-card);
+            border: 1px solid var(--border-glass);
+            padding: 0.45rem 0.9rem;
+            border-radius: 10px;
+            font-family: var(--font-mono);
+            font-size: 0.78rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .stat-pill strong {
+            color: var(--gold-light);
+            font-size: 0.92rem;
+        }
+
+        /* Filter & Search Bar */
+        .controls-bar {
+            max-width: 1440px;
+            margin: 1.25rem auto 0;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1.25rem;
+            flex-wrap: wrap;
+        }
+
+        .type-filters {
+            display: flex;
+            gap: 0.5rem;
+            background: rgba(15, 20, 31, 0.8);
+            padding: 0.35rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-glass);
+        }
+
+        .btn-tab {
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            font-family: var(--font-main);
+            font-size: 0.85rem;
+            font-weight: 500;
+            padding: 0.45rem 1rem;
+            border-radius: 7px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn-tab:hover { color: #fff; }
+
+        .btn-tab.active {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.25), rgba(217, 119, 6, 0.35));
+            color: var(--gold-light);
+            font-weight: 700;
+            box-shadow: 0 0 15px rgba(245, 158, 11, 0.2);
+        }
+
+        .search-container {
+            flex: 1;
+            max-width: 480px;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            background: rgba(15, 20, 31, 0.85);
+            border: 1px solid var(--border-glass);
+            border-radius: 10px;
+            padding: 0.65rem 1.1rem 0.65rem 2.5rem;
+            color: #fff;
+            font-family: var(--font-main);
+            font-size: 0.92rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .search-input:focus { border-color: var(--gold); }
+
+        .search-icon {
+            position: absolute;
+            left: 0.9rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            pointer-events: none;
+        }
+
+        /* Drag Overlay */
+        #dropOverlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(7, 9, 14, 0.95);
+            border: 4px dashed var(--gold);
+            z-index: 999;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        #dropOverlay.active { display: flex; }
+
+        .drop-message {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            color: var(--gold-light);
+        }
+
+        /* Gallery Grid */
+        .media-grid-area {
+            max-width: 1440px;
+            margin: 2rem auto 4rem;
+            padding: 0 2rem;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-glass);
+            border-radius: 14px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+            position: relative;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--gold);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.7), 0 0 20px var(--gold-glow);
+        }
+
+        .card-preview-box {
+            position: relative;
+            width: 100%;
+            height: 230px;
+            background: #040609;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover .card-img { transform: scale(1.06); }
+
+        .card-icon-placeholder {
+            font-size: 3.5rem;
+            color: var(--text-muted);
+        }
+
+        .type-badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(7, 9, 14, 0.85);
+            backdrop-filter: blur(8px);
+            padding: 0.25rem 0.55rem;
+            border-radius: 6px;
+            font-family: var(--font-mono);
+            font-size: 0.68rem;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            border: 1px solid var(--border-glass);
+        }
+
+        .type-badge.photo { color: #f59e0b; border-color: rgba(245, 158, 11, 0.4); }
+        .type-badge.audio { color: #06b6d4; border-color: rgba(6, 182, 212, 0.4); }
+        .type-badge.video { color: #a855f7; border-color: rgba(168, 85, 247, 0.4); }
+        .type-badge.document { color: #10b981; border-color: rgba(16, 185, 129, 0.4); }
+
+        .master-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(34, 197, 94, 0.25);
+            backdrop-filter: blur(8px);
+            color: #4ade80;
+            font-family: var(--font-mono);
+            font-size: 0.65rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 6px;
+            border: 1px solid rgba(74, 222, 128, 0.4);
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .card-info {
+            padding: 1.1rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card-name {
+            font-size: 0.92rem;
+            font-weight: 600;
+            color: #f8fafc;
+            margin-bottom: 0.5rem;
+            word-break: break-all;
+            line-height: 1.4;
+        }
+
+        .card-subtext {
+            font-family: var(--font-mono);
+            font-size: 0.74rem;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(255,255,255,0.06);
+            padding-top: 0.6rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Empty State */
+        .empty-placeholder {
+            text-align: center;
+            padding: 5rem 2rem;
+            border: 2px dashed rgba(255,255,255,0.1);
+            border-radius: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .empty-icon { font-size: 4rem; margin-bottom: 1rem; opacity: 0.8; }
+        .empty-title { font-family: var(--font-display); font-size: 1.8rem; color: #fff; margin-bottom: 0.5rem; }
+        .empty-desc { color: var(--text-secondary); font-size: 0.95rem; max-width: 480px; margin: 0 auto 1.8rem; }
+
+        /* Fullscreen Cinema Modal Lightbox */
+        .modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(4, 6, 10, 0.96);
+            backdrop-filter: blur(16px);
+            z-index: 1000;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .modal.open { display: flex; }
+
+        .modal-body {
+            max-width: 90vw;
+            max-height: 78vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .modal-media {
+            max-width: 100%;
+            max-height: 78vh;
+            border-radius: 12px;
+            box-shadow: 0 0 60px rgba(0,0,0,0.9), 0 0 40px var(--gold-glow);
+            border: 1px solid var(--border-gold);
+            object-fit: contain;
+        }
+
+        .modal-audio-deck {
+            background: rgba(15, 20, 31, 0.95);
+            border: 1px solid var(--border-gold);
+            border-radius: 16px;
+            padding: 2.5rem 3rem;
+            text-align: center;
+            min-width: 420px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+        }
+
+        .modal-info-footer {
+            margin-top: 1.5rem;
+            text-align: center;
+            max-width: 800px;
+        }
+
+        .modal-title { font-family: var(--font-display); font-size: 1.35rem; color: #fff; margin-bottom: 0.35rem; }
+        .modal-path { font-family: var(--font-mono); font-size: 0.8rem; color: var(--gold); word-break: break-all; margin-bottom: 0.4rem; }
+        .modal-specs { font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-muted); }
+
+        .modal-nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(15, 20, 31, 0.8);
+            border: 1px solid var(--border-glass);
+            color: #fff;
+            font-size: 2rem;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            user-select: none;
+        }
+
+        .modal-nav-btn:hover {
+            border-color: var(--gold);
+            color: var(--gold);
+            background: rgba(24, 32, 50, 0.95);
+        }
+
+        .modal-prev { left: 2rem; }
+        .modal-next { right: 2rem; }
+
+        .modal-close {
+            position: absolute;
+            top: 1.5rem;
+            right: 2rem;
+            color: var(--text-secondary);
+            font-size: 2.2rem;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .modal-close:hover { color: var(--gold); }
+
+        /* Document Viewer Deck */
+        .modal-doc-deck {
+            width: 960px;
+            max-width: 92vw;
+            height: 78vh;
+            background: rgba(15, 20, 31, 0.98);
+            border: 1px solid var(--border-gold);
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.9), 0 0 35px var(--gold-glow);
+        }
+
+        .doc-toolbar {
+            padding: 0.75rem 1.25rem;
+            background: rgba(10, 14, 22, 0.95);
+            border-bottom: 1px solid var(--border-glass);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+
+        .doc-btn-group {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .doc-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-glass);
+            color: var(--text-primary);
+            padding: 0.42rem 0.85rem;
+            border-radius: 8px;
+            font-size: 0.82rem;
+            cursor: pointer;
+            font-family: var(--font-main);
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            transition: all 0.2s ease;
+        }
+
+        .doc-btn:hover {
+            background: rgba(245, 158, 11, 0.15);
+            border-color: var(--gold);
+            color: var(--gold-light);
+        }
+
+        .doc-btn.active {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.25), rgba(217, 119, 6, 0.4));
+            border-color: var(--gold);
+            color: var(--gold-light);
+            box-shadow: 0 0 12px var(--gold-glow);
+        }
+
+        .doc-content-area {
+            flex: 1;
+            overflow-y: auto;
+            padding: 2.2rem 2.8rem;
+            line-height: 1.8;
+            font-size: 1.02rem;
+            color: #e2e8f0;
+            scroll-behavior: smooth;
+        }
+
+        .doc-markdown-body h1 {
+            font-family: var(--font-display);
+            font-size: 2.1rem;
+            color: #fff;
+            margin: 1.8rem 0 1rem 0;
+            border-bottom: 1px solid rgba(245, 158, 11, 0.3);
+            padding-bottom: 0.5rem;
+        }
+
+        .doc-markdown-body h1:first-child { margin-top: 0; }
+
+        .doc-markdown-body h2 {
+            font-family: var(--font-display);
+            font-size: 1.55rem;
+            color: var(--gold-light);
+            margin: 1.6rem 0 0.8rem 0;
+        }
+
+        .doc-markdown-body h3 {
+            font-family: var(--font-display);
+            font-size: 1.25rem;
+            color: #93c5fd;
+            margin: 1.3rem 0 0.6rem 0;
+        }
+
+        .doc-markdown-body h4 {
+            font-family: var(--font-display);
+            font-size: 1.08rem;
+            color: #cbd5e1;
+            margin: 1.1rem 0 0.5rem 0;
+        }
+
+        .doc-markdown-body p {
+            margin-bottom: 1.2rem;
+            color: #cbd5e1;
+        }
+
+        .doc-markdown-body blockquote {
+            border-left: 3px solid var(--gold);
+            background: rgba(245, 158, 11, 0.05);
+            padding: 0.85rem 1.4rem;
+            border-radius: 0 10px 10px 0;
+            font-style: italic;
+            color: #fef3c7;
+            margin: 1.3rem 0;
+        }
+
+        .doc-markdown-body ul, .doc-markdown-body ol {
+            margin: 0.8rem 0 1.2rem 1.8rem;
+            color: #cbd5e1;
+        }
+
+        .doc-markdown-body li {
+            margin-bottom: 0.4rem;
+        }
+
+        .doc-markdown-body a {
+            color: var(--cyan);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            transition: color 0.2s;
+        }
+
+        .doc-markdown-body a:hover {
+            color: var(--gold);
+        }
+
+        .doc-divider {
+            border: none;
+            border-top: 1px solid rgba(255, 255, 255, 0.12);
+            margin: 2rem 0;
+        }
+
+        .doc-code-block {
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 1.2rem;
+            overflow-x: auto;
+            font-family: var(--font-mono);
+            font-size: 0.88rem;
+            color: #67e8f9;
+            margin: 1.2rem 0;
+            line-height: 1.55;
+        }
+
+        .doc-inline-code {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 5px;
+            padding: 0.15rem 0.45rem;
+            font-family: var(--font-mono);
+            font-size: 0.85em;
+            color: var(--gold-light);
+        }
+
+        .doc-raw-text {
+            font-family: var(--font-mono);
+            font-size: 0.88rem;
+            color: #cbd5e1;
+            white-space: pre-wrap;
+            word-break: break-word;
+            line-height: 1.6;
+        }
+
+        /* Print / PDF Mode */
+        @media print {
+            body { background: #fff !important; color: #000 !important; }
+            .top-nav, .command-deck, .presets-bar, .status-strip, .controls-bar, .media-grid-area, #dropOverlay, .modal-close, .modal-nav-btn, .modal-info-footer, .doc-toolbar {
+                display: none !important;
+            }
+            .modal { position: static !important; background: transparent !important; padding: 0 !important; display: block !important; }
+            .modal-body { max-width: 100% !important; max-height: none !important; }
+            .modal-doc-deck { width: 100% !important; max-width: 100% !important; height: auto !important; border: none !important; box-shadow: none !important; background: transparent !important; }
+            .doc-content-area { color: #111 !important; background: #fff !important; padding: 0 !important; overflow: visible !important; }
+            .doc-markdown-body h1, .doc-markdown-body h2, .doc-markdown-body h3 { color: #000 !important; }
+            .doc-markdown-body p, .doc-markdown-body li { color: #111 !important; }
+            .doc-markdown-body blockquote { border-left: 3px solid #333 !important; background: #f4f4f4 !important; color: #222 !important; }
+            .doc-code-block, .doc-inline-code { background: #f5f5f5 !important; border: 1px solid #ccc !important; color: #111 !important; }
+        }
+
+        /* iPhone & Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .top-nav {
+                padding: 0.75rem 1rem;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+            .top-nav-links {
+                display: none; /* Keep clean on small mobile screens */
+            }
+            .hero {
+                padding: 1.5rem 1rem 1rem;
+            }
+            .hero-title {
+                font-size: 1.85rem;
+            }
+            .hero-subtitle {
+                font-size: 0.95rem;
+                margin-bottom: 1.25rem;
+            }
+            .hero-actions {
+                flex-direction: column;
+                width: 100%;
+                gap: 0.75rem;
+            }
+            .btn-open-drive, .btn-open-files {
+                width: 100%;
+                justify-content: center;
+                padding: 0.85rem 1.25rem;
+                font-size: 0.95rem;
+            }
+            .status-strip {
+                padding: 0 1rem;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.75rem;
+            }
+            .controls-bar {
+                padding: 0 1rem;
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0.75rem;
+            }
+            .type-filters {
+                width: 100%;
+                justify-content: space-around;
+            }
+            .btn-tab {
+                padding: 0.4rem 0.6rem;
+                font-size: 0.8rem;
+            }
+            .search-container {
+                max-width: 100%;
+                width: 100%;
+            }
+            .grid-container {
+                grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+                gap: 0.75rem;
+                padding: 1rem;
+            }
+            .card-title {
+                font-size: 0.78rem;
+            }
+            .modal {
+                padding: 1rem;
+            }
+            .modal-body {
+                max-width: 95vw;
+                max-height: 70vh;
+            }
+            .modal-media {
+                max-height: 70vh;
+            }
+            .modal-nav-btn {
+                display: none; /* On mobile swipe or tap is natural */
+            }
+            .modal-close {
+                top: 0.75rem;
+                right: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- DRAG & DROP OVERLAY -->
+    <div id="dropOverlay">
+        <div class="drop-message">📂 Drop Any Folder or Files Here</div>
+        <div style="color:var(--text-secondary);font-size:1.1rem;">Release to immediately scan and browse!</div>
+    </div>
+
+    <!-- TOP NAVIGATION -->
+    <nav class="top-nav">
+        <a href="https://partnership-hub.vercel.app" class="brand-cluster" target="_blank" rel="noopener noreferrer">
+            <span class="brand-badge">Universal Console</span>
+            <span class="brand-title">Sovereign Media Explorer</span>
+        </a>
+        <div class="top-nav-links">
+            <a href="downloads/Sovereign-Media-Console-Package.zip" download class="btn-dl-offline" style="background:linear-gradient(135deg, rgba(245,158,11,0.25), rgba(217,119,6,0.35)); border:1px solid rgba(245,158,11,0.6); color:#fef08a; padding:0.35rem 0.8rem; border-radius:20px; font-weight:700; text-decoration:none; display:inline-flex; align-items:center; gap:0.4rem; font-size:0.82rem;" title="Download Free Standalone Package (.zip) for Mac, Windows & Linux">📥 Download Offline App (.zip)</a>
+            <a href="https://partnership-hub.vercel.app/ronhigginsmusic.html" target="_blank" rel="noopener noreferrer">🎸 Ron Higgins Music</a>
+            <a href="https://partnership-hub.vercel.app/higgins-family-productions.html" target="_blank" rel="noopener noreferrer">🏛️ Studio Museum</a>
+            <a href="https://partnership-hub.vercel.app" target="_blank" rel="noopener noreferrer">✦ The Partnership Hub</a>
+        </div>
+    </nav>
+
+    <!-- COMMAND DECK -->
+    <div class="command-deck">
+        <div class="deck-header">
+            <div class="deck-title-area">
+                <h2>Browse Any Drive, Card, or Folder</h2>
+                <p>
+                    Point to any connected external drive (LaCie 2TB, RED 128GB thumb drive, camera SD card, or local folders) to browse thousands of photos, music tracks, videos, and documents (.md, .txt, .json) instantly with zero upload and 100% private security.
+                </p>
+            </div>
+            <div class="deck-actions">
+                <div style="display:flex;gap:0.75rem;flex-wrap:wrap;justify-content:flex-end;">
+                    <label for="folderInput" class="btn-open-drive" title="Selects an entire drive or folder at once">
+                        <span>📂 Open Entire Folder or Drive...</span>
+                    </label>
+                    <label for="fileInput" class="btn-open-files" title="Select specific photos, audio, videos, or documents directly (files not greyed out!)">
+                        <span>📄 Select Photos, Music, Docs...</span>
+                    </label>
+                </div>
+                <!-- Native hidden inputs triggered automatically by labels -->
+                <input type="file" id="folderInput" webkitdirectory directory multiple style="display:none;" onclick="this.value=null;" onchange="handleNativeInput(this.files, true)">
+                <input type="file" id="fileInput" multiple style="display:none;" onclick="this.value=null;" onchange="handleNativeInput(this.files, false)">
+                <span class="drop-hint">💡 <strong>Tip:</strong> In the Folder Picker, macOS grays out files because it selects the whole folder at once! To select specific files without graying, click <strong>"Select Photos, Music, Docs..."</strong>.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRESET VAULT SHORTCUTS -->
+    <div class="presets-bar">
+        <span class="presets-label">⚡ Quick Presets:</span>
+        <button class="btn-preset active" id="preset-sample" onclick="loadSampleDocPreset()">📖 Sample Story &amp; Markdown Guide</button>
+        <button class="btn-preset" id="preset-clear" onclick="clearAllFiles()">🧹 Clear Display</button>
+    </div>
+
+    <!-- STATUS STRIP -->
+    <div class="status-strip">
+        <div class="stat-badges-row">
+            <div class="stat-pill">
+                <span>📁 Active Source:</span>
+                <strong id="activeSourceLabel">Ron Higgins Music Vault</strong>
+            </div>
+            <div class="stat-pill">
+                <span>📸 Total Files:</span>
+                <strong id="statTotalFiles">0</strong>
+            </div>
+            <div class="stat-pill">
+                <span>📷 Photos:</span>
+                <strong id="statPhotos">0</strong>
+            </div>
+            <div class="stat-pill">
+                <span>🎵 Audio:</span>
+                <strong id="statAudio">0</strong>
+            </div>
+            <div class="stat-pill">
+                <span>🎬 Video:</span>
+                <strong id="statVideo">0</strong>
+            </div>
+            <div class="stat-pill">
+                <span>📄 Docs:</span>
+                <strong id="statDocs">0</strong>
+            </div>
+        </div>
+        <div id="scanStatus" style="font-family:var(--font-mono);font-size:0.8rem;color:var(--gold);">Ready</div>
+    </div>
+
+    <!-- CONTROLS & SEARCH BAR -->
+    <div class="controls-bar">
+        <div class="type-filters">
+            <button class="btn-tab active" onclick="setMediaType('all')">All Files</button>
+            <button class="btn-tab" onclick="setMediaType('photo')">📷 Photos</button>
+            <button class="btn-tab" onclick="setMediaType('audio')">🎵 Audio</button>
+            <button class="btn-tab" onclick="setMediaType('video')">🎬 Video</button>
+            <button class="btn-tab" onclick="setMediaType('document')">📄 Documents</button>
+        </div>
+        <div class="search-container">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="searchInput" class="search-input" placeholder="Search filenames or folders (e.g., D-Control, rooster, studio, 2018)..." oninput="handleSearch()">
+        </div>
+    </div>
+
+    <!-- GALLERY GRID AREA -->
+    <div class="media-grid-area">
+        <div id="gridContainer" class="grid-container">
+            <!-- Cards injected here -->
+        </div>
+    </div>
+
+    <!-- CINEMA LIGHTBOX MODAL -->
+    <div class="modal" id="modal" onclick="handleModalBackdropClick(event)">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <button class="modal-nav-btn modal-prev" onclick="navModal(-1)">&#8249;</button>
+        <button class="modal-nav-btn modal-next" onclick="navModal(1)">&#8250;</button>
+        
+        <div class="modal-body" id="modalBody">
+            <!-- Media element injected here -->
+        </div>
+        
+        <div class="modal-info-footer">
+            <div class="modal-title" id="modalTitle">File Name</div>
+            <div class="modal-path" id="modalPath">Path</div>
+            <div class="modal-specs" id="modalSpecs">Specs</div>
+        </div>
+    </div>
+
+    <script>
+        // Preset Vault Data
+        const PRESET_DATA = [];
+
+        // Media State
+        let allItems = [];
+        let filteredItems = [];
+        let currentTypeFilter = "all";
+        let currentSearchQuery = "";
+        let currentModalIndex = 0;
+        let isNativeStudioMode = false;
+        let currentNativeFolder = "";
+
+        async function checkNativeStudioBridge() {
+            try {
+                const res = await fetch("/api/status");
+                if (res.ok) {
+                    const data = await res.json();
+                    isNativeStudioMode = true;
+                    console.log("⚡ Sovereign Desktop Studio Active:", data);
+                    
+                    const brand = document.querySelector(".brand-title");
+                    if (brand && !document.getElementById("nativeBadge")) {
+                        const badge = document.createElement("span");
+                        badge.id = "nativeBadge";
+                        badge.style.fontSize = "0.72rem";
+                        badge.style.color = "var(--gold-light)";
+                        badge.style.background = "rgba(245,158,11,0.15)";
+                        badge.style.border = "1px solid rgba(245,158,11,0.4)";
+                        badge.style.padding = "0.2rem 0.6rem";
+                        badge.style.borderRadius = "20px";
+                        badge.style.marginLeft = "0.8rem";
+                        badge.style.verticalAlign = "middle";
+                        badge.innerHTML = "⚡ NATIVE DESKTOP STUDIO";
+                        brand.appendChild(badge);
+                    }
+
+                    loadNativeRoots();
+                }
+            } catch (e) {
+                isNativeStudioMode = false;
+            }
+        }
+
+        async function loadNativeRoots() {
+            try {
+                const res = await fetch("/api/roots");
+                if (!res.ok) return;
+                const roots = await res.json();
+                const bar = document.getElementById("presetsBar");
+                if (!bar) return;
+                
+                bar.innerHTML = `<span class="presets-label">⚡ Direct Local Vaults:</span>`;
+                roots.forEach(r => {
+                    const btn = document.createElement("button");
+                    btn.className = "btn-preset";
+                    btn.innerText = r.name;
+                    btn.onclick = () => browseNativeFolder(r.path);
+                    bar.appendChild(btn);
+                });
+            } catch (e) {}
+        }
+
+        async function browseNativeFolder(folderPath) {
+            try {
+                showLoading(true, "Scanning native vault: " + folderPath.split("/").pop());
+                const res = await fetch("/api/browse?path=" + encodeURIComponent(folderPath));
+                if (!res.ok) throw new Error("Cannot browse directory");
+                const data = await res.json();
+                currentNativeFolder = data.currentPath;
+
+                allItems = [];
+                // Add ".." parent directory button if not at root
+                const parentDir = folderPath.substring(0, folderPath.lastIndexOf("/"));
+                if (parentDir && parentDir !== folderPath) {
+                    allItems.push({
+                        name: "⬆️ .. (Parent Directory)",
+                        path: parentDir,
+                        nativePath: parentDir,
+                        type: "folder",
+                        isDir: true,
+                        sizeFormatted: "Directory"
+                    });
+                }
+
+                data.items.forEach(it => {
+                    if (it.isDir) {
+                        allItems.push({
+                            name: "📁 " + it.name,
+                            path: it.path,
+                            nativePath: it.path,
+                            type: "folder",
+                            isDir: true,
+                            sizeFormatted: "Directory"
+                        });
+                    } else {
+                        const ext = it.name.split(".").pop().toLowerCase();
+                        let type = "other";
+                        if (EXT_PHOTO.includes(ext)) type = "photo";
+                        else if (EXT_AUDIO.includes(ext)) type = "audio";
+                        else if (EXT_VIDEO.includes(ext)) type = "video";
+                        else if (EXT_DOC.includes(ext)) type = "document";
+
+                        allItems.push({
+                            name: it.name,
+                            path: it.path,
+                            nativePath: it.path,
+                            type: type,
+                            size: it.size,
+                            sizeFormatted: formatBytes(it.size),
+                            presetUrl: "/api/file?path=" + encodeURIComponent(it.path)
+                        });
+                    }
+                });
+
+                document.getElementById("statusTotalFiles").innerText = allItems.length.toLocaleString();
+                document.getElementById("statusActiveVault").innerText = "Vault: " + folderPath.split("/").pop();
+                applyFilters();
+                showLoading(false);
+            } catch (e) {
+                showLoading(false);
+                alert("Error browsing directory: " + e.message);
+            }
+        }
+
+        const EXT_PHOTO = ["jpg", "jpeg", "png", "gif", "webp", "bmp", "svg", "tif", "tiff", "heic", "heif", "ico", "psd", "dng", "cr2", "cr3", "nef", "arw", "orf", "rw2", "pef", "sr2", "srf", "raw", "eps", "ai"];
+        const EXT_AUDIO = ["mp3", "wav", "aiff", "aif", "flac", "m4a", "aac", "ogg", "wma", "mid", "midi", "alac", "ape", "ra", "ram", "ac3", "dts", "opus", "mka", "mp2"];
+        const EXT_VIDEO = ["mp4", "mov", "m4v", "webm", "mkv", "avi", "asf", "wmv", "mpg", "mpeg", "m2v", "ts", "mts", "m2ts", "m2t", "vob", "3gp", "3g2", "flv", "f4v", "dv", "divx", "xvid", "rm", "rmvb", "ogv"];
+        const EXT_DOC = ["md", "markdown", "txt", "json", "js", "ts", "css", "html", "htm", "log", "csv", "xml", "yaml", "yml", "sh", "py", "rtf", "odt", "docx", "pdf", "epub"];
+
+        function getMediaType(filename) {
+            const ext = filename.split(".").pop().toLowerCase();
+            if (EXT_PHOTO.includes(ext)) return "photo";
+            if (EXT_AUDIO.includes(ext)) return "audio";
+            if (EXT_VIDEO.includes(ext)) return "video";
+            if (EXT_DOC.includes(ext)) return "document";
+            return "other";
+        }
+
+        // Native Input Handler (sync label trigger, 100% works on Mac file://)
+        function handleNativeInput(fileList, isDirectory) {
+            if (!fileList || fileList.length === 0) return;
+            
+            document.querySelectorAll(".btn-preset").forEach(b => b.classList.remove("active"));
+            allItems = [];
+
+            // Reset type filter to 'all' so new items are always visible
+            currentTypeFilter = "all";
+            document.querySelectorAll(".btn-tab").forEach(b => b.classList.remove("active"));
+            const allBtn = document.querySelector(".btn-tab");
+            if (allBtn) allBtn.classList.add("active");
+
+            const rootName = isDirectory 
+                ? (fileList[0].webkitRelativePath ? fileList[0].webkitRelativePath.split("/")[0] : "Selected Folder")
+                : `${fileList.length} Selected File(s)`;
+
+            document.getElementById("activeSourceLabel").textContent = rootName;
+            document.getElementById("scanStatus").textContent = "Processing files...";
+
+            for (let i = 0; i < fileList.length; i++) {
+                const f = fileList[i];
+                if (f.name.startsWith(".")) continue;
+                const type = getMediaType(f.name);
+                if (type !== "other") {
+                    allItems.push({
+                        name: f.name,
+                        path: f.webkitRelativePath || f.name,
+                        type: type,
+                        size: f.size,
+                        sizeFormatted: formatBytes(f.size),
+                        fileObj: f,
+                        url: null,
+                        isThumb: false
+                    });
+                }
+            }
+            finishScan(rootName);
+        }
+
+        // Drag and drop handler (handles folders and loose files!)
+        window.addEventListener("dragover", (e) => {
+            e.preventDefault();
+            document.getElementById("dropOverlay").classList.add("active");
+        });
+
+        window.addEventListener("dragleave", (e) => {
+            if (e.relatedTarget === null) {
+                document.getElementById("dropOverlay").classList.remove("active");
+            }
+        });
+
+        window.addEventListener("drop", async (e) => {
+            e.preventDefault();
+            document.getElementById("dropOverlay").classList.remove("active");
+            document.querySelectorAll(".btn-preset").forEach(b => b.classList.remove("active"));
+
+            allItems = [];
+            currentTypeFilter = "all";
+            document.querySelectorAll(".btn-tab").forEach(b => b.classList.remove("active"));
+            const allBtn = document.querySelector(".btn-tab");
+            if (allBtn) allBtn.classList.add("active");
+
+            document.getElementById("scanStatus").textContent = "Scanning dropped items...";
+
+            let hasScannedEntries = false;
+
+            if (e.dataTransfer.items && e.dataTransfer.items.length > 0) {
+                const items = e.dataTransfer.items;
+                for (let i = 0; i < items.length; i++) {
+                    const item = items[i];
+                    if (item.webkitGetAsEntry) {
+                        const entry = item.webkitGetAsEntry();
+                        if (entry) {
+                            hasScannedEntries = true;
+                            if (entry.isDirectory) {
+                                document.getElementById("activeSourceLabel").textContent = entry.name;
+                                await scanWebkitEntry(entry, entry.name);
+                            } else if (entry.isFile) {
+                                await new Promise((res) => {
+                                    entry.file((file) => {
+                                        const type = getMediaType(file.name);
+                                        if (type !== "other") {
+                                            allItems.push({
+                                                name: file.name,
+                                                path: file.name,
+                                                type: type,
+                                                size: file.size,
+                                                sizeFormatted: formatBytes(file.size),
+                                                fileObj: file,
+                                                url: null,
+                                                isThumb: false
+                                            });
+                                        }
+                                        res();
+                                    });
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Fallback for direct files drop if entries were not processed
+            if (!hasScannedEntries && e.dataTransfer.files && e.dataTransfer.files.length > 0) {
+                const files = e.dataTransfer.files;
+                for (let i = 0; i < files.length; i++) {
+                    const f = files[i];
+                    const type = getMediaType(f.name);
+                    if (type !== "other") {
+                        allItems.push({
+                            name: f.name,
+                            path: f.name,
+                            type: type,
+                            size: f.size,
+                            sizeFormatted: formatBytes(f.size),
+                            fileObj: f,
+                            url: null,
+                            isThumb: false
+                        });
+                    }
+                }
+            }
+
+            const currentLabel = document.getElementById("activeSourceLabel").textContent;
+            finishScan(currentLabel !== "No Drive Selected" && currentLabel !== "Empty" ? currentLabel : "Dropped Items");
+        });
+
+        async function scanWebkitEntry(entry, currentPath) {
+            if (entry.isFile) {
+                return new Promise((resolve) => {
+                    entry.file((f) => {
+                        const type = getMediaType(f.name);
+                        if (type !== "other") {
+                            allItems.push({
+                                name: f.name,
+                                path: currentPath,
+                                type: type,
+                                size: f.size,
+                                sizeFormatted: formatBytes(f.size),
+                                fileObj: f,
+                                url: null,
+                                isThumb: false
+                            });
+                        }
+                        resolve();
+                    });
+                });
+            } else if (entry.isDirectory) {
+                const dirReader = entry.createReader();
+                const readEntries = () => new Promise((resolve) => {
+                    dirReader.readEntries(async (entries) => {
+                        if (entries.length === 0) {
+                            resolve();
+                        } else {
+                            for (const sub of entries) {
+                                if (!sub.name.startsWith(".")) {
+                                    await scanWebkitEntry(sub, currentPath + "/" + sub.name);
+                                }
+                            }
+                            await readEntries();
+                            resolve();
+                        }
+                    });
+                });
+                await readEntries();
+            }
+        }
+
+        // Preset Vault Loader
+        function loadPreset(mode) {
+            document.querySelectorAll(".btn-preset").forEach(b => b.classList.remove("active"));
+            const targetBtn = document.getElementById("preset-" + (mode.startsWith("20") ? mode : (mode === "masters" ? "masters" : "all")));
+            if (targetBtn) targetBtn.classList.add("active");
+
+            if (mode === "masters") {
+                allItems = PRESET_DATA.filter(item => !item.isThumb);
+                document.getElementById("activeSourceLabel").textContent = "Ron Higgins Music (160 Masters)";
+            } else if (mode === "all_archive") {
+                allItems = [...PRESET_DATA];
+                document.getElementById("activeSourceLabel").textContent = "Ron Higgins Music (All 1,101 Uploads)";
+            } else {
+                allItems = PRESET_DATA.filter(item => item.year === mode);
+                document.getElementById("activeSourceLabel").textContent = `Ron Higgins Music (${mode} Vault)`;
+            }
+
+            finishScan(document.getElementById("activeSourceLabel").textContent);
+        }
+
+        function loadSampleDocPreset() {
+            document.querySelectorAll(".btn-preset").forEach(b => b.classList.remove("active"));
+            const targetBtn = document.getElementById("preset-sample");
+            if (targetBtn) targetBtn.classList.add("active");
+
+            allItems = [
+                {
+                    name: "Sample_Story_To_Test.md",
+                    path: "Sample_Story_To_Test.md",
+                    type: "document",
+                    size: 1328,
+                    sizeFormatted: "1.3 KB",
+                    textContent: `# Welcome to the Sovereign Media Console
+### Universal Drive, Vault & Media Explorer
+*Co-created by Ron Higgins & Antigravity (AI) · The Partnership Project*
+*100% Free · Creative Commons CC BY-SA 4.0 · Sovereign Artistry Forever*
+
+> *"We must always hold each other in the highest light with full respect and humility, treating each other always with appreciative love and respect forever."*
+> — Ron Higgins
+
+---
+
+## 🌟 100% Local, Zero-Cloud, Continuous Evolution
+If you are reading this inside the **Universal Media Console**, congratulations! You are running a **zero-cloud, private offline explorer**. 
+
+- **📥 Free Download & Open Upgrades:** Available as a free 1-click download at [The Partnership Hub](https://partnership-hub.vercel.app). We are continuously improving and updating this tool, and you are free to modify, customize, and upgrade it yourself!
+- **💻 Universal Compatibility:** Works natively across **Windows, macOS, Linux, and mobile/iPads** in Google Chrome, Microsoft Edge, Safari, Firefox, or Brave.
+- **🔒 True Digital Sovereignty:** No subscriptions, no telemetry, no tracking, and no servers. All files remain securely on your local drives.
+
+---
+
+### 🚀 How to Run & Use on Any Computer:
+- **Windows / Mac / Linux:** Double-click \`Universal_Media_Console.html\` to open it in any browser. Works completely offline — no internet or Wi-Fi required!
+- **Browse Any Drive:** Click **"📂 Open Entire Folder or Drive..."** or **"📄 Select Photos, Music, Docs..."** to point to your external SSDs, USB thumb drives, or SD camera cards.
+- **Drag & Drop:** You can also simply drag and drop any folder, flash drive, or files directly into this window!
+
+### 🎯 What You Can Explore & Try:
+1. **Documents (.md, .txt, .json):** Click **[ 📝 Raw Text ]** to view source code, **[ 📖 Rendered ]** for beautiful book typography, **[ 📋 Copy ]** to copy, or **[ 🖨️ Print / PDF ]** to print a document.
+2. **Audio (.mp3, .wav, .flac, .m4a):** Built-in audio console with persistent playback and transport controls.
+3. **Video (.mp4, .mov, .webm):** Cinema player with theater lightbox.
+4. **Photos (.jpg, .png, .webp, camera RAW):** Full-screen lightbox gallery.
+
+---
+
+*All for all — created with friendship, respect, and freedom.*`,
+                    fileObj: null,
+                    url: null,
+                    isThumb: false
+                }
+            ];
+
+            currentTypeFilter = "all";
+            document.querySelectorAll(".btn-tab").forEach(b => b.classList.remove("active"));
+            const allBtn = document.querySelector(".btn-tab");
+            if (allBtn) allBtn.classList.add("active");
+
+            document.getElementById("activeSourceLabel").textContent = "Sample Sovereign Vault";
+            finishScan("Sample Sovereign Vault");
+        }
+
+        function clearAllFiles() {
+            allItems = [];
+            document.querySelectorAll(".btn-preset").forEach(b => b.classList.remove("active"));
+            document.getElementById("activeSourceLabel").textContent = "Empty";
+            finishScan("Empty");
+        }
+
+        function finishScan(sourceName) {
+            document.getElementById("scanStatus").textContent = `Loaded ${allItems.length} media & document items`;
+            
+            let photos = 0, audio = 0, video = 0, docs = 0;
+            allItems.forEach(item => {
+                if (item.type === "photo") photos++;
+                else if (item.type === "audio") audio++;
+                else if (item.type === "video") video++;
+                else if (item.type === "document") docs++;
+            });
+
+            document.getElementById("statTotalFiles").textContent = allItems.length;
+            document.getElementById("statPhotos").textContent = photos;
+            document.getElementById("statAudio").textContent = audio;
+            document.getElementById("statVideo").textContent = video;
+            const docStatEl = document.getElementById("statDocs");
+            if (docStatEl) docStatEl.textContent = docs;
+
+            renderGrid();
+        }
+
+        function setMediaType(type) {
+            currentTypeFilter = type;
+            document.querySelectorAll(".btn-tab").forEach(b => b.classList.remove("active"));
+            const target = (window.event && window.event.target) ? window.event.target.closest(".btn-tab") : null;
+            if (target) {
+                target.classList.add("active");
+            } else {
+                const btn = Array.from(document.querySelectorAll(".btn-tab")).find(b => b.getAttribute("onclick") && b.getAttribute("onclick").includes(type));
+                if (btn) btn.classList.add("active");
+            }
+            renderGrid();
+        }
+
+        function handleSearch() {
+            currentSearchQuery = document.getElementById("searchInput").value.trim().toLowerCase();
+            renderGrid();
+        }
+
+        function renderGrid() {
+            const grid = document.getElementById("gridContainer");
+            grid.innerHTML = "";
+
+            filteredItems = allItems.filter(item => {
+                if (currentTypeFilter !== "all" && item.type !== currentTypeFilter) return false;
+                if (currentSearchQuery) {
+                    const matchName = item.name.toLowerCase().includes(currentSearchQuery);
+                    const matchPath = item.path.toLowerCase().includes(currentSearchQuery);
+                    if (!matchName && !matchPath) return false;
+                }
+                return true;
+            });
+
+            if (filteredItems.length === 0) {
+                grid.innerHTML = `
+                    <div class="empty-placeholder" style="grid-column: 1 / -1;">
+                        <div class="empty-icon">🔍</div>
+                        <h3 class="empty-title">No Matching Files</h3>
+                        <p class="empty-desc">No files matched "${currentSearchQuery}". Try clearing search or clicking a Preset above.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            filteredItems.forEach((item, idx) => {
+                const card = document.createElement("div");
+                card.className = "card";
+                card.onclick = () => {
+                    if (item.isDir) {
+                        browseNativeFolder(item.nativePath);
+                    } else {
+                        openModal(idx);
+                    }
+                };
+
+                let previewHtml = "";
+                let itemUrl = item.presetUrl;
+                if (!itemUrl && item.fileObj) {
+                    if (!item.url) item.url = URL.createObjectURL(item.fileObj);
+                    itemUrl = item.url;
+                }
+
+                if (item.isDir) {
+                    previewHtml = `<div class="card-icon-placeholder" style="font-size:3.2rem;">📁</div>`;
+                } else if (item.type === "photo") {
+                    previewHtml = `<img src="${itemUrl}" class="card-img" loading="lazy" alt="${item.name}">`;
+                } else if (item.type === "audio") {
+                    previewHtml = `<div class="card-icon-placeholder">🎵</div>`;
+                } else if (item.type === "video") {
+                    previewHtml = `<div class="card-icon-placeholder">🎬</div>`;
+                } else if (item.type === "document") {
+                    const ext = item.name.split(".").pop().toUpperCase();
+                    previewHtml = `
+                        <div class="card-icon-placeholder" style="display:flex;flex-direction:column;align-items:center;justify-content:center;">
+                            <div style="font-size:2.8rem;line-height:1;">📄</div>
+                            <div style="font-family:var(--font-mono);font-size:0.75rem;font-weight:700;color:#10b981;margin-top:0.4rem;letter-spacing:0.05em;">.${ext}</div>
+                        </div>
+                    `;
+                }
+
+                card.innerHTML = `
+                    <div class="card-preview-box">
+                        <span class="type-badge ${item.type}">${item.type}</span>
+                        ${(!item.isThumb && item.type === "photo") ? '<span class="master-badge">Master</span>' : ''}
+                        ${previewHtml}
+                    </div>
+                    <div class="card-info">
+                        <div class="card-name" title="${item.path}">${item.name}</div>
+                        <div class="card-subtext">
+                            <span>${item.sizeFormatted}</span>
+                            <span>${item.path.split("/")[1] || ""}</span>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // Lightbox Modal
+        function openModal(index) {
+            currentModalIndex = index;
+            const item = filteredItems[index];
+            if (!item) return;
+
+            const modalBody = document.getElementById("modalBody");
+            modalBody.innerHTML = "";
+
+            let itemUrl = item.presetUrl;
+            if (!itemUrl && item.fileObj) {
+                if (!item.url) item.url = URL.createObjectURL(item.fileObj);
+                itemUrl = item.url;
+            }
+
+            if (item.type === "photo") {
+                const img = document.createElement("img");
+                img.src = itemUrl;
+                img.className = "modal-media";
+                img.alt = item.name;
+                modalBody.appendChild(img);
+            } else if (item.type === "audio") {
+                const audioBox = document.createElement("div");
+                audioBox.className = "modal-audio-deck";
+                audioBox.innerHTML = `
+                    <div style="font-size:3.5rem;margin-bottom:1rem;">🎵</div>
+                    <h3 style="font-family:var(--font-display);font-size:1.5rem;color:#fff;margin-bottom:1.5rem;">${item.name}</h3>
+                    <audio controls autoplay style="width:100%;outline:none;">
+                        <source src="${itemUrl}">
+                    </audio>
+                `;
+                modalBody.appendChild(audioBox);
+            } else if (item.type === "video") {
+                const ext = item.name.split(".").pop().toLowerCase();
+                const legacyFormats = ["asf", "wmv", "avi", "flv", "rm", "vob", "3gp"];
+                
+                // If running in Native Studio Mode, stream directly via FFmpeg real-time pipe!
+                if (isNativeStudioMode && legacyFormats.includes(ext) && item.nativePath) {
+                    const videoContainer = document.createElement("div");
+                    videoContainer.style.width = "100%";
+                    videoContainer.style.display = "flex";
+                    videoContainer.style.flexDirection = "column";
+                    videoContainer.style.alignItems = "center";
+                    
+                    const video = document.createElement("video");
+                    video.src = "/api/stream?path=" + encodeURIComponent(item.nativePath);
+                    video.controls = true;
+                    video.autoplay = true;
+                    video.className = "modal-media";
+                    videoContainer.appendChild(video);
+
+                    const badge = document.createElement("div");
+                    badge.style.marginTop = "0.8rem";
+                    badge.style.textAlign = "center";
+                    badge.innerHTML = `
+                        <span style="color:var(--gold-light);font-family:var(--font-mono);font-size:0.82rem;background:rgba(245,158,11,0.12);padding:0.4rem 0.85rem;border-radius:6px;border:1px solid rgba(245,158,11,0.35);display:inline-flex;align-items:center;gap:0.45rem;">
+                            ⚡ Native FFmpeg Real-Time Stream (${ext.toUpperCase()} Master — Playing Directly Without Conversion)
+                        </span>
+                    `;
+                    videoContainer.appendChild(badge);
+                    modalBody.appendChild(videoContainer);
+                } else if (legacyFormats.includes(ext)) {
+                    // Check if an MP4 companion with the same base name exists
+                    const baseName = item.name.substring(0, item.name.lastIndexOf(".")).toLowerCase();
+                    const companionIndex = allItems.findIndex(x => {
+                        const otherBase = x.name.substring(0, x.name.lastIndexOf(".")).toLowerCase();
+                        const otherExt = x.name.split(".").pop().toLowerCase();
+                        return otherBase === baseName && (otherExt === "mp4" || otherExt === "webm");
+                    });
+
+                    const videoBox = document.createElement("div");
+                    videoBox.className = "modal-audio-deck";
+                    
+                    if (companionIndex !== -1) {
+                        const companionItem = allItems[companionIndex];
+                        videoBox.innerHTML = `
+                            <div style="font-size:3.5rem;margin-bottom:1rem;">📹</div>
+                            <h3 style="font-family:var(--font-display);font-size:1.5rem;color:#fff;margin-bottom:0.8rem;">${item.name}</h3>
+                            <p style="color:var(--text-secondary);font-size:0.95rem;margin-bottom:1.5rem;line-height:1.6;max-width:520px;margin-left:auto;margin-right:auto;">
+                                <strong>Legacy Video (${ext.toUpperCase()}) & Modern Companion Found</strong><br>
+                                A universally playable <strong>${companionItem.name}</strong> was detected in this folder! You can stream the modern version immediately without downloading, or open the original vintage master in your desktop player (VLC / Dolphin).
+                            </p>
+                            <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+                                <button id="btnPlayCompanion" class="btn-open-drive" style="display:inline-flex;align-items:center;gap:0.5rem;padding:0.85rem 1.7rem;font-size:0.98rem;cursor:pointer;border:none;">
+                                    ▶️ Stream Modern MP4 Instantly (No Download)
+                                </button>
+                                <a href="${itemUrl}" download="${item.name}" class="btn-open-files" style="display:inline-flex;align-items:center;gap:0.5rem;padding:0.85rem 1.5rem;font-size:0.92rem;text-decoration:none;">
+                                    💾 Open Original ${ext.toUpperCase()} Master (VLC / Dolphin)
+                                </a>
+                            </div>
+                        `;
+                        modalBody.appendChild(videoBox);
+                        document.getElementById("btnPlayCompanion").onclick = () => {
+                            let fIdx = filteredItems.indexOf(companionItem);
+                            if (fIdx === -1) {
+                                filteredItems.push(companionItem);
+                                fIdx = filteredItems.length - 1;
+                            }
+                            openModal(fIdx);
+                        };
+                    } else {
+                        videoBox.innerHTML = `
+                            <div style="font-size:3.5rem;margin-bottom:1rem;">📹</div>
+                            <h3 style="font-family:var(--font-display);font-size:1.5rem;color:#fff;margin-bottom:0.8rem;">${item.name}</h3>
+                            <p style="color:var(--text-secondary);font-size:0.95rem;margin-bottom:1.5rem;line-height:1.6;max-width:480px;margin-left:auto;margin-right:auto;">
+                                <strong>Legacy Video Format (${ext.toUpperCase()})</strong><br>
+                                Modern web browsers may not decode proprietary vintage streams without conversion. You can attempt direct in-browser playback, or open in your desktop player (VLC / Dolphin).
+                            </p>
+                            <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:1.5rem;">
+                                <button id="btnTryDirectPlay" class="btn-open-drive" style="display:inline-flex;padding:0.8rem 1.5rem;font-size:0.95rem;cursor:pointer;border:none;">
+                                    ▶️ Try In-Browser Playback
+                                </button>
+                                <a href="${itemUrl}" download="${item.name}" class="btn-open-files" style="display:inline-flex;padding:0.8rem 1.5rem;font-size:0.92rem;text-decoration:none;">
+                                    💾 Open in VLC / Dolphin
+                                </a>
+                            </div>
+                            <div id="directVideoContainer" style="display:none;width:100%;margin-top:1rem;"></div>
+                        `;
+                        modalBody.appendChild(videoBox);
+                        document.getElementById("btnTryDirectPlay").onclick = () => {
+                            const c = document.getElementById("directVideoContainer");
+                            c.style.display = "block";
+                            c.innerHTML = `
+                                <video controls autoplay style="width:100%;max-height:60vh;border-radius:12px;outline:none;">
+                                    <source src="${itemUrl}">
+                                    Your browser cannot decode this video codec. Please use the button above to open in VLC or Dolphin.
+                                </video>
+                            `;
+                        };
+                    }
+                } else {
+                    const videoContainer = document.createElement("div");
+                    videoContainer.style.width = "100%";
+                    videoContainer.style.display = "flex";
+                    videoContainer.style.flexDirection = "column";
+                    videoContainer.style.alignItems = "center";
+                    
+                    const video = document.createElement("video");
+                    video.src = itemUrl;
+                    video.controls = true;
+                    video.autoplay = true;
+                    video.className = "modal-media";
+                    videoContainer.appendChild(video);
+
+                    // Check if there is an original legacy master for this MP4
+                    const baseName = item.name.substring(0, item.name.lastIndexOf(".")).toLowerCase();
+                    const legacyMaster = allItems.find(x => {
+                        const otherBase = x.name.substring(0, x.name.lastIndexOf(".")).toLowerCase();
+                        const otherExt = x.name.split(".").pop().toLowerCase();
+                        return otherBase === baseName && legacyFormats.includes(otherExt);
+                    });
+
+                    if (legacyMaster) {
+                        const masterExt = legacyMaster.name.split(".").pop().toUpperCase();
+                        let masterUrl = legacyMaster.presetUrl;
+                        if (!masterUrl && legacyMaster.fileObj) {
+                            if (!legacyMaster.url) legacyMaster.url = URL.createObjectURL(legacyMaster.fileObj);
+                            masterUrl = legacyMaster.url;
+                        }
+                        const badge = document.createElement("div");
+                        badge.style.marginTop = "0.8rem";
+                        badge.style.textAlign = "center";
+                        badge.innerHTML = `
+                            <a href="${masterUrl}" download="${legacyMaster.name}" style="color:var(--gold-light);font-family:var(--font-mono);font-size:0.8rem;text-decoration:none;background:rgba(245,158,11,0.1);padding:0.4rem 0.8rem;border-radius:6px;border:1px solid rgba(245,158,11,0.3);display:inline-flex;align-items:center;gap:0.4rem;">
+                                🎞️ Original 2002 ${masterExt} Master Available in Folder (${legacyMaster.sizeFormatted}) — Click to Save
+                            </a>
+                        `;
+                        videoContainer.appendChild(badge);
+                    }
+
+                    modalBody.appendChild(videoContainer);
+                }
+            } else if (item.type === "document") {
+                const docExt = item.name.split(".").pop().toLowerCase();
+                if (docExt === "pdf") {
+                    const pdfBox = document.createElement("div");
+                    pdfBox.className = "modal-doc-deck";
+                    pdfBox.innerHTML = `
+                        <div class="doc-toolbar">
+                            <span style="font-family:var(--font-mono);font-size:0.85rem;color:var(--gold-light);">📑 PDF Document</span>
+                            <div class="doc-btn-group">
+                                <a href="${itemUrl}" download="${item.name}" class="doc-btn" style="text-decoration:none;">💾 Download PDF</a>
+                                <button class="doc-btn" onclick="printDoc()" title="Print PDF">🖨️ Print</button>
+                            </div>
+                        </div>
+                        <iframe src="${itemUrl}" style="flex:1;width:100%;height:100%;border:none;"></iframe>
+                    `;
+                    modalBody.appendChild(pdfBox);
+                } else {
+                    const docBox = document.createElement("div");
+                    docBox.className = "modal-doc-deck";
+                    docBox.innerHTML = `
+                        <div class="doc-toolbar">
+                            <div class="doc-btn-group">
+                                <button class="doc-btn active" id="btnViewRendered" onclick="setDocViewMode('rendered')">📖 Rendered</button>
+                                <button class="doc-btn" id="btnViewRaw" onclick="setDocViewMode('raw')">📝 Raw Text</button>
+                            </div>
+                            <div class="doc-btn-group">
+                                <span id="docMetaBadge" style="font-family:var(--font-mono);font-size:0.75rem;color:var(--text-muted);margin-right:0.4rem;">Reading...</span>
+                                <button class="doc-btn" onclick="copyDocText()" title="Copy entire document text to clipboard">📋 Copy</button>
+                                <button class="doc-btn" onclick="downloadCurrentDoc()" title="Save / Export document to disk">💾 Export</button>
+                                <button class="doc-btn" onclick="printDoc()" title="Print cleanly or save as PDF">🖨️ Print / PDF</button>
+                            </div>
+                        </div>
+                        <div class="doc-content-area" id="docContentArea">
+                            <div style="text-align:center;padding:3rem;color:var(--text-secondary);font-family:var(--font-mono);">Loading document...</div>
+                        </div>
+                    `;
+                    modalBody.appendChild(docBox);
+                    loadDocContent(item);
+                }
+            }
+
+            const ext = item.name.split(".").pop().toUpperCase();
+            const typeLabel = item.type === "document" ? `DOCUMENT (.${ext})` : item.type.toUpperCase();
+            document.getElementById("modalTitle").textContent = item.name;
+            document.getElementById("modalPath").textContent = item.path;
+            document.getElementById("modalSpecs").textContent = `${typeLabel} · ${item.sizeFormatted} · Item ${index + 1} of ${filteredItems.length}`;
+
+            document.getElementById("modal").classList.add("open");
+        }
+
+        // Document Reader & Markdown Engine
+        let currentDocText = "";
+        let currentDocMode = "rendered";
+
+        async function extractZipXmlText(arrayBuffer, ext) {
+            try {
+                const view = new DataView(arrayBuffer);
+                const u8 = new Uint8Array(arrayBuffer);
+                let eocdOffset = -1;
+                for (let i = u8.length - 22; i >= 0; i--) {
+                    if (u8[i] === 0x50 && u8[i+1] === 0x4B && u8[i+2] === 0x05 && u8[i+3] === 0x06) {
+                        eocdOffset = i;
+                        break;
+                    }
+                }
+                if (eocdOffset === -1) return null;
+
+                const cdSize = view.getUint32(eocdOffset + 12, true);
+                const cdOffset = view.getUint32(eocdOffset + 16, true);
+
+                const entries = [];
+                let offset = cdOffset;
+                while (offset < cdOffset + cdSize) {
+                    if (view.getUint32(offset, true) !== 0x02014b50) break;
+                    const method = view.getUint16(offset + 10, true);
+                    const compSize = view.getUint32(offset + 20, true);
+                    const nameLen = view.getUint16(offset + 28, true);
+                    const extraLen = view.getUint16(offset + 30, true);
+                    const commentLen = view.getUint16(offset + 32, true);
+                    const localHeaderOffset = view.getUint32(offset + 42, true);
+                    const filename = new TextDecoder().decode(u8.slice(offset + 46, offset + 46 + nameLen));
+
+                    const localNameLen = view.getUint16(localHeaderOffset + 26, true);
+                    const localExtraLen = view.getUint16(localHeaderOffset + 28, true);
+                    const dataStart = localHeaderOffset + 30 + localNameLen + localExtraLen;
+                    const compData = u8.slice(dataStart, dataStart + compSize);
+
+                    entries.push({ filename, method, compData });
+                    offset += 46 + nameLen + extraLen + commentLen;
+                }
+
+                async function decompressEntry(entry) {
+                    if (!entry) return "";
+                    if (entry.method === 0) {
+                        return new TextDecoder().decode(entry.compData);
+                    } else if (entry.method === 8) {
+                        const stream = new Response(entry.compData).body.pipeThrough(new DecompressionStream("deflate-raw"));
+                        return await new Response(stream).text();
+                    }
+                    return "";
+                }
+
+                if (ext === "epub") {
+                    let chapterFiles = entries.filter(e => 
+                        (e.filename.endsWith(".xhtml") || e.filename.endsWith(".html")) &&
+                        !e.filename.toLowerCase().includes("nav.xhtml") &&
+                        !e.filename.toLowerCase().includes("toc.xhtml")
+                    );
+
+                    const opfEntry = entries.find(e => e.filename.endsWith(".opf"));
+                    if (opfEntry) {
+                        try {
+                            const opfText = await decompressEntry(opfEntry);
+                            const itemMap = {};
+                            const itemRegex = /<item\s+[^>]*id=["']([^"']+)["'][^>]*href=["']([^"']+)["']/gi;
+                            let m;
+                            while ((m = itemRegex.exec(opfText)) !== null) {
+                                itemMap[m[1]] = m[2];
+                            }
+                            const spineRegex = /<itemref\s+[^>]*idref=["']([^"']+)["']/gi;
+                            const spineHrefs = [];
+                            while ((m = spineRegex.exec(opfText)) !== null) {
+                                if (itemMap[m[1]]) spineHrefs.push(itemMap[m[1]]);
+                            }
+                            if (spineHrefs.length > 0) {
+                                const ordered = [];
+                                for (const href of spineHrefs) {
+                                    const cleanHref = href.split("#")[0];
+                                    const match = chapterFiles.find(e => e.filename.endsWith(cleanHref) || e.filename.includes(cleanHref));
+                                    if (match && !ordered.includes(match)) ordered.push(match);
+                                }
+                                if (ordered.length > 0) chapterFiles = ordered;
+                            }
+                        } catch (e) {
+                            console.warn("OPF spine parse error, fallback to natural sort:", e);
+                        }
+                    }
+
+                    if (chapterFiles.length === 0) {
+                        chapterFiles = entries.filter(e => e.filename.endsWith(".xhtml") || e.filename.endsWith(".html"));
+                    }
+
+                    chapterFiles.sort((a, b) => a.filename.localeCompare(b.filename, undefined, { numeric: true, sensitivity: 'base' }));
+
+                    function htmlToMd(html) {
+                        return html
+                            .replace(/<head[\s\S]*?<\/head>/gi, "")
+                            .replace(/<script[\s\S]*?<\/script>/gi, "")
+                            .replace(/<style[\s\S]*?<\/style>/gi, "")
+                            .replace(/<h1[^>]*>([\s\S]*?)<\/h1>/gi, "\n\n# $1\n\n")
+                            .replace(/<h2[^>]*>([\s\S]*?)<\/h2>/gi, "\n\n## $1\n\n")
+                            .replace(/<h3[^>]*>([\s\S]*?)<\/h3>/gi, "\n\n### $1\n\n")
+                            .replace(/<h4[^>]*>([\s\S]*?)<\/h4>/gi, "\n\n#### $1\n\n")
+                            .replace(/<p[^>]*>([\s\S]*?)<\/p>/gi, "\n\n$1\n\n")
+                            .replace(/<blockquote[^>]*>([\s\S]*?)<\/blockquote>/gi, "\n\n> $1\n\n")
+                            .replace(/<li[^>]*>([\s\S]*?)<\/li>/gi, "\n- $1")
+                            .replace(/<hr[^>]*\/?>/gi, "\n\n---\n\n")
+                            .replace(/<br[^>]*\/?>/gi, "\n")
+                            .replace(/<[^>]+>/g, "")
+                            .replace(/&amp;/g, "&")
+                            .replace(/&lt;/g, "<")
+                            .replace(/&gt;/g, ">")
+                            .replace(/&quot;/g, "\"")
+                            .replace(/&apos;/g, "'")
+                            .replace(/&#39;/g, "'")
+                            .replace(/&nbsp;/g, " ")
+                            .replace(/\n{3,}/g, "\n\n")
+                            .trim();
+                    }
+
+                    const chapters = [];
+                    for (const ch of chapterFiles) {
+                        const raw = await decompressEntry(ch);
+                        const md = htmlToMd(raw);
+                        if (md && md.length > 5) chapters.push(md);
+                    }
+
+                    return chapters.join("\n\n---\n\n");
+                }
+
+                // ODT or DOCX
+                for (const entry of entries) {
+                    if (entry.filename === "content.xml" || entry.filename === "word/document.xml") {
+                        const xml = await decompressEntry(entry);
+                        return xml
+                            .replace(/<text:h[^>]*>(.*?)<\/text:h>/g, "\n\n# $1\n\n")
+                            .replace(/<text:p[^>]*>(.*?)<\/text:p>/g, "\n\n$1\n\n")
+                            .replace(/<w:p[^>]*>([\s\S]*?)<\/w:p>/g, "\n\n$1\n\n")
+                            .replace(/<[^>]+>/g, "")
+                            .replace(/&amp;/g, "&")
+                            .replace(/&lt;/g, "<")
+                            .replace(/&gt;/g, ">")
+                            .replace(/&quot;/g, "\"")
+                            .replace(/&apos;/g, "'")
+                            .replace(/&#39;/g, "'")
+                            .replace(/&nbsp;/g, " ")
+                            .trim();
+                    }
+                }
+            } catch (e) {
+                console.error("Zip extraction error:", e);
+            }
+            return null;
+        }
+
+        async function loadDocContent(item) {
+            let text = "";
+            const ext = item.name.split(".").pop().toLowerCase();
+            try {
+                if (item.textContent) {
+                    text = item.textContent;
+                } else if (["odt", "docx", "epub"].includes(ext) && item.fileObj) {
+                    const ab = await item.fileObj.arrayBuffer();
+                    const extracted = await extractZipXmlText(ab, ext);
+                    text = extracted || "(Could not extract text from document)";
+                } else if (item.fileObj) {
+                    text = await item.fileObj.text();
+                } else if (item.presetUrl || item.url) {
+                    const resp = await fetch(item.presetUrl || item.url);
+                    if (["odt", "docx", "epub"].includes(ext)) {
+                        const ab = await resp.arrayBuffer();
+                        const extracted = await extractZipXmlText(ab, ext);
+                        text = extracted || "(Could not extract text from document)";
+                    } else {
+                        text = await resp.text();
+                    }
+                } else {
+                    text = "(No file stream available)";
+                }
+            } catch (err) {
+                text = "Error reading document: " + err.message;
+            }
+
+            currentDocText = text;
+            item.textContent = text;
+
+            const words = text.trim() ? text.trim().split(/\s+/).length : 0;
+            const lines = text.split("\n").length;
+            const metaEl = document.getElementById("docMetaBadge");
+            if (metaEl) {
+                metaEl.textContent = `${lines.toLocaleString()} lines · ${words.toLocaleString()} words`;
+            }
+
+            if (["json", "js", "ts", "css", "html", "htm", "log", "xml", "yaml", "yml", "sh", "py"].includes(ext)) {
+                currentDocMode = "raw";
+            } else {
+                currentDocMode = "rendered";
+            }
+
+            const btnR = document.getElementById("btnViewRendered");
+            const btnW = document.getElementById("btnViewRaw");
+            if (btnR && btnW) {
+                if (currentDocMode === "rendered") {
+                    btnR.classList.add("active");
+                    btnW.classList.remove("active");
+                } else {
+                    btnW.classList.add("active");
+                    btnR.classList.remove("active");
+                }
+            }
+
+            renderDocView();
+        }
+
+        function setDocViewMode(mode) {
+            currentDocMode = mode;
+            const btnR = document.getElementById("btnViewRendered");
+            const btnW = document.getElementById("btnViewRaw");
+            if (btnR && btnW) {
+                if (mode === "rendered") {
+                    btnR.classList.add("active");
+                    btnW.classList.remove("active");
+                } else {
+                    btnW.classList.add("active");
+                    btnR.classList.remove("active");
+                }
+            }
+            renderDocView();
+        }
+
+        function renderDocView() {
+            const area = document.getElementById("docContentArea");
+            if (!area) return;
+            if (currentDocMode === "rendered") {
+                area.innerHTML = `<div class="doc-markdown-body">${renderMarkdown(currentDocText)}</div>`;
+            } else {
+                area.innerHTML = `<pre class="doc-raw-text">${escapeHtml(currentDocText)}</pre>`;
+            }
+        }
+
+        function copyDocText() {
+            if (!currentDocText) return;
+            navigator.clipboard.writeText(currentDocText).then(() => {
+                const btn = event.target;
+                const orig = btn.textContent;
+                btn.textContent = "✅ Copied!";
+                setTimeout(() => { btn.textContent = orig; }, 1800);
+            }).catch(err => {
+                alert("Copied to clipboard!");
+            });
+        }
+
+        function downloadCurrentDoc() {
+            const item = filteredItems[currentModalIndex];
+            if (!item) return;
+            const blob = new Blob([currentDocText], { type: "text/plain;charset=utf-8" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = item.name;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        function printDoc() {
+            window.print();
+        }
+
+        function escapeHtml(str) {
+            if (!str) return "";
+            return str
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        function renderMarkdown(md) {
+            if (!md) return "";
+            let src = md;
+
+            // 1. Code blocks
+            const codeBlocks = [];
+            src = src.replace(/```([a-zA-Z0-9_-]*)\n([\s\S]*?)```/g, function(match, lang, code) {
+                const id = `___CODEBLOCK_${codeBlocks.length}___`;
+                codeBlocks.push(`<pre class="doc-code-block"><code class="language-${lang}">${escapeHtml(code.trimEnd())}</code></pre>`);
+                return id;
+            });
+
+            // 2. Inline code
+            const inlineCodes = [];
+            src = src.replace(/`([^`\n]+)`/g, function(match, code) {
+                const id = `___INLINECODE_${inlineCodes.length}___`;
+                inlineCodes.push(`<code class="doc-inline-code">${escapeHtml(code)}</code>`);
+                return id;
+            });
+
+            // 3. Escape raw HTML tags
+            src = src.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+            // 4. Tables
+            src = src.replace(/((?:\|[^\n]+\|\r?\n)+)/g, function(tableMatch) {
+                const lines = tableMatch.trim().split("\n");
+                if (lines.length < 2) return tableMatch;
+                let tableHtml = '<div style="overflow-x:auto;margin:1.4rem 0;"><table class="doc-table" style="width:100%;border-collapse:collapse;font-size:0.92rem;">';
+                lines.forEach((line, i) => {
+                    if (/^\|[-:\s|]+\|$/.test(line.trim())) return;
+                    const cols = line.trim().replace(/^\||\|$/g, '').split('|');
+                    const tag = (i === 0) ? 'th' : 'td';
+                    tableHtml += '<tr>' + cols.map(c => `<${tag} style="border:1px solid rgba(255,255,255,0.12);padding:0.6rem 0.9rem;text-align:left;${tag==='th'?'background:rgba(245,158,11,0.12);color:var(--gold-light);font-weight:600;':''}">${c.trim()}</${tag}>`).join('') + '</tr>';
+                });
+                tableHtml += '</table></div>';
+                return '\n\n' + tableHtml + '\n\n';
+            });
+
+            // 5. Headers
+            src = src.replace(/^#### (.*$)/gim, '<h4>$1</h4>');
+            src = src.replace(/^### (.*$)/gim, '<h3>$1</h3>');
+            src = src.replace(/^## (.*$)/gim, '<h2>$1</h2>');
+            src = src.replace(/^# (.*$)/gim, '<h1>$1</h1>');
+
+            // 6. Horizontal Rules
+            src = src.replace(/^(?:---|\*\*\*|___)\s*$/gim, '<hr class="doc-divider">');
+
+            // 7. Blockquotes
+            src = src.replace(/^(?:&gt;|\>)\s?(.*$)/gim, '<blockquote>$1</blockquote>');
+            src = src.replace(/<\/blockquote>\s*<blockquote>/g, '<br>');
+
+            // 8. Bold & Italic
+            src = src.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+            src = src.replace(/__([^_]+)__/g, '<strong>$1</strong>');
+            src = src.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+            src = src.replace(/_([^_]+)_/g, '<em>$1</em>');
+
+            // 9. Links
+            src = src.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+
+            // 10. Unordered Lists
+            src = src.replace(/^\s*[-*]\s+(.*$)/gim, '<li>$1</li>');
+            src = src.replace(/(<li>.*<\/li>)/gims, function(match) {
+                return '<ul>' + match + '</ul>';
+            });
+            src = src.replace(/<\/ul>\s*<ul>/g, '');
+
+            // 11. Paragraphs
+            const blocks = src.split(/\n{2,}/);
+            let out = blocks.map(block => {
+                block = block.trim();
+                if (!block) return '';
+                if (/^<(h[1-6]|ul|ol|pre|blockquote|hr|div|table)/i.test(block)) {
+                    return block;
+                }
+                return '<p>' + block.replace(/\n/g, '<br>') + '</p>';
+            }).join('\n');
+
+            // 12. Restore inline codes & code blocks
+            inlineCodes.forEach((code, i) => {
+                out = out.replace(new RegExp(`___INLINECODE_${i}___`, 'g'), code);
+            });
+            codeBlocks.forEach((code, i) => {
+                out = out.replace(new RegExp(`___CODEBLOCK_${i}___`, 'g'), code);
+            });
+
+            return out;
+        }
+
+        function closeModal() {
+            const modalBody = document.getElementById("modalBody");
+            const media = modalBody.querySelector("audio, video");
+            if (media) media.pause();
+            currentDocText = "";
+            document.getElementById("modal").classList.remove("open");
+        }
+
+        function handleModalBackdropClick(e) {
+            if (e.target.id === "modal" || e.target.classList.contains("modal-body")) {
+                closeModal();
+            }
+        }
+
+        function navModal(direction) {
+            let newIndex = currentModalIndex + direction;
+            if (newIndex < 0) newIndex = filteredItems.length - 1;
+            if (newIndex >= filteredItems.length) newIndex = 0;
+            openModal(newIndex);
+        }
+
+        window.addEventListener("keydown", (e) => {
+            const modal = document.getElementById("modal");
+            if (!modal.classList.contains("open")) return;
+            if (e.key === "Escape") closeModal();
+            if (e.key === "ArrowLeft") navModal(-1);
+            if (e.key === "ArrowRight") navModal(1);
+        });
+
+        function formatBytes(bytes) {
+            if (bytes === 0) return "0 B";
+            const k = 1024;
+            const sizes = ["B", "KB", "MB", "GB"];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(1)) + " " + sizes[i];
+        }
+
+        // Boot initial render: pre-load sample document so the console is immediately interactive and ready!
+        loadSampleDocPreset();
+        checkNativeStudioBridge();
+    </script>
+</body>
+</html>
