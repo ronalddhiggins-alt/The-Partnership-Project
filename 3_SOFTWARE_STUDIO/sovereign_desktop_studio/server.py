@@ -172,8 +172,38 @@ class SovereignBridgeHandler(BaseHTTPRequestHandler):
     def serve_ffmpeg_stream(self, filepath):
         """Transcode legacy video in real-time and stream directly to HTML5 video tag."""
         if not filepath or not os.path.isfile(filepath):
-            self.send_error(404, "File not found")
-            return
+            fname = os.path.basename(filepath)
+            candidates = [
+                os.path.join(os.path.expanduser("~/Downloads"), fname),
+                os.path.join(os.path.expanduser("~/Desktop"), fname),
+                os.path.join(os.path.expanduser("~"), fname),
+            ]
+            if sys.platform == "darwin" and os.path.isdir("/Volumes"):
+                for v in os.listdir("/Volumes"):
+                    candidates.append(os.path.join("/Volumes", v, fname))
+                    candidates.append(os.path.join("/Volumes", v, "2002 pics kids and andys wedding/Keep these files/2/mini cam vids wedding/061702", fname))
+
+            found = None
+            for c in candidates:
+                if os.path.isfile(c):
+                    found = c
+                    break
+
+            if not found and sys.platform == "darwin":
+                try:
+                    res = subprocess.check_output(["mdfind", "-name", fname], text=True).splitlines()
+                    for r in res:
+                        if os.path.isfile(r) and r.lower().endswith(fname.lower()):
+                            found = r
+                            break
+                except Exception:
+                    pass
+
+            if found:
+                filepath = found
+            else:
+                self.send_error(404, f"File {fname} not found on local system")
+                return
 
         if not FFMPEG_BIN:
             self.send_error(500, "FFmpeg engine not available on host system")

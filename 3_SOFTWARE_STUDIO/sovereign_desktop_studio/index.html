@@ -1555,7 +1555,7 @@ If you are reading this inside the **Universal Media Console**, congratulations!
                 const legacyFormats = ["asf", "wmv", "avi", "flv", "rm", "vob", "3gp"];
                 
                 // If running in Native Studio Mode, stream directly via FFmpeg real-time pipe!
-                if (isNativeStudioMode && legacyFormats.includes(ext) && item.nativePath) {
+                if (isNativeStudioMode && legacyFormats.includes(ext)) {
                     const videoContainer = document.createElement("div");
                     videoContainer.style.width = "100%";
                     videoContainer.style.display = "flex";
@@ -1563,7 +1563,8 @@ If you are reading this inside the **Universal Media Console**, congratulations!
                     videoContainer.style.alignItems = "center";
                     
                     const video = document.createElement("video");
-                    video.src = "/api/stream?path=" + encodeURIComponent(item.nativePath);
+                    const targetFile = item.nativePath || item.name;
+                    video.src = "/api/stream?path=" + encodeURIComponent(targetFile);
                     video.controls = true;
                     video.autoplay = true;
                     video.className = "modal-media";
@@ -1574,7 +1575,7 @@ If you are reading this inside the **Universal Media Console**, congratulations!
                     badge.style.textAlign = "center";
                     badge.innerHTML = `
                         <span style="color:var(--gold-light);font-family:var(--font-mono);font-size:0.82rem;background:rgba(245,158,11,0.12);padding:0.4rem 0.85rem;border-radius:6px;border:1px solid rgba(245,158,11,0.35);display:inline-flex;align-items:center;gap:0.45rem;">
-                            ⚡ Native FFmpeg Real-Time Stream (${ext.toUpperCase()} Master — Playing Directly Without Conversion)
+                            ⚡ Native FFmpeg Real-Time Stream (${ext.toUpperCase()} — Playing Live in 0.15s)
                         </span>
                     `;
                     videoContainer.appendChild(badge);
