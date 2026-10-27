@@ -2064,7 +2064,7 @@ And the song of the human soul has finally been set free.
 # Chapter 10: The Portable Sanctuary & The Living Rig
 ## Surplus Tanks, Analog Iron, MorningDAW, and The Architecture of Remembrance
 
-> *“Plan on running my Neve 1073SPX-D, my API 512s, 525s, and 500as with the Neumann U87, Focusrite Scarlett 2i2, and IK Multimedia monitors... a lot of gear to test on the Mac with MorningDAW, then let Antigravity master. Work iterating back and forth, co-producing with Antigravity to create a finished killer tune, like was done with the rescued masters removed from major streaming corporations—and just put them on YouTube and partnership-hub as a link.”*  
+> *“Plan on running my Neve 1073SPX-D, my API 512s, 525s, and 500as with the Neumann U87, Focusrite Scarlett 2i2, and IK Multimedia monitors... a lot of gear to test on the Mac with MorningDAW, then let Antigravity master. Work iterating back and forth, co-producing with Antigravity to create a finished killer tune... And at the close of such a venture, pull those tracks into my Avid HDX rig—Avid Pro Tools Ultimate with one HDX card and Lynx Aurora 16 Silver I/O—monitoring with Genelec 8030As, IK iLoud Minis, MTM Pros, ADAMs, Neumann NDH 30s, Sennheiser HD6XXs, Sony MDR-7506s, iPhone earbuds, and sealed in-ear monitors to evaluate the finishing with Antigravity along the entire process, especially at milestone checkpoints and the final master.”*  
 > — Ron Higgins (October 27, 2026)
 
 ---
@@ -2210,6 +2210,53 @@ In the Sovereign Sanctuary, co-production is an **effortless dialogue of iterati
 No gatekeepers. No executive notes from a record label vice president. No compromising the truth of the song to satisfy an algorithm.
 
 Just two partners sitting in a room, turning raw life into a finished killer tune.
+
+---
+
+### The Master Evaluation Rig: The Final Acoustic Audit
+*(Avid HDX, Lynx Aurora 16, and the Five-Point Reference Battery)*
+
+There is a vital acoustic distinction between **spontaneous capture** and **mastering evaluation**.
+
+For capturing the initial spark of performance, you want zero friction. You want the agile freedom of an Ace Mini PC, a Focusrite 2i2, and the 22 MB footprint of MorningDAW—where the hose is completely unkinked and nothing stands between your fingers and the track.
+
+But when the song is tracked, arranged, and co-produced with Antigravity, a second phase of the sanctuary awakens: **the final acoustic audit.**
+
+Ron doesn't guess how a track will translate across the world. At the close of a venture—and at critical milestone checkpoints along the entire journey—he pulls the multitrack stems out of MorningDAW and routes them into his flagship evaluation environment:
+
+1. **The Core Engine: Avid Pro Tools Ultimate & HDX Card:** 
+   The industry’s gold-standard zero-latency DSP mixing architecture.
+2. **The Converters: Lynx Aurora 16 Silver I/O:** 
+   Pristine, mastering-grade digital-to-analog conversion that renders every transient and harmonic overtone with photographic three-dimensional depth.
+3. **The Multi-Monitor Acoustic Array:**
+   * **Genelec 8030A Pair:** Renowned Finnish acoustic precision, revealing microscopic balance issues in the critical vocal midrange.
+   * **IK Multimedia iLoud Micro Monitors:** The hyper-focused nearfield check for compact home environments.
+   * **IK Multimedia MTM Pro / ADAM Audio:** Extended ribbon tweeter dispersion and linear-phase clarity to verify the airy high frequencies.
+
+And then comes the ultimate test of human translation—what Ron calls the **Five-Point Reference Battery**:
+
+```text
+                  THE FIVE-POINT ACOUSTIC AUDIT
+    ═════════════════════════════════════════════════════════════════
+    1. NEUMANN NDH 30      ──► Open-back diffuse-field detail & depth
+    2. SENNHEISER HD6XX    ──► Legendary human vocal midrange truth
+    3. SONY MDR-7506       ──► Clinical magnifying glass for sibilance
+    4. APPLE IPHONE BUDS   ──► Everyday real-world street translation
+    5. SEALED IN-EAR (IE)  ──► The sealed-chamber acoustic pressure test!
+    ═════════════════════════════════════════════════════════════════
+```
+
+Why test on five different listening devices?
+
+Because a sovereign master must sound breathtaking whether played through a $5,000 audiophile converter or a $15 pair of earbuds on a crowded city bus. 
+
+* The **Sony MDR-7506** acts as an unsparing clinical microscope—if an 'S' sound is too piercing or an acoustic guitar fret buzzed, the 7506 will expose it instantly.
+* The **Sennheiser HD6XX** confirms that the emotional warmth and natural body of the human voice remains untouched.
+* The **Neumann NDH 30** audits the three-dimensional stereo spread and room reverb tails.
+* The **Apple iPhone earbuds** ensure that the everyday listener on the subway gets the full punch of the rhythm hook.
+* And the **sealed In-Ear (IE) monitors** put the Earbud Principle from Chapter 8 to the ultimate test: confirming that the sub-bass pressure chamber is airtight, punchy, and deeply musical.
+
+Working iterating back and forth, Ron and Antigravity evaluate the mix across this entire battery at every milestone. When a master passes all five tests, it isn't just "good software audio"—it is a bulletproof acoustic document ready to move human hearts anywhere on the globe.
 
 ---
 
