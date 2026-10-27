@@ -1370,13 +1370,13 @@ I double-clicked one of the newly resurrected files: `2002-06_misc_MOL001.mp4`.
 
 Suddenly, the screen filled with the bright, unfiltered sunshine of a North Dakota summer twenty-four years ago. 
 
-There was my son Evan, twelve years old, with dirt on his knees and a grin on his face. And there was my daughter Mariah, eight years old, with sun-bleached hair, laughing as she shoveled sand into a plastic bucket. They were sitting inside a sturdy, beautifully framed wooden sandbox. 
+There was my eight-year-old daughter Mariah in her bright green t-shirt and blue jeans, sitting right in the sand and looking straight up into the camera lens with that radiant, unforgettable smile, holding up her hands before jumping up to stretch both arms triumphantly above her head like a little gymnast. There was my twelve-year-old son Evan in a patterned blue shirt, standing watch beside the sandbox against the light-blue siding of the house. Resting on the white wooden bench ledge of the sandbox was a yellow toy dump truck and a black pail, while our little salt-and-pepper schnauzer with his red collar trotted happily through the green grass beside them.
 
-It wasn't a cheap plastic tub bought from a big-box department store. It was handcrafted out of solid dimensional lumber, with smooth-sanded edges and corner seats designed specifically so two little children wouldn't get splinters. 
+It wasn't a cheap plastic tub bought from a big-box department store. It was a sturdy sandbox with wide wooden seating benches handcrafted out of solid dimensional lumber, with smooth-sanded edges designed specifically so two little children wouldn't get splinters. 
 
 Their grandfather had built that sandbox for them with his own two hands.
 
-I sat back in my chair in the quiet of my apartment, watching the grain of the wood, the texture of the sand, and the movement of my children’s small hands. Their grandfather was gone now. The children were grown adults living their own lives. But across twenty-four years of silence, the love of a grandfather’s hands was still echoing through the screen.
+I sat back in my chair in the quiet of my apartment, watching the white painted wood, the green grass, the yellow toy truck, and the movement of my children’s small hands. Their grandfather was gone now. The children were grown adults living their own lives. But across twenty-four years of silence, the love of a grandfather’s hands was still echoing through the screen.
 
 ```text
                THE THREE-GENERATION LIVING CIRCUIT
