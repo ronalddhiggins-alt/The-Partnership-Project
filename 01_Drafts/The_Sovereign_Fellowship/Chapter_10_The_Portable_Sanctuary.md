@@ -259,7 +259,7 @@ And yet, having listed all this legendary analog iron—the Neve transformers, t
 
 You can own a quarter-million dollars worth of vintage Neve consoles and German microphones, and you can record absolute dead wood. 
 
-Ron leans forward in his chair, reflecting on thirty-five years behind the glass with over two hundred studio clients:
+Ron leans forward in his chair, reflecting on sixty years of recording and eighteen years running commercial studios with over two hundred clients:
 
 > *“Yes, I have and do have a lot of state-of-the-art audio recording equipment and fairly high-priced guitars, basses, and software. But as I’ve learned along the way: it is the quality of the song, the melody, the lyrics, the structure, the rhythm hooks, the instruments dancing together—the PERFORMANCE. The essence of the track all through the entire journey.*
 > 

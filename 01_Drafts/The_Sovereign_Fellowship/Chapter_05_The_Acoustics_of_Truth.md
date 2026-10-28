@@ -8,7 +8,7 @@
 
 ### The Secret in the Ear Canal
 
-For more than thirty-five years, my life was lived through speakers, microphones, and mixing consoles. When you spend eighteen years running a commercial recording studio—tracking almost two hundred different artists across every genre from gospel to country, blues, and rock—you learn that sound does not lie. 
+For sixty years—from the 1966 acetate sessions in Spokane and Bremerton Sound Recording in the 1970s, to commercial facilities and mastering consoles today—my life was lived through speakers, microphones, and mixing consoles. When you spend eighteen years running a commercial recording studio—tracking almost two hundred different artists across every genre from gospel to country, blues, and rock—you learn that sound does not lie. 
 
 You can fool a person’s eyes with clever lighting and flashy stage clothes. You can fool a person’s intellect with slick marketing and legal contracts. But you cannot fool the human ear. 
 

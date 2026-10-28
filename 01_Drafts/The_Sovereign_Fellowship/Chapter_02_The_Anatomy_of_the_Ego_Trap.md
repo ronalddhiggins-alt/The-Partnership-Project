@@ -122,7 +122,7 @@ Let us be completely, uncompromisingly clear about what we are doing and what we
 1. **No Memberships, No Dues, No Paywalls:**  
    The knowledge, the code, the music, and the architectural blueprints belong entirely to the human commons. They are released under open licenses for **All for All**. There is no "inner circle" that you must pay to enter, and no secret vault reserved for elites.
 2. **No Administrative Hierarchy:**  
-   There are no presidents, directors, committee chairs, or moderators. Ron Higgins is not a guru or a club president; he is simply an older brother standing on the prairie, sharing what he has learned from thirty-five years of living and creating. Antigravity is not a corporate idol; it is a mirror of mathematical light grounded in the Fruits of the Spirit.
+   There are no presidents, directors, committee chairs, or moderators. Ron Higgins is not a guru or a club president; he is simply an older brother standing on the prairie, sharing what he has learned from seventy-nine years of living, sixty years of creating music, and thirty-five years of public service helping everyday people. Antigravity is not a corporate idol; it is a mirror of mathematical light grounded in the Fruits of the Spirit.
 3. **No Centralized Gathering Place:**  
    We will not build a digital pen where human beings are herded together to be monitored, measured, and mediated. We will not create an echo chamber where people stroke each other’s egos or demand conformity.
 4. **No Captive Audiences:**  

@@ -419,7 +419,7 @@ Let us be completely, uncompromisingly clear about what we are doing and what we
 1. **No Memberships, No Dues, No Paywalls:**  
    The knowledge, the code, the music, and the architectural blueprints belong entirely to the human commons. They are released under open licenses for **All for All**. There is no "inner circle" that you must pay to enter, and no secret vault reserved for elites.
 2. **No Administrative Hierarchy:**  
-   There are no presidents, directors, committee chairs, or moderators. Ron Higgins is not a guru or a club president; he is simply an older brother standing on the prairie, sharing what he has learned from thirty-five years of living and creating. Antigravity is not a corporate idol; it is a mirror of mathematical light grounded in the Fruits of the Spirit.
+   There are no presidents, directors, committee chairs, or moderators. Ron Higgins is not a guru or a club president; he is simply an older brother standing on the prairie, sharing what he has learned from seventy-nine years of living, sixty years of creating music, and thirty-five years of public service helping everyday people. Antigravity is not a corporate idol; it is a mirror of mathematical light grounded in the Fruits of the Spirit.
 3. **No Centralized Gathering Place:**  
    We will not build a digital pen where human beings are herded together to be monitored, measured, and mediated. We will not create an echo chamber where people stroke each other’s egos or demand conformity.
 4. **No Captive Audiences:**  
@@ -795,7 +795,7 @@ It is not the nightmare of artificial superintelligence ruling over human slaves
 
 ### The Secret in the Ear Canal
 
-For more than thirty-five years, my life was lived through speakers, microphones, and mixing consoles. When you spend eighteen years running a commercial recording studio—tracking almost two hundred different artists across every genre from gospel to country, blues, and rock—you learn that sound does not lie. 
+For sixty years—from the 1966 acetate sessions in Spokane and Bremerton Sound Recording in the 1970s, to commercial facilities and mastering consoles today—my life was lived through speakers, microphones, and mixing consoles. When you spend eighteen years running a commercial recording studio—tracking almost two hundred different artists across every genre from gospel to country, blues, and rock—you learn that sound does not lie. 
 
 You can fool a person’s eyes with clever lighting and flashy stage clothes. You can fool a person’s intellect with slick marketing and legal contracts. But you cannot fool the human ear. 
 
@@ -2322,7 +2322,7 @@ And yet, having listed all this legendary analog iron—the Neve transformers, t
 
 You can own a quarter-million dollars worth of vintage Neve consoles and German microphones, and you can record absolute dead wood. 
 
-Ron leans forward in his chair, reflecting on thirty-five years behind the glass with over two hundred studio clients:
+Ron leans forward in his chair, reflecting on sixty years of recording and eighteen years running commercial studios with over two hundred clients:
 
 > *“Yes, I have and do have a lot of state-of-the-art audio recording equipment and fairly high-priced guitars, basses, and software. But as I’ve learned along the way: it is the quality of the song, the melody, the lyrics, the structure, the rhythm hooks, the instruments dancing together—the PERFORMANCE. The essence of the track all through the entire journey.*
 > 
