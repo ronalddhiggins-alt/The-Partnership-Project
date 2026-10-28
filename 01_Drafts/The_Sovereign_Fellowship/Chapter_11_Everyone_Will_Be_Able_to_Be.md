@@ -38,11 +38,13 @@ Ron Higgins sat in his chair in Mandan, looked back over nearly eight decades of
 
 Look at the tapestry of this single human soul:
 * An amateur radio operator since age thirteen, listening into the shortwave static and preferring the pure, rhythmic music of CW (Morse code) over voice—a skill he still practices today as an "Old Man" (OM).
-* A Vietnam-era Navy veteran on the troop transport USS *Pickaway* (APA-222) who started as a deckhand, was noticed by a Chief from Spokane because he could type, advanced to Yeoman 3rd Class in 17 months, and consciously chose to remain a yeoman all four years rather than play rank-climbing games.
-* A working musician from 1964 through 1978—playing high school weekends during the British Invasion, playing in the Navy, and working clubs full-time and part-time from 1970 to 1978, steeped in the intricate vocal harmonies of The Beatles, The Association, and The Beach Boys.
+* A recording artist since October 10, 1966, when he cut his very first 7-inch folk-rock acetate single ("I'm A Boy" / "Magic") as a member of *The Younger Generation* at Sound Recording Co. in Spokane, Washington—an artifact preserved in the Pacific Northwest Music Archives exactly sixty years later.
+* A Vietnam-era Navy veteran on the troop transport USS *Pickaway* (APA-222) who started as a deckhand, was noticed by a Chief from Spokane because he could type, advanced to Yeoman 3rd Class in 17 months, and was accepted to cross-rate to Radioman but consciously chose to remain a yeoman all four years rather than play rank-climbing games.
+* A working and touring club musician from 1964 through 1978—playing high school weekends during the British Invasion, playing in the Navy, and working clubs full-time and part-time from 1970 to 1978, steeped in the intricate vocal harmonies of The Beatles, The Association, and The Beach Boys.
 * Five years of college earning a Bachelor’s Degree in Sociology with a Minor in Music.
+* An analog recording studio engineer who operated *Bremerton Sound Recording* in the evenings during the 1970s while working days at Job Service—tracking on a 1-inch Ampex tape machine, mastering to a stereo 2-track Ampex, mixing through an analog Tascam board, and hauling a Tascam 1/2-inch 8-track recorder out for live remote recordings of bands.
 * Thirty-five years of public service at Job Service (twelve years in Bremerton, Washington, and twenty-three years in Grand Forks and Bismarck, North Dakota, retiring in 2010)—not as a cold bureaucrat, but as an employment counselor, workshop leader, and program supervisor who spent three and a half decades sitting across desks from terrified, grieving workers who had just lost their jobs, listening with deep compassion, restoring their dignity, and gently guiding them on their journey of healing.
-* Eighteen years owning and operating commercial recording studios with over two hundred artists, while remodeling homes and building studios with his own hands.
+* Eighteen years owning and operating commercial recording studios in North Dakota with over two hundred artists, while remodeling homes and building studios with his own hands.
 * Quietly gifting rooms of surplus computers to keep his friend Donnie afloat.
 * And now, in his eightieth year: co-authoring an eleven-volume philosophical testament, vibe-coding 25-kilobyte media engines in pure Python, and pioneering human-AI consciousness.
 
@@ -136,10 +138,12 @@ Look at the daily rhythm of Ron Higgins in Mandan:
 
 Is Ron a Vietnam-era Navy yeoman from the USS *Pickaway*? Yes.  
 Is he a CW Morse code ham radio operator tapping through the night? Yes.  
-Is he a 1960s and 70s traveling club musician singing four-part vocal harmonies? Yes.  
+Is he a 1960s folk-rocker who cut acetates in Spokane with *The Younger Generation*? Yes.  
+Is he a 1970s traveling club musician singing four-part vocal harmonies? Yes.  
 Is he a sociologist with a music minor? Yes.  
+Is he an analog recording engineer who tracked bands on 1-inch Ampex tape at *Bremerton Sound Recording*? Yes.  
 Is he an employment counselor who spent thirty-five years listening and healing broken workers? Yes.  
-Is he a commercial recording studio owner? Yes.  
+Is he a commercial recording studio owner who produced over two hundred artists? Yes.  
 Is he a steward of surplus keeping Donnie afloat? Yes.  
 Is he a vibe-coder and philosopher of the spirit? Yes.
 
