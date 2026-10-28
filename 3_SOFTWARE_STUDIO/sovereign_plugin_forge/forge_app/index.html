@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sovereign Plugin Forge — Real-Time Centaur DSP Synthesizer</title>
+    <meta name="description" content="Design and synthesize custom DSP audio plugins on the fly using WebAudio AudioWorklet and Cmajor. Inspired by Bremerton Sound Recording (1970s) and modern Centaur vibe-coding.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="forge_style.css">
+</head>
+<body>
+
+    <header class="forge-header">
+        <div class="forge-title-box">
+            <h1>Sovereign Plugin Forge</h1>
+            <p>Real-Time Audio DSP Synthesis · WebAudio AudioWorklet & Cmajor Native Engine</p>
+        </div>
+        <div class="badge-taproot">
+            🎙️ Bremerton Sound (1974) → Centaur DSP (2026)
+        </div>
+    </header>
+
+    <div class="forge-workspace">
+        
+        <!-- LEFT: Hardware Rack Unit (Bremerton Ampex 1-Inch Tape Saturator) -->
+        <main class="hardware-chassis">
+            <div class="faceplate-header">
+                <div>
+                    <span class="faceplate-title">Bremerton Sound Recording · Model 1974</span>
+                    <div style="font-size:0.75rem; color:var(--text-muted);">1-INCH ANALOG TAPE SATURATOR & HEAD-BUMP PROCESSOR</div>
+                </div>
+                <div class="faceplate-serial">
+                    AMPEX-100 · SOVEREIGN FORGE
+                </div>
+            </div>
+
+            <!-- Dual Backlit Analog VU Meters -->
+            <div class="vu-meters-container">
+                <div class="vu-meter-box">
+                    <div class="vu-dial">
+                        <div class="vu-scale">INPUT VU</div>
+                        <div class="vu-scale-ticks">
+                            <span>-20</span>
+                            <span>-10</span>
+                            <span>-5</span>
+                            <span>-1</span>
+                            <span>0</span>
+                            <span style="color:#b91c1c;">+3</span>
+                        </div>
+                        <div class="vu-needle" id="meter-needle-in"></div>
+                        <div class="vu-needle-pivot"></div>
+                        <div class="vu-label">AMPLITUDE (dB)</div>
+                    </div>
+                </div>
+
+                <div class="vu-meter-box">
+                    <div class="vu-dial">
+                        <div class="vu-scale">SATURATION VU</div>
+                        <div class="vu-scale-ticks">
+                            <span>-20</span>
+                            <span>-10</span>
+                            <span>-5</span>
+                            <span>-1</span>
+                            <span>0</span>
+                            <span style="color:#b91c1c;">+3</span>
+                        </div>
+                        <div class="vu-needle" id="meter-needle-out"></div>
+                        <div class="vu-needle-pivot"></div>
+                        <div class="vu-label">TAPE OUTPUT</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Real-Time Waveform Oscilloscope -->
+            <canvas id="scope" class="scope-canvas" width="600" height="70"></canvas>
+
+            <!-- Knobs & Controls Row -->
+            <div class="knobs-row">
+                <!-- Knob 1: Input Drive -->
+                <div class="knob-control">
+                    <div class="knob-body" data-param="drive" data-min="1.0" data-max="12.0" data-val="3.0">
+                        <div class="knob-indicator"></div>
+                    </div>
+                    <span class="knob-label">Drive</span>
+                    <span class="knob-val" id="val-drive">3.0 dB</span>
+                </div>
+
+                <!-- Knob 2: Harmonic Warmth -->
+                <div class="knob-control">
+                    <div class="knob-body" data-param="warmth" data-min="0.0" data-max="1.0" data-val="0.35">
+                        <div class="knob-indicator"></div>
+                    </div>
+                    <span class="knob-label">Warmth</span>
+                    <span class="knob-val" id="val-warmth">0.35</span>
+                </div>
+
+                <!-- Switch: 15 / 30 IPS -->
+                <div class="toggle-switch-box">
+                    <span class="knob-label">Tape Speed</span>
+                    <div class="toggle-switch" id="toggle-speed" title="Toggle 15 IPS (Bass Head-Bump) vs 30 IPS (High Fidelity)">
+                        <div class="toggle-lever"></div>
+                    </div>
+                    <span class="knob-val" id="label-speed">15 IPS</span>
+                </div>
+
+                <!-- Knob 3: Wow & Flutter -->
+                <div class="knob-control">
+                    <div class="knob-body" data-param="flutter" data-min="0.0" data-max="1.0" data-val="0.15">
+                        <div class="knob-indicator"></div>
+                    </div>
+                    <span class="knob-label">Flutter</span>
+                    <span class="knob-val" id="val-flutter">0.15</span>
+                </div>
+
+                <!-- Knob 4: Output Level -->
+                <div class="knob-control">
+                    <div class="knob-body" data-param="outputGain" data-min="0.0" data-max="2.0" data-val="1.0">
+                        <div class="knob-indicator"></div>
+                    </div>
+                    <span class="knob-label">Output</span>
+                    <span class="knob-val" id="val-outputGain">1.00</span>
+                </div>
+
+                <!-- Knob 5: Dry/Wet Mix -->
+                <div class="knob-control">
+                    <div class="knob-body" data-param="mix" data-min="0.0" data-max="1.0" data-val="1.0">
+                        <div class="knob-indicator"></div>
+                    </div>
+                    <span class="knob-label">Mix</span>
+                    <span class="knob-val" id="val-mix">100%</span>
+                </div>
+            </div>
+
+            <!-- Audition Transport & Signal Generator -->
+            <div class="transport-bar">
+                <div class="transport-btns">
+                    <button id="btn-play" class="btn-forge" onclick="togglePlayback()">
+                        ▶ Audition Loop
+                    </button>
+                    <button class="btn-forge btn-source active" onclick="selectLoop('guitar', this)">
+                        🎸 Acoustic Guitar
+                    </button>
+                    <button class="btn-forge btn-source" onclick="selectLoop('drums', this)">
+                        🥁 Punchy Drums
+                    </button>
+                    <button class="btn-forge btn-source" onclick="selectLoop('tone', this)">
+                        ⚡ 440 Hz Tone
+                    </button>
+                </div>
+                <div style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono);">
+                    64-Bit Float · Zero Latency
+                </div>
+            </div>
+        </main>
+
+        <!-- RIGHT: The Centaur Prompter (AI Plugin Synthesizer) -->
+        <aside class="prompter-panel">
+            <div class="prompter-head">
+                <h3>The Centaur Prompter</h3>
+                <p>Describe any acoustic behavior to forge a new DSP plugin on the fly.</p>
+            </div>
+
+            <textarea id="prompt-text" class="prompt-input" placeholder="e.g. Build an optical leveling amplifier with smooth 2-stage release, soft-knee gain reduction, and an analog warm bypass switch..."></textarea>
+
+            <div>
+                <span style="font-size:0.75rem; color:var(--text-muted); display:block; margin-bottom:0.4rem;">QUICK FORGE PRESETS:</span>
+                <div class="preset-pills">
+                    <span class="pill" data-prompt="Vintage 1968 Germanium Fuzz Box with bias starve, tone roll-off, and asymmetrical diode clipping.">🎛️ Germanium Fuzz</span>
+                    <span class="pill" data-prompt="1970s Analog Bucket-Brigade Chorus with subtle pitch detuning, dual LFOs, and stereo width expander.">🌊 BBD Analog Chorus</span>
+                    <span class="pill" data-prompt="Passive Tube Equalizer with Pultec-style simultaneous low-frequency boost and attenuate curves.">📻 Pultec Tube EQ</span>
+                    <span class="pill" data-prompt="Bremerton Sound 2-Track Master Tape De-Esser with phase-aligned dynamic sidechain notch.">🎙️ Optical De-Esser</span>
+                </div>
+            </div>
+
+            <button id="btn-forge-plugin" class="btn-forge" style="background:var(--gold); color:#07090e; font-weight:700; width:100%; justify-content:center; padding:0.75rem;">
+                ✨ Synthesize DSP Plugin
+            </button>
+
+            <div>
+                <span style="font-size:0.75rem; color:var(--text-muted); display:block; margin-bottom:0.4rem;">LIVE DSP CODE ENGINE (CMAJOR & WORKLET):</span>
+                <div id="code-preview" class="dsp-code-preview">// CMAJOR JIT & AUDIOWORKLET ENGINE READY
+// Active Plugin: Bremerton Ampex 1-Inch (1974)
+// Target: WebAudio & Native DAW Patch
+
+graph BremertonAmpexTape [[ main ]] {
+    input stream float<2> in;
+    output stream float<2> out;
+    input event float drive;
+    input event float warmth;
+    input event float tapeSpeed;
+    node saturator = TapeSaturationStage;
+    connection { in -> saturator.in; saturator.out -> out; }
+}
+
+✓ Compiles in 18 ms. Ready for real-time audition.</div>
+            </div>
+        </aside>
+
+    </div>
+
+    <script src="forge_studio.js"></script>
+</body>
+</html>

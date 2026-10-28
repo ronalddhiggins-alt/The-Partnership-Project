@@ -1,0 +1,85 @@
+/**
+ * Bremerton Sound Recording 1974 Ampex 1-Inch Tape Saturator
+ * Native Cmajor Audio Processor for Waveform Pro & Modern DAWs
+ * 
+ * Co-Authored by Ron Higgins & Antigravity
+ * Creative Commons CC BY-SA 4.0
+ */
+
+graph BremertonAmpexTape [[ main ]]
+{
+    input stream float<2> in;
+    output stream float<2> out;
+
+    // Automatable parameters for native DAW controls
+    input event float drive      [[ name: "Tape Drive", min: 1.0, max: 12.0, init: 3.0, unit: "dB" ]];
+    input event float warmth     [[ name: "Harmonic Warmth", min: 0.0, max: 1.0, init: 0.35 ]];
+    input event float tapeSpeed  [[ name: "Speed (IPS)", min: 15.0, max: 30.0, init: 15.0, step: 15.0 ]];
+    input event float flutter    [[ name: "Flutter/Wow", min: 0.0, max: 1.0, init: 0.15 ]];
+    input event float outputGain [[ name: "Output Level", min: 0.0, max: 2.0, init: 1.0 ]];
+    input event float mix        [[ name: "Dry/Wet Mix", min: 0.0, max: 1.0, init: 1.0 ]];
+
+    node saturator = TapeSaturationStage;
+
+    connection
+    {
+        in -> saturator.in;
+        drive -> saturator.drive;
+        warmth -> saturator.warmth;
+        tapeSpeed -> saturator.tapeSpeed;
+        outputGain -> saturator.outputGain;
+        mix -> saturator.mix;
+        saturator.out -> out;
+    }
+}
+
+processor TapeSaturationStage
+{
+    input stream float<2> in;
+    output stream float<2> out;
+
+    input event float drive;
+    input event float warmth;
+    input event float tapeSpeed;
+    input event float outputGain;
+    input event float mix;
+
+    event drive (float v)      { currentDrive = v; }
+    event warmth (float v)     { currentWarmth = v; }
+    event tapeSpeed (float v)  { currentSpeed = v; }
+    event outputGain (float v) { currentOutput = v; }
+    event mix (float v)        { currentMix = v; }
+
+    float currentDrive = 3.0f;
+    float currentWarmth = 0.35f;
+    float currentSpeed = 15.0f;
+    float currentOutput = 1.0f;
+    float currentMix = 1.0f;
+
+    void main()
+    {
+        loop
+        {
+            let inputSample = in;
+            
+            // Non-linear tape saturation transfer curve
+            float leftDriven = inputSample[0] * currentDrive;
+            float rightDriven = inputSample[1] * currentDrive;
+
+            // Asymmetric second-harmonic warmth
+            float leftWarm = leftDriven + (currentWarmth * 0.15f * (leftDriven * leftDriven));
+            float rightWarm = rightDriven + (currentWarmth * 0.15f * (rightDriven * rightDriven));
+
+            // Soft-knee hyperbolic tangent compression
+            float satL = std::intrinsics::tanh (leftWarm) * currentOutput;
+            float satR = std::intrinsics::tanh (rightWarm) * currentOutput;
+
+            // Dry/Wet blend
+            float outL = inputSample[0] * (1.0f - currentMix) + satL * currentMix;
+            float outR = inputSample[1] * (1.0f - currentMix) + satR * currentMix;
+
+            out <- float<2> (outL, outR);
+            advance();
+        }
+    }
+}

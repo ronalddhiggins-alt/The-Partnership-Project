@@ -1,0 +1,12 @@
+{
+    "CmajorVersion": 1,
+    "ID": "org.sovereign.bremerton.ampex.1974",
+    "version": "1.0.0",
+    "name": "Bremerton Ampex 1-Inch Tape Saturator (1974)",
+    "description": "Authentic analog tape saturation and 15 ips head-bump simulation co-authored by Ron Higgins and Antigravity.",
+    "category": "Distortion/Saturation",
+    "manufacturer": "Sovereign Centaur Studio",
+    "isInstrument": false,
+    "source": "patch.cmajor",
+    "view": "gui.html"
+}
