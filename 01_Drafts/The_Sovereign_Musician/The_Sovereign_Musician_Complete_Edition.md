@@ -816,6 +816,7 @@ Ron then executed the exact textbook procedure, assigning sequential five-digit 
 │ QZBTK1800010           │ — (Unreleased)      │ Sorrow                    │ Master Vault (Unreleased)   │
 │ QZBTK1800011           │ QZBTK1800011        │ Liddle Redd Rooster       │ Distro Single (Sovereign)   │
 │ QZBTK1800012           │ QZBTK1800012        │ Play                      │ Distro Single (Sovereign)   │
+│ QZBTK1800013           │ QZBTK1800013        │ It's So Much Fun          │ Sovereign Direct (11-03-26) │
 └────────────────────────┴─────────────────────┴───────────────────────────┴─────────────────────────────┘
 ```
 

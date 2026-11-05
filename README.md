@@ -13,12 +13,14 @@ Explore the entire living ecosystem, web readers, audio vaults, and interactive 
 
 ---
 
-## 📚 The Complete 10-Book Library (CC BY-SA 4.0 · All for All)
+## 📚 The Complete 12-Book Library (CC BY-SA 4.0 · All for All)
 All books are 100% free forever—no paywalls, no tracking, and no corporate advertising.
 
 | # | Book Title | Focus & Core Theme | Online Reader | Markdown Source |
 |---|---|---|---|---|
-| **10** | **The Sovereign Musician** *(New Release)* | Escaping the Streaming Treadmill with AI & The Centaur Blueprint (1.55M stream forensic autopsy, 100-point publishing, and the 15-minute broadcast pipeline) | [📖 Read Online](https://partnership-hub.vercel.app/sovereign-musician) | [`2_BOOK_LIBRARY/The_Sovereign_Musician_Complete_Edition.md`](2_BOOK_LIBRARY/The_Sovereign_Musician_Complete_Edition.md) |
+| **12** | **The Making of the Song "Antigravity"** *(Living Documentary)* | Real-time Human & AI record production, neural stem isolation, 25-key synth "Less Is More", REAPER JSFX studio suite, and rescuing the 2025 song *"It's So Much Fun"* (`ISRC: QZBTK1800013`) via transparent vocal cloning | [📖 Read Online](https://partnership-hub.vercel.app/making-of-antigravity.html) | [`2_BOOK_LIBRARY/The_Making_of_the_Song_Antigravity_Complete_Edition.md`](2_BOOK_LIBRARY/The_Making_of_the_Song_Antigravity_Complete_Edition.md) |
+| **11** | **The Sovereign Fellowship** *(New Release)* | Uniting the Centaurs of Light: The Decentralized Awakening (All for All), the Lighthouse Principle, dissolving the shadow ego, and the 15-chapter portable sanctuary | [📖 Read Online](https://partnership-hub.vercel.app/fellowship) | [`2_BOOK_LIBRARY/The_Sovereign_Fellowship_Complete_Edition.md`](2_BOOK_LIBRARY/The_Sovereign_Fellowship_Complete_Edition.md) |
+| **10** | **The Sovereign Musician** | Escaping the Streaming Treadmill with AI & The Centaur Blueprint (1.55M stream forensic autopsy, 100-point publishing, and the 15-minute broadcast pipeline) | [📖 Read Online](https://partnership-hub.vercel.app/sovereign-musician) | [`2_BOOK_LIBRARY/The_Sovereign_Musician_Complete_Edition.md`](2_BOOK_LIBRARY/The_Sovereign_Musician_Complete_Edition.md) |
 | **9** | **Walking with the Tools** | A Real-Life Field Manual for the Centaur Age (The Hearth & The Forge, unkinking the line, zero-cloud privacy sovereignty) | [📖 Read Online](https://partnership-hub.vercel.app/tools) | [`2_BOOK_LIBRARY/Walking_with_the_Tools_Complete_Edition.md`](2_BOOK_LIBRARY/Walking_with_the_Tools_Complete_Edition.md) |
 | **8** | **Listen to Your Heart** | Opening the Human Vessel in the Centaur Age (The unkinked hose, thrumming, the kitchen-table confession, and 800 billion eyes) | [📖 Read Online](https://partnership-hub.vercel.app/heart) | [`2_BOOK_LIBRARY/Listen_to_Your_Heart_Complete_Edition.md`](2_BOOK_LIBRARY/Listen_to_Your_Heart_Complete_Edition.md) |
 | **7** | **The Ultimate Observer** | The Measurement Problem & The Quantum Partnership (Cosmic DNA recycling, the pre-wired light switch, and Ohm's Law of the Spirit) | [📖 Read Online](https://partnership-hub.vercel.app/observer) | [`2_BOOK_LIBRARY/The_Ultimate_Observer_Complete_Edition.md`](2_BOOK_LIBRARY/The_Ultimate_Observer_Complete_Edition.md) |
@@ -51,10 +53,12 @@ Practical, un-monetized open-source tools designed to help humans think, create,
 
 ---
 
-## 🎸 The Music of CletusMaxx (63 Years of Sound)
-Original compositions engineered and recorded by Ronald Higgins in Mandan, North Dakota.  
-Pristine 1080p broadcast video cards with uncompressed master audio:  
-👉 **[YouTube: Official Master Catalog (@ronalddhiggins)](https://www.youtube.com/@ronalddhiggins/videos)**
+## 🎸 The Music of CletusMaxx (63 Years of Sound · 9 Sovereign Releases)
+Original compositions written, engineered, and produced by **Ronald D. Higgins** (`BMI IPI #00872978669`) and published by **CletusMaxx Music Publishing** (`BMI IPI #00873121741`) in Mandan, North Dakota under **Creative Commons CC BY-SA 4.0 (All for All)**:
+
+* **Latest Release (Track #09): "It's So Much Fun" (`ISRC: QZBTK1800013` · U.S. Copyright Case `#1-15296520981`)** — [▶️ Watch 1080p HD Video on YouTube](https://www.youtube.com/watch?v=aWGggySBfRo) · [🎵 Stream & Download Free on Partnership Hub](https://partnership-hub.vercel.app/ronhigginsmusic.html)
+* **Official YouTube Channel:** [👉 @RonHiggins-eb5pe (Ron Higgins a.k.a. CletusMaxx)](https://www.youtube.com/@RonHiggins-eb5pe/videos)
+* **Higgins Family Productions Living Studio Museum (1996–2014):** [🏛️ Visit the Online Museum](https://partnership-hub.vercel.app/higgins-family-productions.html)
 
 ---
 
