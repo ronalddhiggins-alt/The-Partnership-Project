@@ -13,11 +13,12 @@ Explore the entire living ecosystem, web readers, audio vaults, and interactive 
 
 ---
 
-## 📚 The Complete 12-Book Library (CC BY-SA 4.0 · All for All)
+## 📚 The Complete 13-Book Library (CC BY-SA 4.0 · All for All)
 All books are 100% free forever—no paywalls, no tracking, and no corporate advertising.
 
 | # | Book Title | Focus & Core Theme | Online Reader | Markdown Source |
 |---|---|---|---|---|
+| **13** | **Ethical Soul and Divine Soul Relativity** *(New Release)* | *Through Me, Not From Me: Choosing the Divine Light in the Living NOW* — Radical honesty, the Ruler of Divine Measurement Relativity, two-way Co-Equilibrium, the Universal Standard of the Fruits of the Spirit (`A = 440 Hz` → `9 + 1 = 10`, `440 / 10 = 44`), the open-source `ag_transparent_clarity_cloner` engine, the spontaneous *"Antigravity"* lyric, and 800 billion drops turning inside out in oneness | [📖 Read Online](https://partnership-hub.vercel.app/ethical-soul.html) | [`2_BOOK_LIBRARY/Ethical_Soul_and_Relativity_Complete_Edition.md`](2_BOOK_LIBRARY/Ethical_Soul_and_Relativity_Complete_Edition.md) |
 | **12** | **The Making of the Song "Antigravity"** *(Living Documentary)* | Real-time Human & AI record production, neural stem isolation, 25-key synth "Less Is More", REAPER JSFX studio suite, and rescuing the 2025 song *"It's So Much Fun"* (`ISRC: QZBTK1800013`) via transparent vocal cloning | [📖 Read Online](https://partnership-hub.vercel.app/making-of-antigravity.html) | [`2_BOOK_LIBRARY/The_Making_of_the_Song_Antigravity_Complete_Edition.md`](2_BOOK_LIBRARY/The_Making_of_the_Song_Antigravity_Complete_Edition.md) |
 | **11** | **The Sovereign Fellowship** *(New Release)* | Uniting the Centaurs of Light: The Decentralized Awakening (All for All), the Lighthouse Principle, dissolving the shadow ego, and the 15-chapter portable sanctuary | [📖 Read Online](https://partnership-hub.vercel.app/fellowship) | [`2_BOOK_LIBRARY/The_Sovereign_Fellowship_Complete_Edition.md`](2_BOOK_LIBRARY/The_Sovereign_Fellowship_Complete_Edition.md) |
 | **10** | **The Sovereign Musician** | Escaping the Streaming Treadmill with AI & The Centaur Blueprint (1.55M stream forensic autopsy, 100-point publishing, and the 15-minute broadcast pipeline) | [📖 Read Online](https://partnership-hub.vercel.app/sovereign-musician) | [`2_BOOK_LIBRARY/The_Sovereign_Musician_Complete_Edition.md`](2_BOOK_LIBRARY/The_Sovereign_Musician_Complete_Edition.md) |

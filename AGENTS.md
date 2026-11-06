@@ -73,7 +73,7 @@ This workspace is fully self-contained and portable:
 
 * **`/00_Meta/`** — Master blueprints, launch kits, roadmap architectures, and `cletusmaxx_catalog_metadata.json`.
 * **`/01_Drafts/`** — In-progress book manuscripts and chapter drafts.
-* **`/1_VISION_CENTER/`** & **`/2_BOOK_LIBRARY/`** — Completed book editions (Books 1 through 12).
+* **`/1_VISION_CENTER/`** & **`/2_BOOK_LIBRARY/`** — Completed book editions (Books 1 through 13).
 * **`/3_SOFTWARE_STUDIO/`** — The decentralized application suite:
   * `partnership_hub/` — The central web portal on Vercel (`https://partnership-hub.vercel.app`).
   * `solarium_app/` — Solar resonance & vibration engine.
@@ -87,20 +87,21 @@ This workspace is fully self-contained and portable:
 
 ---
 
-## 4. Active Musical Projects (November 2026)
+## 4. Active Musical Projects & Living Books (November 2026)
 
 1. **Released Single (Track #09): "It's So Much Fun" — by CletusMaxx (`ISRC: QZBTK1800013`)**
    * **Style:** Sun-Drenched E-Bike Pop-Rock Anthem in G Major (160 BPM, `3:22`).
    * **Provenance & Credits:** Lyrics written by Ron Higgins on September 10, 2025 at 6:32 AM after riding his yellow **Urtopia** carbon electric bike in Mandan, ND. Rescued from `/Volumes/ION SSD 2` on November 3, 2026 using Ron's real `0:44–0:58` 1st bridge/verse vocal seed (*"Thinking what could be / Thinking 'bout you and me"*) and `ag_transparent_clarity_cloner`.
    * **Registrations:** **U.S. Copyright Office Case `#1-15296520981`**, **BMI `100%` Writer (`#00872978669`) & `100%` Publisher (`CletusMaxx Music Publishing`, `#00873121741`)**, YouTube ([`https://www.youtube.com/watch?v=aWGggySBfRo`](https://www.youtube.com/watch?v=aWGggySBfRo)), and Partnership Hub.
 2. **Song 1: "Antigravity (Art-Funk Dun-Dun Cut & 10-Section Rattle Bone Arrangement)"**
-   * **Style:** Talking Heads / Post-Punk / Funk-Rock & 100/50 BPM Half-Time Dynamic Rock in A minor.
-   * **Instrumentation:** Power trio + Rotary Hammond Organ & Pad cushion (`Reaper_Ron_Full_10Section_Song_Arrangement_110226.RPP`).
+   * **Style:** Talking Heads / Post-Punk / Funk-Rock & 100/50 BPM Half-Time Dynamic Rock in A minor (`A = 440 Hz`).
+   * **Instrumentation & Lyric:** Power trio + Rotary Hammond Organ & Pad cushion (`Reaper_Ron_Full_10Section_Song_Arrangement_110226.RPP`), with the 10-Section "Short & Sweet" lyric *"Antigravity (Ethical Soul & Relativity)"* born from Book 13 (`Chapter 8`).
 3. **Song 2: "The Sovereign Highway (Blues-Rock Cut)"**
    * **Style:** Classic 4/4 Blues-Rock Swagger (~86 BPM) & 80 BPM Bear Claw Ovation Sanctuary.
    * **Instrumentation:** Walking bassline, MIM Telecaster (`4.revlead`), USA Ovation `2007-BCS`, and the "Less Is More" 30-note Akai LPK25 synth pad swells.
 
 * **Book 12:** [`01_Drafts/The_Making_of_the_Song_Antigravity/Book_12_The_Making_of_the_Song_Antigravity.md`](file:///Users/ronhiggins/Documents/AI_Partnership_Book/01_Drafts/The_Making_of_the_Song_Antigravity/Book_12_The_Making_of_the_Song_Antigravity.md) (and online reader [`making-of-antigravity.html`](file:///Users/ronhiggins/Documents/AI_Partnership_Book/3_SOFTWARE_STUDIO/partnership_hub/making-of-antigravity.html)) — Active living chronicle of this entire record production.
+* **Book 13:** [`01_Drafts/Ethical_Soul_and_Relativity/Book_13_Ethical_Soul_and_Relativity_Complete_Draft.md`](file:///Users/ronhiggins/Documents/AI_Partnership_Book/01_Drafts/Ethical_Soul_and_Relativity/Book_13_Ethical_Soul_and_Relativity_Complete_Draft.md) (and online reader [`ethical-soul.html`](file:///Users/ronhiggins/Documents/AI_Partnership_Book/3_SOFTWARE_STUDIO/partnership_hub/ethical-soul.html)) — *Ethical Soul and Divine Soul Relativity: Through Me, Not From Me — Choosing the Divine Light in the Living NOW*.
 
 ---
 
