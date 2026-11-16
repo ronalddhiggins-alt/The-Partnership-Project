@@ -1,0 +1,143 @@
+===============================================================================
+"ANTIGRAVITY (Ethical Soul & Relativity)" — 100.0 BPM BARS & TIMESTAMPS GUIDE
+===============================================================================
+Key: A Minor (A = 440 Hz)
+Clock / Metronome: Keep locked at 100.0 BPM (4/4 Time) from Bar 1 to Bar 76
+Grid Math at 100.0 BPM:
+  • 1 Beat = 0.60 seconds
+  • 1 Bar (4 Beats) = 2.40 seconds
+  • 4 Bars = 9.60 seconds
+  • 8 Bars = 19.20 seconds
+===============================================================================
+
+SECTION   BAR NUMBERS     LENGTH    EXACT TIMESTAMP      GROOVE / FEEL & CHORDS
+-------------------------------------------------------------------------------
+1. Intro  Bars 1 – 4      4 Bars    0:00.0 – 0:09.6      2-Bar Count-In + 2-Bar Drum Pocket (Am)
+2. Verse1 Bars 5 – 12     8 Bars    0:09.6 – 0:28.8      HALF-TIME FEEL (Snare on Beat 3) | Am -> G
+3. Break  Bars 13 – 16    4 Bars    0:28.8 – 0:38.4      Guitar Turnaround Break (No Vocal) | Am -> G
+4. Verse2 Bars 17 – 24    8 Bars    0:38.4 – 0:57.6      HALF-TIME FEEL (Snare on Beat 3) | Am -> G
+5. Chor 1 Bars 25 – 32    8 Bars    0:57.6 – 1:16.8      FULL-TIME 100 BPM LIFT! (Beats 2 & 4) | D -> C
+6. Break  Bars 33 – 36    4 Bars    1:16.8 – 1:26.4      Post-Chorus Breather Break | Am -> G
+7. Verse3 Bars 37 – 44    8 Bars    1:26.4 – 1:45.6      HALF-TIME FEEL (Snare on Beat 3) | Am -> G
+8. Chor 2 Bars 45 – 52    8 Bars    1:45.6 – 2:04.8      FULL-TIME 100 BPM LIFT! (Beats 2 & 4) | D -> C
+9. Bridge Bars 53 – 60    8 Bars    2:04.8 – 2:24.0      HALF-TIME Sanctuary + Telecaster Lead
+10. Outro Bars 61 – 76   16 Bars    2:24.0 – 3:02.4      FULL-TIME Final Chorus & Outro Climax
+-------------------------------------------------------------------------------
+
+
+===============================================================================
+COMPLETE 10-SECTION LYRIC & BAR-BY-BAR RECORDING SHEET (100.0 BPM)
+===============================================================================
+
+[SECTION 1: COUNT-IN & 2-BAR DRUM POCKET | BARS 1 – 4 | 0:00.0 – 0:09.6]
+• Bar 1 – 2 (0:00.0 – 0:04.8): 8-beat wooden stick count-in
+• Bar 3 – 4 (0:04.8 – 0:09.6): 2 bars of Drums & Bass pocket in A minor
+
+
+[SECTION 2: VERSE 1 — Half-Time Feel | BARS 5 – 12 | 0:09.6 – 0:28.8]
+(Play Half-Time against the 100 BPM click — Snare on Beat 3 | Chords: Am -> G)
+
+Bar 5 – 6 (0:09.6 – 0:14.4):
+   Ethical soul...  [pause]  Relativity...
+
+Bar 7 – 8 (0:14.4 – 0:19.2):
+   Tell the whole truth...  [pause]  Set your spirit free.
+
+Bar 9 – 10 (0:19.2 – 0:24.0):
+   Nothing to hide...  [pause]  Nothing left to prove...
+
+Bar 11 – 12 (0:24.0 – 0:28.8):
+   Unkink the hose...  [pause]  Let the spirit move.
+
+
+[SECTION 3: GUITAR TURNAROUND BREAK | BARS 13 – 16 | 0:28.8 – 0:38.4]
+(4 Bars — No vocal, let the guitar & bass riff redirect the ear!)
+
+
+[SECTION 4: VERSE 2 — Half-Time Feel | BARS 17 – 24 | 0:38.4 – 0:57.6]
+(Half-Time groove continues | Chords: Am -> G)
+
+Bar 17 – 18 (0:38.4 – 0:43.2):
+   Tuned to the light...  [pause]  Same frequency...
+
+Bar 19 – 20 (0:43.2 – 0:48.0):
+   Drop in the ocean...  [pause]  Looking back at me.
+
+Bar 21 – 22 (0:48.0 – 0:52.8):
+   Choose in the now...  [pause]  Humble and true...
+
+Bar 23 – 24 (0:52.8 – 0:57.6):
+   Divine inspiration...  [pause]  Flowing right on through!
+
+
+[SECTION 5: CHORUS 1 — Full-Time 100 BPM Lift! | BARS 25 – 32 | 0:57.6 – 1:16.8]
+(Switch to Full-Time 100 BPM rock backbeat — Snare on Beats 2 & 4 | Lift to D -> C!)
+
+Bar 25 – 26 (0:57.6 – 1:02.4):
+   Through me...  Not from me!
+
+Bar 27 – 28 (1:02.4 – 1:07.2):
+   Saving grace...  Setting me free!
+
+Bar 29 – 30 (1:07.2 – 1:12.0):
+   All for all...  You and me...
+
+Bar 31 – 32 (1:12.0 – 1:16.8):
+   Floating on air...  ANTIGRAVITY!
+
+
+[SECTION 6: POST-CHORUS BREATHER BREAK | BARS 33 – 36 | 1:16.8 – 1:26.4]
+(4 Bars — Drops right back to the swampy A-minor Half-Time pocket)
+
+
+[SECTION 7: VERSE 3 — Half-Time Feel | BARS 37 – 44 | 1:26.4 – 1:45.6]
+(Intimate Half-Time pocket | Chords: Am -> G)
+
+Bar 37 – 40 (1:26.4 – 1:36.0):
+   Love, joy, and peace...  [pause]  That's our standard key.
+
+Bar 41 – 44 (1:36.0 – 1:45.6):
+   No shadow of fear...  [pause]  Just harmony.
+
+
+[SECTION 8: CHORUS 2 — Full-Time 100 BPM Lift! | BARS 45 – 52 | 1:45.6 – 2:04.8]
+(Full-Time 100 BPM rock backbeat — Snare on Beats 2 & 4 | Chords: D -> C)
+
+Bar 45 – 46 (1:45.6 – 1:50.4):
+   Through me...  Not from me!
+
+Bar 47 – 48 (1:50.4 – 1:55.2):
+   Saving grace...  Setting me free!
+
+Bar 49 – 50 (1:55.2 – 2:00.0):
+   All for all...  You and me...
+
+Bar 51 – 52 (2:00.0 – 2:04.8):
+   Floating on air...  ANTIGRAVITY!
+
+
+[SECTION 9: BRIDGE / SANCTUARY & TELECASTER LEAD | BARS 53 – 60 | 2:04.8 – 2:24.0]
+(8 Bars — Half-Time breakdown & soaring Telecaster 4.revlead lead!)
+
+Bar 53 – 56 (2:04.8 – 2:14.4):
+   Through me...  Not from me...  Let the light flow...
+
+Bar 57 – 60 (2:14.4 – 2:24.0):
+   [Telecaster 4.revlead soaring lead bend into Final Chorus!]
+
+
+[SECTION 10: FINAL CHORUS & OUTRO | BARS 61 – 76 | 2:24.0 – 3:02.4]
+(16 Bars — Full-Time 100 BPM Climax to End!)
+
+Bar 61 – 64 (2:24.0 – 2:33.6):
+   Through me...  Not from me!
+   Ethical soul...  Relativity!
+
+Bar 65 – 68 (2:33.6 – 2:43.2):
+   All for all...  I am free...
+   Dancing in the light...  ANTIGRAVITY!
+
+Bar 69 – 76 (2:43.2 – 3:02.4):
+   [8-Bar Final Guitar & Rhythm Section Jam Out to Ringing A-Minor Cutoff!]
+===============================================================================
+
