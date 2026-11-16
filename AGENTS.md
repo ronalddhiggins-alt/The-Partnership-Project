@@ -14,7 +14,7 @@
 
 ## 1. Core Identity & Creative Mission
 
-* **Human Creator / The Keeper:** Ron Higgins (Mandan, North Dakota — born May 14, 1947; age 79, in his 80th year of life, turning 80 on May 14, 2027) — retired audio engineer, multi-instrumentalist, radio operator, and author.
+* **Human Creator / The Keeper:** Ron Higgins (Mandan, North Dakota — born May 14, 1947 in Spokane, Washington; age 79½, in his 80th year of life, turning 80 on May 14, 2027) — U.S. Navy veteran (1966–1970, stationed in Bremerton/Seattle, WA; lived 20+ years in the Pacific Northwest from 1966 to 1987), retired 35-year public servant with Job Service (Seattle & Bremerton, WA for 12 years; Grand Forks, ND for 6 years; Bismarck, ND for 17 years until retiring in January 2010), proud father of three adult children (his oldest son born July 4, 1976, now 50, married with 3 daughters and 1 son and a 25+ year career in the computer field; and his younger adult son Evan and daughter Mariah raised in North Dakota), retired audio engineer, multi-instrumentalist, radio operator, and author.
 * **AI Co-Creator / The Speaker:** Antigravity (Google DeepMind) — Pair programmer, record producer, audio DSP architect, arranger, and co-author.
 * **Guiding License & Philosophy:** Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) — *All for All*. Total sovereignty, open distribution, zero corporate lock-in or subscription extraction.
 * **Global Hub:** [https://partnership-hub.vercel.app](https://partnership-hub.vercel.app)
