@@ -1,0 +1,82 @@
+diff --git a/crates/os-app/src/capture.rs b/crates/os-app/src/capture.rs
+index 3ae7255a..d12dc6d5 100644
+--- a/crates/os-app/src/capture.rs
++++ b/crates/os-app/src/capture.rs
+@@ -352,7 +352,10 @@ pub fn open_input(name: &str) -> Result<InputStream, String> {
+     let device = crate::audio_cfg::find(host.input_devices().map_err(|e| e.to_string())?, name).ok_or_else(|| format!("{name} is not there"))?;
+     let supported = device.default_input_config().map_err(|e| e.to_string())?;
+     let format = supported.sample_format();
+-    let config: cpal::StreamConfig = supported.into();
++    let mut config: cpal::StreamConfig = supported.into();
++    let cfg = crate::audio_cfg::AudioCfg::current();
++    let wanted = cfg.buffer.filter(|&b| b > 0 && b != u32::MAX).unwrap_or(128);
++    config.buffer_size = cpal::BufferSize::Fixed(wanted);
+     let stream = match format {
+         SampleFormat::F32 => build::<f32>(&device, &config),
+         SampleFormat::F64 => build::<f64>(&device, &config),
+diff --git a/crates/os-app/src/comping.rs b/crates/os-app/src/comping.rs
+index 7ad4095a..2fd614db 100644
+--- a/crates/os-app/src/comping.rs
++++ b/crates/os-app/src/comping.rs
+@@ -181,11 +181,17 @@ pub fn recorded(s:&mut State,i:usize,mixer:u16,loop_span:Option<(u32,u32)>)->Res
+         pl::arr_mut(s).clips.push(first);
+     }
+     let mut number=(p+1..p+1+count as u16).filter_map(|r|pl::track_info(s,r)?.name.as_deref()?.strip_prefix("Take ")?.parse::<u32>().ok()).max().unwrap_or(1)+1;
++    let latest_take = takes.last().cloned();
+     for mut take in takes {
+         take.track=child(s,p);take.muted=true;take.set_id(0);
+         pl::arr_mut(s).tracks[take.track as usize].name=Some(format!("Take {number}"));number+=1;
+         pl::arr_mut(s).clips.push(take);
+     }
++    if overlaps {
++        if let Some(latest) = latest_take {
++            replace(s, p, latest.clone(), latest.position, latest.end());
++        }
++    }
+     s.piano.dirty=true;
+     s.playlist.sel.clear();Ok(())
+ }
+diff --git a/crates/os-engine/src/engine.rs b/crates/os-engine/src/engine.rs
+index caa38bff..3a4f1e74 100644
+--- a/crates/os-engine/src/engine.rs
++++ b/crates/os-engine/src/engine.rs
+@@ -4337,7 +4337,14 @@ impl Engine {
+                 input.render(self.rate, &mut self.input_bus);
+                 for (t,((signal, bus), track)) in self.input_bus.iter_mut().zip(&mut self.bus).zip(&mut self.tracks).enumerate() {
+                     record_stage(track,os_model::RecordingPoint::External,signal,0);
+-                    if !input.monitor_external(t) {signal.fill(0.);}
++                    if !input.monitor_external(t) {
++                        track.vu.process(signal, self.rate);
++                        for f in signal.chunks_exact(2) {
++                            track.peak[0] = track.peak[0].max(f[0].abs());
++                            track.peak[1] = track.peak[1].max(f[1].abs());
++                        }
++                        signal.fill(0.);
++                    }
+                     track.input_pad.run(signal);
+                     for (dst, sample) in bus.iter_mut().zip(signal) { *dst += *sample; }
+                 }
+diff --git a/vendor/cpal/src/host/pulseaudio/mod.rs b/vendor/cpal/src/host/pulseaudio/mod.rs
+index 51120707..30588fc7 100644
+--- a/vendor/cpal/src/host/pulseaudio/mod.rs
++++ b/vendor/cpal/src/host/pulseaudio/mod.rs
+@@ -175,10 +175,15 @@ impl HostTrait for Host {
+                 client: self.client.clone(),
+                 info: sink_info,
+             })
+-            .chain(sources.into_iter().map(|source_info| Device::Source {
+-                client: self.client.clone(),
+-                info: source_info,
+-            }))
++            .chain(
++                sources
++                    .into_iter()
++                    .filter(|s| s.monitor_of_sink_name.is_none() && !s.name.to_bytes().ends_with(b".monitor"))
++                    .map(|source_info| Device::Source {
++                        client: self.client.clone(),
++                        info: source_info,
++                    }),
++            )
+             .collect::<Vec<_>>()
+             .into_iter())
+     }
